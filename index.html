@@ -57,6 +57,11 @@ h1 span { display: block; font: 500 12px/1.4 var(--mono); letter-spacing: .08em;
 .filtres { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
   padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr repeat(5, 1fr); border-bottom: 1px solid var(--line); }
 @media (max-width: 700px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres .q { grid-column: 1 / -1; } }
+.periodes { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; border: 0; margin: 0; padding: 0; min-width: 0; }
+.periodes legend { float: left; margin-right: 4px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.periodes label { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 99px; padding: 4px 12px 4px 8px; cursor: pointer; }
+.periodes input { width: auto; margin: 0; accent-color: var(--accent); }
+.periodes label:has(input:checked) { border-color: var(--accent); font-weight: 600; }
 label.f { display: grid; gap: 3px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
 input, select, textarea { font: 15px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
   border-radius: 6px; padding: 8px 10px; width: 100%; box-sizing: border-box; min-width: 0; }
@@ -113,7 +118,7 @@ a.src:hover { border-color: var(--accent); color: var(--accent); }
 
 <div class="wrap">
   <header>
-    <h1>Sentinelle<span>Veille des offres d'emploi · 72 dernières heures</span></h1>
+    <h1>Sentinelle<span>Veille des offres d'emploi · 7 derniers jours</span></h1>
     <div style="display:grid;gap:6px;justify-items:end"><a href="prospects.html" style="font-weight:600;color:var(--accent);text-decoration:none">Prospects →</a><div class="veille" id="veille">En attente de la première tournée</div></div>
   </header>
 
@@ -156,6 +161,14 @@ a.src:hover { border-color: var(--accent); color: var(--accent); }
         <option value="nombre">Plus d'offres d'abord</option>
       </select>
     </label>
+    <fieldset class="periodes" id="periodes">
+      <legend>Parution</legend>
+      <label><input type="checkbox" id="p1" value="1"> Dernière heure</label>
+      <label><input type="checkbox" id="p5" value="5"> 5 dernières heures</label>
+      <label><input type="checkbox" id="p12" value="12"> 12 dernières heures</label>
+      <label><input type="checkbox" id="p24" value="24"> 24 dernières heures</label>
+      <label><input type="checkbox" id="p168" value="168"> Dernière semaine</label>
+    </fieldset>
   </div>
 
   <div id="avis" class="avis" hidden></div>
@@ -205,8 +218,9 @@ function dateCourte(iso) {
 }
 
 try { const p = JSON.parse(localStorage.getItem("sentinelle-filtres") || "{}");
-  for (const k of ["region", "domaine", "source", "statutF", "tri"]) if (p[k] != null) $(k).value = p[k]; } catch {}
-function memoFiltres() { try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, domaine: $("domaine").value, source: $("source").value, statutF: $("statutF").value, tri: $("tri").value })); } catch {} }
+  for (const k of ["region", "domaine", "source", "statutF", "tri"]) if (p[k] != null) $(k).value = p[k];
+  if (Array.isArray(p.periodes)) for (const v of p.periodes) { const c = $("p" + v); if (c) c.checked = true; } } catch {}
+function memoFiltres() { try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, domaine: $("domaine").value, source: $("source").value, periodes: [...document.querySelectorAll("#periodes input:checked")].map(i => i.value), statutF: $("statutF").value, tri: $("tri").value })); } catch {} }
 
 function render() {
   const { offres, entreprises, notes, meta } = state;
@@ -227,7 +241,10 @@ function render() {
   if (sources.includes(srcCourante)) selS.value = srcCourante;
 
   const q = $("q").value.trim().toLowerCase(), reg = selR.value, dom = selD.value, src = selS.value, st = $("statutF").value, tri = $("tri").value;
+  const fenetres = [...document.querySelectorAll("#periodes input:checked")].map(i => Number(i.value));
+  const maxH = fenetres.length ? Math.max(...fenetres) : Infinity;
   const filtrees = offres.filter(o => {
+    if (age(o.publieLe).h > maxH) return false;
     const n = notes[o.id] || {};
     if (reg && o.region !== reg) return false;
     if (dom && o.domaine !== dom) return false;
@@ -363,7 +380,7 @@ document.addEventListener("change", (ev) => {
   const t = ev.target;
   if (t.classList.contains("js-statut")) sauver(t.dataset.id, { statut: t.value });
   if (t.classList.contains("js-note")) sauver(t.dataset.id, { texte: t.value.trim() });
-  if (["region", "domaine", "source", "statutF", "tri"].includes(t.id)) { memoFiltres(); render(); }
+  if (["region", "domaine", "source", "statutF", "tri"].includes(t.id) || t.closest("#periodes")) { memoFiltres(); render(); }
 });
 let attente; $("q").addEventListener("input", () => { clearTimeout(attente); attente = setTimeout(render, 150); });
 
