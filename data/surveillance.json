@@ -1,5 +1,57 @@
 {
  "miseAJour": "2026-10-27",
+ "recherche": {
+  "periode": "7 derniers jours",
+  "villesPivots": [
+   "Trois-Rivières",
+   "Sherbrooke",
+   "Drummondville",
+   "Saint-Hyacinthe"
+  ],
+  "rayonKm": 80,
+  "postes": [
+   {
+    "terme": "ingénieur mécanique",
+    "domaine": "Génie mécanique"
+   },
+   {
+    "terme": "ingénieur",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "directeur ressources humaines",
+    "domaine": "Ressources humaines"
+   },
+   {
+    "terme": "ressources humaines",
+    "domaine": "Ressources humaines"
+   },
+   {
+    "terme": "contrôleur financier",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "contrôleur adjoint",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "comptable",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "analyste financier",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "vice-président",
+    "domaine": "Direction"
+   },
+   {
+    "terme": "gérant de projet",
+    "domaine": "Gestion de projets"
+   }
+  ]
+ },
  "sitesEmploi": [
   {
    "nom": "LinkedIn",
