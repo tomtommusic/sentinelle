@@ -20,3 +20,7 @@ Les notes et statuts de suivi sont gardés dans le navigateur de la personne qui
   ]
 }
 ```
+
+## Pages carrières surveillées
+
+`data/surveillance.json` liste les pages carrières d'entreprises vérifiées à chaque tournée, en plus des sites d'emploi.
