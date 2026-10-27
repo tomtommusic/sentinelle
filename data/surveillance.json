@@ -6,7 +6,13 @@
    "Sherbrooke",
    "Lac-Mégantic",
    "Drummondville",
-   "Victoriaville"
+   "Victoriaville",
+   "Trois-Rivières",
+   "Shawinigan",
+   "Joliette",
+   "Saint-Hyacinthe",
+   "Granby",
+   "Saint-Jean-sur-Richelieu"
   ],
   "rayonKm": 80,
   "postes": [
@@ -51,7 +57,7 @@
     "domaine": "Gestion de projets"
    }
   ],
-  "territoire": "Phase 1 : toute l'Estrie et tout le Centre-du-Québec. Phase 2 (plus tard) : le reste du sud du Québec, de Montréal à Québec.",
+  "territoire": "Estrie, Centre-du-Québec, Mauricie, Lanaudière et Montérégie. À venir : le reste du sud du Québec (Montréal, Laval, Laurentides, Capitale-Nationale, Chaudière-Appalaches).",
   "groupesDeRecherche": [
    {
     "domaine": "Génie mécanique",
