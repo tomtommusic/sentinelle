@@ -5,37 +5,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Prospects Sentinelle</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap">
 <style>
 /* Layout : une colonne — bandeau des 4 catégories (filtres rapides), filtres collants, puis fiches classées par probabilité */
 :root {
-  --bg: #eef1f5;
-  --surface: #ffffff;
-  --ink: #14202e;
-  --muted: #4f5d6d;
-  --line: #cfd6df;
-  --accent: #1d4ed8;
-  --chip: #e3e9f1;
-  --fort: #0b3d91;
-  --fort-bg: #d6e3fa;
-  --warn-bg: #fff1c2;
-  --warn-ink: #5a4200;
-  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --bg: #0b1016;
+  --surface: #141c26;
+  --ink: #eef2f6;
+  --muted: #9aa8b8;
+  --line: #263241;
+  --accent: #f7931e;
+  --chip: #1f2a37;
+  --fort: #1a0f02;
+  --fort-bg: #f7931e;
+  --warn-bg: rgba(247, 147, 30, .14);
+  --warn-ink: #eef2f6;
+  --display: "Sora", "Avenir Next", system-ui, sans-serif;
+  --body: "Manrope", system-ui, -apple-system, sans-serif;
+  --mono: "Manrope", system-ui, sans-serif;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
-  --accent: #7fa8ff; --chip: #233041; --fort: #cfe0ff; --fort-bg: #1e3352;
-  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark } }
-:root[data-theme="dark"] {
-  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
-  --accent: #7fa8ff; --chip: #233041; --fort: #cfe0ff; --fort-bg: #1e3352;
-  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark }
 
 html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
 [hidden] { display: none !important; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: rgba(11, 16, 22, .94); border-bottom: 1px solid var(--line);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+nav .in { max-width: 980px; margin: 0 auto; display: flex; align-items: center; gap: 8px 28px; padding-block: 12px; flex-wrap: wrap; }
+.marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.marque svg { width: 30px; height: 34px; color: var(--accent); }
+.marque span { font: 700 18px var(--display); letter-spacing: .28em; }
+.nliens { display: flex; gap: 22px; }
+.nliens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
+.nliens a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+.filtres { top: calc(env(safe-area-inset-top, 0px) + 60px) !important; }
+input[type=checkbox] { accent-color: var(--accent); }
 .wrap { max-width: 980px; margin: 0 auto; padding-block: 20px 60px;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   display: grid; gap: 18px; }
@@ -51,8 +55,8 @@ a { color: var(--accent); }
 .cat { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; cursor: pointer; color: var(--ink); font: inherit; display: grid; gap: 2px; }
 .cat b { font: 700 24px var(--display); font-variant-numeric: tabular-nums; }
 .cat small { color: var(--muted); font-size: 12px; line-height: 1.3; }
-.cat[aria-pressed="true"] { border: 2px solid var(--accent); padding: 9px 11px; }
-.niv { font: 500 13px var(--mono); letter-spacing: .1em; }
+.cat[aria-pressed="true"] { border: 2px solid var(--accent); background: rgba(247,147,30,.08); padding: 9px 11px; }
+.niv { font: 600 13px var(--body); letter-spacing: .1em; color: var(--accent); }
 
 .filtres { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
   padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr repeat(4, 1fr); border-bottom: 1px solid var(--line); }
@@ -89,7 +93,7 @@ details ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 2px; }
 .methode td:last-child { font: 500 13px var(--mono); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .tbl { overflow-x: auto; }
 .outils { display: flex; flex-wrap: wrap; gap: 8px; }
-button.btn { font: 500 13px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
 .selbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
 .selbar b { font-variant-numeric: tabular-nums; }
 .selbar textarea { flex-basis: 100%; min-height: 80px; font: 13px var(--mono); }
@@ -100,10 +104,15 @@ button.btn { font: 500 13px var(--body); color: var(--ink); background: var(--su
 </style>
 </head>
 <body>
+<nav>
+  <div class="in">
+    <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg viewBox="0 0 30 34" aria-hidden="true"><path d="M15 1 2 6v9c0 8.5 5.6 15 13 18 7.4-3 13-9.5 13-18V6L15 1Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><circle cx="15" cy="13.5" r="5" fill="currentColor"/><path d="M8.5 26c1.5-4.2 3.8-6.2 6.5-6.2s5 2 6.5 6.2" fill="currentColor"/></svg><span>SENTINELLE</span></a>
+    <div class="nliens"><a href="./">Offres</a><a href="prospects.html" aria-current="page">Prospects</a></div>
+  </div>
+</nav>
 <div class="wrap">
   <header>
     <h1>Prospects<span>Entreprises à approcher · Montérégie-Est, Estrie, Centre-du-Québec, Mauricie</span></h1>
-    <a class="retour" href="./">← Offres d'emploi (Sentinelle)</a>
   </header>
 
   <div class="cats" id="cats"></div>

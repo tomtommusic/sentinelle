@@ -5,335 +5,446 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sentinelle</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap">
 <style>
-/* Layout : une colonne de travail — bandeau de veille, filtres collants, puis entreprises regroupées avec leurs offres */
+/* Layout : barre de navigation, bandeau avec barre de recherche, puis colonne de filtres à gauche et cartes d'offres à droite (une colonne sur téléphone) */
 :root {
-  --bg: #eef1f5;
-  --surface: #ffffff;
-  --ink: #14202e;
-  --muted: #4f5d6d;
-  --line: #cfd6df;
-  --accent: #1d4ed8;
-  --accent-ink: #ffffff;
-  --fresh: #0b5394;
-  --fresh-bg: #dbe7f6;
-  --warn-bg: #fff1c2;
-  --warn-ink: #5a4200;
-  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --bg: #0b1016;
+  --bg-2: #111821;
+  --card: #141c26;
+  --card-hi: #1a2430;
+  --line: #263241;
+  --ink: #eef2f6;
+  --muted: #9aa8b8;
+  --orange: #f7931e;
+  --orange-ink: #1a0f02;
+  --orange-soft: rgba(247, 147, 30, .14);
+  --tag: #1f2a37;
+  --display: "Sora", "Avenir Next", system-ui, sans-serif;
+  --body: "Manrope", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
-  --accent: #7fa8ff; --accent-ink: #0b1220; --fresh: #b9d3ff; --fresh-bg: #1e3352;
-  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark } }
-:root[data-theme="dark"] {
-  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
-  --accent: #7fa8ff; --accent-ink: #0b1220; --fresh: #b9d3ff; --fresh-bg: #1e3352;
-  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark }
-
-html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); background: var(--bg); }
 [hidden] { display: none !important; }
+* { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
-.outils { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
-button.btn { font: 500 13px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
-button.btn:hover { border-color: var(--accent); }
-body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
-.wrap { max-width: 980px; margin: 0 auto; padding-block: 20px 60px;
-  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
-  display: grid; gap: 18px; }
+a { color: var(--orange); }
+:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.inner { max-width: 1200px; margin: 0 auto; }
 
-header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 20px; }
-h1 { font: 800 clamp(30px, 6vw, 44px)/1 var(--display); letter-spacing: -0.02em; margin: 0; }
-h1 span { display: block; font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
-.veille { font-size: 13px; color: var(--muted); text-align: right; }
-.veille b { color: var(--ink); font-weight: 600; }
+/* Navigation */
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: rgba(11, 16, 22, .94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 21; background: var(--bg); }
+nav .inner { display: flex; align-items: center; gap: 8px 28px; padding-block: 12px; flex-wrap: wrap; }
+.marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.marque svg { width: 30px; height: 34px; flex: none; }
+.marque span { font: 700 18px var(--display); letter-spacing: .28em; }
+.liens { display: flex; gap: 22px; margin-right: auto; }
+.liens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
+.liens a[aria-current="page"] { color: var(--orange); border-bottom-color: var(--orange); }
+.liens a:hover { color: var(--ink); }
+.btn { font: 600 14px var(--body); color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+.btn:hover { border-color: var(--orange); }
+.btn.plein { background: var(--orange); border-color: var(--orange); color: var(--orange-ink); }
+.btn.contour { border-color: var(--orange); color: var(--orange); }
+.btn svg { width: 16px; height: 16px; }
+.fav-nav[aria-pressed="true"] { border-color: var(--orange); color: var(--orange); }
 
-.stats { display: flex; flex-wrap: wrap; gap: 8px; }
-.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: var(--muted); }
-.stat b { font: 600 18px var(--body); color: var(--ink); font-variant-numeric: tabular-nums; margin-right: 4px; }
+/* Bandeau */
+.hero { position: relative; overflow: hidden; background: linear-gradient(180deg, #0b1016 0%, #1b1712 55%, #2a1a0a 100%); border-bottom: 1px solid var(--line); }
+.hero svg.montagnes { position: absolute; inset: auto 0 0 0; width: 100%; height: 70%; pointer-events: none; }
+.hero .inner { position: relative; padding-block: 40px 32px; display: grid; gap: 22px; }
+.hero h1 { margin: 0; font: 700 clamp(26px, 4.4vw, 40px)/1.15 var(--display); text-wrap: balance; max-width: 18ch; }
+.hero p { margin: 0; color: #c9d2dc; max-width: 52ch; }
+.veille { font-size: 13px; color: var(--muted); }
+.veille b { color: var(--ink); }
+.recherche { display: grid; grid-template-columns: 1.4fr 1fr 1fr auto; gap: 0; background: rgba(17, 24, 33, .92); border: 1px solid var(--line); border-radius: 12px; padding: 8px; }
+.recherche label { display: grid; gap: 2px; padding: 6px 14px; border-right: 1px solid var(--line); min-width: 0; font-size: 13px; color: var(--muted); }
+.recherche label:nth-child(3) { border-right: 0; }
+.recherche input, .recherche select { background: transparent; border: 0; color: var(--ink); font: 600 15px var(--body); padding: 2px 0; width: 100%; min-width: 0; }
+.recherche select option { background: var(--bg-2); }
+.recherche .btn.plein { padding: 12px 22px; border-radius: 8px; font-size: 15px; }
+@media (max-width: 760px) {
+  .recherche { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .recherche label { border-right: 0; border-bottom: 1px solid var(--line); }
+  .recherche label:first-child { grid-column: 1 / -1; }
+  .recherche .btn.plein { grid-column: 1 / -1; justify-content: center; }
+}
 
-.filtres { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
-  padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr repeat(5, 1fr); border-bottom: 1px solid var(--line); }
-@media (max-width: 700px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres .q { grid-column: 1 / -1; } }
-.periodes { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; border: 0; margin: 0; padding: 0; min-width: 0; }
-.periodes legend { float: left; margin-right: 4px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-.periodes label { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 99px; padding: 4px 12px 4px 8px; cursor: pointer; }
-.periodes input { width: auto; margin: 0; accent-color: var(--accent); }
-.periodes label:has(input:checked) { border-color: var(--accent); font-weight: 600; }
-label.f { display: grid; gap: 3px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
-input, select, textarea { font: 15px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
-  border-radius: 6px; padding: 8px 10px; width: 100%; box-sizing: border-box; min-width: 0; }
-input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+/* Corps */
+main .inner { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 24px; padding-block: 24px 60px; align-items: start; }
+@media (max-width: 900px) { main .inner { grid-template-columns: 1fr; } }
+aside { display: grid; gap: 14px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 72px); }
+@media (max-width: 900px) { aside { position: static; } }
+.panneau { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+.panneau-tete { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--line); }
+.panneau-tete h2 { margin: 0; font: 700 17px var(--display); display: flex; align-items: center; gap: 8px; }
+.panneau-tete h2 svg { width: 18px; height: 18px; color: var(--orange); }
+.lien-btn { background: none; border: 0; color: var(--muted); font: 600 13px var(--body); cursor: pointer; padding: 4px; }
+.lien-btn:hover { color: var(--ink); }
+details.groupe-f { border-bottom: 1px solid var(--line); padding: 12px 16px; }
+details.groupe-f:last-child { border-bottom: 0; }
+details.groupe-f summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 700; }
+details.groupe-f summary::-webkit-details-marker { display: none; }
+details.groupe-f summary::after { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(-135deg); margin-top: 4px; }
+details.groupe-f:not([open]) summary::after { transform: rotate(45deg); margin-top: -4px; }
+.cases { display: grid; gap: 6px; margin-top: 10px; }
+.cases label { display: flex; align-items: center; gap: 10px; font-size: 14px; color: #d3dbe4; cursor: pointer; }
+.cases label small { color: var(--muted); font-variant-numeric: tabular-nums; }
+.cases input { appearance: none; width: 18px; height: 18px; margin: 0; border: 1.5px solid #5d6b7b; border-radius: 4px; display: grid; place-content: center; flex: none; cursor: pointer; }
+.cases input:checked { background: var(--orange); border-color: var(--orange); }
+.cases input:checked::after { content: ""; width: 5px; height: 10px; border: solid var(--orange-ink); border-width: 0 2px 2px 0; transform: rotate(45deg) translate(-1px, -1px); }
+.cases .vide-f { color: var(--muted); font-size: 13px; }
+.alerte { padding: 16px; display: grid; gap: 10px; }
+.alerte h3 { margin: 0; font: 700 16px var(--display); display: flex; gap: 8px; align-items: center; }
+.alerte h3 svg { width: 20px; height: 20px; color: var(--orange); }
+.alerte p { margin: 0; color: var(--muted); font-size: 14px; }
 
-.liste { display: grid; gap: 14px; }
-.ent { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
-.ent-tete { padding: 14px 16px; display: grid; gap: 6px; border-bottom: 1px solid var(--line); }
-.ent-tete h2 { font: 700 20px/1.2 var(--display); margin: 0; text-wrap: balance; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
-.ent-tete h2 small { font: 500 12px var(--mono); color: var(--muted); }
-.contacts { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 14px; color: var(--muted); }
-.contacts a, .contacts .sel { color: var(--ink); }
-.contacts .k { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; margin-right: 4px; }
-.sel { user-select: all; }
+.barre { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-bottom: 14px; }
+.barre h2 { margin: 0 auto 0 0; font: 700 20px var(--display); }
+.barre label { color: var(--muted); font-size: 14px; display: flex; align-items: center; gap: 8px; }
+.barre select { background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: 600 14px var(--body); }
+.vues { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.vues button { background: var(--card); border: 0; color: var(--muted); padding: 8px 10px; cursor: pointer; display: grid; place-items: center; }
+.vues button + button { border-left: 1px solid var(--line); }
+.vues button[aria-pressed="true"] { color: var(--orange); background: var(--card-hi); }
+.vues svg { width: 18px; height: 18px; }
 
-.offre { padding: 12px 16px; display: grid; grid-template-columns: minmax(0, 1fr) 190px; gap: 8px 16px; border-top: 1px solid var(--line); }
-.offre:first-of-type { border-top: 0; }
-@media (max-width: 640px) { .offre { grid-template-columns: 1fr; } }
-.offre h3 { margin: 0; font: 600 16px/1.35 var(--body); }
-.offre h3 a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
-.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--muted); }
-.pill { display: inline-flex; align-items: center; gap: 4px; font: 500 12px var(--mono); padding: 1px 8px; border-radius: 99px; border: 1px solid currentColor; }
-.pill.neuf { background: var(--fresh-bg); color: var(--fresh); border-color: transparent; }
-.pill.neuf::before { content: "●"; font-size: 9px; }
-.pill.vieux { color: var(--muted); }
-.recru { font-size: 14px; }
-.sources { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 13px; }
-.sources .k { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-.src { font: 500 12px var(--mono); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; text-decoration: none; }
-a.src:hover { border-color: var(--accent); color: var(--accent); }
-.recru a { color: var(--ink); }
-.suivi { display: grid; gap: 6px; align-content: start; }
-.suivi textarea { min-height: 38px; resize: vertical; font-size: 14px; }
+.liste { display: grid; gap: 12px; }
+.carte { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; gap: 4px 16px; }
+.carte:hover { border-color: #384757; }
+.logo { width: 56px; height: 56px; border-radius: 10px; background: var(--tag); border: 1px solid var(--line); display: grid; place-items: center; font: 700 22px var(--display); color: var(--ink); grid-row: span 2; }
+.carte h3 { margin: 0; font: 700 17px/1.3 var(--display); }
+.carte h3 a { color: var(--ink); text-decoration: none; }
+.carte h3 a:hover { color: var(--orange); text-decoration: underline; }
+.cie { color: #c9d2dc; font-weight: 600; font-size: 14px; }
+.infos { display: flex; flex-wrap: wrap; gap: 4px 18px; color: var(--muted); font-size: 14px; margin-top: 6px; }
+.infos span { display: inline-flex; align-items: center; gap: 6px; }
+.infos svg { width: 15px; height: 15px; flex: none; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.tag { background: var(--tag); color: #d3dbe4; border: 1px solid var(--line); border-radius: 99px; padding: 2px 12px; font-size: 13px; text-decoration: none; }
+a.tag:hover { border-color: var(--orange); color: var(--orange); }
+.droite { display: grid; justify-items: end; align-content: space-between; gap: 8px; grid-row: span 2; }
+.haut-droite { display: flex; align-items: center; gap: 10px; }
+.nouveau { border: 1px solid var(--orange); color: var(--orange); background: var(--orange-soft); border-radius: 99px; padding: 1px 10px; font-size: 12px; font-weight: 700; }
+.coeur { background: none; border: 0; color: var(--muted); cursor: pointer; padding: 4px; display: grid; }
+.coeur svg { width: 22px; height: 22px; }
+.coeur[aria-pressed="true"] { color: var(--orange); }
+.coeur[aria-pressed="true"], .fav-nav[aria-pressed="true"] { --remplir: currentColor; }
+.temps { color: var(--muted); font-size: 13px; white-space: nowrap; }
+.carte > .plus { grid-column: 2 / -1; }
+@media (max-width: 600px) {
+  .carte { grid-template-columns: 44px minmax(0, 1fr); }
+  .logo { width: 44px; height: 44px; font-size: 18px; grid-row: auto; }
+  .droite { grid-column: 1 / -1; grid-row: auto; display: flex; justify-content: space-between; align-items: center; }
+  .carte > .plus { grid-column: 1 / -1; }
+}
+details.suivi { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }
+details.suivi summary { cursor: pointer; color: var(--muted); font-weight: 600; font-size: 14px; }
+details.suivi summary b { color: var(--orange); }
+.suivi-corps { display: grid; gap: 8px; margin-top: 10px; }
+.suivi-corps select, .suivi-corps textarea { background: var(--bg-2); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: 14px var(--body); width: 100%; }
+.suivi-corps textarea { min-height: 60px; resize: vertical; }
+.contacts { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 14px; color: var(--muted); }
+.contacts b { color: #d3dbe4; font-weight: 600; }
+.sel { user-select: all; color: var(--ink); }
 .etat { font-size: 12px; color: var(--muted); min-height: 1em; }
 
-.vide, .avis { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 28px 20px; text-align: center; color: var(--muted); }
-.vide h2 { font: 700 20px var(--display); color: var(--ink); margin: 0 0 6px; }
-.avis { background: var(--warn-bg); color: var(--warn-ink); border: 0; text-align: left; padding: 12px 16px; }
-.onglets { display: flex; gap: 4px; border-bottom: 2px solid var(--line); }
-.onglet { font: 600 15px var(--body); color: var(--muted); background: none; border: 0; border-bottom: 3px solid transparent; margin-bottom: -2px; padding: 8px 14px; cursor: pointer; }
-.onglet[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
-.onglet b { font: 500 12px var(--mono); margin-left: 4px; }
-.filtres.ent-f { grid-template-columns: 2fr 1fr 1fr 1fr; }
-.cie { padding: 12px 16px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; border-top: 1px solid var(--line); }
-.cie:first-child { border-top: 0; }
-.cie h3 { margin: 0; font: 600 16px/1.35 var(--body); }
-.cie .droite { text-align: right; font-size: 13px; display: grid; gap: 4px; align-content: start; }
-.cie .nb { font: 600 13px var(--mono); color: var(--fresh); background: var(--fresh-bg); border-radius: 99px; padding: 1px 8px; justify-self: end; }
-@media (max-width: 640px) { .cie { grid-template-columns: 1fr; } .cie .droite { text-align: left; } .cie .nb { justify-self: start; } }
+.bloc-ent { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.bloc-ent > header { padding: 14px 16px; border-bottom: 1px solid var(--line); display: grid; gap: 6px; background: var(--card-hi); }
+.bloc-ent > header h3 { margin: 0; font: 700 18px var(--display); display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.bloc-ent > header h3 small { font: 600 13px var(--body); color: var(--muted); }
+.bloc-ent .carte { border: 0; border-radius: 0; border-top: 1px solid var(--line); }
+.bloc-ent > header + .carte { border-top: 0; }
+
+.vide { background: var(--card); border: 1px dashed var(--line); border-radius: 12px; padding: 40px 24px; text-align: center; color: var(--muted); display: grid; gap: 8px; justify-items: center; }
+.vide svg { width: 42px; height: 48px; }
+.vide h3 { margin: 0; color: var(--ink); font: 700 19px var(--display); }
+.avis { background: var(--orange-soft); border: 1px solid var(--orange); color: var(--ink); border-radius: 10px; padding: 12px 16px; margin-bottom: 12px; }
+.pied { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; color: var(--muted); font-size: 13px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-bouclier" viewBox="0 0 30 34"><path d="M15 1 2 6v9c0 8.5 5.6 15 13 18 7.4-3 13-9.5 13-18V6L15 1Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><circle cx="15" cy="13.5" r="5" fill="currentColor"/><path d="M8.5 26c1.5-4.2 3.8-6.2 6.5-6.2s5 2 6.5 6.2" fill="currentColor"/></symbol>
+  <symbol id="i-lieu" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 1 1 14 0C19 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-malette" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 7V5h6v2M3 12h18" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-recruteur" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 21c1.2-4.5 4.3-6.5 8-6.5s6.8 2 8 6.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-coeur" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.9 4 7.3 4c2 0 3.6 1.1 4.7 2.7C13.1 5.1 14.7 4 16.7 4c3.4 0 5.7 3.3 4.5 6.7C19.5 15.4 12 20 12 20Z" style="fill:var(--remplir, none)" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-filtres" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="16" cy="6" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="10" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-cloche" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l2 2H4l2-2ZM10 20a2 2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-loupe" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-liste" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="4" cy="6" r="1.3" fill="currentColor"/><circle cx="4" cy="12" r="1.3" fill="currentColor"/><circle cx="4" cy="18" r="1.3" fill="currentColor"/></symbol>
+  <symbol id="i-groupe" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="14" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="14" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+</svg>
 
-<div class="wrap">
-  <header>
-    <h1>Sentinelle<span>Veille des offres d'emploi · 7 derniers jours</span></h1>
-    <div style="display:grid;gap:6px;justify-items:end"><a href="prospects.html" style="font-weight:600;color:var(--accent);text-decoration:none">Prospects →</a><div class="veille" id="veille">En attente de la première tournée</div></div>
-  </header>
-
-  <div id="vueOffres" style="display:grid;gap:18px">
-  <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
-    <div class="stats" id="stats"></div>
-    <div class="outils">
-      <button class="btn" id="exporter" type="button">Sauvegarder mes notes</button>
-      <button class="btn" id="importer" type="button">Restaurer des notes</button>
-      <input id="fichier" type="file" accept="application/json,.json" hidden>
+<nav class="gutter">
+  <div class="inner">
+    <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg style="color:var(--orange)"><use href="#i-bouclier"/></svg><span>SENTINELLE</span></a>
+    <div class="liens">
+      <a href="./" aria-current="page">Offres</a>
+      <a href="prospects.html">Prospects</a>
     </div>
+    <button class="btn fav-nav" id="favNav" type="button" aria-pressed="false"><svg><use href="#i-coeur"/></svg> Mes favoris <span id="nbFav"></span></button>
   </div>
+</nav>
 
-  <div class="filtres">
-    <label class="f q" for="q">Rechercher
-      <input id="q" type="search" placeholder="Entreprise, poste, recruteur…" autocomplete="off">
-    </label>
-    <label class="f" for="region">Région
-      <select id="region"><option value="">Toutes</option></select>
-    </label>
-    <label class="f" for="domaine">Domaine
-      <select id="domaine"><option value="">Tous</option></select>
-    </label>
-    <label class="f" for="source">Source
-      <select id="source"><option value="">Toutes</option></select>
-    </label>
-    <label class="f" for="statutF">Suivi
-      <select id="statutF">
-        <option value="">Tous</option>
-        <option value="nouveau">Nouveau</option>
-        <option value="a-contacter">À contacter</option>
-        <option value="contacte">Contacté</option>
-        <option value="sans-suite">Sans suite</option>
-      </select>
-    </label>
-    <label class="f" for="tri">Trier
-      <select id="tri">
-        <option value="entreprise">Entreprise A → Z</option>
-        <option value="recent">Plus récentes d'abord</option>
-        <option value="nombre">Plus d'offres d'abord</option>
-      </select>
-    </label>
-    <fieldset class="periodes" id="periodes">
-      <legend>Parution</legend>
-      <label><input type="checkbox" id="p1" value="1"> Dernière heure</label>
-      <label><input type="checkbox" id="p5" value="5"> 5 dernières heures</label>
-      <label><input type="checkbox" id="p12" value="12"> 12 dernières heures</label>
-      <label><input type="checkbox" id="p24" value="24"> 24 dernières heures</label>
-      <label><input type="checkbox" id="p168" value="168"> Dernière semaine</label>
-    </fieldset>
+<header class="hero gutter">
+  <svg class="montagnes" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 210 L120 150 L210 190 L330 110 L430 170 L540 120 L650 180 L760 100 L880 160 L990 120 L1090 170 L1200 140 L1200 300 L0 300Z" fill="#1d1a17" opacity=".75"/>
+    <path d="M0 250 L150 200 L260 235 L380 185 L500 230 L640 190 L770 240 L900 200 L1030 235 L1200 195 L1200 300 L0 300Z" fill="#12100e"/>
+    <path d="M0 300 L0 275 L90 262 L200 280 L330 258 L470 282 L610 266 L760 286 L900 264 L1050 284 L1200 270 L1200 300Z" fill="#0b1016"/>
+  </svg>
+  <div class="inner">
+    <h1>Les bonnes occasions ne se trouvent pas par hasard.</h1>
+    <p>Les nouvelles offres d'emploi de la région, collectées sur LinkedIn, Jobboom, Jobillico, Indeed et les sites des entreprises, au même endroit.</p>
+    <div class="veille" id="veille">En attente de la première tournée</div>
+    <form class="recherche" id="formRecherche" role="search">
+      <label for="q">Poste, mot-clé ou entreprise
+        <input id="q" type="search" placeholder="Ex. : ingénieur mécanique, directeur RH…" autocomplete="off">
+      </label>
+      <label for="region">Région
+        <select id="region"><option value="">Toutes les régions</option></select>
+      </label>
+      <label for="domaine">Domaine
+        <select id="domaine"><option value="">Tous les domaines</option></select>
+      </label>
+      <button class="btn plein" type="submit"><svg><use href="#i-loupe"/></svg> Rechercher</button>
+    </form>
   </div>
+</header>
 
-  <div id="avis" class="avis" hidden></div>
+<main class="gutter">
+  <div class="inner">
+    <aside>
+      <div class="panneau">
+        <div class="panneau-tete">
+          <h2><svg><use href="#i-filtres"/></svg> Filtres</h2>
+          <button class="lien-btn" id="reinit" type="button">Réinitialiser</button>
+        </div>
+        <details class="groupe-f" open>
+          <summary>Date de parution</summary>
+          <div class="cases" id="periodes">
+            <label><input type="checkbox" id="p1" value="1"> Dernière heure</label>
+            <label><input type="checkbox" id="p5" value="5"> 5 dernières heures</label>
+            <label><input type="checkbox" id="p12" value="12"> 12 dernières heures</label>
+            <label><input type="checkbox" id="p24" value="24"> 24 dernières heures</label>
+            <label><input type="checkbox" id="p168" value="168"> Dernière semaine</label>
+          </div>
+        </details>
+        <details class="groupe-f" open>
+          <summary>Source</summary>
+          <div class="cases" id="casesSource"><span class="vide-f">Après la première tournée</span></div>
+        </details>
+        <details class="groupe-f" open>
+          <summary>Suivi</summary>
+          <div class="cases" id="casesSuivi"></div>
+        </details>
+      </div>
+      <div class="panneau alerte">
+        <h3><svg><use href="#i-cloche"/></svg> Alertes d'emploi</h3>
+        <p>Choisis les entreprises à surveiller dans Prospects. Un courriel t'avertit dès qu'elles publient une nouvelle offre.</p>
+        <a class="btn contour" href="prospects.html">Choisir des entreprises</a>
+      </div>
+    </aside>
 
-  <div class="liste" id="liste">
-    <div class="vide">
-      <h2>Aucune offre pour l'instant</h2>
-      Les offres apparaîtront ici après chaque tournée, regroupées par entreprise avec leurs coordonnées.
-    </div>
+    <section aria-labelledby="titreRes">
+      <div class="barre">
+        <h2 id="titreRes">Offres d'emploi</h2>
+        <label for="tri">Trier par
+          <select id="tri">
+            <option value="recent">Plus récentes</option>
+            <option value="entreprise">Entreprise A → Z</option>
+            <option value="nombre">Entreprises avec le plus d'offres</option>
+          </select>
+        </label>
+        <div class="vues" role="group" aria-label="Affichage">
+          <button type="button" id="vueListe" aria-pressed="true" title="Une carte par offre"><svg><use href="#i-liste"/></svg></button>
+          <button type="button" id="vueEnt" aria-pressed="false" title="Regrouper par entreprise"><svg><use href="#i-groupe"/></svg></button>
+        </div>
+      </div>
+      <div id="avis" class="avis" hidden></div>
+      <div class="liste" id="liste">
+        <div class="vide">
+          <svg style="color:var(--orange)"><use href="#i-bouclier"/></svg>
+          <h3>Aucune offre pour l'instant</h3>
+          Les offres apparaîtront ici après la première tournée, avec la source, l'heure de parution et les coordonnées de l'entreprise.
+        </div>
+      </div>
+      <div class="pied">
+        <span>Tes favoris, statuts et notes sont gardés sur cet appareil.</span>
+        <button class="btn" id="exporter" type="button">Sauvegarder mes notes</button>
+        <button class="btn" id="importer" type="button">Restaurer des notes</button>
+        <input id="fichier" type="file" accept="application/json,.json" hidden>
+      </div>
+    </section>
   </div>
-  </div>
-
-</div>
+</main>
 
 <script>
 const STATUTS = { "nouveau": "Nouveau", "a-contacter": "À contacter", "contacte": "Contacté", "sans-suite": "Sans suite" };
-const state = { offres: [], entreprises: {}, notes: {}, meta: null, peutEcrire: true };
-let db = null;
-
+const state = { offres: [], entreprises: {}, notes: {}, meta: null, vue: "liste", favSeul: false };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const slug = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const sureUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
+const ico = (id) => `<svg aria-hidden="true"><use href="#${id}"/></svg>`;
 
-// Une offre peut avoir été trouvée sur plusieurs sites : sources = [{ nom, url }]
 function sourcesDe(o) {
   if (Array.isArray(o.sources)) return o.sources.map(x => typeof x === "string" ? x : x && x.nom).filter(Boolean);
   return o.source ? [o.source] : [];
 }
 function liensSources(o) {
-  const liste = Array.isArray(o.sources) ? o.sources : (o.source ? [{ nom: o.source, url: o.urlOffre }] : []);
-  return liste.map(x => {
+  const l = Array.isArray(o.sources) ? o.sources : (o.source ? [{ nom: o.source, url: o.urlOffre }] : []);
+  return l.map(x => {
     const nom = typeof x === "string" ? x : x.nom, url = typeof x === "string" ? "" : sureUrl(x.url);
-    return url ? `<a class="src" href="${esc(url)}" target="_blank" rel="noopener">${esc(nom)}</a>` : `<span class="src">${esc(nom)}</span>`;
+    return url ? `<a class="tag" href="${esc(url)}" target="_blank" rel="noopener">Vue sur ${esc(nom)}</a>` : `<span class="tag">${esc(nom)}</span>`;
   }).join("");
 }
 function age(iso) {
-  const t = Date.parse(iso); if (!t) return { txt: "date inconnue", h: Infinity };
+  const t = Date.parse(iso); if (!t) return { txt: "Date inconnue", h: Infinity };
   const h = (Date.now() - t) / 36e5;
-  if (h < 1) return { txt: "il y a moins d'une heure", h };
-  if (h < 48) return { txt: `il y a ${Math.round(h)} h`, h };
-  return { txt: `il y a ${Math.round(h / 24)} jours`, h };
+  if (h < 1) return { txt: `Il y a ${Math.max(1, Math.round(h * 60))} min`, h };
+  if (h < 48) return { txt: `Il y a ${Math.round(h)} heure${Math.round(h) > 1 ? "s" : ""}`, h };
+  return { txt: `Il y a ${Math.round(h / 24)} jours`, h };
 }
 function dateCourte(iso) {
   const t = Date.parse(iso); if (!t) return "";
-  return new Date(t).toLocaleString("fr-CA", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  return new Date(t).toLocaleString("fr-CA", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+}
+const coches = (id) => [...document.querySelectorAll(`#${id} input:checked`)].map(i => i.value);
+
+function casesDyn(id, valeurs, compte, choisis) {
+  const el = $(id);
+  if (!valeurs.length) return;
+  el.innerHTML = valeurs.map(v => `<label><input type="checkbox" value="${esc(v)}" ${choisis.includes(v) ? "checked" : ""}> ${esc(v)} <small>(${compte(v)})</small></label>`).join("");
+}
+function remplirSelect(id, vals, tous) {
+  const el = $(id), cur = el.value || el.dataset.memo || "";
+  el.innerHTML = `<option value="">${tous}</option>` + vals.map(v => `<option>${esc(v)}</option>`).join("");
+  if (vals.includes(cur)) el.value = cur;
 }
 
-try { const p = JSON.parse(localStorage.getItem("sentinelle-filtres") || "{}");
-  for (const k of ["region", "domaine", "source", "statutF", "tri"]) if (p[k] != null) $(k).value = p[k];
-  if (Array.isArray(p.periodes)) for (const v of p.periodes) { const c = $("p" + v); if (c) c.checked = true; } } catch {}
-function memoFiltres() { try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, domaine: $("domaine").value, source: $("source").value, periodes: [...document.querySelectorAll("#periodes input:checked")].map(i => i.value), statutF: $("statutF").value, tri: $("tri").value })); } catch {} }
+// Préférences d'affichage (cet appareil)
+let memo = {};
+try { memo = JSON.parse(localStorage.getItem("sentinelle-filtres") || "{}") || {}; } catch {}
+if (memo.tri) $("tri").value = memo.tri;
+if (memo.vue) state.vue = memo.vue;
+for (const v of memo.periodes || []) { const c = $("p" + v); if (c) c.checked = true; }
+$("region").dataset.memo = memo.region || "";
+$("domaine").dataset.memo = memo.domaine || "";
+function memoFiltres() {
+  try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, domaine: $("domaine").value, tri: $("tri").value, vue: state.vue,
+    periodes: coches("periodes"), sources: coches("casesSource"), suivis: coches("casesSuivi") })); } catch {}
+}
 
-function render() {
-  const { offres, entreprises, notes, meta } = state;
-  if (meta && meta.date) $("veille").innerHTML = `Dernière tournée : <b>${esc(dateCourte(meta.date))}</b>${meta.regions ? `<br>${esc(meta.regions)}` : ""}`;
-
-  // Régions disponibles
-  const regions = [...new Set(offres.map(o => o.region).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
-  const selR = $("region"), courante = selR.value;
-  selR.innerHTML = `<option value="">Toutes</option>` + regions.map(r => `<option>${esc(r)}</option>`).join("");
-  if (regions.includes(courante)) selR.value = courante;
-  const domaines = [...new Set(offres.map(o => o.domaine).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
-  const selD = $("domaine"), domCourant = selD.value;
-  selD.innerHTML = `<option value="">Tous</option>` + domaines.map(d => `<option>${esc(d)}</option>`).join("");
-  if (domaines.includes(domCourant)) selD.value = domCourant;
-  const sources = [...new Set(offres.flatMap(sourcesDe))].sort((a, b) => a.localeCompare(b, "fr"));
-  const selS = $("source"), srcCourante = selS.value;
-  selS.innerHTML = `<option value="">Toutes</option>` + sources.map(x => `<option>${esc(x)}</option>`).join("");
-  if (sources.includes(srcCourante)) selS.value = srcCourante;
-
-  const q = $("q").value.trim().toLowerCase(), reg = selR.value, dom = selD.value, src = selS.value, st = $("statutF").value, tri = $("tri").value;
-  const fenetres = [...document.querySelectorAll("#periodes input:checked")].map(i => Number(i.value));
-  const maxH = fenetres.length ? Math.max(...fenetres) : Infinity;
-  const filtrees = offres.filter(o => {
+function filtrer() {
+  const q = $("q").value.trim().toLowerCase(), reg = $("region").value, dom = $("domaine").value;
+  const fen = coches("periodes").map(Number), maxH = fen.length ? Math.max(...fen) : Infinity;
+  const srcs = coches("casesSource"), suivis = coches("casesSuivi");
+  return state.offres.filter(o => {
+    const n = state.notes[o.id] || {};
+    if (state.favSeul && !n.favori) return false;
     if (age(o.publieLe).h > maxH) return false;
-    const n = notes[o.id] || {};
     if (reg && o.region !== reg) return false;
     if (dom && o.domaine !== dom) return false;
-    if (src && !sourcesDe(o).includes(src)) return false;
-    if (st && (n.statut || "nouveau") !== st) return false;
-    if (q) {
-      const hay = [o.titre, o.entreprise, o.lieu, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
+    if (srcs.length && !sourcesDe(o).some(s => srcs.includes(s))) return false;
+    if (suivis.length && !suivis.includes(n.statut || "nouveau")) return false;
+    if (q && ![o.titre, o.entreprise, o.lieu, o.domaine, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase().includes(q)) return false;
     return true;
   });
-
-  const recentes = offres.filter(o => age(o.publieLe).h <= 72).length;
-  const nbEnt = new Set(offres.map(o => slug(o.entreprise))).size;
-  const aContacter = offres.filter(o => (notes[o.id] || {}).statut === "a-contacter").length;
-  $("stats").innerHTML = offres.length ? [
-    [offres.length, "offres"], [nbEnt, "entreprises"], [recentes, "de moins de 72 h"], [aContacter, "à contacter"]
-  ].map(([n, l]) => `<div class="stat"><b>${n}</b>${l}</div>`).join("") : "";
-
-  if (!offres.length) return; // l'état vide reste affiché
-
-  const groupes = new Map();
-  for (const o of filtrees) {
-    const k = slug(o.entreprise);
-    if (!groupes.has(k)) groupes.set(k, { nom: o.entreprise, offres: [] });
-    groupes.get(k).offres.push(o);
-  }
-  let liste = [...groupes.entries()];
-  for (const [, g] of liste) g.offres.sort((a, b) => (Date.parse(b.publieLe) || 0) - (Date.parse(a.publieLe) || 0));
-  const plusRecente = g => Math.max(...g.offres.map(o => Date.parse(o.publieLe) || 0));
-  if (tri === "entreprise") liste.sort((a, b) => a[1].nom.localeCompare(b[1].nom, "fr"));
-  if (tri === "recent") liste.sort((a, b) => plusRecente(b[1]) - plusRecente(a[1]));
-  if (tri === "nombre") liste.sort((a, b) => b[1].offres.length - a[1].offres.length || a[1].nom.localeCompare(b[1].nom, "fr"));
-
-  if (!liste.length) {
-    $("liste").innerHTML = `<div class="vide"><h2>Aucun résultat</h2>Aucune offre ne correspond à ces filtres.</div>`;
-    return;
-  }
-
-  $("liste").innerHTML = liste.map(([k, g]) => {
-    const e = entreprises[k] || {};
-    const c = [];
-    if (sureUrl(e.siteWeb)) c.push(`<span><span class="k">Site</span><a href="${esc(e.siteWeb)}" target="_blank" rel="noopener">${esc(e.siteWeb.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>`);
-    if (sureUrl(e.pageCarrieres)) c.push(`<span><span class="k">Carrières</span><a href="${esc(e.pageCarrieres)}" target="_blank" rel="noopener">page carrières</a></span>`);
-    if (e.telephone) c.push(`<span><span class="k">Tél.</span><span class="sel">${esc(e.telephone)}</span></span>`);
-    if (e.courriel) c.push(`<span><span class="k">Courriel</span><span class="sel">${esc(e.courriel)}</span></span>`);
-    if (e.adresse) c.push(`<span><span class="k">Adresse</span>${esc(e.adresse)}</span>`);
-    if (sureUrl(e.linkedinUrl)) c.push(`<span><span class="k">LinkedIn</span><a href="${esc(e.linkedinUrl)}" target="_blank" rel="noopener">page de l'entreprise</a></span>`);
-    const contacts = c.length ? c.join("") : `<span>Coordonnées à venir</span>`;
-
-    const rows = g.offres.map(o => {
-      const a = age(o.publieLe), n = notes[o.id] || {};
-      const r = o.recruteur && o.recruteur.nom
-        ? `<div class="recru"><span class="k" style="font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)">Recruteur</span> ${sureUrl(o.recruteur.profilUrl) ? `<a href="${esc(o.recruteur.profilUrl)}" target="_blank" rel="noopener">${esc(o.recruteur.nom)}</a>` : esc(o.recruteur.nom)}${o.recruteur.titre ? ` · <span style="color:var(--muted)">${esc(o.recruteur.titre)}</span>` : ""}</div>` : "";
-      const dis = state.peutEcrire ? "" : "disabled";
-      return `<article class="offre">
-        <div style="display:grid;gap:4px;min-width:0">
-          <h3>${sureUrl(o.urlOffre) ? `<a href="${esc(o.urlOffre)}" target="_blank" rel="noopener">${esc(o.titre)}</a>` : esc(o.titre)}</h3>
-          <div class="meta">
-            <span class="pill ${a.h <= 24 ? "neuf" : "vieux"}">${a.h <= 24 ? "Moins de 24 h" : esc(a.txt)}</span>
-            <span>${esc(o.lieu || o.region || "")}</span>
-            ${a.h <= 24 ? `<span>${esc(a.txt)}</span>` : ""}
-            ${o.domaine ? `<span>${esc(o.domaine)}</span>` : ""}
-            ${o.modalite ? `<span>${esc(o.modalite)}</span>` : ""}
-          </div>
-          ${r}
-          ${liensSources(o) ? `<div class="sources"><span class="k">Vue sur</span>${liensSources(o)}</div>` : ""}
-        </div>
-        <div class="suivi">
-          <select id="st-${esc(o.id)}" data-id="${esc(o.id)}" class="js-statut" aria-label="Suivi de l'offre" ${dis}>
-            ${Object.entries(STATUTS).map(([v, l]) => `<option value="${v}" ${(n.statut || "nouveau") === v ? "selected" : ""}>${l}</option>`).join("")}
-          </select>
-          <textarea id="nt-${esc(o.id)}" data-id="${esc(o.id)}" class="js-note" placeholder="Note de suivi…" aria-label="Note de suivi" ${dis}>${esc(n.texte || "")}</textarea>
-          <div class="etat" id="et-${esc(o.id)}"></div>
-        </div>
-      </article>`;
-    }).join("");
-
-    return `<section class="ent">
-      <div class="ent-tete">
-        <h2>${esc(g.nom)} <small>${g.offres.length} offre${g.offres.length > 1 ? "s" : ""}</small></h2>
-        <div class="contacts">${contacts}</div>
-      </div>
-      ${rows}
-    </section>`;
-  }).join("");
 }
 
-// Notes : gardées dans ce navigateur (GitHub Pages n'a pas de base de données)
+function carte(o) {
+  const a = age(o.publieLe), n = state.notes[o.id] || {};
+  const e = state.entreprises[slug(o.entreprise)] || {};
+  const c = [];
+  if (sureUrl(e.siteWeb)) c.push(`<span><b>Site</b> <a href="${esc(e.siteWeb)}" target="_blank" rel="noopener">${esc(e.siteWeb.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>`);
+  if (sureUrl(e.pageCarrieres)) c.push(`<span><b>Carrières</b> <a href="${esc(e.pageCarrieres)}" target="_blank" rel="noopener">page carrières</a></span>`);
+  if (e.telephone) c.push(`<span><b>Tél.</b> <span class="sel">${esc(e.telephone)}</span></span>`);
+  if (e.courriel) c.push(`<span><b>Courriel</b> <span class="sel">${esc(e.courriel)}</span></span>`);
+  if (e.adresse) c.push(`<span><b>Adresse</b> ${esc(e.adresse)}</span>`);
+  if (sureUrl(e.linkedinUrl)) c.push(`<span><b>LinkedIn</b> <a href="${esc(e.linkedinUrl)}" target="_blank" rel="noopener">page de l'entreprise</a></span>`);
+  const r = o.recruteur && o.recruteur.nom ? `<span>${ico("i-recruteur")}${sureUrl(o.recruteur.profilUrl) ? `<a href="${esc(o.recruteur.profilUrl)}" target="_blank" rel="noopener">${esc(o.recruteur.nom)}</a>` : esc(o.recruteur.nom)}${o.recruteur.titre ? ` · ${esc(o.recruteur.titre)}` : ""}</span>` : "";
+  const statut = n.statut && n.statut !== "nouveau" ? ` · <b>${esc(STATUTS[n.statut])}</b>` : "";
+  return `<article class="carte">
+    <div class="logo" aria-hidden="true">${esc((o.entreprise || "?").trim().charAt(0).toUpperCase())}</div>
+    <div style="min-width:0">
+      <h3>${sureUrl(o.urlOffre) ? `<a href="${esc(o.urlOffre)}" target="_blank" rel="noopener">${esc(o.titre)}</a>` : esc(o.titre)}</h3>
+      <div class="cie">${esc(o.entreprise)}</div>
+    </div>
+    <div class="droite">
+      <div class="haut-droite">
+        ${a.h <= 24 ? `<span class="nouveau">Nouveau</span>` : ""}
+        <button class="coeur js-fav" type="button" data-id="${esc(o.id)}" aria-pressed="${!!n.favori}" aria-label="${n.favori ? "Retirer des favoris" : "Ajouter aux favoris"}">${ico("i-coeur")}</button>
+      </div>
+      <span class="temps">${esc(a.txt)}</span>
+    </div>
+    <div class="plus">
+      <div class="infos">
+        ${o.lieu || o.region ? `<span>${ico("i-lieu")}${esc(o.lieu || o.region)}</span>` : ""}
+        ${o.modalite ? `<span>${ico("i-malette")}${esc(o.modalite)}</span>` : ""}
+        ${r}
+      </div>
+      <div class="tags">${o.domaine ? `<span class="tag">${esc(o.domaine)}</span>` : ""}${liensSources(o)}</div>
+      <details class="suivi">
+        <summary>Coordonnées et suivi${statut}</summary>
+        <div class="suivi-corps">
+          <div class="contacts">${c.length ? c.join("") : "Coordonnées de l'entreprise à venir"}</div>
+          <select id="st-${esc(o.id)}" data-id="${esc(o.id)}" class="js-statut" aria-label="Statut de suivi">
+            ${Object.entries(STATUTS).map(([v, l]) => `<option value="${v}" ${(n.statut || "nouveau") === v ? "selected" : ""}>${l}</option>`).join("")}
+          </select>
+          <textarea id="nt-${esc(o.id)}" data-id="${esc(o.id)}" class="js-note" placeholder="Note de suivi…" aria-label="Note de suivi">${esc(n.texte || "")}</textarea>
+          <div class="etat" id="et-${esc(o.id)}"></div>
+        </div>
+      </details>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const { offres, notes, meta } = state;
+  if (meta && meta.date) $("veille").innerHTML = `Dernière tournée : <b>${esc(dateCourte(meta.date))}</b>${meta.regions ? ` · ${esc(meta.regions)}` : ""}`;
+  remplirSelect("region", [...new Set(offres.map(o => o.region).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr")), "Toutes les régions");
+  remplirSelect("domaine", [...new Set(offres.map(o => o.domaine).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr")), "Tous les domaines");
+  const srcChoisies = coches("casesSource").length ? coches("casesSource") : (memo.sources || []);
+  casesDyn("casesSource", [...new Set(offres.flatMap(sourcesDe))].sort((a, b) => a.localeCompare(b, "fr")), v => offres.filter(o => sourcesDe(o).includes(v)).length, srcChoisies);
+  const suiviChoisis = coches("casesSuivi").length ? coches("casesSuivi") : (memo.suivis || []);
+  $("casesSuivi").innerHTML = Object.entries(STATUTS).map(([v, l]) =>
+    `<label><input type="checkbox" value="${v}" ${suiviChoisis.includes(v) ? "checked" : ""}> ${l} <small>(${offres.filter(o => ((notes[o.id] || {}).statut || "nouveau") === v).length})</small></label>`).join("");
+  const nbFav = offres.filter(o => (notes[o.id] || {}).favori).length;
+  $("nbFav").textContent = nbFav ? `(${nbFav})` : "";
+  $("favNav").setAttribute("aria-pressed", state.favSeul);
+  $("vueListe").setAttribute("aria-pressed", state.vue === "liste");
+  $("vueEnt").setAttribute("aria-pressed", state.vue === "entreprise");
+
+  if (!offres.length) { $("titreRes").textContent = "Offres d'emploi"; return; }
+  const f = filtrer(), tri = $("tri").value;
+  const nbE = new Set(f.map(o => slug(o.entreprise))).size;
+  $("titreRes").textContent = `${f.length} offre${f.length > 1 ? "s" : ""} trouvée${f.length > 1 ? "s" : ""} · ${nbE} entreprise${nbE > 1 ? "s" : ""}`;
+  if (!f.length) { $("liste").innerHTML = `<div class="vide"><h3>Aucun résultat</h3>Aucune offre ne correspond à ces filtres.</div>`; return; }
+  const recent = (a, b) => (Date.parse(b.publieLe) || 0) - (Date.parse(a.publieLe) || 0);
+
+  const groupes = new Map();
+  for (const o of f) { const k = slug(o.entreprise); if (!groupes.has(k)) groupes.set(k, { nom: o.entreprise, offres: [] }); groupes.get(k).offres.push(o); }
+  const G = [...groupes.values()];
+  G.forEach(g => g.offres.sort(recent));
+  const plusRec = g => Date.parse(g.offres[0].publieLe) || 0;
+  if (tri === "recent") G.sort((a, b) => plusRec(b) - plusRec(a));
+  if (tri === "entreprise") G.sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+  if (tri === "nombre") G.sort((a, b) => b.offres.length - a.offres.length || a.nom.localeCompare(b.nom, "fr"));
+
+  if (state.vue === "liste") {
+    const L = tri === "recent" ? [...f].sort(recent) : G.flatMap(g => g.offres);
+    $("liste").innerHTML = L.map(carte).join("");
+  } else {
+    $("liste").innerHTML = G.map(g => `<section class="bloc-ent"><header><h3>${esc(g.nom)} <small>${g.offres.length} offre${g.offres.length > 1 ? "s" : ""}</small></h3></header>${g.offres.map(carte).join("")}</section>`).join("");
+  }
+}
+
+// Notes, statuts et favoris : gardés dans ce navigateur
 const CLE_NOTES = "sentinelle-notes";
 function chargerNotes() { try { state.notes = JSON.parse(localStorage.getItem(CLE_NOTES) || "{}") || {}; } catch { state.notes = {}; } }
 function ecrireNotes() {
@@ -342,60 +453,65 @@ function ecrireNotes() {
 }
 function sauver(id, champs) {
   const prec = state.notes[id] || {};
-  const suivant = { statut: prec.statut || "nouveau", texte: prec.texte || "", ...champs, majLe: new Date().toISOString() };
-  if (suivant.statut === (prec.statut || "nouveau") && suivant.texte === (prec.texte || "")) return;
-  state.notes[id] = suivant;
+  state.notes[id] = { ...prec, statut: prec.statut || "nouveau", texte: prec.texte || "", ...champs, majLe: new Date().toISOString() };
   const ok = ecrireNotes();
   const et = $("et-" + id); if (et) et.textContent = ok ? "Enregistré sur cet appareil" : "Non enregistré";
-  renderSur();
 }
+
+document.addEventListener("click", (ev) => {
+  const b = ev.target.closest(".js-fav");
+  if (b) { const id = b.dataset.id; sauver(id, { favori: !(state.notes[id] || {}).favori }); render(); }
+});
+document.addEventListener("change", (ev) => {
+  const t = ev.target;
+  if (t.classList.contains("js-statut")) { sauver(t.dataset.id, { statut: t.value }); return; }
+  if (t.classList.contains("js-note")) { sauver(t.dataset.id, { texte: t.value.trim() }); return; }
+  if (["region", "domaine", "tri"].includes(t.id) || t.closest("#periodes, #casesSource, #casesSuivi")) { memoFiltres(); render(); }
+});
+$("formRecherche").addEventListener("submit", (ev) => { ev.preventDefault(); memoFiltres(); render(); $("titreRes").scrollIntoView({ behavior: "smooth", block: "start" }); });
+let attente; $("q").addEventListener("input", () => { clearTimeout(attente); attente = setTimeout(render, 150); });
+$("favNav").addEventListener("click", () => { state.favSeul = !state.favSeul; render(); });
+$("vueListe").addEventListener("click", () => { state.vue = "liste"; memoFiltres(); render(); });
+$("vueEnt").addEventListener("click", () => { state.vue = "entreprise"; memoFiltres(); render(); });
+$("reinit").addEventListener("click", () => {
+  document.querySelectorAll("aside input[type=checkbox]").forEach(i => i.checked = false);
+  $("region").value = ""; $("domaine").value = ""; $("q").value = ""; memo.sources = []; memo.suivis = []; state.favSeul = false;
+  memoFiltres(); render();
+});
 
 $("exporter").addEventListener("click", () => {
   const blob = new Blob([JSON.stringify({ app: "sentinelle", exporteLe: new Date().toISOString(), notes: state.notes }, null, 2)], { type: "application/json" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
   a.download = `sentinelle-notes-${new Date().toISOString().slice(0, 10)}.json`;
-  document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 });
 $("importer").addEventListener("click", () => $("fichier").click());
 $("fichier").addEventListener("change", async (ev) => {
-  const f = ev.target.files && ev.target.files[0]; if (!f) return;
+  const fi = ev.target.files && ev.target.files[0]; if (!fi) return;
   try {
-    const obj = JSON.parse(await f.text());
+    const obj = JSON.parse(await fi.text());
     const recus = obj && obj.notes && typeof obj.notes === "object" ? obj.notes : null;
     if (!recus) throw new Error();
-    // Fusion : la note la plus récente gagne
     let n = 0;
     for (const [id, note] of Object.entries(recus)) {
       const ici = state.notes[id];
       if (!ici || (Date.parse(note.majLe) || 0) > (Date.parse(ici.majLe) || 0)) { state.notes[id] = note; n++; }
     }
-    ecrireNotes(); render();
-    montrerAvis(`${n} note${n > 1 ? "s" : ""} restaurée${n > 1 ? "s" : ""}.`);
+    ecrireNotes(); render(); montrerAvis(`${n} note${n > 1 ? "s" : ""} restaurée${n > 1 ? "s" : ""}.`);
   } catch { montrerAvis("Ce fichier n'est pas une sauvegarde de Sentinelle."); }
   ev.target.value = "";
 });
-document.addEventListener("change", (ev) => {
-  const t = ev.target;
-  if (t.classList.contains("js-statut")) sauver(t.dataset.id, { statut: t.value });
-  if (t.classList.contains("js-note")) sauver(t.dataset.id, { texte: t.value.trim() });
-  if (["region", "domaine", "source", "statutF", "tri"].includes(t.id) || t.closest("#periodes")) { memoFiltres(); render(); }
-});
-let attente; $("q").addEventListener("input", () => { clearTimeout(attente); attente = setTimeout(render, 150); });
-
 function montrerAvis(txt) { const a = $("avis"); a.textContent = txt; a.hidden = false; }
 
-// Évite d'écraser ce qu'elle tape pendant une mise à jour en direct
-let renduDiffere = false;
+// Ne pas redessiner pendant qu'elle écrit une note
+let differe = false;
 function renderSur() {
   const f = document.activeElement;
-  if (f && (f.classList.contains("js-note") || f.classList.contains("js-statut"))) { renduDiffere = true; return; }
+  if (f && (f.classList.contains("js-note") || f.classList.contains("js-statut"))) { differe = true; return; }
   render();
 }
-document.addEventListener("focusout", () => { if (renduDiffere) { renduDiffere = false; setTimeout(render, 50); } });
+document.addEventListener("focusout", () => { if (differe) { differe = false; setTimeout(render, 50); } });
 
-// Offres : fichier data/offres.json, mis à jour après chaque tournée
 async function chargerOffres() {
   try {
     const r = await fetch("data/offres.json?t=" + Date.now(), { cache: "no-store" });
@@ -407,7 +523,9 @@ async function chargerOffres() {
     renderSur();
   } catch { montrerAvis("Impossible de charger les offres. Vérifie ta connexion, puis recharge la page."); }
 }
+if (window.matchMedia("(max-width: 900px)").matches) document.querySelectorAll("details.groupe-f").forEach(d => d.open = false);
 chargerNotes();
+render();
 chargerOffres();
 document.addEventListener("visibilitychange", () => { if (!document.hidden) chargerOffres(); });
 </script>
