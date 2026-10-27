@@ -361,6 +361,8 @@ function filtrer() {
 
 function carte(o) {
   const a = age(o.publieLe), n = state.notes[o.id] || {};
+  // Indeed n'affiche pas la date exacte : on montre une tranche approximative
+  if (o.dateApprox) { a.txt = o.dateApprox + " (Indeed)"; a.approx = true; }
   const e = state.entreprises[slug(o.entreprise)] || {};
   const c = [];
   if (sureUrl(e.siteWeb)) c.push(`<span><b>Site</b> <a href="${esc(e.siteWeb)}" target="_blank" rel="noopener">${esc(e.siteWeb.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>`);
@@ -379,7 +381,7 @@ function carte(o) {
     </div>
     <div class="droite">
       <div class="haut-droite">
-        ${a.h <= 24 ? `<span class="nouveau">Nouveau</span>` : ""}
+        ${a.h <= 24 && !a.approx ? `<span class="nouveau">Nouveau</span>` : ""}
         <button class="coeur js-fav" type="button" data-id="${esc(o.id)}" aria-pressed="${!!n.favori}" aria-label="${n.favori ? "Retirer des favoris" : "Ajouter aux favoris"}">${ico("i-coeur")}</button>
       </div>
       <span class="temps">${esc(a.txt)}</span>
