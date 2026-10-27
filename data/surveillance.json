@@ -1,5 +1,52 @@
 {
  "miseAJour": "2026-10-27",
+ "sitesEmploi": [
+  {
+   "nom": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/",
+   "session": "Oui (compte de Thomas)"
+  },
+  {
+   "nom": "Jobboom",
+   "url": "https://www.jobboom.com",
+   "session": "Non"
+  },
+  {
+   "nom": "Jobillico",
+   "url": "https://www.jobillico.com",
+   "session": "Non"
+  },
+  {
+   "nom": "Indeed",
+   "url": "https://ca.indeed.com",
+   "session": "Non (bloque souvent la navigation automatisée)"
+  },
+  {
+   "nom": "Guichet-Emplois",
+   "url": "https://www.guichetemplois.gc.ca",
+   "session": "Non"
+  },
+  {
+   "nom": "Québec emploi",
+   "url": "https://www.quebecemploi.gouv.qc.ca",
+   "session": "Non"
+  },
+  {
+   "nom": "Ordre des ingénieurs du Québec",
+   "url": "https://www.oiq.qc.ca",
+   "session": "À confirmer"
+  },
+  {
+   "nom": "Ordre des CRHA",
+   "url": "https://ordrecrha.org",
+   "session": "À confirmer"
+  },
+  {
+   "nom": "Babillard régional de Victoriaville",
+   "url": "https://emploi.regionvictoriaville.com",
+   "session": "Non"
+  }
+ ],
  "pagesCarrieres": [
   {
    "entreprise": "BRP",
