@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sentinelle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout : une colonne de travail — bandeau de veille, filtres collants, puis entreprises regroupées avec leurs offres */
+:root {
+  --bg: #eef1f5;
+  --surface: #ffffff;
+  --ink: #14202e;
+  --muted: #4f5d6d;
+  --line: #cfd6df;
+  --accent: #1d4ed8;
+  --accent-ink: #ffffff;
+  --fresh: #0b5394;
+  --fresh-bg: #dbe7f6;
+  --warn-bg: #fff1c2;
+  --warn-ink: #5a4200;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
+  --accent: #7fa8ff; --accent-ink: #0b1220; --fresh: #b9d3ff; --fresh-bg: #1e3352;
+  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
+  --accent: #7fa8ff; --accent-ink: #0b1220; --fresh: #b9d3ff; --fresh-bg: #1e3352;
+  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark }
+
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+.outils { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+button.btn { font: 500 13px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+button.btn:hover { border-color: var(--accent); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 20px 60px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 18px; }
+
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 20px; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1 var(--display); letter-spacing: -0.02em; margin: 0; }
+h1 span { display: block; font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+.veille { font-size: 13px; color: var(--muted); text-align: right; }
+.veille b { color: var(--ink); font-weight: 600; }
+
+.stats { display: flex; flex-wrap: wrap; gap: 8px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; font-size: 13px; color: var(--muted); }
+.stat b { font: 600 18px var(--body); color: var(--ink); font-variant-numeric: tabular-nums; margin-right: 4px; }
+
+.filtres { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr 1fr 1fr 1fr; border-bottom: 1px solid var(--line); }
+@media (max-width: 700px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres .q { grid-column: 1 / -1; } }
+label.f { display: grid; gap: 3px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
+input, select, textarea { font: 15px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 8px 10px; width: 100%; box-sizing: border-box; min-width: 0; }
+input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+
+.liste { display: grid; gap: 14px; }
+.ent { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.ent-tete { padding: 14px 16px; display: grid; gap: 6px; border-bottom: 1px solid var(--line); }
+.ent-tete h2 { font: 700 20px/1.2 var(--display); margin: 0; text-wrap: balance; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.ent-tete h2 small { font: 500 12px var(--mono); color: var(--muted); }
+.contacts { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 14px; color: var(--muted); }
+.contacts a, .contacts .sel { color: var(--ink); }
+.contacts .k { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; margin-right: 4px; }
+.sel { user-select: all; }
+
+.offre { padding: 12px 16px; display: grid; grid-template-columns: minmax(0, 1fr) 190px; gap: 8px 16px; border-top: 1px solid var(--line); }
+.offre:first-of-type { border-top: 0; }
+@media (max-width: 640px) { .offre { grid-template-columns: 1fr; } }
+.offre h3 { margin: 0; font: 600 16px/1.35 var(--body); }
+.offre h3 a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--muted); }
+.pill { display: inline-flex; align-items: center; gap: 4px; font: 500 12px var(--mono); padding: 1px 8px; border-radius: 99px; border: 1px solid currentColor; }
+.pill.neuf { background: var(--fresh-bg); color: var(--fresh); border-color: transparent; }
+.pill.neuf::before { content: "●"; font-size: 9px; }
+.pill.vieux { color: var(--muted); }
+.recru { font-size: 14px; }
+.recru a { color: var(--ink); }
+.suivi { display: grid; gap: 6px; align-content: start; }
+.suivi textarea { min-height: 38px; resize: vertical; font-size: 14px; }
+.etat { font-size: 12px; color: var(--muted); min-height: 1em; }
+
+.vide, .avis { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 28px 20px; text-align: center; color: var(--muted); }
+.vide h2 { font: 700 20px var(--display); color: var(--ink); margin: 0 0 6px; }
+.avis { background: var(--warn-bg); color: var(--warn-ink); border: 0; text-align: left; padding: 12px 16px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>Sentinelle<span>Veille des offres LinkedIn · 72 dernières heures</span></h1>
+    <div class="veille" id="veille">En attente de la première tournée</div>
+  </header>
+
+  <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+    <div class="stats" id="stats"></div>
+    <div class="outils">
+      <button class="btn" id="exporter" type="button">Sauvegarder mes notes</button>
+      <button class="btn" id="importer" type="button">Restaurer des notes</button>
+      <input id="fichier" type="file" accept="application/json,.json" hidden>
+    </div>
+  </div>
+
+  <div class="filtres">
+    <label class="f q" for="q">Rechercher
+      <input id="q" type="search" placeholder="Entreprise, poste, recruteur…" autocomplete="off">
+    </label>
+    <label class="f" for="region">Région
+      <select id="region"><option value="">Toutes</option></select>
+    </label>
+    <label class="f" for="statutF">Suivi
+      <select id="statutF">
+        <option value="">Tous</option>
+        <option value="nouveau">Nouveau</option>
+        <option value="a-contacter">À contacter</option>
+        <option value="contacte">Contacté</option>
+        <option value="sans-suite">Sans suite</option>
+      </select>
+    </label>
+    <label class="f" for="tri">Trier
+      <select id="tri">
+        <option value="entreprise">Entreprise A → Z</option>
+        <option value="recent">Plus récentes d'abord</option>
+        <option value="nombre">Plus d'offres d'abord</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="avis" class="avis" hidden></div>
+
+  <div class="liste" id="liste">
+    <div class="vide">
+      <h2>Aucune offre pour l'instant</h2>
+      Les offres apparaîtront ici après chaque tournée sur LinkedIn, regroupées par entreprise avec leurs coordonnées.
+    </div>
+  </div>
+</div>
+
+<script>
+const STATUTS = { "nouveau": "Nouveau", "a-contacter": "À contacter", "contacte": "Contacté", "sans-suite": "Sans suite" };
+const state = { offres: [], entreprises: {}, notes: {}, meta: null, peutEcrire: true };
+let db = null;
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const slug = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const sureUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
+
+function age(iso) {
+  const t = Date.parse(iso); if (!t) return { txt: "date inconnue", h: Infinity };
+  const h = (Date.now() - t) / 36e5;
+  if (h < 1) return { txt: "il y a moins d'une heure", h };
+  if (h < 48) return { txt: `il y a ${Math.round(h)} h`, h };
+  return { txt: `il y a ${Math.round(h / 24)} jours`, h };
+}
+function dateCourte(iso) {
+  const t = Date.parse(iso); if (!t) return "";
+  return new Date(t).toLocaleString("fr-CA", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+}
+
+try { const p = JSON.parse(localStorage.getItem("sentinelle-filtres") || "{}");
+  for (const k of ["region", "statutF", "tri"]) if (p[k] != null) $(k).value = p[k]; } catch {}
+function memoFiltres() { try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, statutF: $("statutF").value, tri: $("tri").value })); } catch {} }
+
+function render() {
+  const { offres, entreprises, notes, meta } = state;
+  if (meta && meta.date) $("veille").innerHTML = `Dernière tournée : <b>${esc(dateCourte(meta.date))}</b>${meta.regions ? `<br>${esc(meta.regions)}` : ""}`;
+
+  // Régions disponibles
+  const regions = [...new Set(offres.map(o => o.region).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
+  const selR = $("region"), courante = selR.value;
+  selR.innerHTML = `<option value="">Toutes</option>` + regions.map(r => `<option>${esc(r)}</option>`).join("");
+  if (regions.includes(courante)) selR.value = courante;
+
+  const q = $("q").value.trim().toLowerCase(), reg = selR.value, st = $("statutF").value, tri = $("tri").value;
+  const filtrees = offres.filter(o => {
+    const n = notes[o.id] || {};
+    if (reg && o.region !== reg) return false;
+    if (st && (n.statut || "nouveau") !== st) return false;
+    if (q) {
+      const hay = [o.titre, o.entreprise, o.lieu, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const recentes = offres.filter(o => age(o.publieLe).h <= 72).length;
+  const nbEnt = new Set(offres.map(o => slug(o.entreprise))).size;
+  const aContacter = offres.filter(o => (notes[o.id] || {}).statut === "a-contacter").length;
+  $("stats").innerHTML = offres.length ? [
+    [offres.length, "offres"], [nbEnt, "entreprises"], [recentes, "de moins de 72 h"], [aContacter, "à contacter"]
+  ].map(([n, l]) => `<div class="stat"><b>${n}</b>${l}</div>`).join("") : "";
+
+  if (!offres.length) return; // l'état vide reste affiché
+
+  const groupes = new Map();
+  for (const o of filtrees) {
+    const k = slug(o.entreprise);
+    if (!groupes.has(k)) groupes.set(k, { nom: o.entreprise, offres: [] });
+    groupes.get(k).offres.push(o);
+  }
+  let liste = [...groupes.entries()];
+  for (const [, g] of liste) g.offres.sort((a, b) => (Date.parse(b.publieLe) || 0) - (Date.parse(a.publieLe) || 0));
+  const plusRecente = g => Math.max(...g.offres.map(o => Date.parse(o.publieLe) || 0));
+  if (tri === "entreprise") liste.sort((a, b) => a[1].nom.localeCompare(b[1].nom, "fr"));
+  if (tri === "recent") liste.sort((a, b) => plusRecente(b[1]) - plusRecente(a[1]));
+  if (tri === "nombre") liste.sort((a, b) => b[1].offres.length - a[1].offres.length || a[1].nom.localeCompare(b[1].nom, "fr"));
+
+  if (!liste.length) {
+    $("liste").innerHTML = `<div class="vide"><h2>Aucun résultat</h2>Aucune offre ne correspond à ces filtres.</div>`;
+    return;
+  }
+
+  $("liste").innerHTML = liste.map(([k, g]) => {
+    const e = entreprises[k] || {};
+    const c = [];
+    if (sureUrl(e.siteWeb)) c.push(`<span><span class="k">Site</span><a href="${esc(e.siteWeb)}" target="_blank" rel="noopener">${esc(e.siteWeb.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>`);
+    if (sureUrl(e.pageCarrieres)) c.push(`<span><span class="k">Carrières</span><a href="${esc(e.pageCarrieres)}" target="_blank" rel="noopener">page carrières</a></span>`);
+    if (e.telephone) c.push(`<span><span class="k">Tél.</span><span class="sel">${esc(e.telephone)}</span></span>`);
+    if (e.courriel) c.push(`<span><span class="k">Courriel</span><span class="sel">${esc(e.courriel)}</span></span>`);
+    if (e.adresse) c.push(`<span><span class="k">Adresse</span>${esc(e.adresse)}</span>`);
+    if (sureUrl(e.linkedinUrl)) c.push(`<span><span class="k">LinkedIn</span><a href="${esc(e.linkedinUrl)}" target="_blank" rel="noopener">page de l'entreprise</a></span>`);
+    const contacts = c.length ? c.join("") : `<span>Coordonnées à venir</span>`;
+
+    const rows = g.offres.map(o => {
+      const a = age(o.publieLe), n = notes[o.id] || {};
+      const r = o.recruteur && o.recruteur.nom
+        ? `<div class="recru"><span class="k" style="font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)">Recruteur</span> ${sureUrl(o.recruteur.profilUrl) ? `<a href="${esc(o.recruteur.profilUrl)}" target="_blank" rel="noopener">${esc(o.recruteur.nom)}</a>` : esc(o.recruteur.nom)}${o.recruteur.titre ? ` · <span style="color:var(--muted)">${esc(o.recruteur.titre)}</span>` : ""}</div>` : "";
+      const dis = state.peutEcrire ? "" : "disabled";
+      return `<article class="offre">
+        <div style="display:grid;gap:4px;min-width:0">
+          <h3>${sureUrl(o.urlOffre) ? `<a href="${esc(o.urlOffre)}" target="_blank" rel="noopener">${esc(o.titre)}</a>` : esc(o.titre)}</h3>
+          <div class="meta">
+            <span class="pill ${a.h <= 24 ? "neuf" : "vieux"}">${a.h <= 24 ? "Moins de 24 h" : esc(a.txt)}</span>
+            <span>${esc(o.lieu || o.region || "")}</span>
+            ${a.h <= 24 ? `<span>${esc(a.txt)}</span>` : ""}
+            ${o.modalite ? `<span>${esc(o.modalite)}</span>` : ""}
+          </div>
+          ${r}
+        </div>
+        <div class="suivi">
+          <select id="st-${esc(o.id)}" data-id="${esc(o.id)}" class="js-statut" aria-label="Suivi de l'offre" ${dis}>
+            ${Object.entries(STATUTS).map(([v, l]) => `<option value="${v}" ${(n.statut || "nouveau") === v ? "selected" : ""}>${l}</option>`).join("")}
+          </select>
+          <textarea id="nt-${esc(o.id)}" data-id="${esc(o.id)}" class="js-note" placeholder="Note de suivi…" aria-label="Note de suivi" ${dis}>${esc(n.texte || "")}</textarea>
+          <div class="etat" id="et-${esc(o.id)}"></div>
+        </div>
+      </article>`;
+    }).join("");
+
+    return `<section class="ent">
+      <div class="ent-tete">
+        <h2>${esc(g.nom)} <small>${g.offres.length} offre${g.offres.length > 1 ? "s" : ""}</small></h2>
+        <div class="contacts">${contacts}</div>
+      </div>
+      ${rows}
+    </section>`;
+  }).join("");
+}
+
+// Notes : gardées dans ce navigateur (GitHub Pages n'a pas de base de données)
+const CLE_NOTES = "sentinelle-notes";
+function chargerNotes() { try { state.notes = JSON.parse(localStorage.getItem(CLE_NOTES) || "{}") || {}; } catch { state.notes = {}; } }
+function ecrireNotes() {
+  try { localStorage.setItem(CLE_NOTES, JSON.stringify(state.notes)); return true; }
+  catch { montrerAvis("Ce navigateur bloque l'enregistrement local. Les notes ne seront pas gardées après fermeture."); return false; }
+}
+function sauver(id, champs) {
+  const prec = state.notes[id] || {};
+  const suivant = { statut: prec.statut || "nouveau", texte: prec.texte || "", ...champs, majLe: new Date().toISOString() };
+  if (suivant.statut === (prec.statut || "nouveau") && suivant.texte === (prec.texte || "")) return;
+  state.notes[id] = suivant;
+  const ok = ecrireNotes();
+  const et = $("et-" + id); if (et) et.textContent = ok ? "Enregistré sur cet appareil" : "Non enregistré";
+  renderSur();
+}
+
+$("exporter").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify({ app: "sentinelle", exporteLe: new Date().toISOString(), notes: state.notes }, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `sentinelle-notes-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+});
+$("importer").addEventListener("click", () => $("fichier").click());
+$("fichier").addEventListener("change", async (ev) => {
+  const f = ev.target.files && ev.target.files[0]; if (!f) return;
+  try {
+    const obj = JSON.parse(await f.text());
+    const recus = obj && obj.notes && typeof obj.notes === "object" ? obj.notes : null;
+    if (!recus) throw new Error();
+    // Fusion : la note la plus récente gagne
+    let n = 0;
+    for (const [id, note] of Object.entries(recus)) {
+      const ici = state.notes[id];
+      if (!ici || (Date.parse(note.majLe) || 0) > (Date.parse(ici.majLe) || 0)) { state.notes[id] = note; n++; }
+    }
+    ecrireNotes(); render();
+    montrerAvis(`${n} note${n > 1 ? "s" : ""} restaurée${n > 1 ? "s" : ""}.`);
+  } catch { montrerAvis("Ce fichier n'est pas une sauvegarde de Sentinelle."); }
+  ev.target.value = "";
+});
+document.addEventListener("change", (ev) => {
+  const t = ev.target;
+  if (t.classList.contains("js-statut")) sauver(t.dataset.id, { statut: t.value });
+  if (t.classList.contains("js-note")) sauver(t.dataset.id, { texte: t.value.trim() });
+  if (["region", "statutF", "tri"].includes(t.id)) { memoFiltres(); render(); }
+});
+let attente; $("q").addEventListener("input", () => { clearTimeout(attente); attente = setTimeout(render, 150); });
+
+function montrerAvis(txt) { const a = $("avis"); a.textContent = txt; a.hidden = false; }
+
+// Évite d'écraser ce qu'elle tape pendant une mise à jour en direct
+let renduDiffere = false;
+function renderSur() {
+  const f = document.activeElement;
+  if (f && (f.classList.contains("js-note") || f.classList.contains("js-statut"))) { renduDiffere = true; return; }
+  render();
+}
+document.addEventListener("focusout", () => { if (renduDiffere) { renduDiffere = false; setTimeout(render, 50); } });
+
+// Offres : fichier data/offres.json, mis à jour après chaque tournée
+async function chargerOffres() {
+  try {
+    const r = await fetch("data/offres.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    state.offres = Array.isArray(d.offres) ? d.offres : [];
+    state.entreprises = d.entreprises && typeof d.entreprises === "object" ? d.entreprises : {};
+    state.meta = d.tournee || null;
+    renderSur();
+  } catch { montrerAvis("Impossible de charger les offres. Vérifie ta connexion, puis recharge la page."); }
+}
+chargerNotes();
+chargerOffres();
+document.addEventListener("visibilitychange", () => { if (!document.hidden) chargerOffres(); });
+</script>
+</body>
+</html>
