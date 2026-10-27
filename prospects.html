@@ -115,7 +115,7 @@ button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--su
 </nav>
 <div class="wrap">
   <header>
-    <h1>Prospects<span>Entreprises à approcher · Montérégie-Est, Estrie, Centre-du-Québec, Mauricie</span></h1>
+    <h1>Prospects<span>Entreprises à approcher · Estrie, Centre-du-Québec, Mauricie, Lanaudière, Montérégie</span></h1>
   </header>
 
   <div class="cats" id="cats"></div>
@@ -183,6 +183,7 @@ button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--su
         <option value="">Toutes</option>
         <option value="oui">Avec offres en cours</option>
         <option value="tri">Toutes, plus d'offres d'abord</option>
+        <option value="nouv">Découvertes par les tournées</option>
       </select>
     </label>
     <label class="f" for="suiviF">Mon suivi
@@ -219,17 +220,16 @@ const CLE = "sentinelle-prospects";
 const st = { liste: [], cat: "", suivi: {}, serveur: new Set(), seulSurv: false, nbOffres: {} };
 const slugN = (x) => String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 // Nombre d'offres actives dans Sentinelle pour chaque prospect (même nom d'entreprise)
+const STOPW = new Set(["groupe","group","les","le","la","l","industries","industrie","inc","canada","ltee","ltd","corporation","corp","compagnie","cie","entreprises","entreprise","produits","services","the","company","de","du","des","et","s","e","c"]);
+const coeur = (nom) => { const t = slugN(String(nom || "").split(" – ")[0]).split("-").filter(w => w && !STOPW.has(w)); return t[0] || slugN(nom); };
 function compterOffres(offres) {
   const parCie = {};
-  for (const o of offres) { const k = slugN(o.entreprise); parCie[k] = (parCie[k] || 0) + 1; }
+  for (const o of offres) { const k = coeur(o.entreprise); parCie[k] = (parCie[k] || 0) + 1; }
   const res = {};
-  for (const c of st.liste) {
-    const a = slugN(premier(c.nom)); let n = 0;
-    for (const [k, v] of Object.entries(parCie)) if (k === a || k.startsWith(a + "-") || a.startsWith(k + "-")) n += v;
-    if (n) res[c.id] = n;
-  }
+  for (const c of st.liste) { const n = parCie[coeur(c.nom)]; if (n) res[c.id] = n; }
   st.nbOffres = res;
 }
+
 const estSurv = (id) => { const m = st.suivi[id]; return m && typeof m.surveiller === "boolean" ? m.surveiller : st.serveur.has(id); };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -250,6 +250,7 @@ function filtrer() {
   return st.liste.filter(c => {
     if (st.seulSurv && !estSurv(c.id)) return false;
     if ($("offresF").value === "oui" && !st.nbOffres[c.id]) return false;
+    if ($("offresF").value === "nouv" && !c.decouvert) return false;
     if (r && c.region !== r) return false;
     if (s && premier(c.secteur) !== s) return false;
     if (t === "?" ? c.taille : (t && c.taille !== t)) return false;
@@ -286,7 +287,7 @@ function fiche(c) {
   return `<article class="fiche">
     <div style="display:grid;gap:4px;min-width:0">
       <h3>${esc(c.nom)} ${pub ? "" : `<span class="score ${c.score >= 6 ? "fort" : ""}">${c.score > 0 ? "+" : ""}${c.score} pts</span>`} ${st.nbOffres[c.id] ? `<a class="nboff" href="./" title="Voir les offres dans Sentinelle">${st.nbOffres[c.id]} offre${st.nbOffres[c.id] > 1 ? "s" : ""} en cours</a>` : `<span class="nboff zero">0 offre en cours</span>`}</h3>
-      <div class="meta"><span>${esc(c.ville)}</span><span>${esc(c.region)}</span><span>${esc(c.secteur)}</span></div>
+      <div class="meta">${c.decouvert ? `<span class="nboff" style="border-style:dashed">Découvert par les tournées</span>` : ""}<span>${esc(c.ville)}</span><span>${esc(c.region)}</span><span>${esc(c.secteur)}</span></div>
       <div class="meta"><span>Taille : <b>${c.taille ? esc(c.taille) + " employés" : "à confirmer"}</b></span><span>${esc(c.type)}</span></div>
       <details><summary>Pourquoi ce classement</summary><ul>${c.raisons.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>
       <div class="liens">
