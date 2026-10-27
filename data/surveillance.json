@@ -1,13 +1,12 @@
 {
  "miseAJour": "2026-10-27",
  "recherche": {
-  "periode": "7 derniers jours",
+  "periode": "60 derniers jours (affichage par défaut : 7 à 60 jours)",
   "villesPivots": [
-   "Montréal",
-   "Québec",
-   "Trois-Rivières",
    "Sherbrooke",
-   "Drummondville"
+   "Lac-Mégantic",
+   "Drummondville",
+   "Victoriaville"
   ],
   "rayonKm": 80,
   "postes": [
@@ -52,7 +51,7 @@
     "domaine": "Gestion de projets"
    }
   ],
-  "territoire": "Sud du Québec, de Montréal à Québec inclusivement (Montréal, Laval, Laurentides, Lanaudière, Montérégie, Estrie, Centre-du-Québec, Mauricie, Capitale-Nationale, Chaudière-Appalaches)",
+  "territoire": "Phase 1 : toute l'Estrie et tout le Centre-du-Québec. Phase 2 (plus tard) : le reste du sud du Québec, de Montréal à Québec.",
   "groupesDeRecherche": [
    {
     "domaine": "Génie mécanique",

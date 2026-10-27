@@ -199,7 +199,7 @@ details.suivi summary b { color: var(--orange); }
   </svg>
   <div class="inner">
     <h1>Les bonnes occasions ne se trouvent pas par hasard.</h1>
-    <p>Les nouvelles offres d'emploi de la région, collectées sur LinkedIn, Jobboom, Jobillico, Indeed et les sites des entreprises, au même endroit.</p>
+    <p>Les offres d'emploi de la région collectées sur LinkedIn, Jobillico et les sites des entreprises. Par défaut, celles affichées depuis 7 à 60 jours : les postes qui ont du mal à se pourvoir.</p>
     <div class="veille" id="veille">En attente de la première tournée</div>
     <form class="recherche" id="formRecherche" role="search">
       <label for="q">Poste, mot-clé ou entreprise
@@ -232,6 +232,7 @@ details.suivi summary b { color: var(--orange); }
             <label><input type="checkbox" id="p12" value="12"> 12 dernières heures</label>
             <label><input type="checkbox" id="p24" value="24"> 24 dernières heures</label>
             <label><input type="checkbox" id="p168" value="168"> Dernière semaine</label>
+            <label><input type="checkbox" id="p168-1440" value="168-1440"> Entre 7 et 60 jours</label>
           </div>
         </details>
         <details class="groupe-f" open>
@@ -332,22 +333,23 @@ let memo = {};
 try { memo = JSON.parse(localStorage.getItem("sentinelle-filtres") || "{}") || {}; } catch {}
 if (memo.tri) $("tri").value = memo.tri;
 if (memo.vue) state.vue = memo.vue;
-for (const v of memo.periodes || []) { const c = $("p" + v); if (c) c.checked = true; }
+// Par défaut : les offres affichées depuis 7 à 60 jours (postes plus difficiles à pourvoir)
+for (const v of (memo.v === 2 && Array.isArray(memo.periodes) ? memo.periodes : ["168-1440"])) { const c = $("p" + v); if (c) c.checked = true; }
 $("region").dataset.memo = memo.region || "";
 $("domaine").dataset.memo = memo.domaine || "";
 function memoFiltres() {
-  try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, domaine: $("domaine").value, tri: $("tri").value, vue: state.vue,
+  try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ v: 2, region: $("region").value, domaine: $("domaine").value, tri: $("tri").value, vue: state.vue,
     periodes: coches("periodes"), sources: coches("casesSource"), suivis: coches("casesSuivi") })); } catch {}
 }
 
 function filtrer() {
   const q = $("q").value.trim().toLowerCase(), reg = $("region").value, dom = $("domaine").value;
-  const fen = coches("periodes").map(Number), maxH = fen.length ? Math.max(...fen) : Infinity;
+  const fen = coches("periodes").map(v => v.includes("-") ? v.split("-").map(Number) : [0, Number(v)]);
   const srcs = coches("casesSource"), suivis = coches("casesSuivi");
   return state.offres.filter(o => {
     const n = state.notes[o.id] || {};
     if (state.favSeul && !n.favori) return false;
-    if (age(o.publieLe).h > maxH) return false;
+    if (fen.length) { const h = age(o.publieLe).h; if (!fen.some(([a, b]) => h >= a && h <= b)) return false; }
     if (reg && o.region !== reg) return false;
     if (dom && o.domaine !== dom) return false;
     if (srcs.length && !sourcesDe(o).some(s => srcs.includes(s))) return false;

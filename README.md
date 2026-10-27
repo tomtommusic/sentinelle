@@ -1,6 +1,6 @@
 # Sentinelle
 
-Tableau de veille des offres d'emploi récentes (7 derniers jours, filtrables par date de parution), regroupées par entreprise, avec coordonnées publiques et suivi.
+Tableau de veille des offres d'emploi récentes (60 derniers jours; affichage par défaut : 7 à 60 jours), regroupées par entreprise, avec coordonnées publiques et suivi.
 
 - `index.html` : l'application (une seule page, aucune dépendance à installer).
 - `data/offres.json` : les offres et les coordonnées, mis à jour après chaque tournée.
