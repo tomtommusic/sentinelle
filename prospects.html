@@ -90,6 +90,11 @@ details ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 2px; }
 .tbl { overflow-x: auto; }
 .outils { display: flex; flex-wrap: wrap; gap: 8px; }
 button.btn { font: 500 13px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+.selbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
+.selbar b { font-variant-numeric: tabular-nums; }
+.selbar textarea { flex-basis: 100%; min-height: 80px; font: 13px var(--mono); }
+.surv { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 500; cursor: pointer; }
+.surv input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); }
 .vide, .avis { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 24px 20px; text-align: center; color: var(--muted); }
 .avis { background: var(--warn-bg); color: var(--warn-ink); border: 0; text-align: left; padding: 12px 16px; }
 </style>
@@ -102,6 +107,14 @@ button.btn { font: 500 13px var(--body); color: var(--ink); background: var(--su
   </header>
 
   <div class="cats" id="cats"></div>
+
+  <div class="selbar" id="selbar">
+    <span><b id="nbSurv">0</b> entreprise(s) à surveiller</span>
+    <button class="btn" id="voirSurv" type="button">Voir seulement celles-ci</button>
+    <button class="btn" id="copierSurv" type="button">Copier ma sélection</button>
+    <span id="copieEtat" class="etat"></span>
+    <textarea id="copieTexte" readonly hidden aria-label="Liste des entreprises à surveiller"></textarea>
+  </div>
 
   <details class="methode">
     <summary>Comment le classement est fait</summary>
@@ -183,7 +196,8 @@ const CATS = [
 ];
 const SUIVIS = { "": "—", "a-approcher": "À approcher", "contacte": "Contacté", "client": "Client", "pas-interesse": "Pas intéressé" };
 const CLE = "sentinelle-prospects";
-const st = { liste: [], cat: "", suivi: {} };
+const st = { liste: [], cat: "", suivi: {}, serveur: new Set(), seulSurv: false };
+const estSurv = (id) => { const m = st.suivi[id]; return m && typeof m.surveiller === "boolean" ? m.surveiller : st.serveur.has(id); };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const sureUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
@@ -201,6 +215,7 @@ function remplir(id, vals, tous) {
 function filtrer() {
   const q = $("q").value.trim().toLowerCase(), r = $("region").value, s = $("secteur").value, t = $("taille").value, sv = $("suiviF").value;
   return st.liste.filter(c => {
+    if (st.seulSurv && !estSurv(c.id)) return false;
     if (r && c.region !== r) return false;
     if (s && premier(c.secteur) !== s) return false;
     if (t === "?" ? c.taille : (t && c.taille !== t)) return false;
@@ -213,6 +228,8 @@ function filtrer() {
 
 function render() {
   const v = filtrer();
+  $("nbSurv").textContent = st.liste.filter(c => estSurv(c.id)).length;
+  $("voirSurv").textContent = st.seulSurv ? "Voir toutes les entreprises" : "Voir seulement celles-ci";
   $("cats").innerHTML = CATS.map(c => {
     const n = v.filter(x => x.categorie === c.k).length;
     return `<button class="cat" type="button" data-cat="${esc(c.k)}" aria-pressed="${st.cat === c.k}">
@@ -244,6 +261,7 @@ function fiche(c) {
       </div>
     </div>
     <div class="suivi">
+      <label class="surv" for="ws-${esc(c.id)}"><input type="checkbox" id="ws-${esc(c.id)}" class="js-ws" data-id="${esc(c.id)}" ${estSurv(c.id) ? "checked" : ""}> Surveiller ses offres</label>
       <select id="sv-${esc(c.id)}" class="js-sv" data-id="${esc(c.id)}" aria-label="Mon suivi pour ${esc(c.nom)}">
         ${Object.entries(SUIVIS).map(([k, l]) => `<option value="${k}" ${(m.statut || "") === k ? "selected" : ""}>${k ? l : "Mon suivi…"}</option>`).join("")}
       </select>
@@ -255,13 +273,14 @@ function fiche(c) {
 
 function sauver(id, champs) {
   const prec = st.suivi[id] || {};
-  st.suivi[id] = { statut: prec.statut || "", texte: prec.texte || "", ...champs, majLe: new Date().toISOString() };
+  st.suivi[id] = { ...prec, statut: prec.statut || "", texte: prec.texte || "", ...champs, majLe: new Date().toISOString() };
   const ok = ecrire();
   const e = $("et-" + id); if (e) e.textContent = ok ? "Enregistré sur cet appareil" : "Ce navigateur bloque l'enregistrement local";
 }
 document.addEventListener("change", (ev) => {
   const t = ev.target;
-  if (t.classList.contains("js-sv")) sauver(t.dataset.id, { statut: t.value });
+  if (t.classList.contains("js-ws")) { sauver(t.dataset.id, { surveiller: t.checked }); $("nbSurv").textContent = st.liste.filter(c => estSurv(c.id)).length; }
+  else if (t.classList.contains("js-sv")) sauver(t.dataset.id, { statut: t.value });
   else if (t.classList.contains("js-nt")) sauver(t.dataset.id, { texte: t.value.trim() });
   else if (["region", "secteur", "taille", "suiviF"].includes(t.id)) render();
 });
@@ -291,6 +310,15 @@ $("fichier").addEventListener("change", async (ev) => {
   } catch { avis("Ce fichier n'est pas une sauvegarde du suivi des prospects."); }
   ev.target.value = "";
 });
+$("voirSurv").addEventListener("click", () => { st.seulSurv = !st.seulSurv; render(); });
+$("copierSurv").addEventListener("click", async () => {
+  const noms = st.liste.filter(c => estSurv(c.id)).map(c => `${c.nom} (${c.ville})`);
+  const texte = noms.length ? "Entreprises à surveiller dans Sentinelle :\n" + noms.join("\n") : "";
+  if (!texte) { $("copieEtat").textContent = "Coche d'abord au moins une entreprise."; return; }
+  const zone = $("copieTexte"); zone.value = texte;
+  try { await navigator.clipboard.writeText(texte); $("copieEtat").textContent = `${noms.length} entreprise(s) copiée(s). Colle la liste dans la conversation avec Claude.`; zone.hidden = true; }
+  catch { zone.hidden = false; zone.select(); $("copieEtat").textContent = "Sélectionne le texte ci-dessous et copie-le."; }
+});
 function avis(t) { const a = $("avis"); a.textContent = t; a.hidden = false; }
 
 (async () => {
@@ -299,6 +327,7 @@ function avis(t) { const a = $("avis"); a.textContent = t; a.hidden = false; }
     if (!r.ok) throw 0;
     const d = await r.json();
     st.liste = Array.isArray(d.entreprises) ? d.entreprises : [];
+    try { const r2 = await fetch("data/surveillance.json?t=" + Date.now(), { cache: "no-store" }); if (r2.ok) { const s2 = await r2.json(); st.serveur = new Set(s2.entreprisesSurveillees || []); } } catch {}
     remplir("region", [...new Set(st.liste.map(c => c.region))].sort((a, b) => a.localeCompare(b, "fr")), "Toutes");
     remplir("secteur", [...new Set(st.liste.map(c => premier(c.secteur)))].sort((a, b) => a.localeCompare(b, "fr")), "Tous");
     render();
