@@ -114,15 +114,10 @@ a.src:hover { border-color: var(--accent); color: var(--accent); }
 <div class="wrap">
   <header>
     <h1>Sentinelle<span>Veille des offres d'emploi · 72 dernières heures</span></h1>
-    <div class="veille" id="veille">En attente de la première tournée</div>
+    <div style="display:grid;gap:6px;justify-items:end"><a href="prospects.html" style="font-weight:600;color:var(--accent);text-decoration:none">Prospects →</a><div class="veille" id="veille">En attente de la première tournée</div></div>
   </header>
 
-  <div class="onglets" role="tablist">
-    <button class="onglet" role="tab" id="tab-offres" aria-selected="true" aria-controls="vueOffres" type="button">Offres</button>
-    <button class="onglet" role="tab" id="tab-entreprises" aria-selected="false" aria-controls="vueEntreprises" type="button">Entreprises surveillées <b id="nbCies"></b></button>
-  </div>
-
-  <div id="vueOffres" role="tabpanel" style="display:grid;gap:18px">
+  <div id="vueOffres" style="display:grid;gap:18px">
   <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
     <div class="stats" id="stats"></div>
     <div class="outils">
@@ -173,27 +168,6 @@ a.src:hover { border-color: var(--accent); color: var(--accent); }
   </div>
   </div>
 
-  <div id="vueEntreprises" role="tabpanel" hidden style="display:grid;gap:18px">
-    <div class="filtres ent-f">
-      <label class="f q" for="qE">Rechercher
-        <input id="qE" type="search" placeholder="Entreprise, ville, secteur…" autocomplete="off">
-      </label>
-      <label class="f" for="regionE">Région
-        <select id="regionE"><option value="">Toutes</option></select>
-      </label>
-      <label class="f" for="secteurE">Secteur
-        <select id="secteurE"><option value="">Tous</option></select>
-      </label>
-      <label class="f" for="triE">Trier
-        <select id="triE">
-          <option value="nom">Nom A → Z</option>
-          <option value="ville">Ville</option>
-          <option value="offres">Offres en cours d'abord</option>
-        </select>
-      </label>
-    </div>
-    <div class="ent" id="listeE"><div class="vide" style="border:0">Chargement de la liste…</div></div>
-  </div>
 </div>
 
 <script>
@@ -404,69 +378,6 @@ function renderSur() {
 }
 document.addEventListener("focusout", () => { if (renduDiffere) { renduDiffere = false; setTimeout(render, 50); } });
 
-// Entreprises surveillées : data/surveillance.json
-const ent = { liste: [], vue: "offres" };
-const premierMot = (x) => String(x || "").split(" – ")[0];
-function offresDe(c) {
-  const a = slug(premierMot(c.nom));
-  return state.offres.filter(o => { const b = slug(o.entreprise); return b && (b === a || b.startsWith(a + "-") || a.startsWith(b + "-")); }).length;
-}
-function renderEntreprises() {
-  const L = ent.liste;
-  $("nbCies").textContent = L.length || "";
-  const remplir = (id, vals, tous) => {
-    const el = $(id), cur = el.value;
-    el.innerHTML = `<option value="">${tous}</option>` + vals.map(v => `<option>${esc(v)}</option>`).join("");
-    if (vals.includes(cur)) el.value = cur;
-  };
-  remplir("regionE", [...new Set(L.map(c => c.region))].sort((a, b) => a.localeCompare(b, "fr")), "Toutes");
-  remplir("secteurE", [...new Set(L.map(c => premierMot(c.secteur)))].sort((a, b) => a.localeCompare(b, "fr")), "Tous");
-  if (ent.vue !== "entreprises") return;
-  const q = $("qE").value.trim().toLowerCase(), r = $("regionE").value, sct = $("secteurE").value, tri = $("triE").value;
-  let v = L.filter(c => (!r || c.region === r) && (!sct || premierMot(c.secteur) === sct) &&
-    (!q || [c.nom, c.ville, c.secteur, c.signal].join(" ").toLowerCase().includes(q)))
-    .map(c => ({ ...c, n: offresDe(c) }));
-  if (tri === "nom") v.sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
-  if (tri === "ville") v.sort((a, b) => a.ville.localeCompare(b.ville, "fr") || a.nom.localeCompare(b.nom, "fr"));
-  if (tri === "offres") v.sort((a, b) => b.n - a.n || a.nom.localeCompare(b.nom, "fr"));
-  if (!v.length) { $("listeE").innerHTML = `<div class="vide" style="border:0">Aucune entreprise ne correspond à ces filtres.</div>`; return; }
-  $("listeE").innerHTML = v.map(c => `<article class="cie">
-      <div style="display:grid;gap:3px;min-width:0">
-        <h3>${esc(c.nom)}</h3>
-        <div class="meta"><span>${esc(c.ville)}</span><span>${esc(c.region)}</span><span>${esc(c.secteur)}</span></div>
-        <div style="font-size:14px">${esc(c.signal || "")}</div>
-      </div>
-      <div class="droite">
-        ${c.n ? `<span class="nb">${c.n} offre${c.n > 1 ? "s" : ""} en cours</span>` : ""}
-        ${sureUrl(c.pageCarrieres) ? `<a href="${esc(c.pageCarrieres)}" target="_blank" rel="noopener">Page carrières</a>` : ""}
-        ${sureUrl(c.siteWeb) ? `<a href="${esc(c.siteWeb)}" target="_blank" rel="noopener">Site web</a>` : ""}
-      </div>
-    </article>`).join("");
-}
-async function chargerEntreprises() {
-  try {
-    const r = await fetch("data/surveillance.json?t=" + Date.now(), { cache: "no-store" });
-    if (!r.ok) throw new Error(r.status);
-    const d = await r.json();
-    ent.liste = Array.isArray(d.entreprises) ? d.entreprises : [];
-    renderEntreprises();
-  } catch { $("listeE").innerHTML = `<div class="vide" style="border:0">Impossible de charger la liste. Recharge la page.</div>`; }
-}
-function montrerVue(v) {
-  ent.vue = v;
-  $("vueOffres").hidden = v !== "offres";
-  $("vueEntreprises").hidden = v !== "entreprises";
-  $("tab-offres").setAttribute("aria-selected", v === "offres");
-  $("tab-entreprises").setAttribute("aria-selected", v === "entreprises");
-  try { localStorage.setItem("sentinelle-vue", v); } catch {}
-  if (v === "entreprises") renderEntreprises();
-}
-$("tab-offres").addEventListener("click", () => montrerVue("offres"));
-$("tab-entreprises").addEventListener("click", () => montrerVue("entreprises"));
-document.addEventListener("change", (ev) => { if (["regionE", "secteurE", "triE"].includes(ev.target.id)) renderEntreprises(); });
-let attenteE; $("qE").addEventListener("input", () => { clearTimeout(attenteE); attenteE = setTimeout(renderEntreprises, 150); });
-try { if (localStorage.getItem("sentinelle-vue") === "entreprises") montrerVue("entreprises"); } catch {}
-
 // Offres : fichier data/offres.json, mis à jour après chaque tournée
 async function chargerOffres() {
   try {
@@ -480,8 +391,7 @@ async function chargerOffres() {
   } catch { montrerAvis("Impossible de charger les offres. Vérifie ta connexion, puis recharge la page."); }
 }
 chargerNotes();
-chargerOffres().then(renderEntreprises);
-chargerEntreprises();
+chargerOffres();
 document.addEventListener("visibilitychange", () => { if (!document.hidden) chargerOffres(); });
 </script>
 </body>

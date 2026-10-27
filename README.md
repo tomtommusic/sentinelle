@@ -21,9 +21,12 @@ Les notes et statuts de suivi sont gardés dans le navigateur de la personne qui
 }
 ```
 
-## Pages carrières surveillées
+## Pages carrières et sites surveillés
 
 `data/surveillance.json` contient :
 - `sitesEmploi` : les sites d'emploi consultés à chaque tournée, et s'ils exigent une session ouverte ;
-- `pagesCarrieres` : les pages carrières vérifiées directement à chaque tournée ;
-- `entreprises` : 200 employeurs de l'Estrie, de la Mauricie et du Centre-du-Québec susceptibles de recruter (onglet « Entreprises surveillées »), avec la raison de leur présence dans la liste.
+- `pagesCarrieres` : les pages carrières vérifiées directement à chaque tournée.
+
+## Prospects
+
+`prospects.html` est un outil séparé : les entreprises entre Montréal et Québec (de Sorel-Tracy et Saint-Hyacinthe à Stanstead, jusqu'à Shawinigan), classées selon leur probabilité de faire appel à une firme de recrutement (Fort probable, Probable, Mandats de cadres, Peu probable). Les données sont dans `data/prospects.json`; la méthode de pointage est expliquée dans la page. Le suivi (statut et notes) est gardé dans le navigateur.

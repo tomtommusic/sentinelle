@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prospects Sentinelle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout : une colonne — bandeau des 4 catégories (filtres rapides), filtres collants, puis fiches classées par probabilité */
+:root {
+  --bg: #eef1f5;
+  --surface: #ffffff;
+  --ink: #14202e;
+  --muted: #4f5d6d;
+  --line: #cfd6df;
+  --accent: #1d4ed8;
+  --chip: #e3e9f1;
+  --fort: #0b3d91;
+  --fort-bg: #d6e3fa;
+  --warn-bg: #fff1c2;
+  --warn-ink: #5a4200;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
+  --accent: #7fa8ff; --chip: #233041; --fort: #cfe0ff; --fort-bg: #1e3352;
+  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f151d; --surface: #18212c; --ink: #e8edf3; --muted: #a3afbd; --line: #2c3846;
+  --accent: #7fa8ff; --chip: #233041; --fort: #cfe0ff; --fort-bg: #1e3352;
+  --warn-bg: #4a3a08; --warn-ink: #ffe9a8; color-scheme: dark }
+
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 20px 60px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 18px; }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 20px; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1 var(--display); letter-spacing: -0.02em; margin: 0; }
+h1 span { display: block; font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+a { color: var(--accent); }
+.retour { font-weight: 600; text-decoration: none; }
+.retour:hover { text-decoration: underline; }
+
+.cats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 700px) { .cats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.cat { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; cursor: pointer; color: var(--ink); font: inherit; display: grid; gap: 2px; }
+.cat b { font: 700 24px var(--display); font-variant-numeric: tabular-nums; }
+.cat small { color: var(--muted); font-size: 12px; line-height: 1.3; }
+.cat[aria-pressed="true"] { border: 2px solid var(--accent); padding: 9px 11px; }
+.niv { font: 500 13px var(--mono); letter-spacing: .1em; }
+
+.filtres { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr repeat(4, 1fr); border-bottom: 1px solid var(--line); }
+@media (max-width: 700px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres .q { grid-column: 1 / -1; } }
+label.f { display: grid; gap: 3px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
+input, select, textarea { font: 15px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 8px 10px; width: 100%; box-sizing: border-box; min-width: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+
+.groupe { display: grid; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.groupe > h2 { margin: 0; padding: 12px 16px; font: 700 20px var(--display); border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.groupe > h2 small { font: 400 14px var(--body); color: var(--muted); }
+.fiche { padding: 12px 16px; display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 8px 16px; border-top: 1px solid var(--line); }
+.groupe > h2 + .fiche { border-top: 0; }
+@media (max-width: 640px) { .fiche { grid-template-columns: 1fr; } }
+.fiche h3 { margin: 0; font: 600 16px/1.35 var(--body); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.score { font: 500 12px var(--mono); padding: 1px 8px; border-radius: 99px; background: var(--chip); color: var(--ink); }
+.score.fort { background: var(--fort-bg); color: var(--fort); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--muted); }
+.meta b { color: var(--ink); font-weight: 500; }
+details { font-size: 14px; }
+summary { cursor: pointer; color: var(--accent); font-weight: 500; }
+details ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 2px; }
+.suivi { display: grid; gap: 6px; align-content: start; }
+.suivi textarea { min-height: 38px; resize: vertical; font-size: 14px; }
+.etat { font-size: 12px; color: var(--muted); min-height: 1em; }
+.liens { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 14px; }
+
+.methode { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+.methode summary { font: 700 16px var(--display); color: var(--ink); }
+.methode p, .methode li { max-width: 70ch; }
+.methode table { border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+.methode td, .methode th { border-bottom: 1px solid var(--line); padding: 6px 10px 6px 0; text-align: left; vertical-align: top; }
+.methode td:last-child { font: 500 13px var(--mono); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tbl { overflow-x: auto; }
+.outils { display: flex; flex-wrap: wrap; gap: 8px; }
+button.btn { font: 500 13px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+.vide, .avis { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 24px 20px; text-align: center; color: var(--muted); }
+.avis { background: var(--warn-bg); color: var(--warn-ink); border: 0; text-align: left; padding: 12px 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Prospects<span>Entreprises à approcher · Montérégie-Est, Estrie, Centre-du-Québec, Mauricie</span></h1>
+    <a class="retour" href="./">← Offres d'emploi (Sentinelle)</a>
+  </header>
+
+  <div class="cats" id="cats"></div>
+
+  <details class="methode">
+    <summary>Comment le classement est fait</summary>
+    <p>Une firme de recrutement coûte cher. Les très grandes organisations recrutent avec leur propre équipe, et les très petites n'ont pas le budget. Le cœur de la cible, ce sont les PME de 50 à 499 employés qui cherchent des profils spécialisés. Chaque entreprise reçoit des points selon ces indicateurs :</p>
+    <div class="tbl"><table>
+      <tr><th>Indicateur</th><th>Points</th></tr>
+      <tr><td>Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents</td><td>+3</td></tr>
+      <tr><td>Taille 200-499 employés</td><td>+2</td></tr>
+      <tr><td>Taille 500-999 employés, ou taille inconnue (souvent une PME)</td><td>+1</td></tr>
+      <tr><td>Taille 20-49 employés</td><td>0</td></tr>
+      <tr><td>Taille 1000+ employés (équipe interne)</td><td>−2</td></tr>
+      <tr><td>Moins de 20 employés (recrute par réseau)</td><td>−3</td></tr>
+      <tr><td>Postes techniques ou spécialisés (génie, production, maintenance)</td><td>+2</td></tr>
+      <tr><td>Postes surtout généraux (commerce, transport, services)</td><td>−1</td></tr>
+      <tr><td>Croissance récente : agrandissement, nouvelle usine, embauches annoncées</td><td>+2</td></tr>
+      <tr><td>Recrute en ce moment (offres actives, salon de l'emploi)</td><td>+1</td></tr>
+      <tr><td>Filiale d'une multinationale ou membre d'un grand groupe (RH centralisées)</td><td>−1</td></tr>
+      <tr><td>Organisme de recherche à financement public</td><td>−2</td></tr>
+    </table></div>
+    <ul>
+      <li><b>Fort probable</b> : 6 points et plus.</li>
+      <li><b>Probable</b> : 3 à 5 points.</li>
+      <li><b>Peu probable</b> : 2 points et moins, et tous les employeurs publics (santé, éducation, municipal, gouvernement), dont l'embauche suit des conventions et des règles d'attribution de contrats.</li>
+      <li><b>Mandats de cadres</b> : très grandes entreprises privées. Elles recrutent elles-mêmes la plupart des postes, mais confient souvent la recherche de cadres et de dirigeants à des chasseurs de têtes.</li>
+    </ul>
+    <p>La taille est une estimation de l'établissement local, tirée de sources publiques. Elle sera précisée au fil des tournées.</p>
+  </details>
+
+  <div class="filtres">
+    <label class="f q" for="q">Rechercher
+      <input id="q" type="search" placeholder="Entreprise, ville, secteur…" autocomplete="off">
+    </label>
+    <label class="f" for="region">Région
+      <select id="region"><option value="">Toutes</option></select>
+    </label>
+    <label class="f" for="secteur">Secteur
+      <select id="secteur"><option value="">Tous</option></select>
+    </label>
+    <label class="f" for="taille">Taille
+      <select id="taille">
+        <option value="">Toutes</option>
+        <option value="50-199">50-199</option>
+        <option value="200-499">200-499</option>
+        <option value="500-999">500-999</option>
+        <option value="1000+">1000+</option>
+        <option value="20-49">20-49</option>
+        <option value="1-19">1-19</option>
+        <option value="?">À confirmer</option>
+      </select>
+    </label>
+    <label class="f" for="suiviF">Mon suivi
+      <select id="suiviF">
+        <option value="">Tous</option>
+        <option value="a-approcher">À approcher</option>
+        <option value="contacte">Contacté</option>
+        <option value="client">Client</option>
+        <option value="pas-interesse">Pas intéressé</option>
+        <option value="aucun">Sans suivi</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="avis" class="avis" hidden></div>
+  <div id="liste" style="display:grid;gap:14px"><div class="vide">Chargement des prospects…</div></div>
+
+  <div class="outils">
+    <button class="btn" id="exporter" type="button">Sauvegarder mon suivi</button>
+    <button class="btn" id="importer" type="button">Restaurer mon suivi</button>
+    <input id="fichier" type="file" accept="application/json,.json" hidden>
+  </div>
+</div>
+
+<script>
+const CATS = [
+  { k: "Fort probable", niv: "●●●", desc: "PME en croissance avec des postes spécialisés" },
+  { k: "Probable", niv: "●●○", desc: "Bon profil, à valider" },
+  { k: "Mandats de cadres", niv: "◆", desc: "Grandes entreprises : postes de direction surtout" },
+  { k: "Peu probable", niv: "●○○", desc: "Publiques, très petites ou recrutement interne" },
+];
+const SUIVIS = { "": "—", "a-approcher": "À approcher", "contacte": "Contacté", "client": "Client", "pas-interesse": "Pas intéressé" };
+const CLE = "sentinelle-prospects";
+const st = { liste: [], cat: "", suivi: {} };
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const sureUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
+const premier = (x) => String(x || "").split(" – ")[0];
+
+try { st.suivi = JSON.parse(localStorage.getItem(CLE) || "{}") || {}; } catch {}
+function ecrire() { try { localStorage.setItem(CLE, JSON.stringify(st.suivi)); return true; } catch { return false; } }
+
+function remplir(id, vals, tous) {
+  const el = $(id), cur = el.value;
+  el.innerHTML = `<option value="">${tous}</option>` + vals.map(v => `<option>${esc(v)}</option>`).join("");
+  if (vals.includes(cur)) el.value = cur;
+}
+
+function filtrer() {
+  const q = $("q").value.trim().toLowerCase(), r = $("region").value, s = $("secteur").value, t = $("taille").value, sv = $("suiviF").value;
+  return st.liste.filter(c => {
+    if (r && c.region !== r) return false;
+    if (s && premier(c.secteur) !== s) return false;
+    if (t === "?" ? c.taille : (t && c.taille !== t)) return false;
+    const mon = (st.suivi[c.id] || {}).statut || "";
+    if (sv === "aucun" ? mon : (sv && mon !== sv)) return false;
+    if (q && ![c.nom, c.ville, c.secteur, c.region].join(" ").toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+function render() {
+  const v = filtrer();
+  $("cats").innerHTML = CATS.map(c => {
+    const n = v.filter(x => x.categorie === c.k).length;
+    return `<button class="cat" type="button" data-cat="${esc(c.k)}" aria-pressed="${st.cat === c.k}">
+      <span class="niv" aria-hidden="true">${c.niv}</span><b>${n}</b><span>${esc(c.k)}</span><small>${esc(c.desc)}</small></button>`;
+  }).join("");
+  const visibles = st.cat ? CATS.filter(c => c.k === st.cat) : CATS;
+  const html = visibles.map(c => {
+    const items = v.filter(x => x.categorie === c.k).sort((a, b) => b.score - a.score || a.nom.localeCompare(b.nom, "fr"));
+    if (!items.length) return "";
+    return `<section class="groupe"><h2><span aria-hidden="true" class="niv">${c.niv}</span> ${esc(c.k)} <small>${items.length} entreprise${items.length > 1 ? "s" : ""}</small></h2>
+      ${items.map(fiche).join("")}</section>`;
+  }).join("");
+  $("liste").innerHTML = html || `<div class="vide">Aucune entreprise ne correspond à ces filtres.</div>`;
+}
+
+function fiche(c) {
+  const m = st.suivi[c.id] || {};
+  const pub = c.type === "Public / parapublic";
+  return `<article class="fiche">
+    <div style="display:grid;gap:4px;min-width:0">
+      <h3>${esc(c.nom)} ${pub ? "" : `<span class="score ${c.score >= 6 ? "fort" : ""}">${c.score > 0 ? "+" : ""}${c.score} pts</span>`}</h3>
+      <div class="meta"><span>${esc(c.ville)}</span><span>${esc(c.region)}</span><span>${esc(c.secteur)}</span></div>
+      <div class="meta"><span>Taille : <b>${c.taille ? esc(c.taille) + " employés" : "à confirmer"}</b></span><span>${esc(c.type)}</span></div>
+      <details><summary>Pourquoi ce classement</summary><ul>${c.raisons.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>
+      <div class="liens">
+        ${sureUrl(c.pageCarrieres) ? `<a href="${esc(c.pageCarrieres)}" target="_blank" rel="noopener">Page carrières</a>` : ""}
+        ${sureUrl(c.siteWeb) ? `<a href="${esc(c.siteWeb)}" target="_blank" rel="noopener">Site web</a>` : ""}
+        <a href="https://www.linkedin.com/search/results/companies/?keywords=${encodeURIComponent(premier(c.nom))}" target="_blank" rel="noopener">Chercher sur LinkedIn</a>
+      </div>
+    </div>
+    <div class="suivi">
+      <select id="sv-${esc(c.id)}" class="js-sv" data-id="${esc(c.id)}" aria-label="Mon suivi pour ${esc(c.nom)}">
+        ${Object.entries(SUIVIS).map(([k, l]) => `<option value="${k}" ${(m.statut || "") === k ? "selected" : ""}>${k ? l : "Mon suivi…"}</option>`).join("")}
+      </select>
+      <textarea id="nt-${esc(c.id)}" class="js-nt" data-id="${esc(c.id)}" placeholder="Contact, date d'appel, notes…" aria-label="Notes sur ${esc(c.nom)}">${esc(m.texte || "")}</textarea>
+      <div class="etat" id="et-${esc(c.id)}"></div>
+    </div>
+  </article>`;
+}
+
+function sauver(id, champs) {
+  const prec = st.suivi[id] || {};
+  st.suivi[id] = { statut: prec.statut || "", texte: prec.texte || "", ...champs, majLe: new Date().toISOString() };
+  const ok = ecrire();
+  const e = $("et-" + id); if (e) e.textContent = ok ? "Enregistré sur cet appareil" : "Ce navigateur bloque l'enregistrement local";
+}
+document.addEventListener("change", (ev) => {
+  const t = ev.target;
+  if (t.classList.contains("js-sv")) sauver(t.dataset.id, { statut: t.value });
+  else if (t.classList.contains("js-nt")) sauver(t.dataset.id, { texte: t.value.trim() });
+  else if (["region", "secteur", "taille", "suiviF"].includes(t.id)) render();
+});
+document.addEventListener("click", (ev) => {
+  const b = ev.target.closest(".cat"); if (!b) return;
+  st.cat = st.cat === b.dataset.cat ? "" : b.dataset.cat; render();
+});
+let att; $("q").addEventListener("input", () => { clearTimeout(att); att = setTimeout(render, 150); });
+
+$("exporter").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify({ app: "sentinelle-prospects", exporteLe: new Date().toISOString(), suivi: st.suivi }, null, 2)], { type: "application/json" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+  a.download = `prospects-suivi-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+});
+$("importer").addEventListener("click", () => $("fichier").click());
+$("fichier").addEventListener("change", async (ev) => {
+  const f = ev.target.files && ev.target.files[0]; if (!f) return;
+  try {
+    const o = JSON.parse(await f.text()); if (!o || typeof o.suivi !== "object") throw 0;
+    let n = 0;
+    for (const [id, x] of Object.entries(o.suivi)) {
+      const ici = st.suivi[id];
+      if (!ici || (Date.parse(x.majLe) || 0) > (Date.parse(ici.majLe) || 0)) { st.suivi[id] = x; n++; }
+    }
+    ecrire(); render(); avis(`${n} fiche${n > 1 ? "s" : ""} de suivi restaurée${n > 1 ? "s" : ""}.`);
+  } catch { avis("Ce fichier n'est pas une sauvegarde du suivi des prospects."); }
+  ev.target.value = "";
+});
+function avis(t) { const a = $("avis"); a.textContent = t; a.hidden = false; }
+
+(async () => {
+  try {
+    const r = await fetch("data/prospects.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw 0;
+    const d = await r.json();
+    st.liste = Array.isArray(d.entreprises) ? d.entreprises : [];
+    remplir("region", [...new Set(st.liste.map(c => c.region))].sort((a, b) => a.localeCompare(b, "fr")), "Toutes");
+    remplir("secteur", [...new Set(st.liste.map(c => premier(c.secteur)))].sort((a, b) => a.localeCompare(b, "fr")), "Tous");
+    render();
+  } catch { $("liste").innerHTML = `<div class="vide">Impossible de charger les prospects. Vérifie ta connexion, puis recharge la page.</div>`; }
+})();
+</script>
+</body>
+</html>

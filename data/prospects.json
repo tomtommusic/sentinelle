@@ -1,0 +1,4787 @@
+{
+ "miseAJour": "2026-10-27",
+ "territoire": "Entre Montréal et Québec : de Sorel-Tracy et Saint-Hyacinthe à Stanstead, jusqu'à Shawinigan",
+ "entreprises": [
+  {
+   "id": "ciusss-de-l-estrie-chus",
+   "nom": "CIUSSS de l'Estrie – CHUS",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Santé",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.santeestrie.qc.ca"
+  },
+  {
+   "id": "universite-de-sherbrooke",
+   "nom": "Université de Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.usherbrooke.ca"
+  },
+  {
+   "id": "universite-bishop-s",
+   "nom": "Université Bishop's",
+   "region": "Estrie",
+   "ville": "Sherbrooke (Lennoxville)",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.ubishops.ca"
+  },
+  {
+   "id": "cegep-de-sherbrooke",
+   "nom": "Cégep de Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.cegepsherbrooke.qc.ca"
+  },
+  {
+   "id": "centre-de-services-scolaire-de-la-region-de-sherbrooke",
+   "nom": "Centre de services scolaire de la Région-de-Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "ville-de-sherbrooke",
+   "nom": "Ville de Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Municipal",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.sherbrooke.ca"
+  },
+  {
+   "id": "societe-de-transport-de-sherbrooke",
+   "nom": "Société de transport de Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Transport",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "brp",
+   "nom": "BRP",
+   "region": "Estrie",
+   "ville": "Valcourt",
+   "secteur": "Manufacturier – véhicules récréatifs",
+   "taille": "1000+",
+   "type": "Membre d'un grand groupe",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Siège social et centre de R-D; grand employeur en génie"
+   ],
+   "siteWeb": "https://www.brp.com",
+   "pageCarrieres": "https://careers.brp.com/ca/fr"
+  },
+  {
+   "id": "domtar-usine-de-windsor",
+   "nom": "Domtar – Usine de Windsor",
+   "region": "Estrie",
+   "ville": "Windsor",
+   "secteur": "Pâtes et papiers",
+   "taille": "500-999",
+   "type": "Filiale d'un groupe international",
+   "score": 2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grande usine; postes en génie et maintenance"
+   ],
+   "siteWeb": "https://www.domtar.com"
+  },
+  {
+   "id": "entour-inc",
+   "nom": "Entour inc.",
+   "region": "Estrie",
+   "ville": "Windsor",
+   "secteur": "Manufacturier",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Environ 100 nouveaux emplois annoncés (été 2026)"
+   ]
+  },
+  {
+   "id": "waterville-tg",
+   "nom": "Waterville TG",
+   "region": "Estrie",
+   "ville": "Waterville",
+   "secteur": "Manufacturier – pièces automobiles",
+   "taille": "500-999",
+   "type": "Filiale d'un groupe international",
+   "score": 2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur industriel"
+   ]
+  },
+  {
+   "id": "groupe-ppd",
+   "nom": "Groupe PPD",
+   "region": "Estrie",
+   "ville": "Waterville / Sherbrooke / Magog / Drummondville",
+   "secteur": "Manufacturier",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : 55 emplois annoncés (2026); offres actives à Waterville et Drummondville"
+   ]
+  },
+  {
+   "id": "michelin-camso",
+   "nom": "Michelin – Camso",
+   "region": "Estrie",
+   "ville": "Magog",
+   "secteur": "Manufacturier – chenilles et pneus",
+   "taille": "500-999",
+   "type": "Filiale d'un groupe international",
+   "score": 2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur industriel et R-D"
+   ]
+  },
+  {
+   "id": "groupe-custeau",
+   "nom": "Groupe Custeau",
+   "region": "Estrie",
+   "ville": "Magog",
+   "secteur": "Manufacturier – transport",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : 60 emplois annoncés (déc. 2025)"
+   ]
+  },
+  {
+   "id": "tafisa-canada",
+   "nom": "Tafisa Canada",
+   "region": "Estrie",
+   "ville": "Lac-Mégantic",
+   "secteur": "Manufacturier – panneaux de bois",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur local"
+   ]
+  },
+  {
+   "id": "laiterie-de-coaticook",
+   "nom": "Laiterie de Coaticook",
+   "region": "Estrie",
+   "ville": "Coaticook",
+   "secteur": "Agroalimentaire",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Employeur local en croissance"
+   ]
+  },
+  {
+   "id": "dauphinais",
+   "nom": "Dauphinais",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Nouvelle usine de 27 M$, environ 30 embauches"
+   ]
+  },
+  {
+   "id": "filspec",
+   "nom": "Filspec",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – fils techniques",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Environ 10 emplois annoncés"
+   ]
+  },
+  {
+   "id": "sherbrooke-oem",
+   "nom": "Sherbrooke OEM",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – équipement industriel",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant de machinerie; postes en génie mécanique"
+   ]
+  },
+  {
+   "id": "attitude",
+   "nom": "Attitude",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Produits de consommation",
+   "taille": "",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Environ 20 emplois annoncés"
+   ]
+  },
+  {
+   "id": "quobly",
+   "nom": "Quobly",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Technologie – quantique",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Recrute une dizaine d'ingénieurs (2026)"
+   ]
+  },
+  {
+   "id": "sb-quantum",
+   "nom": "SB Quantum",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Technologie – quantique",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : En recrutement (2026)"
+   ]
+  },
+  {
+   "id": "sherweb",
+   "nom": "Sherweb",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Technologie – infonuagique",
+   "taille": "500-999",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Siège social; grand employeur techno"
+   ],
+   "siteWeb": "https://www.sherweb.com"
+  },
+  {
+   "id": "cafe-william",
+   "nom": "Café William",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Agroalimentaire",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : 50 embauches, production doublée (2026)"
+   ]
+  },
+  {
+   "id": "iga-couture",
+   "nom": "IGA Couture",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Commerce de détail",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Croissance récente : 125 emplois créés"
+   ]
+  },
+  {
+   "id": "equipe-laurence",
+   "nom": "Équipe Laurence",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Génie-conseil",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Nouveau bureau, création d'emplois"
+   ]
+  },
+  {
+   "id": "wsp-sherbrooke",
+   "nom": "WSP – Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Génie-conseil",
+   "taille": "1000+",
+   "type": "Membre d'un grand groupe",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Bureau régional; ingénieurs de toutes disciplines"
+   ],
+   "siteWeb": "https://www.wsp.com"
+  },
+  {
+   "id": "stantec-sherbrooke",
+   "nom": "Stantec – Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Génie-conseil",
+   "taille": "1000+",
+   "type": "Membre d'un grand groupe",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Bureau régional"
+   ],
+   "siteWeb": "https://www.stantec.com"
+  },
+  {
+   "id": "ibm-bromont",
+   "nom": "IBM Bromont",
+   "region": "Montérégie",
+   "ville": "Bromont",
+   "secteur": "Manufacturier – semi-conducteurs",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : 75 emplois créés, 1 000 maintenus"
+   ],
+   "siteWeb": "https://www.ibm.com"
+  },
+  {
+   "id": "teledyne-dalsa",
+   "nom": "Teledyne DALSA",
+   "region": "Montérégie",
+   "ville": "Bromont",
+   "secteur": "Manufacturier – semi-conducteurs",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur en génie"
+   ],
+   "siteWeb": "https://www.teledynedalsa.com"
+  },
+  {
+   "id": "ge-aerospace-bromont",
+   "nom": "GE Aerospace – Bromont",
+   "region": "Montérégie",
+   "ville": "Bromont",
+   "secteur": "Aérospatiale",
+   "taille": "500-999",
+   "type": "Filiale d'un groupe international",
+   "score": 2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur en génie et usinage"
+   ]
+  },
+  {
+   "id": "c2mi",
+   "nom": "C2MI",
+   "region": "Montérégie",
+   "ville": "Bromont",
+   "secteur": "Recherche – microélectronique",
+   "taille": "50-199",
+   "type": "Organisme de recherche",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Organisme de recherche à financement public : budget de recrutement limité",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Recrute une vingtaine de personnes (2026)"
+   ]
+  },
+  {
+   "id": "a7-integration",
+   "nom": "A7 Integration",
+   "region": "Montérégie",
+   "ville": "Bromont",
+   "secteur": "Technologie",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Environ 50 emplois annoncés"
+   ]
+  },
+  {
+   "id": "technum-quebec",
+   "nom": "Technum Québec",
+   "region": "Montérégie",
+   "ville": "Bromont",
+   "secteur": "Technologie",
+   "taille": "20-49",
+   "type": "Organisme de recherche",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Organisme de recherche à financement public : budget de recrutement limité",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Nouvel espace Konect (17 M$)"
+   ]
+  },
+  {
+   "id": "tremcar",
+   "nom": "Tremcar",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – citernes",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Usine de 38 M$, 150 emplois"
+   ]
+  },
+  {
+   "id": "prinoth",
+   "nom": "Prinoth",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – véhicules",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur (250 travailleurs)"
+   ]
+  },
+  {
+   "id": "amcor",
+   "nom": "Amcor",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – emballage",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Effectif passant de 30 à 80"
+   ]
+  },
+  {
+   "id": "transformateurs-pioneer",
+   "nom": "Transformateurs Pioneer",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – électrique",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Investissement de 20 M$ (oct. 2026)"
+   ]
+  },
+  {
+   "id": "groupe-neo",
+   "nom": "Groupe Neo",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Investissement de 15 M$"
+   ]
+  },
+  {
+   "id": "velan-granby",
+   "nom": "Velan – Granby",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – robinetterie",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Usine de fabrication; postes en génie"
+   ]
+  },
+  {
+   "id": "agropur-granby",
+   "nom": "Agropur – Granby",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grande usine laitière"
+   ],
+   "siteWeb": "https://www.agropur.com"
+  },
+  {
+   "id": "atlas-aeronautik",
+   "nom": "ATLAS Aeronautik",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Aérospatiale",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Investissement de 3 M$ en équipement"
+   ]
+  },
+  {
+   "id": "ciusss-de-la-mauricie-et-du-centre-du-quebec",
+   "nom": "CIUSSS de la Mauricie-et-du-Centre-du-Québec",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Santé",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://ciusssmcq.ca"
+  },
+  {
+   "id": "universite-du-quebec-a-trois-rivieres-uqtr",
+   "nom": "Université du Québec à Trois-Rivières (UQTR)",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.uqtr.ca"
+  },
+  {
+   "id": "cegep-de-trois-rivieres",
+   "nom": "Cégep de Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.cegeptr.qc.ca"
+  },
+  {
+   "id": "cegep-de-shawinigan",
+   "nom": "Cégep de Shawinigan",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "centre-de-services-scolaire-du-chemin-du-roy",
+   "nom": "Centre de services scolaire du Chemin-du-Roy",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "ville-de-trois-rivieres",
+   "nom": "Ville de Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Municipal",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.v3r.net"
+  },
+  {
+   "id": "ville-de-shawinigan",
+   "nom": "Ville de Shawinigan",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Municipal",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "gouvernement-du-canada-centre-fiscal-de-shawinigan",
+   "nom": "Gouvernement du Canada – Centre fiscal de Shawinigan",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Fonction publique",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "hydro-quebec-mauricie",
+   "nom": "Hydro-Québec – Mauricie",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières / Shawinigan",
+   "secteur": "Énergie",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.hydroquebec.com"
+  },
+  {
+   "id": "kruger-wayagamack",
+   "nom": "Kruger – Wayagamack",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Pâtes et papiers",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Modernisation de 333 M$, 56 emplois"
+   ],
+   "siteWeb": "https://www.kruger.com"
+  },
+  {
+   "id": "marmen",
+   "nom": "Marmen",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier – usinage et énergie",
+   "taille": "500-999",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur en génie mécanique"
+   ],
+   "siteWeb": "https://www.marmeninc.com"
+  },
+  {
+   "id": "olymel-trois-rivieres",
+   "nom": "Olymel – Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières / Yamachiche",
+   "secteur": "Agroalimentaire",
+   "taille": "500-999",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Nouvelle usine intégrée en service (mai 2026)"
+   ],
+   "siteWeb": "https://www.olymel.ca"
+  },
+  {
+   "id": "groupe-somavrac",
+   "nom": "Groupe Somavrac",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Industriel – produits chimiques et transport",
+   "taille": "500-999",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "500+ emplois maintenus après acquisition (2026)"
+   ]
+  },
+  {
+   "id": "solutions-ambra",
+   "nom": "Solutions Ambra",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Services",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Croissance récente : Nouveau site, 90+ employés"
+   ]
+  },
+  {
+   "id": "agt-robotique",
+   "nom": "AGT Robotique",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier – robotique",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Projet de 18 M$, 145 employés"
+   ]
+  },
+  {
+   "id": "menthes-rito",
+   "nom": "Menthes Rito",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Agroalimentaire",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Environ 40 employés, aide fédérale"
+   ]
+  },
+  {
+   "id": "captel",
+   "nom": "Captel",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Agrandissement du site (2026)"
+   ]
+  },
+  {
+   "id": "fab-3r",
+   "nom": "FAB 3R",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier – usinage",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Investissement en équipement"
+   ]
+  },
+  {
+   "id": "tuyauterie-gicleurs-trois-rivieres",
+   "nom": "Tuyauterie Gicleurs Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Construction – mécanique du bâtiment",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Nouvelle usine de 6 M$"
+   ]
+  },
+  {
+   "id": "mei-assainissement",
+   "nom": "MEi Assainissement",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Environnement",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Modernisation de 9,4 M$"
+   ]
+  },
+  {
+   "id": "premier-aviation-quebec",
+   "nom": "Premier Aviation Québec",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Aérospatiale – entretien",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Employeur en mécanique d'aéronefs"
+   ]
+  },
+  {
+   "id": "pluritec",
+   "nom": "Pluritec",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Génie-conseil",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Firme de génie régionale"
+   ],
+   "siteWeb": "https://www.pluritec.qc.ca"
+  },
+  {
+   "id": "cima-trois-rivieres",
+   "nom": "CIMA+ – Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Génie-conseil",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Bureau régional"
+   ],
+   "siteWeb": "https://www.cima.ca"
+  },
+  {
+   "id": "englobe-trois-rivieres",
+   "nom": "Englobe – Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Génie-conseil",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Bureau régional"
+   ],
+   "siteWeb": "https://www.englobecorp.com"
+  },
+  {
+   "id": "cogeco",
+   "nom": "Cogeco",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Télécommunications",
+   "taille": "1000+",
+   "type": "Membre d'un grand groupe",
+   "score": -4,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Présence historique importante"
+   ],
+   "siteWeb": "https://www.cogeco.ca"
+  },
+  {
+   "id": "shawinigan-aluminium",
+   "nom": "Shawinigan Aluminium",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Manufacturier – aluminium",
+   "taille": "",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Nouvelle gamme de produits (2026)"
+   ]
+  },
+  {
+   "id": "dupont-metal",
+   "nom": "Dupont Métal",
+   "region": "Mauricie",
+   "ville": "Sainte-Anne-de-la-Pérade",
+   "secteur": "Manufacturier – métal",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Agrandissement de 4,5 M$"
+   ]
+  },
+  {
+   "id": "machineries-pronovost",
+   "nom": "Machineries Pronovost",
+   "region": "Mauricie",
+   "ville": "Saint-Tite",
+   "secteur": "Manufacturier – machinerie agricole",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Projet de 1,2 M$"
+   ]
+  },
+  {
+   "id": "duchesne-et-fils",
+   "nom": "Duchesne et Fils",
+   "region": "Mauricie",
+   "ville": "Yamachiche",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Rappel de 85 travailleurs (juin 2026)"
+   ]
+  },
+  {
+   "id": "groupe-remabec-arbec",
+   "nom": "Groupe Rémabec / Arbec",
+   "region": "Mauricie",
+   "ville": "La Tuque / Trois-Rivières",
+   "secteur": "Foresterie – sciage",
+   "taille": "500-999",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Relance de plusieurs usines; suspension à Shawinigan (oct. 2026)"
+   ]
+  },
+  {
+   "id": "smurfit-westrock-la-tuque",
+   "nom": "Smurfit Westrock – La Tuque",
+   "region": "Mauricie",
+   "ville": "La Tuque",
+   "secteur": "Pâtes et papiers",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grande usine (fermeture d'une machine en 2026)"
+   ]
+  },
+  {
+   "id": "ville-de-drummondville",
+   "nom": "Ville de Drummondville",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Municipal",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.drummondville.ca"
+  },
+  {
+   "id": "ville-de-victoriaville",
+   "nom": "Ville de Victoriaville",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Municipal",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ],
+   "siteWeb": "https://www.victoriaville.ca"
+  },
+  {
+   "id": "cegep-de-drummondville",
+   "nom": "Cégep de Drummondville",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "cegep-de-victoriaville",
+   "nom": "Cégep de Victoriaville",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "centre-de-services-scolaire-des-chenes",
+   "nom": "Centre de services scolaire des Chênes",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "centre-de-services-scolaire-des-bois-francs",
+   "nom": "Centre de services scolaire des Bois-Francs",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "ecole-nationale-de-police-du-quebec",
+   "nom": "École nationale de police du Québec",
+   "region": "Centre-du-Québec",
+   "ville": "Nicolet",
+   "secteur": "Fonction publique",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "soucy-international",
+   "nom": "Soucy International",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – composantes de véhicules",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur en génie mécanique"
+   ]
+  },
+  {
+   "id": "soprema",
+   "nom": "Soprema",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – matériaux de construction",
+   "taille": "500-999",
+   "type": "Filiale d'un groupe international",
+   "score": 2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Siège canadien; postes en génie"
+   ],
+   "siteWeb": "https://www.soprema.ca"
+  },
+  {
+   "id": "venmar-ventilation",
+   "nom": "Venmar Ventilation",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – ventilation",
+   "taille": "500-999",
+   "type": "Filiale d'un groupe international",
+   "score": 2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur industriel"
+   ]
+  },
+  {
+   "id": "siemens-canada-drummondville",
+   "nom": "Siemens Canada – Drummondville",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – électrique",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Agrandissement de 14 M$ inauguré (juin 2026)"
+   ],
+   "siteWeb": "https://www.siemens.com"
+  },
+  {
+   "id": "galvanisation-quebec",
+   "nom": "Galvanisation Québec",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – métal",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Nouvelle usine, près de 100 emplois; recrutement dès l'automne 2026"
+   ]
+  },
+  {
+   "id": "patio-drummond",
+   "nom": "Patio Drummond",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – béton",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Innovation (blocs à faible carbone)"
+   ]
+  },
+  {
+   "id": "canimex",
+   "nom": "Canimex",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier",
+   "taille": "500-999",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Groupe industriel diversifié"
+   ]
+  },
+  {
+   "id": "fempro",
+   "nom": "Fempro",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – produits d'hygiène",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur local"
+   ]
+  },
+  {
+   "id": "exp-drummondville",
+   "nom": "EXP – Drummondville",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Génie-conseil",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Bureau régional"
+   ],
+   "siteWeb": "https://www.exp.com"
+  },
+  {
+   "id": "cascades",
+   "nom": "Cascades",
+   "region": "Centre-du-Québec",
+   "ville": "Kingsey Falls",
+   "secteur": "Pâtes et papiers – emballage",
+   "taille": "1000+",
+   "type": "Membre d'un grand groupe",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Siège social; grand employeur"
+   ],
+   "siteWeb": "https://www.cascades.com"
+  },
+  {
+   "id": "sani-marc",
+   "nom": "Sani-Marc",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – produits d'entretien",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "industries-machinex",
+   "nom": "Industries Machinex",
+   "region": "Centre-du-Québec",
+   "ville": "Plessisville",
+   "secteur": "Manufacturier – équipement de tri",
+   "taille": "500-999",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur en génie"
+   ],
+   "siteWeb": "https://www.machinextechnologies.com"
+  },
+  {
+   "id": "usnr",
+   "nom": "USNR",
+   "region": "Centre-du-Québec",
+   "ville": "Plessisville",
+   "secteur": "Manufacturier – équipement de scierie",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "groupe-castech-plessistech",
+   "nom": "Groupe Castech / Plessistech",
+   "region": "Centre-du-Québec",
+   "ville": "Plessisville",
+   "secteur": "Manufacturier – fonderie et usinage",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "carbotech",
+   "nom": "Carbotech",
+   "region": "Centre-du-Québec",
+   "ville": "Plessisville",
+   "secteur": "Manufacturier – équipement",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "posi-plus-technologies",
+   "nom": "Posi-Plus Technologies",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – équipement de levage",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "vicwest",
+   "nom": "Vicwest",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – acier",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "doucet-machineries",
+   "nom": "Doucet Machineries",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – équipement agricole",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "machitech",
+   "nom": "Machitech",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – découpe plasma",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "machinage-piche",
+   "nom": "Machinage Piché",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – usinage",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "sixpro",
+   "nom": "Sixpro",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "soteck",
+   "nom": "Soteck",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "techlift",
+   "nom": "Techlift",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – levage",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "metalus",
+   "nom": "Métalus",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – métal",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "equipex",
+   "nom": "Équipex",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "groupe-industrie-cbm",
+   "nom": "Groupe Industrie CBM",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "les-pompes-garand",
+   "nom": "Les Pompes Garand",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – pompes",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "armatures-bois-francs",
+   "nom": "Armatures Bois-Francs",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Construction – armatures",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "smurfit-westrock-victoriaville",
+   "nom": "Smurfit Westrock – Victoriaville",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Emballage",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "lactalis-canada-victoriaville",
+   "nom": "Lactalis Canada – Victoriaville",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "fruit-d-or",
+   "nom": "Fruit d'Or",
+   "region": "Centre-du-Québec",
+   "ville": "Villeroy",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "aliments-krispy-kernels",
+   "nom": "Aliments Krispy Kernels",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "primewood",
+   "nom": "Primewood",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – bois",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "tiges-4-saisons-fenetres-form-tech",
+   "nom": "Tiges 4 saisons / Fenêtres Form-Tech",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – portes et fenêtres",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "groupe-anderson",
+   "nom": "Groupe Anderson",
+   "region": "Centre-du-Québec",
+   "ville": "Chesterville",
+   "secteur": "Manufacturier – équipement agricole",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "groupe-bedard-proag",
+   "nom": "Groupe Bédard ProAg",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Équipement agricole",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "camions-bl",
+   "nom": "Camions BL",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Transport – équipement",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "ideal-cargo",
+   "nom": "Ideal Cargo",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Transport",
+   "taille": "",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "gaudreau-environnement",
+   "nom": "Gaudreau Environnement",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Environnement",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "soleva",
+   "nom": "Soleva",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Énergie – solaire",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "bornes-quebec",
+   "nom": "Bornes Québec",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Énergie – bornes de recharge",
+   "taille": "1-19",
+   "type": "Privé",
+   "score": 0,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Très petite entreprise : recrute surtout par réseau",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "groupe-gagne-construction",
+   "nom": "Groupe Gagné Construction",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Construction",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "excavations-tourigny",
+   "nom": "Excavations Tourigny",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Construction",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "pavage-veilleux",
+   "nom": "Pavage Veilleux",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Construction",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "groupe-plombaction",
+   "nom": "Groupe Plombaction",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Construction – plomberie",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "groupe-puitbec",
+   "nom": "Groupe Puitbec",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Construction – forage",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "j-u-houle",
+   "nom": "J.U. Houle",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Distribution – matériaux",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "promutuel-assurance-les-batisseurs",
+   "nom": "Promutuel Assurance Les Bâtisseurs",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Assurances",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "pellerin-aubert-ramsay-provencher",
+   "nom": "Pellerin Aubert Ramsay Provencher",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Comptabilité",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "boisdaction",
+   "nom": "Boisdaction",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – bois",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Présent à Mission Emploi"
+   ]
+  },
+  {
+   "id": "aluminerie-de-becancour-abi",
+   "nom": "Aluminerie de Bécancour (ABI)",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Métallurgie – aluminium",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Très grand employeur; postes en génie"
+   ]
+  },
+  {
+   "id": "olin-becancour",
+   "nom": "Olin – Bécancour",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Chimie",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grande usine chimique"
+   ]
+  },
+  {
+   "id": "moeve-chimie-ex-cepsa-becancour",
+   "nom": "Moeve Chimie (ex-Cepsa) – Bécancour",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Chimie",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Usine chimique"
+   ]
+  },
+  {
+   "id": "arkema-becancour",
+   "nom": "Arkema – Bécancour",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Chimie",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Usine chimique"
+   ]
+  },
+  {
+   "id": "silicium-quebec",
+   "nom": "Silicium Québec",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Métallurgie – silicium",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grand employeur industriel"
+   ]
+  },
+  {
+   "id": "ultium-cam-gm-posco-future-m",
+   "nom": "Ultium CAM (GM – POSCO Future M)",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Filière batterie",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Usine de matériaux de cathode; projet maintenu"
+   ],
+   "siteWeb": "https://www.gm.ca/en/home/company/canada/ultium-cam.html"
+  },
+  {
+   "id": "nouveau-monde-graphite-becancour",
+   "nom": "Nouveau Monde Graphite – Bécancour",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Filière batterie",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 7,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Croissance récente : Projet d'usine de matériaux d'anode"
+   ],
+   "siteWeb": "https://nmg.com"
+  },
+  {
+   "id": "societe-du-parc-industriel-et-portuaire-de-becancour",
+   "nom": "Société du parc industriel et portuaire de Bécancour",
+   "region": "Centre-du-Québec",
+   "ville": "Bécancour",
+   "secteur": "Développement industriel",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "ball-corporation-sherbrooke",
+   "nom": "Ball Corporation – Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – emballage métallique",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "c-mac-microcircuits",
+   "nom": "C-MAC Microcircuits",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – microélectronique",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "soucy-techno",
+   "nom": "Soucy Techno",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – composantes de véhicules",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "integrated-power-services",
+   "nom": "Integrated Power Services",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Industriel – moteurs électriques",
+   "taille": "20-49",
+   "type": "Filiale d'un groupe international",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "valmetal-st-germain",
+   "nom": "Valmetal St-Germain",
+   "region": "Estrie",
+   "ville": "Saint-François-Xavier-de-Brompton",
+   "secteur": "Manufacturier – équipement agricole",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "les-pliages-apaulo",
+   "nom": "Les Pliages Apaulo",
+   "region": "Estrie",
+   "ville": "Waterville",
+   "secteur": "Manufacturier – métal en feuille",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "pro-par",
+   "nom": "Pro-Par",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "de-la-fontaine",
+   "nom": "De La Fontaine",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – mobilier urbain",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "inter-fonction",
+   "nom": "Inter Fonction",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "amecci",
+   "nom": "AMECCI",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – métal",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "ise-metal",
+   "nom": "ISE métal",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – métal",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "bravad",
+   "nom": "Bravad",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "co7-technologies",
+   "nom": "Co7 Technologies",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Technologie",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "industries-plastipak",
+   "nom": "Industries Plastipak",
+   "region": "Estrie",
+   "ville": "Cookshire-Eaton",
+   "secteur": "Manufacturier – plastique",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "artopex-sherbrooke",
+   "nom": "Artopex – Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – mobilier de bureau",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "intact-assurance-sherbrooke",
+   "nom": "Intact Assurance – Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Assurances",
+   "taille": "1000+",
+   "type": "Membre d'un grand groupe",
+   "score": -3,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ],
+   "siteWeb": "https://www.intact.ca"
+  },
+  {
+   "id": "ups-canada-sherbrooke",
+   "nom": "UPS Canada – Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Transport et logistique",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": -3,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "technologies-de-fibres-aikawa-aft",
+   "nom": "Technologies de fibres Aikawa (AFT)",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – équipement papetier",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi du parc industriel"
+   ]
+  },
+  {
+   "id": "defi-polyteck",
+   "nom": "Défi Polyteck",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – plastique",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi du parc industriel"
+   ]
+  },
+  {
+   "id": "nad-klima",
+   "nom": "NAD Klima",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – ventilation",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi du parc industriel"
+   ]
+  },
+  {
+   "id": "supermetal-sherbrooke",
+   "nom": "Supermétal – Sherbrooke",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – charpente d'acier",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi du parc industriel"
+   ]
+  },
+  {
+   "id": "tld-canada",
+   "nom": "TLD Canada",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – équipement aéroportuaire",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi; postes en génie mécanique"
+   ]
+  },
+  {
+   "id": "verbom",
+   "nom": "Verbom",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – pièces automobiles",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi du parc industriel"
+   ]
+  },
+  {
+   "id": "cuisine-ideale",
+   "nom": "Cuisine Idéale",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – armoires",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi du parc industriel"
+   ]
+  },
+  {
+   "id": "aliments-jardi",
+   "nom": "Aliments Jardi",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Agroalimentaire",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant établi du parc industriel"
+   ]
+  },
+  {
+   "id": "johnson-controls-trois-rivieres",
+   "nom": "Johnson Controls – Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Industriel – CVC et contrôles",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "groupe-agf",
+   "nom": "Groupe AGF",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Construction – acier d'armature",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "enerco-groupe-conseil",
+   "nom": "ENERCO Groupe-conseil",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Génie-conseil",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "groupe-madysta",
+   "nom": "Groupe Madysta",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Génie et construction industrielle",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "norda-stelo-trois-rivieres",
+   "nom": "Norda Stelo – Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Génie-conseil",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "mecanitec",
+   "nom": "Mécanitec",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Industriel – mécanique",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "groupe-mario-cote",
+   "nom": "Groupe Mario Côté",
+   "region": "Mauricie",
+   "ville": "Yamachiche",
+   "secteur": "Industriel",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "mgef",
+   "nom": "MGEF",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Génie",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – génie mécanique"
+   ]
+  },
+  {
+   "id": "adf-diesel",
+   "nom": "ADF Diesel",
+   "region": "Mauricie",
+   "ville": "Saint-Stanislas",
+   "secteur": "Industriel – moteurs",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "mann-hummel-trois-rivieres",
+   "nom": "MANN+HUMMEL – Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier – filtration",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "prysmian",
+   "nom": "Prysmian",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Manufacturier – câbles",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "brp-megatech",
+   "nom": "BRP Megatech",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Manufacturier – composantes",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "molson-coors-shawinigan",
+   "nom": "Molson Coors – Shawinigan",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Agroalimentaire – brasserie",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "societe-laurentide",
+   "nom": "Société Laurentide",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "Manufacturier – peintures",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "groupe-bellemare",
+   "nom": "Groupe Bellemare",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Construction et transport",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "germain-et-frere",
+   "nom": "Germain et Frère",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "transformation-de-bois-cbv",
+   "nom": "Transformation de Bois CBV",
+   "region": "Mauricie",
+   "ville": "Saint-Étienne-des-Grès",
+   "secteur": "Manufacturier – bois",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "les-industries-protac",
+   "nom": "Les Industries ProTac",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "caron-chaussures",
+   "nom": "Caron Chaussures",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier – chaussures",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "msl-louiseville",
+   "nom": "MSL Louiseville",
+   "region": "Mauricie",
+   "ville": "Louiseville",
+   "secteur": "Manufacturier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "beton-provincial-trois-rivieres",
+   "nom": "Béton Provincial – Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Construction – béton",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "administration-portuaire-de-trois-rivieres",
+   "nom": "Administration portuaire de Trois-Rivières",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Transport maritime",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "cargill-drummondville",
+   "nom": "Cargill – Drummondville",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "gea-drummondville",
+   "nom": "GEA – Drummondville",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – équipement industriel",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "sanimax-drummondville",
+   "nom": "Sanimax – Drummondville",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Agroalimentaire – recyclage",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "planchers-mercier",
+   "nom": "Planchers Mercier",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – planchers de bois",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "futech-drummond",
+   "nom": "Futech Drummond",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "cmi-mulching",
+   "nom": "CMI Mulching",
+   "region": "Centre-du-Québec",
+   "ville": "Saint-Cyrille-de-Wendover",
+   "secteur": "Manufacturier – équipement forestier",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "canus",
+   "nom": "Canus",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – cosmétiques",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant cité par Drummond Économique"
+   ]
+  },
+  {
+   "id": "tti-climatisation-chauffage",
+   "nom": "TTI climatisation chauffage",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "Manufacturier – CVC",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant cité par Drummond Économique"
+   ]
+  },
+  {
+   "id": "canslit-imaflex",
+   "nom": "Canslit / Imaflex",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – plastique",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "boire-et-frere",
+   "nom": "Boire et Frère",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "liftow",
+   "nom": "Liftow",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Distribution – équipement de manutention",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "outil-mag",
+   "nom": "Outil Mag",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – outillage",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "sefaco",
+   "nom": "Sefaco",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "la-fabrique-de-matelas",
+   "nom": "La Fabrique de Matelas",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Manufacturier – literie",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "groupe-geloso",
+   "nom": "Groupe Geloso",
+   "region": "Centre-du-Québec",
+   "ville": "Centre-du-Québec",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "rio-tinto-fer-et-titane",
+   "nom": "Rio Tinto Fer et Titane",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Métallurgie",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Plus grand employeur industriel de Sorel-Tracy"
+   ],
+   "siteWeb": "https://www.riotinto.com"
+  },
+  {
+   "id": "ge-vernova-sorel-tracy",
+   "nom": "GE Vernova – Sorel-Tracy",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Manufacturier – turbines hydroélectriques",
+   "taille": "500-999",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Talents région Sorel-Tracy (oct. 2026)"
+   ]
+  },
+  {
+   "id": "finkl-steel-sorel-forges-de-sorel",
+   "nom": "Finkl Steel – Sorel (Forges de Sorel)",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Métallurgie – forge",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Grande forge industrielle"
+   ]
+  },
+  {
+   "id": "aciers-richelieu",
+   "nom": "Aciers Richelieu",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Manufacturier – acier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Talents région Sorel-Tracy (oct. 2026)"
+   ]
+  },
+  {
+   "id": "les-aciers-regifab",
+   "nom": "Les Aciers Régifab",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Manufacturier – charpente d'acier",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Talents région Sorel-Tracy (oct. 2026)"
+   ]
+  },
+  {
+   "id": "technolaser",
+   "nom": "Technolaser",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Manufacturier – découpe laser",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Talents région Sorel-Tracy (oct. 2026)"
+   ]
+  },
+  {
+   "id": "cnc-tracy",
+   "nom": "CNC Tracy",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Manufacturier – usinage",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Talents région Sorel-Tracy (oct. 2026)"
+   ]
+  },
+  {
+   "id": "usinage-st-laurent",
+   "nom": "Usinage St-Laurent",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Manufacturier – usinage",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Talents région Sorel-Tracy (oct. 2026)"
+   ]
+  },
+  {
+   "id": "atelier-d-usinage-cote-et-audet",
+   "nom": "Atelier d'usinage Côté et Audet",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Manufacturier – usinage",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres sur Jobillico"
+   ]
+  },
+  {
+   "id": "fromagerie-chalifoux",
+   "nom": "Fromagerie Chalifoux",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Agroalimentaire",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Employeur local établi"
+   ]
+  },
+  {
+   "id": "cegep-de-sorel-tracy",
+   "nom": "Cégep de Sorel-Tracy",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "ville-de-sorel-tracy",
+   "nom": "Ville de Sorel-Tracy",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Municipal",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "olymel-saint-hyacinthe",
+   "nom": "Olymel – Saint-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Damase / Sainte-Rosalie",
+   "secteur": "Agroalimentaire",
+   "taille": "1000+",
+   "type": "Membre d'un grand groupe",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ],
+   "siteWeb": "https://www.olymel.ca"
+  },
+  {
+   "id": "exceldor",
+   "nom": "Exceldor",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire – volaille",
+   "taille": "500-999",
+   "type": "Membre d'un grand groupe",
+   "score": 2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande entreprise (500-999) : équipe RH interne, mais recours possible pour les postes spécialisés",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "agropur-fromagerie-de-st-hyacinthe",
+   "nom": "Agropur – Fromagerie de St-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ],
+   "siteWeb": "https://www.agropur.com"
+  },
+  {
+   "id": "saputo-saint-hyacinthe",
+   "nom": "Saputo – Saint-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "cargill-saint-hyacinthe",
+   "nom": "Cargill – Saint-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "trouw-nutrition",
+   "nom": "Trouw Nutrition",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire – nutrition animale",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "lassonde-saint-damase",
+   "nom": "Lassonde – Saint-Damase",
+   "region": "Montérégie",
+   "ville": "Saint-Damase",
+   "secteur": "Agroalimentaire – boissons",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "general-mills-saint-hyacinthe",
+   "nom": "General Mills – Saint-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "hershey-usine-brookside",
+   "nom": "Hershey – Usine Brookside",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire – confiserie",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "barry-callebaut",
+   "nom": "Barry Callebaut",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire – chocolat",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026) – dont un poste de directeur qualité"
+   ]
+  },
+  {
+   "id": "biena",
+   "nom": "Biena",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "lovo",
+   "nom": "Lovo",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "les-aliments-bci",
+   "nom": "Les Aliments BCI",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "synagri",
+   "nom": "Synagri",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire – fertilisants",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "les-fermes-burnbrae-upton",
+   "nom": "Les Fermes Burnbrae – Upton",
+   "region": "Montérégie",
+   "ville": "Upton",
+   "secteur": "Agroalimentaire – œufs",
+   "taille": "200-499",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "clean-international",
+   "nom": "Clean International",
+   "region": "Montérégie",
+   "ville": "Saint-Damase",
+   "secteur": "Services – assainissement industriel",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "plastiques-yamaska",
+   "nom": "Plastiques Yamaska",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – plastique",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "polymeres-technologies",
+   "nom": "Polymères Technologies",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – plastique",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "groupe-jolco",
+   "nom": "Groupe Jolco",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – chimie",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "groupe-vif",
+   "nom": "Groupe VIF",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – plastique",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "carton-unipack",
+   "nom": "Carton Unipack",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – emballage",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "graphic-packaging-saint-hyacinthe",
+   "nom": "Graphic Packaging – Saint-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – emballage",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "groupe-domco",
+   "nom": "Groupe Domco",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – revêtements de sol",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "emballages-bnc",
+   "nom": "Emballages BNC",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – emballage",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "imprimerie-dominion",
+   "nom": "Imprimerie Dominion",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Imprimerie",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "ekipex",
+   "nom": "Ekipex",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – équipement",
+   "taille": "",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "elbi-robotique",
+   "nom": "ELBI Robotique",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – robotique",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "groupe-maska",
+   "nom": "Groupe Maska",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – équipement",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "gregoire-besson-canada",
+   "nom": "Grégoire-Besson Canada",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier – machinerie agricole",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "sanimax-saint-hyacinthe",
+   "nom": "Sanimax – Saint-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Agroalimentaire – recyclage",
+   "taille": "50-199",
+   "type": "Membre d'un grand groupe",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Fait partie d'un grand groupe avec RH centralisées",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "skeltec",
+   "nom": "Skeltec",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "simleader",
+   "nom": "Simleader",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Manufacturier",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Petite entreprise (20-49) : budget plus limité, mais parfois un besoin ponctuel",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "batiment-pre-fab",
+   "nom": "Bâtiment Pré-Fab",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Construction – préfabriqué",
+   "taille": "",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Fabricant du guide manufacturier de Saint-Hyacinthe Technopole (2025)"
+   ]
+  },
+  {
+   "id": "prorec",
+   "nom": "Prorec",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Environnement – recyclage",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Offres actives sur Indeed (oct. 2026)"
+   ]
+  },
+  {
+   "id": "cegep-de-saint-hyacinthe",
+   "nom": "Cégep de Saint-Hyacinthe",
+   "region": "Montérégie",
+   "ville": "Saint-Hyacinthe",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "contitech-canada",
+   "nom": "ContiTech Canada",
+   "region": "Montérégie",
+   "ville": "Saint-Alphonse-de-Granby",
+   "secteur": "Manufacturier – caoutchouc",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "lippert-groupe-lci-canada",
+   "nom": "Lippert (Groupe LCI Canada)",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – composantes de véhicules",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "bow-groupe-de-plomberie-orbia",
+   "nom": "Bow Groupe de plomberie (Orbia)",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plomberie",
+   "taille": "200-499",
+   "type": "Filiale d'un groupe international",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 200-499 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "durabac",
+   "nom": "Durabac",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – conteneurs",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "topring",
+   "nom": "Topring",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – raccords pneumatiques",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 6,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "nudura",
+   "nom": "Nudura",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – coffrages isolants",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "envases-canada",
+   "nom": "Envases Canada",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – emballage métallique",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "amcor-waterloo",
+   "nom": "Amcor – Waterloo",
+   "region": "Montérégie",
+   "ville": "Waterloo",
+   "secteur": "Manufacturier – emballage",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe international",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille 50-199 employés : trop grande pour recruter seule, sans équipe d'acquisition de talents",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "canflex",
+   "nom": "Canflex",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plastique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "caoutchouc-pro-flex",
+   "nom": "Caoutchouc Pro-Flex",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – caoutchouc",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "colorex",
+   "nom": "Colorex",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "cstm",
+   "nom": "CSTM",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "emballages-poliplastic",
+   "nom": "Emballages Poliplastic",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – emballage",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "extruflex",
+   "nom": "Extruflex",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plastique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "extrusions-de-plastique-micro",
+   "nom": "Extrusions de Plastique Micro",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plastique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "groupe-industriel-lachance",
+   "nom": "Groupe Industriel Lachance",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "industries-cresswell",
+   "nom": "Industries Cresswell",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "industries-de-moulage-polytech",
+   "nom": "Industries de Moulage Polytech",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plastique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "laboratoires-confab",
+   "nom": "Laboratoires Confab",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – pharmaceutique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "laser-amp",
+   "nom": "Laser AMP",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – découpe laser",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "les-aliments-chicoine",
+   "nom": "Les Aliments Chicoine",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Agroalimentaire",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "cartons-northrich",
+   "nom": "Cartons Northrich",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – emballage",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "ceramiques-santarossa",
+   "nom": "Céramiques Santarossa",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Construction – céramique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "fabricants-de-boyaux-industriels-premier",
+   "nom": "Fabricants de Boyaux Industriels Premier",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – boyaux",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "plastiques-folia",
+   "nom": "Plastiques Folia",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plastique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "plastiques-nadco",
+   "nom": "Plastiques Nadco",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plastique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "produits-belt-tech",
+   "nom": "Produits Belt-tech",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "produits-labelink",
+   "nom": "Produits Labelink",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Imprimerie – étiquettes",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "revetements-agro",
+   "nom": "Revêtements Agro",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – revêtements",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "lignes-maska",
+   "nom": "Lignes Maska",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Construction – lignes électriques",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "machinage-gagne",
+   "nom": "Machinage Gagné",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – usinage",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "mecan-hydro",
+   "nom": "Mécan Hydro",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – hydraulique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "millet-plastique-canada",
+   "nom": "Millet Plastique Canada",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – plastique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "msp-structures",
+   "nom": "MSP Structures",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – structures",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "patates-dino",
+   "nom": "Patates Dino",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Agroalimentaire",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "peinture-a3m",
+   "nom": "Peinture A3M",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – peinture",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "polyvert-recyclage",
+   "nom": "Polyvert Recyclage",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Environnement – recyclage",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "innova-xtirpa",
+   "nom": "Innova / XTIRPA",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – équipement",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "roulement-granby-industriel-gbs",
+   "nom": "Roulement Granby Industriel (GBS)",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Distribution industrielle",
+   "taille": "",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "solutions-energetiques-volta",
+   "nom": "Solutions Énergétiques Volta",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Énergie",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "syrvet-canada",
+   "nom": "Syrvet Canada",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Distribution – produits vétérinaires",
+   "taille": "",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "systemes-mb",
+   "nom": "Systèmes MB",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "transbec",
+   "nom": "TransBec",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Transport",
+   "taille": "",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes surtout généraux, plus faciles à pourvoir sans firme",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "wr-transformateurs",
+   "nom": "WR Transformateurs",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – électrique",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "usinage-t-d",
+   "nom": "Usinage T.D.",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – usinage",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "armoires-cuisines-action",
+   "nom": "Armoires Cuisines Action",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – armoires",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Postes techniques ou spécialisés difficiles à pourvoir (génie, production, maintenance)",
+    "Recrute en ce moment : Employeur affichant sur le guichet d'emploi de Granby"
+   ]
+  },
+  {
+   "id": "cegep-de-granby",
+   "nom": "Cégep de Granby",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Éducation",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  },
+  {
+   "id": "ville-de-granby",
+   "nom": "Ville de Granby",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Municipal",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats"
+   ]
+  }
+ ]
+}
