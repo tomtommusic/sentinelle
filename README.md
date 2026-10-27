@@ -11,12 +11,12 @@ Les notes et statuts de suivi sont gardés dans le navigateur de la personne qui
 
 ```json
 {
-  "tournee": { "date": "2026-10-28T08:30:00-04:00", "regions": "Montréal, Laval" },
+  "tournee": { "date": "2026-10-28T08:30:00-04:00", "regions": "Montréal, Laval", "domaines": ["Génie mécanique"] },
   "entreprises": {
     "slug-entreprise": { "nom": "", "siteWeb": "", "pageCarrieres": "", "telephone": "", "courriel": "", "adresse": "", "linkedinUrl": "" }
   },
   "offres": [
-    { "id": "linkedin-job-id", "titre": "", "entreprise": "", "lieu": "", "region": "", "modalite": "", "publieLe": "ISO 8601", "urlOffre": "", "recruteur": { "nom": "", "titre": "", "profilUrl": "" } }
+    { "id": "linkedin-job-id", "titre": "", "entreprise": "", "lieu": "", "region": "", "domaine": "", "modalite": "", "publieLe": "ISO 8601", "urlOffre": "", "recruteur": { "nom": "", "titre": "", "profilUrl": "" } }
   ]
 }
 ```
