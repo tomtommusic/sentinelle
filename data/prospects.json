@@ -7443,6 +7443,278 @@
     "Recrute des profils spécialisés (Génie mécanique)",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-27"
    ]
+  },
+  {
+   "id": "seccan",
+   "nom": "Seccan",
+   "region": "Montérégie",
+   "ville": "Boucherville",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "cannara-biotech",
+   "nom": "Cannara Biotech",
+   "region": "Montérégie",
+   "ville": "Farnham",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "bromont-montagne-d-experiences",
+   "nom": "Bromont, montagne d’expériences",
+   "region": "Montérégie",
+   "ville": "Bromont",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "usimetal",
+   "nom": "Usimétal",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "jlb-management",
+   "nom": "JLB Management",
+   "region": "Centre-du-Québec",
+   "ville": "Drummondville",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "fournier",
+   "nom": "Fournier",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "johnston-vermette",
+   "nom": "Johnston-Vermette",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "placeteco",
+   "nom": "Placeteco",
+   "region": "Mauricie",
+   "ville": "Shawinigan",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "nsw-controle",
+   "nom": "NSW Contrôle",
+   "region": "Montérégie",
+   "ville": "Saint-Bruno-de-Montarville",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "daniels-health",
+   "nom": "Daniels Health",
+   "region": "Montérégie",
+   "ville": "Saint-Jean-sur-Richelieu",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "groupe-libertia",
+   "nom": "Groupe Libertia",
+   "region": "Montérégie",
+   "ville": "La Prairie",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "groupe-chagall",
+   "nom": "Groupe Chagall",
+   "region": "Montérégie",
+   "ville": "Sainte-Julie",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "concept-store-fixtures",
+   "nom": "Concept Store Fixtures",
+   "region": "Lanaudière",
+   "ville": "Repentigny",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "beaulieu-international-group",
+   "nom": "Beaulieu International Group",
+   "region": "Montérégie",
+   "ville": "Acton Vale",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "kdc-one",
+   "nom": "kdc/one",
+   "region": "Montérégie",
+   "ville": "Knowlton",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "delta-star",
+   "nom": "Delta Star",
+   "region": "Montérégie",
+   "ville": "Saint-Jean-sur-Richelieu",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-27"
+   ]
   }
  ]
 }
