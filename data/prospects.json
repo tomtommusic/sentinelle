@@ -1,6 +1,6 @@
 {
  "miseAJour": "2026-10-27",
- "territoire": "Estrie, Centre-du-Québec, Mauricie, Lanaudière et Montérégie",
+ "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches et Laurentides",
  "entreprises": [
   {
    "id": "ciusss-de-l-estrie-chus",
@@ -7714,6 +7714,382 @@
     "Taille à confirmer (probablement une PME)",
     "Recrute des profils spécialisés (Ingénierie et production)",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "innovair-solutions",
+   "nom": "Innovair Solutions",
+   "region": "Chaudière-Appalaches",
+   "ville": "L'Islet / Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité, Ingénierie et production)",
+    "Recrute en ce moment : 3 offres en cours dans Sentinelle (Finance et comptabilité, Ingénierie et production), découverte le 2026-10-27",
+    "Plusieurs postes ouverts en même temps"
+   ]
+  },
+  {
+   "id": "robotiq",
+   "nom": "Robotiq",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Nicolas",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "groupe-jamp-pharma",
+   "nom": "Groupe JAMP Pharma",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "elopak",
+   "nom": "Elopak",
+   "region": "Laurentides",
+   "ville": "Boisbriand",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "davie",
+   "nom": "Davie",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité, Ingénierie et production)",
+    "Recrute en ce moment : 4 offres en cours dans Sentinelle (Finance et comptabilité, Ingénierie et production), découverte le 2026-10-27",
+    "Plusieurs postes ouverts en même temps"
+   ]
+  },
+  {
+   "id": "technogenie-chasseurs-de-talents",
+   "nom": "TechnoGénie - Chasseurs de Talents",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "creaform-ingenierie",
+   "nom": "Creaform Ingénierie",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "enviro-confort",
+   "nom": "Enviro Confort",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "groupe-perspective",
+   "nom": "Groupe Perspective",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "ksm",
+   "nom": "KSM",
+   "region": "Chaudière-Appalaches",
+   "ville": "Tring-Jonction",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "trimax",
+   "nom": "Trimax",
+   "region": "Chaudière-Appalaches",
+   "ville": "Sainte-Marie",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "maisons-mcg",
+   "nom": "Maisons MCG",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Joseph-de-Beauce",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "garaga",
+   "nom": "Garaga",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Georges",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité, Ressources humaines)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Finance et comptabilité, Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "ascencio",
+   "nom": "Ascencio",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Georges",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "manac",
+   "nom": "Manac",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Georges",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production, Ressources humaines)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Ingénierie et production, Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "n-ware-technologies",
+   "nom": "N'ware Technologies",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Georges",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "nanoxplore",
+   "nom": "NanoXplore",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Éphrem-de-Beauce",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "matiss",
+   "nom": "Matiss",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Georges",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "avantis-cooperative",
+   "nom": "Avantis Coopérative",
+   "region": "Chaudière-Appalaches",
+   "ville": "Sainte-Marie",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "rad-technologies",
+   "nom": "Rad Technologies",
+   "region": "Chaudière-Appalaches",
+   "ville": "Thetford Mines",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "automatech-robotik",
+   "nom": "AutomaTech Robotik",
+   "region": "Chaudière-Appalaches",
+   "ville": "St-Apollinaire",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-27"
+   ]
+  },
+  {
+   "id": "tisseur",
+   "nom": "TISSEUR",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-27",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-27"
    ]
   }
  ]

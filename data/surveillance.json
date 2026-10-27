@@ -12,7 +12,13 @@
    "Joliette",
    "Saint-Hyacinthe",
    "Granby",
-   "Saint-Jean-sur-Richelieu"
+   "Saint-Jean-sur-Richelieu",
+   "Lévis",
+   "Saint-Georges",
+   "Thetford Mines",
+   "Saint-Jérôme",
+   "Blainville",
+   "Mirabel"
   ],
   "rayonKm": 80,
   "postes": [
@@ -57,7 +63,7 @@
     "domaine": "Gestion de projets"
    }
   ],
-  "territoire": "Estrie, Centre-du-Québec, Mauricie, Lanaudière et Montérégie. À venir : le reste du sud du Québec (Montréal, Laval, Laurentides, Capitale-Nationale, Chaudière-Appalaches).",
+  "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches et Laurentides. À venir : Montréal, Laval et Capitale-Nationale.",
   "groupesDeRecherche": [
    {
     "domaine": "Génie mécanique",
