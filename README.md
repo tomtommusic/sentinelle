@@ -23,4 +23,6 @@ Les notes et statuts de suivi sont gardés dans le navigateur de la personne qui
 
 ## Pages carrières surveillées
 
-`data/surveillance.json` liste les pages carrières d'entreprises vérifiées à chaque tournée, en plus des sites d'emploi.
+`data/surveillance.json` contient :
+- `pagesCarrieres` : les pages carrières vérifiées directement à chaque tournée ;
+- `entreprises` : 200 employeurs de l'Estrie, de la Mauricie et du Centre-du-Québec susceptibles de recruter (onglet « Entreprises surveillées »), avec la raison de leur présence dans la liste.
