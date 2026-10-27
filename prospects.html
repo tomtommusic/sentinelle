@@ -75,6 +75,7 @@ input, select, textarea { font: 15px var(--body); color: var(--ink); background:
 .fiche h3 { margin: 0; font: 600 16px/1.35 var(--body); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
 .score { font: 500 12px var(--mono); padding: 1px 8px; border-radius: 99px; background: var(--chip); color: var(--ink); }
 .nboff { font: 700 12px var(--body); padding: 1px 9px; border-radius: 99px; border: 1px solid var(--accent); color: var(--accent); text-decoration: none; }
+.nboff.zero { border-color: var(--line); color: var(--muted); font-weight: 600; }
 a.nboff:hover { background: rgba(247,147,30,.12); }
 .score.fort { background: var(--fort-bg); color: var(--fort); }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--muted); }
@@ -120,6 +121,7 @@ button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--su
   <div class="cats" id="cats"></div>
 
   <div class="selbar" id="selbar">
+    <span><b id="nbAvecOffres">0</b> prospects ont des offres en cours ·</span>
     <span><b id="nbSurv">0</b> entreprise(s) à surveiller</span>
     <button class="btn" id="voirSurv" type="button">Voir seulement celles-ci</button>
     <button class="btn" id="copierSurv" type="button">Copier ma sélection</button>
@@ -180,6 +182,7 @@ button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--su
       <select id="offresF">
         <option value="">Toutes</option>
         <option value="oui">Avec offres en cours</option>
+        <option value="tri">Toutes, plus d'offres d'abord</option>
       </select>
     </label>
     <label class="f" for="suiviF">Mon suivi
@@ -260,6 +263,7 @@ function filtrer() {
 function render() {
   const v = filtrer();
   $("nbSurv").textContent = st.liste.filter(c => estSurv(c.id)).length;
+  $("nbAvecOffres").textContent = Object.keys(st.nbOffres).length;
   $("voirSurv").textContent = st.seulSurv ? "Voir toutes les entreprises" : "Voir seulement celles-ci";
   $("cats").innerHTML = CATS.map(c => {
     const n = v.filter(x => x.categorie === c.k).length;
@@ -268,7 +272,7 @@ function render() {
   }).join("");
   const visibles = st.cat ? CATS.filter(c => c.k === st.cat) : CATS;
   const html = visibles.map(c => {
-    const items = v.filter(x => x.categorie === c.k).sort((a, b) => ($("offresF").value === "oui" ? (st.nbOffres[b.id] || 0) - (st.nbOffres[a.id] || 0) : 0) || b.score - a.score || a.nom.localeCompare(b.nom, "fr"));
+    const items = v.filter(x => x.categorie === c.k).sort((a, b) => ($("offresF").value ? (st.nbOffres[b.id] || 0) - (st.nbOffres[a.id] || 0) : 0) || b.score - a.score || a.nom.localeCompare(b.nom, "fr"));
     if (!items.length) return "";
     return `<section class="groupe"><h2><span aria-hidden="true" class="niv">${c.niv}</span> ${esc(c.k)} <small>${items.length} entreprise${items.length > 1 ? "s" : ""}</small></h2>
       ${items.map(fiche).join("")}</section>`;
@@ -281,7 +285,7 @@ function fiche(c) {
   const pub = c.type === "Public / parapublic";
   return `<article class="fiche">
     <div style="display:grid;gap:4px;min-width:0">
-      <h3>${esc(c.nom)} ${pub ? "" : `<span class="score ${c.score >= 6 ? "fort" : ""}">${c.score > 0 ? "+" : ""}${c.score} pts</span>`} ${st.nbOffres[c.id] ? `<a class="nboff" href="./" title="Voir les offres dans Sentinelle">${st.nbOffres[c.id]} offre${st.nbOffres[c.id] > 1 ? "s" : ""} en cours</a>` : ""}</h3>
+      <h3>${esc(c.nom)} ${pub ? "" : `<span class="score ${c.score >= 6 ? "fort" : ""}">${c.score > 0 ? "+" : ""}${c.score} pts</span>`} ${st.nbOffres[c.id] ? `<a class="nboff" href="./" title="Voir les offres dans Sentinelle">${st.nbOffres[c.id]} offre${st.nbOffres[c.id] > 1 ? "s" : ""} en cours</a>` : `<span class="nboff zero">0 offre en cours</span>`}</h3>
       <div class="meta"><span>${esc(c.ville)}</span><span>${esc(c.region)}</span><span>${esc(c.secteur)}</span></div>
       <div class="meta"><span>Taille : <b>${c.taille ? esc(c.taille) + " employés" : "à confirmer"}</b></span><span>${esc(c.type)}</span></div>
       <details><summary>Pourquoi ce classement</summary><ul>${c.raisons.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>

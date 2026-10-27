@@ -130,6 +130,15 @@ a.tag:hover { border-color: var(--orange); color: var(--orange); }
 .nouveau { border: 1px solid var(--orange); color: var(--orange); background: var(--orange-soft); border-radius: 99px; padding: 1px 10px; font-size: 12px; font-weight: 700; }
 .coeur { background: none; border: 0; color: var(--muted); cursor: pointer; padding: 4px; display: grid; }
 .coeur svg { width: 22px; height: 22px; }
+.exclure { background: none; border: 0; color: var(--muted); cursor: pointer; padding: 4px; display: grid; }
+.exclure svg { width: 20px; height: 20px; }
+.exclure:hover { color: var(--ink); }
+.exclues { display: grid; gap: 6px; margin-top: 10px; }
+.exclues div { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 14px; color: #d3dbe4; }
+.exclues button { background: none; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); font: 600 12px var(--body); padding: 3px 8px; cursor: pointer; }
+.exclues button:hover { border-color: var(--orange); }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--card-hi); border: 1px solid var(--orange); color: var(--ink); border-radius: 10px; padding: 10px 14px; display: flex; gap: 12px; align-items: center; z-index: 30; box-shadow: 0 6px 24px rgba(0,0,0,.4); max-width: calc(100% - 32px); }
+.toast button { background: none; border: 0; color: var(--orange); font: 700 14px var(--body); cursor: pointer; }
 .coeur[aria-pressed="true"] { color: var(--orange); }
 .coeur[aria-pressed="true"], .fav-nav[aria-pressed="true"] { --remplir: currentColor; }
 .temps { color: var(--muted); font-size: 13px; white-space: nowrap; }
@@ -175,6 +184,7 @@ details.suivi summary b { color: var(--orange); }
   <symbol id="i-coeur" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.9 4 7.3 4c2 0 3.6 1.1 4.7 2.7C13.1 5.1 14.7 4 16.7 4c3.4 0 5.7 3.3 4.5 6.7C19.5 15.4 12 20 12 20Z" style="fill:var(--remplir, none)" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
   <symbol id="i-filtres" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="16" cy="6" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="10" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
   <symbol id="i-cloche" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l2 2H4l2-2ZM10 20a2 2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-exclure" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 6l12 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
   <symbol id="i-loupe" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
   <symbol id="i-liste" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="4" cy="6" r="1.3" fill="currentColor"/><circle cx="4" cy="12" r="1.3" fill="currentColor"/><circle cx="4" cy="18" r="1.3" fill="currentColor"/></symbol>
   <symbol id="i-groupe" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="14" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="14" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
@@ -244,6 +254,12 @@ details.suivi summary b { color: var(--orange); }
           <div class="cases" id="casesSuivi"></div>
         </details>
       </div>
+      <div class="panneau" id="panExclues" hidden>
+        <details class="groupe-f" open>
+          <summary>Entreprises exclues <span id="nbExcl" style="color:var(--muted);font-weight:600"></span></summary>
+          <div class="exclues" id="listeExcl"></div>
+        </details>
+      </div>
       <div class="panneau alerte">
         <h3><svg><use href="#i-cloche"/></svg> Alertes d'emploi</h3>
         <p>Choisis les entreprises à surveiller dans Prospects. Un courriel t'avertit dès qu'elles publient une nouvelle offre.</p>
@@ -283,6 +299,8 @@ details.suivi summary b { color: var(--orange); }
     </section>
   </div>
 </main>
+
+<div class="toast" id="toast" hidden role="status"><span id="toastTxt"></span><button type="button" id="toastAnnuler">Annuler</button></div>
 
 <script>
 const STATUTS = { "nouveau": "Nouveau", "a-contacter": "À contacter", "contacte": "Contacté", "sans-suite": "Sans suite" };
@@ -349,6 +367,7 @@ function filtrer() {
   return state.offres.filter(o => {
     const n = state.notes[o.id] || {};
     if (state.favSeul && !n.favori) return false;
+    if (estExclue(o.entreprise)) return false;
     if (fen.length) { const h = age(o.publieLe).h; if (!fen.some(([a, b]) => h >= a && h <= b)) return false; }
     if (reg && o.region !== reg) return false;
     if (dom && o.domaine !== dom) return false;
@@ -382,6 +401,7 @@ function carte(o) {
     <div class="droite">
       <div class="haut-droite">
         ${a.h <= 24 && !a.approx ? `<span class="nouveau">Nouveau</span>` : ""}
+        <button class="exclure js-excl" type="button" data-cie="${esc(o.entreprise)}" title="Exclure cette entreprise" aria-label="Exclure ${esc(o.entreprise)} des résultats">${ico("i-exclure")}</button>
         <button class="coeur js-fav" type="button" data-id="${esc(o.id)}" aria-pressed="${!!n.favori}" aria-label="${n.favori ? "Retirer des favoris" : "Ajouter aux favoris"}">${ico("i-coeur")}</button>
       </div>
       <span class="temps">${esc(a.txt)}</span>
@@ -462,6 +482,26 @@ function sauver(id, champs) {
   const et = $("et-" + id); if (et) et.textContent = ok ? "Enregistré sur cet appareil" : "Non enregistré";
 }
 
+// Entreprises exclues (cet appareil) : { slug: nom }
+let exclues = new Map();
+try { exclues = new Map(Object.entries(JSON.parse(localStorage.getItem("sentinelle-exclues") || "{}") || {})); } catch {}
+function estExclue(nom) { const s = slug(nom); for (const k of exclues.keys()) if (s === k || s.startsWith(k + "-")) return true; return false; }
+function ecrireExclues() { try { localStorage.setItem("sentinelle-exclues", JSON.stringify(Object.fromEntries(exclues))); } catch {} }
+function renderExclues() {
+  $("panExclues").hidden = !exclues.size;
+  $("nbExcl").textContent = exclues.size ? `(${exclues.size})` : "";
+  $("listeExcl").innerHTML = [...exclues.entries()].sort((a, b) => a[1].localeCompare(b[1], "fr"))
+    .map(([k, nom]) => `<div><span>${esc(nom)}</span><button type="button" class="js-retablir" data-k="${esc(k)}">Rétablir</button></div>`).join("");
+}
+let dernierExclu = null, minuteur;
+function montrerToast(txt) { $("toastTxt").textContent = txt; $("toast").hidden = false; clearTimeout(minuteur); minuteur = setTimeout(() => $("toast").hidden = true, 6000); }
+$("toastAnnuler").addEventListener("click", () => { if (dernierExclu) { exclues.delete(dernierExclu); ecrireExclues(); renderExclues(); render(); } $("toast").hidden = true; });
+document.addEventListener("click", (ev) => {
+  const x = ev.target.closest(".js-excl");
+  if (x) { const nom = x.dataset.cie, k = slug(nom); exclues.set(k, nom); dernierExclu = k; ecrireExclues(); renderExclues(); render(); montrerToast(`${nom} est exclue des résultats.`); return; }
+  const rb = ev.target.closest(".js-retablir");
+  if (rb) { exclues.delete(rb.dataset.k); ecrireExclues(); renderExclues(); render(); return; }
+});
 document.addEventListener("click", (ev) => {
   const b = ev.target.closest(".js-fav");
   if (b) { const id = b.dataset.id; sauver(id, { favori: !(state.notes[id] || {}).favori }); render(); }
@@ -478,6 +518,7 @@ $("favNav").addEventListener("click", () => { state.favSeul = !state.favSeul; re
 $("vueListe").addEventListener("click", () => { state.vue = "liste"; memoFiltres(); render(); });
 $("vueEnt").addEventListener("click", () => { state.vue = "entreprise"; memoFiltres(); render(); });
 $("reinit").addEventListener("click", () => {
+  /* les entreprises exclues restent exclues; on les rétablit une à une */
   document.querySelectorAll("aside input[type=checkbox]").forEach(i => i.checked = false);
   $("region").value = ""; $("domaine").value = ""; $("q").value = ""; memo.sources = []; memo.suivis = []; state.favSeul = false;
   memoFiltres(); render();
@@ -529,6 +570,7 @@ async function chargerOffres() {
 }
 if (window.matchMedia("(max-width: 900px)").matches) document.querySelectorAll("details.groupe-f").forEach(d => d.open = false);
 chargerNotes();
+renderExclues();
 render();
 chargerOffres();
 document.addEventListener("visibilitychange", () => { if (!document.hidden) chargerOffres(); });
