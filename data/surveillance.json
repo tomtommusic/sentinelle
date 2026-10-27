@@ -3,10 +3,11 @@
  "recherche": {
   "periode": "7 derniers jours",
   "villesPivots": [
+   "Montréal",
+   "Québec",
    "Trois-Rivières",
    "Sherbrooke",
-   "Drummondville",
-   "Saint-Hyacinthe"
+   "Drummondville"
   ],
   "rayonKm": 80,
   "postes": [
@@ -50,7 +51,35 @@
     "terme": "gérant de projet",
     "domaine": "Gestion de projets"
    }
-  ]
+  ],
+  "territoire": "Sud du Québec, de Montréal à Québec inclusivement (Montréal, Laval, Laurentides, Lanaudière, Montérégie, Estrie, Centre-du-Québec, Mauricie, Capitale-Nationale, Chaudière-Appalaches)",
+  "groupesDeRecherche": [
+   {
+    "domaine": "Génie mécanique",
+    "requete": "ingénieur mécanique"
+   },
+   {
+    "domaine": "Ingénierie et production",
+    "requete": "ingénieur"
+   },
+   {
+    "domaine": "Ressources humaines",
+    "requete": "directeur ou conseiller ressources humaines"
+   },
+   {
+    "domaine": "Finance et comptabilité",
+    "requete": "contrôleur financier, contrôleur adjoint, comptable ou analyste financier"
+   },
+   {
+    "domaine": "Direction",
+    "requete": "vice-président"
+   },
+   {
+    "domaine": "Gestion de projets",
+    "requete": "gérant ou chargé de projet"
+   }
+  ],
+  "note": "Une requête par groupe et par ville pivot (rayon d'environ 80 km) pour limiter le nombre de pages LinkedIn consultées."
  },
  "sitesEmploi": [
   {
