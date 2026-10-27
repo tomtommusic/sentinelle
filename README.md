@@ -16,7 +16,7 @@ Les notes et statuts de suivi sont gardés dans le navigateur de la personne qui
     "slug-entreprise": { "nom": "", "siteWeb": "", "pageCarrieres": "", "telephone": "", "courriel": "", "adresse": "", "linkedinUrl": "" }
   },
   "offres": [
-    { "id": "linkedin-job-id", "titre": "", "entreprise": "", "lieu": "", "region": "", "domaine": "", "modalite": "", "publieLe": "ISO 8601", "urlOffre": "", "recruteur": { "nom": "", "titre": "", "profilUrl": "" } }
+    { "id": "linkedin-job-id", "titre": "", "entreprise": "", "lieu": "", "region": "", "domaine": "", "modalite": "", "publieLe": "ISO 8601", "urlOffre": "", "sources": [{ "nom": "LinkedIn", "url": "" }, { "nom": "Jobillico", "url": "" }], "recruteur": { "nom": "", "titre": "", "profilUrl": "" } }
   ]
 }
 ```

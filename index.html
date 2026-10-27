@@ -55,7 +55,7 @@ h1 span { display: block; font: 500 12px/1.4 var(--mono); letter-spacing: .08em;
 .stat b { font: 600 18px var(--body); color: var(--ink); font-variant-numeric: tabular-nums; margin-right: 4px; }
 
 .filtres { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
-  padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; border-bottom: 1px solid var(--line); }
+  padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr repeat(5, 1fr); border-bottom: 1px solid var(--line); }
 @media (max-width: 700px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres .q { grid-column: 1 / -1; } }
 label.f { display: grid; gap: 3px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
 input, select, textarea { font: 15px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
@@ -83,6 +83,10 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
 .pill.neuf::before { content: "●"; font-size: 9px; }
 .pill.vieux { color: var(--muted); }
 .recru { font-size: 14px; }
+.sources { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 13px; }
+.sources .k { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.src { font: 500 12px var(--mono); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; text-decoration: none; }
+a.src:hover { border-color: var(--accent); color: var(--accent); }
 .recru a { color: var(--ink); }
 .suivi { display: grid; gap: 6px; align-content: start; }
 .suivi textarea { min-height: 38px; resize: vertical; font-size: 14px; }
@@ -120,6 +124,9 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visib
     </label>
     <label class="f" for="domaine">Domaine
       <select id="domaine"><option value="">Tous</option></select>
+    </label>
+    <label class="f" for="source">Source
+      <select id="source"><option value="">Toutes</option></select>
     </label>
     <label class="f" for="statutF">Suivi
       <select id="statutF">
@@ -159,6 +166,18 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<"
 const slug = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const sureUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
 
+// Une offre peut avoir été trouvée sur plusieurs sites : sources = [{ nom, url }]
+function sourcesDe(o) {
+  if (Array.isArray(o.sources)) return o.sources.map(x => typeof x === "string" ? x : x && x.nom).filter(Boolean);
+  return o.source ? [o.source] : [];
+}
+function liensSources(o) {
+  const liste = Array.isArray(o.sources) ? o.sources : (o.source ? [{ nom: o.source, url: o.urlOffre }] : []);
+  return liste.map(x => {
+    const nom = typeof x === "string" ? x : x.nom, url = typeof x === "string" ? "" : sureUrl(x.url);
+    return url ? `<a class="src" href="${esc(url)}" target="_blank" rel="noopener">${esc(nom)}</a>` : `<span class="src">${esc(nom)}</span>`;
+  }).join("");
+}
 function age(iso) {
   const t = Date.parse(iso); if (!t) return { txt: "date inconnue", h: Infinity };
   const h = (Date.now() - t) / 36e5;
@@ -172,8 +191,8 @@ function dateCourte(iso) {
 }
 
 try { const p = JSON.parse(localStorage.getItem("sentinelle-filtres") || "{}");
-  for (const k of ["region", "domaine", "statutF", "tri"]) if (p[k] != null) $(k).value = p[k]; } catch {}
-function memoFiltres() { try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, domaine: $("domaine").value, statutF: $("statutF").value, tri: $("tri").value })); } catch {} }
+  for (const k of ["region", "domaine", "source", "statutF", "tri"]) if (p[k] != null) $(k).value = p[k]; } catch {}
+function memoFiltres() { try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ region: $("region").value, domaine: $("domaine").value, source: $("source").value, statutF: $("statutF").value, tri: $("tri").value })); } catch {} }
 
 function render() {
   const { offres, entreprises, notes, meta } = state;
@@ -188,12 +207,17 @@ function render() {
   const selD = $("domaine"), domCourant = selD.value;
   selD.innerHTML = `<option value="">Tous</option>` + domaines.map(d => `<option>${esc(d)}</option>`).join("");
   if (domaines.includes(domCourant)) selD.value = domCourant;
+  const sources = [...new Set(offres.flatMap(sourcesDe))].sort((a, b) => a.localeCompare(b, "fr"));
+  const selS = $("source"), srcCourante = selS.value;
+  selS.innerHTML = `<option value="">Toutes</option>` + sources.map(x => `<option>${esc(x)}</option>`).join("");
+  if (sources.includes(srcCourante)) selS.value = srcCourante;
 
-  const q = $("q").value.trim().toLowerCase(), reg = selR.value, dom = selD.value, st = $("statutF").value, tri = $("tri").value;
+  const q = $("q").value.trim().toLowerCase(), reg = selR.value, dom = selD.value, src = selS.value, st = $("statutF").value, tri = $("tri").value;
   const filtrees = offres.filter(o => {
     const n = notes[o.id] || {};
     if (reg && o.region !== reg) return false;
     if (dom && o.domaine !== dom) return false;
+    if (src && !sourcesDe(o).includes(src)) return false;
     if (st && (n.statut || "nouveau") !== st) return false;
     if (q) {
       const hay = [o.titre, o.entreprise, o.lieu, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase();
@@ -256,6 +280,7 @@ function render() {
             ${o.modalite ? `<span>${esc(o.modalite)}</span>` : ""}
           </div>
           ${r}
+          ${liensSources(o) ? `<div class="sources"><span class="k">Vue sur</span>${liensSources(o)}</div>` : ""}
         </div>
         <div class="suivi">
           <select id="st-${esc(o.id)}" data-id="${esc(o.id)}" class="js-statut" aria-label="Suivi de l'offre" ${dis}>
@@ -324,7 +349,7 @@ document.addEventListener("change", (ev) => {
   const t = ev.target;
   if (t.classList.contains("js-statut")) sauver(t.dataset.id, { statut: t.value });
   if (t.classList.contains("js-note")) sauver(t.dataset.id, { texte: t.value.trim() });
-  if (["region", "domaine", "statutF", "tri"].includes(t.id)) { memoFiltres(); render(); }
+  if (["region", "domaine", "source", "statutF", "tri"].includes(t.id)) { memoFiltres(); render(); }
 });
 let attente; $("q").addEventListener("input", () => { clearTimeout(attente); attente = setTimeout(render, 150); });
 
