@@ -1,5 +1,1534 @@
 {
-  "tournee": null,
-  "entreprises": {},
-  "offres": []
+ "tournee": {
+  "date": "2026-10-27T18:30:00-04:00",
+  "regions": "Estrie, Centre-du-Québec, Mauricie, Montérégie-Est",
+  "sources": [
+   "LinkedIn",
+   "Jobillico"
+  ]
+ },
+ "entreprises": {
+  "marmen": {
+   "siteWeb": "https://www.marmeninc.com"
+  },
+  "kruger": {
+   "siteWeb": "https://www.kruger.com"
+  },
+  "exp": {
+   "siteWeb": "https://www.exp.com"
+  },
+  "cascades": {
+   "siteWeb": "https://www.cascades.com"
+  },
+  "hydro-quebec": {
+   "siteWeb": "https://www.hydroquebec.com"
+  },
+  "agropur": {
+   "siteWeb": "https://www.agropur.com"
+  },
+  "wsp-au-canada": {
+   "siteWeb": "https://www.wsp.com"
+  },
+  "brp-megatech": {
+   "siteWeb": "https://www.brp.com",
+   "pageCarrieres": "https://careers.brp.com/ca/fr"
+  },
+  "brp": {
+   "siteWeb": "https://www.brp.com",
+   "pageCarrieres": "https://careers.brp.com/ca/fr"
+  },
+  "cegep-de-sherbrooke": {
+   "siteWeb": "https://www.cegepsherbrooke.qc.ca"
+  }
+ },
+ "offres": [
+  {
+   "id": "li-4484245319",
+   "titre": "Conseiller Ressources Humaines, Santé Sécurité Et Formation",
+   "entreprise": "Fromagerie Polyethnique - Le Bédouin",
+   "lieu": "Saint-Robert, QC",
+   "region": "Montérégie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-27T16:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484245319/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484245319/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484211849",
+   "titre": "Ingénieure ou Ingénieur senior, Mécanique lourde (Hydroélectricité)",
+   "entreprise": "EXP",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-27T15:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484211849/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484211849/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484213582",
+   "titre": "Ingénieure ou Ingénieur senior, Mécanique et tuyauterie industrielle (Hydroélectricité)",
+   "entreprise": "EXP",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-27T15:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484213582/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484213582/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484213712",
+   "titre": "Ingénieure ou Ingénieur senior, Mécanique lourde (Hydroélectricité)",
+   "entreprise": "EXP",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-27T15:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484213712/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484213712/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484224149",
+   "titre": "Ingénieure ou Ingénieur senior, Mécanique et tuyauterie industrielle (Hydroélectricité)",
+   "entreprise": "EXP",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-27T15:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484224149/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484224149/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484220606",
+   "titre": "Ingénieure ou Ingénieur senior, Mécanique lourde (Hydroélectricité)",
+   "entreprise": "EXP",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-27T15:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484220606/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484220606/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484229019",
+   "titre": "Responsable de projet",
+   "entreprise": "Produits IdéalTFC",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-27T15:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484229019/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484229019/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484221726",
+   "titre": "Ingénieur Conformité Produit et Réglementation (Transport)",
+   "entreprise": "Trisotech",
+   "lieu": "Estrie, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-27T15:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484221726/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484221726/"
+    }
+   ]
+  },
+  {
+   "id": "li-4484207592",
+   "titre": "INGÉNIEUR(E) MÉCANIQUE – SUPPORT TECHNIQUE AUX PROJETS",
+   "entreprise": "Seneca",
+   "lieu": "Bécancour, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-27T14:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484207592/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484207592/"
+    }
+   ]
+  },
+  {
+   "id": "li-4474776022",
+   "titre": "Ingénieur en maintenance industrielle",
+   "entreprise": "Marmen",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-27T12:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4474776022/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4474776022/"
+    }
+   ]
+  },
+  {
+   "id": "li-4427865090",
+   "titre": "Design Technician Service",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-27T10:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4427865090/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4427865090/"
+    }
+   ]
+  },
+  {
+   "id": "li-4416848559",
+   "titre": "Ingénieur de projets",
+   "entreprise": "Agropur",
+   "lieu": "Plessisville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-27T07:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4416848559/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4416848559/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482788107",
+   "titre": "Concepteur(trice) mécanique",
+   "entreprise": "Métier Plus",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-26T20:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482788107/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482788107/"
+    }
+   ]
+  },
+  {
+   "id": "li-4439387262",
+   "titre": "Inspecteur dimensionnel",
+   "entreprise": "GE Vernova",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4439387262/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4439387262/"
+    }
+   ]
+  },
+  {
+   "id": "li-4428431796",
+   "titre": "Ingénieur(e) de procédés intermédiaire",
+   "entreprise": "WSP au Canada",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4428431796/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4428431796/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483559155",
+   "titre": "Chargé(e) de projets",
+   "entreprise": "Aciers Richelieu - Usinage St-Laurent",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483559155/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483559155/"
+    }
+   ]
+  },
+  {
+   "id": "li-4471503454",
+   "titre": "Chargé de projet maintenance",
+   "entreprise": "BRP Mégatech",
+   "lieu": "Shawinigan, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4471503454/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4471503454/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483554397",
+   "titre": "Project Manager",
+   "entreprise": "Aciers Richelieu - Usinage St-Laurent",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483554397/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483554397/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483552762",
+   "titre": "Chargé.e de projets / Dessinateur.trice industriel.le",
+   "entreprise": "Aciers Richelieu - Usinage St-Laurent",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483552762/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483552762/"
+    }
+   ]
+  },
+  {
+   "id": "li-4430492252",
+   "titre": "Technicienne ou technicien concepteur service",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4430492252/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4430492252/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483718001",
+   "titre": "Ingénieur·e de procédés - Qualité",
+   "entreprise": "Soucy",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483718001/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483718001/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483706760",
+   "titre": "Responsable procédés",
+   "entreprise": "Soucy",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483706760/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483706760/"
+    }
+   ]
+  },
+  {
+   "id": "li-4438249488",
+   "titre": "Chargée ou chargé de projets, Stratégie logistique",
+   "entreprise": "BRP",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4438249488/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4438249488/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483562794",
+   "titre": "Conseiller(ère) acquisition de talents",
+   "entreprise": "Groupe MESAR",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483562794/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483562794/"
+    }
+   ]
+  },
+  {
+   "id": "jb-16606071",
+   "titre": "Ingénieur mécanique",
+   "entreprise": "Machinerie Lépine",
+   "lieu": "Sainte-Brigitte-des-Saults, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/machinerie-lepine-inc.uCcbCb/ingenieur-mecanique/16606071",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/machinerie-lepine-inc.uCcbCb/ingenieur-mecanique/16606071"
+    }
+   ]
+  },
+  {
+   "id": "jb-17647035",
+   "titre": "Ressources humaines / Recrutement",
+   "entreprise": "Ville de Shawinigan",
+   "lieu": "Shawinigan, QC",
+   "region": "Mauricie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-26T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/ville-de-shawinigan.tYkcTx/ressources-humaines-recrutement/17647035",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/ville-de-shawinigan.tYkcTx/ressources-humaines-recrutement/17647035"
+    }
+   ]
+  },
+  {
+   "id": "li-4482907236",
+   "titre": "INGÉNIEUR (E) FIABILISTE",
+   "entreprise": "Kruger",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-25T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482907236/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482907236/"
+    }
+   ]
+  },
+  {
+   "id": "li-4457521776",
+   "titre": "Ingénieur validation de produits",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-25T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4457521776/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4457521776/"
+    }
+   ]
+  },
+  {
+   "id": "li-4428089271",
+   "titre": "Spécialiste modélisation numérique - Éléments finis",
+   "entreprise": "Cascades",
+   "lieu": "Kingsey Falls, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4428089271/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4428089271/"
+    }
+   ]
+  },
+  {
+   "id": "li-4429718673",
+   "titre": "Concepteur – Développement de produit de Ventilation",
+   "entreprise": "Broan-NuTone",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4429718673/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4429718673/"
+    }
+   ]
+  },
+  {
+   "id": "li-4475032799",
+   "titre": "Ingénieur·e en simulation numérique",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4475032799/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4475032799/"
+    }
+   ]
+  },
+  {
+   "id": "li-4429982436",
+   "titre": "Ingénieur·e industriel",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4429982436/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4429982436/"
+    }
+   ]
+  },
+  {
+   "id": "li-4428422872",
+   "titre": "Ingénieur(e) de procédés sénior(e)",
+   "entreprise": "WSP au Canada",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4428422872/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4428422872/"
+    }
+   ]
+  },
+  {
+   "id": "li-4408121248",
+   "titre": "Concepteur Piping 3D - Technicien",
+   "entreprise": "Nortek Air Solutions",
+   "lieu": "Aston Junction, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4408121248/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4408121248/"
+    }
+   ]
+  },
+  {
+   "id": "li-4466359002",
+   "titre": "Technicienne ou technicien en mécanique (Tuyauterie), Secteur Énergie",
+   "entreprise": "EXP",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4466359002/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4466359002/"
+    }
+   ]
+  },
+  {
+   "id": "li-4464593954",
+   "titre": "Mechanical product simulation engineer (15 months contract)",
+   "entreprise": "Michelin",
+   "lieu": "Magog, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4464593954/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4464593954/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483336426",
+   "titre": "Ingénieur Calibration moteur automobile",
+   "entreprise": "Trisotech",
+   "lieu": "Estrie, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483336426/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483336426/"
+    }
+   ]
+  },
+  {
+   "id": "li-4428423857",
+   "titre": "Ingénieur(e) de procédés intermédiaire",
+   "entreprise": "WSP au Canada",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4428423857/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4428423857/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483306977",
+   "titre": "Ingénieure ou ingénieur en hydraulique",
+   "entreprise": "Ministère des Transports et de la Mobilité durable du Québec (MTMD)",
+   "lieu": "Estrie, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483306977/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483306977/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483167910",
+   "titre": "Technicien·ne à la paie",
+   "entreprise": "Eurovia Québec",
+   "lieu": "Victoriaville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-24T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483167910/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483167910/"
+    }
+   ]
+  },
+  {
+   "id": "li-4481929642",
+   "titre": "Ingénieur(e) en mécanique Bâtiment - Protection incendie",
+   "entreprise": "Hydro-Québec",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481929642/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481929642/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483134851",
+   "titre": "Dessinateur/concepteur",
+   "entreprise": "Marmen",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483134851/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483134851/"
+    }
+   ]
+  },
+  {
+   "id": "li-4473502676",
+   "titre": "Chargé de projet en amélioration continue",
+   "entreprise": "Marmen",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4473502676/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4473502676/"
+    }
+   ]
+  },
+  {
+   "id": "li-4446590167",
+   "titre": "Chargé de projet - Assurance qualité",
+   "entreprise": "Marmen",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4446590167/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4446590167/"
+    }
+   ]
+  },
+  {
+   "id": "li-4465871552",
+   "titre": "Directeur·trice génie manufacturier",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4465871552/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4465871552/"
+    }
+   ]
+  },
+  {
+   "id": "li-4472984128",
+   "titre": "Chargé(e) de projet - Performance industrielle 1",
+   "entreprise": "Bel",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4472984128/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4472984128/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482796140",
+   "titre": "Chargé·e de projets - Ingénierie des structures",
+   "entreprise": "Machinex",
+   "lieu": "Princeville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482796140/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482796140/"
+    }
+   ]
+  },
+  {
+   "id": "li-4456340497",
+   "titre": "Ingénieure ou Ingénieur, Mécanique",
+   "entreprise": "EXP",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4456340497/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4456340497/"
+    }
+   ]
+  },
+  {
+   "id": "li-4465065710",
+   "titre": "Ingénieure ou ingénieur, Caisses",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4465065710/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4465065710/"
+    }
+   ]
+  },
+  {
+   "id": "li-4480674914",
+   "titre": "Ingénieur(e) mécanique - Magog, Canada",
+   "entreprise": "Arjo",
+   "lieu": "Magog, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480674914/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480674914/"
+    }
+   ]
+  },
+  {
+   "id": "li-4480688306",
+   "titre": "Mechanical Engineer - Magog, Canada",
+   "entreprise": "Arjo",
+   "lieu": "Magog, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480688306/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480688306/"
+    }
+   ]
+  },
+  {
+   "id": "li-4481002288",
+   "titre": "Personnel enseignant en Techniques de génie mécanique et Technologie de maintenance industrielle",
+   "entreprise": "Cégep de Sherbrooke",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481002288/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481002288/"
+    }
+   ]
+  },
+  {
+   "id": "li-4428439669",
+   "titre": "Ingénieur(e) de procédés sénior(e)",
+   "entreprise": "WSP au Canada",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4428439669/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4428439669/"
+    }
+   ]
+  },
+  {
+   "id": "li-4481950436",
+   "titre": "Technicien(ne) des opérations / Operations Technician",
+   "entreprise": "Forestor",
+   "lieu": "Bolton-Ouest, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481950436/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481950436/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483153638",
+   "titre": "Expert produit",
+   "entreprise": "Cabico&co",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483153638/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483153638/"
+    }
+   ]
+  },
+  {
+   "id": "li-4459954093",
+   "titre": "Analyste au laboratoire",
+   "entreprise": "Teledyne Technologies Incorporated",
+   "lieu": "Bromont, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4459954093/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4459954093/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482882766",
+   "titre": "cryogenics engineer",
+   "entreprise": "Nord Quantique",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482882766/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482882766/"
+    }
+   ]
+  },
+  {
+   "id": "li-4481929039",
+   "titre": "Conseiller(ère) en ressources humaines",
+   "entreprise": "UNNO",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481929039/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481929039/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483150164",
+   "titre": "Human Resources Generalist",
+   "entreprise": "NexKemia",
+   "lieu": "Mansonville, QC",
+   "region": "Estrie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483150164/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483150164/"
+    }
+   ]
+  },
+  {
+   "id": "li-4483114374",
+   "titre": "Conseiller·ère en communications et marketing RH",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483114374/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483114374/"
+    }
+   ]
+  },
+  {
+   "id": "jb-17553264",
+   "titre": "Ingénieur méthode",
+   "entreprise": "Construction St-Arnaud",
+   "lieu": "Sainte-Geneviève-de-Batiscan, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-23T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/construction-st-arnaud-inc-.mGxdNs/ingenieur-methode/17553264",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/construction-st-arnaud-inc-.mGxdNs/ingenieur-methode/17553264"
+    }
+   ]
+  },
+  {
+   "id": "li-4482167851",
+   "titre": "Concepteur·trice",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482167851/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482167851/"
+    }
+   ]
+  },
+  {
+   "id": "li-4445168658",
+   "titre": "CPI en mécanique-tuyauterie Sorel-Tracy",
+   "entreprise": "Hatch",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4445168658/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4445168658/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482185628",
+   "titre": "Ingénieur en soudure",
+   "entreprise": "GE Vernova",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482185628/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482185628/"
+    }
+   ]
+  },
+  {
+   "id": "li-4464131861",
+   "titre": "Technicien(ne) de Laboratoire (procédés et matériaux)",
+   "entreprise": "Cascades",
+   "lieu": "Kingsey Falls, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4464131861/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4464131861/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482197087",
+   "titre": "Leader ingénierie manufacturière",
+   "entreprise": "GE Vernova",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482197087/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482197087/"
+    }
+   ]
+  },
+  {
+   "id": "li-4480068036",
+   "titre": "Technicien processus/Technicienne processus",
+   "entreprise": "Micro Bird",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480068036/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480068036/"
+    }
+   ]
+  },
+  {
+   "id": "li-4463044528",
+   "titre": "Engineer, Crates",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4463044528/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4463044528/"
+    }
+   ]
+  },
+  {
+   "id": "li-4477446056",
+   "titre": "Ingénieur senior (Gestionnaire, projet ingénierie)",
+   "entreprise": "Lactalis Canada",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477446056/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477446056/"
+    }
+   ]
+  },
+  {
+   "id": "li-4475257994",
+   "titre": "Ingénieur/Scientifique couches minces procédés de nettoyage par CO₂ cryogénique",
+   "entreprise": "Teledyne Technologies Incorporated",
+   "lieu": "Bromont, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4475257994/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4475257994/"
+    }
+   ]
+  },
+  {
+   "id": "li-4472646526",
+   "titre": "Senior Mechanical Engineer - Magog, Canada",
+   "entreprise": "Arjo",
+   "lieu": "Magog, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4472646526/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4472646526/"
+    }
+   ]
+  },
+  {
+   "id": "li-4472655237",
+   "titre": "Ingénieur(e) mécanique sénior - Magog, Canada",
+   "entreprise": "Arjo",
+   "lieu": "Magog, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4472655237/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4472655237/"
+    }
+   ]
+  },
+  {
+   "id": "li-4477424880",
+   "titre": "Gestionnaire Projet Ingénierie",
+   "entreprise": "Lactalis Canada",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477424880/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477424880/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482709877",
+   "titre": "Direction principale, Ressources humaines et efficacité organisationnelle",
+   "entreprise": "Boire et frères",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482709877/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482709877/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482707516",
+   "titre": "Vice-président(e) Ressources humaines",
+   "entreprise": "Aliments Krispy Kernels",
+   "lieu": "Warwick, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482707516/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482707516/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482435050",
+   "titre": "Directeur.trice des opérations",
+   "entreprise": "Opto-Réseau",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482435050/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482435050/"
+    }
+   ]
+  },
+  {
+   "id": "li-4481365684",
+   "titre": "Store Human Resources Manager",
+   "entreprise": "Home Depot Canada",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481365684/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481365684/"
+    }
+   ]
+  },
+  {
+   "id": "li-4480055512",
+   "titre": "Technicien ressources humaines/Technicienne ressources humaines",
+   "entreprise": "Micro Bird",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480055512/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480055512/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482711346",
+   "titre": "Conseiller(ère) en ressources humaines",
+   "entreprise": "Corbec",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482711346/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482711346/"
+    }
+   ]
+  },
+  {
+   "id": "li-4472654333",
+   "titre": "Conseiller(ère) sénior(e) - Analytique RH et Intelligence d'affaires",
+   "entreprise": "Cascades",
+   "lieu": "Kingsey Falls, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4472654333/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4472654333/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482703838",
+   "titre": "Human Resources Advisor",
+   "entreprise": "Corbec",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482703838/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482703838/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482722147",
+   "titre": "Conseiller/conseillère relations de travail",
+   "entreprise": "Aliments Krispy Kernels",
+   "lieu": "Warwick, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482722147/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482722147/"
+    }
+   ]
+  },
+  {
+   "id": "jb-16928287",
+   "titre": "Ingénieur",
+   "entreprise": "Construction Valard",
+   "lieu": "Victoriaville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/construction-valard-inc-lGgtUg/ingenieur-/16928287",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/construction-valard-inc-lGgtUg/ingenieur-/16928287"
+    }
+   ]
+  },
+  {
+   "id": "jb-17639649",
+   "titre": "Adjoint aux ressources humaines",
+   "entreprise": "Groupe Mario Coté",
+   "lieu": "Stoke, QC",
+   "region": "Estrie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/adjoint-aux-ressources-humaines/17639649",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/adjoint-aux-ressources-humaines/17639649"
+    }
+   ]
+  },
+  {
+   "id": "jb-17638692",
+   "titre": "Technicien.ne ressources humaines et paie",
+   "entreprise": "Hôtel & Suites Le Dauphin",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/hotel-suites-le-dauphin-drummondville/technicien.ne-ressources-humaines-et-paie/17638692",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/hotel-suites-le-dauphin-drummondville/technicien.ne-ressources-humaines-et-paie/17638692"
+    }
+   ]
+  },
+  {
+   "id": "jb-17639682",
+   "titre": "Technicien aux ressources humaines",
+   "entreprise": "Groupe Mario Côté",
+   "lieu": "Stoke, QC",
+   "region": "Estrie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/technicien-aux-ressources-humaines/17639682",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/technicien-aux-ressources-humaines/17639682"
+    }
+   ]
+  },
+  {
+   "id": "jb-17639778",
+   "titre": "Conseiller en ressources humaines",
+   "entreprise": "Groupe Mario Côté",
+   "lieu": "Stoke, QC",
+   "region": "Estrie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-22T18:30:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/conseiller-en-ressources-humaines/17639778",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/conseiller-en-ressources-humaines/17639778"
+    }
+   ]
+  },
+  {
+   "id": "li-4482155859",
+   "titre": "Opto-Mechanical Engineer",
+   "entreprise": "SBQuantum",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-21T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482155859/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482155859/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482025868",
+   "titre": "Ingénieur(e) mécanique - Granby",
+   "entreprise": "Sogenix groupe conseil",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-21T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482025868/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482025868/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482041470",
+   "titre": "CPI en génie mécanique - Granby",
+   "entreprise": "Sogenix groupe conseil",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-21T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482041470/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482041470/"
+    }
+   ]
+  },
+  {
+   "id": "li-4363500026",
+   "titre": "Mécanicien(e) industriel(le)",
+   "entreprise": "Kruger",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-21T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4363500026/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4363500026/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482129308",
+   "titre": "Ingénieure ou ingénieur, Certification des accessoires",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-21T18:30:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482129308/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482129308/"
+    }
+   ]
+  },
+  {
+   "id": "li-4482729018",
+   "titre": "Chargé de projet mécano-soudé",
+   "entreprise": "Hydrexcel",
+   "lieu": "Bécancour, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Génie mécanique",
+   "publieLe": null,
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482729018/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482729018/"
+    }
+   ]
+  }
+ ]
 }
