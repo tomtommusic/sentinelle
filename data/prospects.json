@@ -10710,6 +10710,670 @@
     "Recrute des profils spécialisés (Ressources humaines)",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-28"
    ]
+  },
+  {
+   "id": "exo-s",
+   "nom": "Exo-s",
+   "region": "Estrie",
+   "ville": "Richmond",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Opérations et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Opérations et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "gurit-americas",
+   "nom": "Gurit Americas",
+   "region": "Estrie",
+   "ville": "Magog",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Qualité, maintenance et SST)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Qualité, maintenance et SST), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "ec-solutions",
+   "nom": "EC-Solutions",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Technologies de l'information)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Technologies de l'information), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "quais-bertrand",
+   "nom": "Quais Bertrand",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ventes et développement des affaires)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ventes et développement des affaires), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "maintenance-ici",
+   "nom": "Maintenance ICI",
+   "region": "Montérégie",
+   "ville": "Saint-Valérien-de-Milton",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "santinel",
+   "nom": "Santinel",
+   "region": "Mauricie",
+   "ville": "Sainte-Julie / Trois-Rivières",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Qualité, maintenance et SST)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Qualité, maintenance et SST), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "athom",
+   "nom": "Athom",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "aubin-pelissier",
+   "nom": "Aubin Pelissier",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ventes et développement des affaires)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ventes et développement des affaires), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "roxboro-excavation",
+   "nom": "Roxboro Excavation",
+   "region": "Mauricie",
+   "ville": "Blainville / L'Épiphanie / Trois-Rivières",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 3 offres en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28",
+    "Plusieurs postes ouverts en même temps"
+   ]
+  },
+  {
+   "id": "mindcore-technologies",
+   "nom": "MindCore Technologies",
+   "region": "Lanaudière",
+   "ville": "Terrebonne",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets, Qualité, maintenance et SST)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Gestion de projets, Qualité, maintenance et SST), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "groupe-riendeau",
+   "nom": "Groupe Riendeau",
+   "region": "Lanaudière",
+   "ville": "Repentigny",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Opérations et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Opérations et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "groupe-robillard",
+   "nom": "Groupe Robillard",
+   "region": "Lanaudière",
+   "ville": "Saint-Félix-de-Valois",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "pelletier-associes-conseil",
+   "nom": "Pelletier & Associés Conseil",
+   "region": "Lanaudière",
+   "ville": "Terrebonne",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "mir",
+   "nom": "MIR",
+   "region": "Lanaudière",
+   "ville": "Lanoraie",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "stella-jones",
+   "nom": "Stella-Jones",
+   "region": "Montérégie",
+   "ville": "Candiac",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Qualité, maintenance et SST)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Qualité, maintenance et SST), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "demers-manufacturier-d-ambulances",
+   "nom": "Demers Manufacturier d'Ambulances",
+   "region": "Montérégie",
+   "ville": "Beloeil",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "unimax",
+   "nom": "Unimax",
+   "region": "Montérégie",
+   "ville": "Boucherville",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "bmr",
+   "nom": "BMR",
+   "region": "Montérégie",
+   "ville": "Chambly / Saint-Basile-le-Grand",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "lanctot",
+   "nom": "Lanctôt",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Opérations et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Opérations et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "grifols",
+   "nom": "Grifols",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Opérations et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Opérations et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "smardt",
+   "nom": "Smardt",
+   "region": "Montréal",
+   "ville": "Dorval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Qualité, maintenance et SST)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Qualité, maintenance et SST), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "sistemalux",
+   "nom": "Sistemalux",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "tls-architectural-lighting",
+   "nom": "TLS Architectural Lighting",
+   "region": "Montréal",
+   "ville": "Saint-Laurent",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "pneus-a-rabais",
+   "nom": "Pneus à rabais",
+   "region": "Laval",
+   "ville": "Laval / Saint-Jérôme",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Qualité, maintenance et SST, Ressources humaines)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Qualité, maintenance et SST, Ressources humaines), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "bailey-international",
+   "nom": "Bailey International",
+   "region": "Lanaudière",
+   "ville": "Terrebonne",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Qualité, maintenance et SST)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Qualité, maintenance et SST), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "les-plats-du-chef",
+   "nom": "Les Plats du Chef",
+   "region": "Montréal",
+   "ville": "Dollard-des-Ormeaux",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "rinker-materials",
+   "nom": "Rinker Materials",
+   "region": "Laurentides",
+   "ville": "Saint-Eustache",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "presentoirs-filotech",
+   "nom": "Présentoirs Filotech",
+   "region": "Laurentides",
+   "ville": "Saint-Jérôme",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "industries-sedm",
+   "nom": "Industries SEDM",
+   "region": "Laurentides",
+   "ville": "Saint-Jérôme",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "kolostat",
+   "nom": "Kolostat",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "metaltech-omega",
+   "nom": "Metaltech-Omega",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "groupe-novatech",
+   "nom": "Groupe Novatech",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Agapit",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "environmental-360-solutions",
+   "nom": "Environmental 360 Solutions",
+   "region": "Capitale-Nationale",
+   "ville": "Ville de Québec",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "ver-mac",
+   "nom": "Ver-Mac",
+   "region": "Capitale-Nationale",
+   "ville": "Ville de Québec",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "franklin-empire",
+   "nom": "Franklin Empire",
+   "region": "Capitale-Nationale",
+   "ville": "Ville de Québec",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "the-group-master",
+   "nom": "The Group Master",
+   "region": "Capitale-Nationale",
+   "ville": "Ville de Québec",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Approvisionnement et logistique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Approvisionnement et logistique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "troy-life-fire-safety",
+   "nom": "Troy Life & Fire Safety",
+   "region": "Capitale-Nationale",
+   "ville": "Ville de Québec",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "westrock-company-of-canada",
+   "nom": "WestRock Company of Canada",
+   "region": "Chaudière-Appalaches",
+   "ville": "Sainte-Marie-de-Beauce",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Opérations et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Opérations et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "polycor",
+   "nom": "Polycor",
+   "region": "Estrie",
+   "ville": "Saint-Sébastien-de-Frontenac",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
   }
  ]
 }

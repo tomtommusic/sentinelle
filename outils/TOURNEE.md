@@ -161,3 +161,11 @@ Il faut aussi fermer l'onglet Chrome.
 - problèmes rencontrés (connexion, pages bloquées).
 
 Ne jamais inscrire d'adresse courriel personnelle dans ce dépôt public.
+
+## 9. Si le push est refusé
+
+Une autre tournée a peut-être publié entre-temps. Dans ce cas :
+1. `git fetch && git reset --hard origin/main`;
+2. relancer `tournee.py fusion` avec les mêmes fichiers bruts, puis `fermer` et `ouvertes`;
+3. relancer `decouvrir.py`;
+4. refaire le commit et le push.
