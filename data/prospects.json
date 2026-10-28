@@ -11691,6 +11691,185 @@
     "Recrute des profils spécialisés (Approvisionnement et logistique)",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Approvisionnement et logistique), découverte le 2026-10-28"
    ]
+  },
+  {
+   "id": "mecxel",
+   "nom": "Mecxel (Mécanitec et Excelpro)",
+   "region": "Mauricie",
+   "ville": "Trois-Rivières",
+   "secteur": "Manufacturier – fabrication industrielle modulaire",
+   "taille": "",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (deux PME réunies en coentreprise)",
+    "Postes spécialisés en fabrication industrielle",
+    "Signal d'affaires : nouvelle usine de 8 M$, 30 emplois, ouverture à l'automne 2026"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "groupe-meunerie-victo",
+   "nom": "Groupe Meunerie Victo",
+   "region": "Centre-du-Québec",
+   "ville": "Victoriaville",
+   "secteur": "Agroalimentaire – alimentation animale",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite entreprise (25 employés) sans service RH",
+    "Signal d'affaires : agrandissement de 3,5 M$ et création d'un nouveau poste de direction"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "cif-metal",
+   "nom": "CIF Métal",
+   "region": "Chaudière-Appalaches",
+   "ville": "Thetford Mines",
+   "secteur": "Manufacturier – fonderie d'aluminium",
+   "taille": "50-199",
+   "type": "Privé",
+   "score": 8,
+   "categorie": "Fort probable",
+   "raisons": [
+    "Taille idéale (environ 170 employés)",
+    "Postes spécialisés : ingénieur de procédés, directeur qualité et amélioration continue",
+    "Signal d'affaires : campagne de plus de 40 embauches (mai 2026)",
+    "Région éloignée : recrutement difficile"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "groupe-caray",
+   "nom": "Groupe CaRay",
+   "region": "Montérégie",
+   "ville": "Saint-Pie",
+   "secteur": "Agroindustrie – chanvre industriel et préfabrication",
+   "taille": "1-19",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Entreprise en démarrage : premiers postes de direction à pourvoir",
+    "Signal d'affaires : deux usines pour 27 M$ (2027)"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "acier-simmonds",
+   "nom": "Acier Simmonds",
+   "region": "Estrie",
+   "ville": "Sherbrooke",
+   "secteur": "Manufacturier – distribution et transformation de l'acier",
+   "taille": "50-199",
+   "type": "Filiale d'un groupe canadien",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille idéale (70 employés)",
+    "Signal d'affaires : acquise par Varsteel (Alberta) en octobre 2026 : réorganisation possible de la direction"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "aluminiums-williams",
+   "nom": "Aluminiums Williams",
+   "region": "Montérégie",
+   "ville": "Saint-Alphonse-de-Granby",
+   "secteur": "Manufacturier – garde-corps en aluminium et verre",
+   "taille": "20-49",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Petite PME (40 employés) en croissance hors Québec",
+    "Signal d'affaires : 3e agrandissement, 5 M$, fin en avril 2027"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "mec-precision",
+   "nom": "MEC Précision",
+   "region": "Montérégie",
+   "ville": "Granby",
+   "secteur": "Manufacturier – mécanique de précision",
+   "taille": "",
+   "type": "Privé",
+   "score": 3,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer",
+    "Signal d'affaires : agrandissement de l'usine, opérationnel au printemps 2027; pénurie de techniciens"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "groupe-adf",
+   "nom": "Groupe ADF",
+   "region": "Lanaudière",
+   "ville": "Terrebonne",
+   "secteur": "Manufacturier – structures d'acier",
+   "taille": "500-999",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Grande entreprise (environ 600 employés) : recours possible pour des postes pointus",
+    "Signal d'affaires : 50 M$ de projets, dont des pylônes pour Hydro-Québec à Terrebonne"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "teknion-roy-breton",
+   "nom": "Teknion Roy & Breton",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Vallier",
+   "secteur": "Manufacturier – mobilier de bureau",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": -1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Grande organisation : équipe d'acquisition de talents interne",
+    "Signal d'affaires : 20,3 M$ d'automatisation dans quatre usines, 40 emplois"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "toromont",
+   "nom": "Toromont",
+   "region": "Capitale-Nationale",
+   "ville": "Saint-Augustin-de-Desmaures",
+   "secteur": "Équipement lourd – reconditionnement",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": -2,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : recrutement interne",
+    "Signal d'affaires : centre de reconditionnement de 55 M$, ouverture à l'été 2027"
+   ],
+   "decouvert": "2026-10-28"
+  },
+  {
+   "id": "consignaction",
+   "nom": "Consignaction (AQRCB)",
+   "region": "Montérégie",
+   "ville": "Sorel-Tracy",
+   "secteur": "Recyclage – conditionnement du verre",
+   "taille": "",
+   "type": "Organisme des producteurs",
+   "score": 2,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Organisme sans but lucratif financé par les producteurs",
+    "Signal d'affaires : future usine de conditionnement du verre (projet contesté)"
+   ],
+   "decouvert": "2026-10-28"
   }
  ]
 }

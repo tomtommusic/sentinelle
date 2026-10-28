@@ -110,7 +110,7 @@ button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--su
 <nav>
   <div class="in">
     <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg viewBox="0 0 30 34" aria-hidden="true"><path d="M15 1 2 6v9c0 8.5 5.6 15 13 18 7.4-3 13-9.5 13-18V6L15 1Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><circle cx="15" cy="13.5" r="5" fill="currentColor"/><path d="M8.5 26c1.5-4.2 3.8-6.2 6.5-6.2s5 2 6.5 6.2" fill="currentColor"/></svg><span>SENTINELLE</span></a>
-    <div class="nliens"><a href="./">Offres</a><a href="prospects.html" aria-current="page">Prospects</a></div>
+    <div class="nliens"><a href="./">Offres</a><a href="prospects.html" aria-current="page">Prospects</a><a href="signaux.html">Signaux</a></div>
   </div>
 </nav>
 <div class="wrap">
@@ -324,6 +324,7 @@ document.addEventListener("click", (ev) => {
   const b = ev.target.closest(".cat"); if (!b) return;
   st.cat = st.cat === b.dataset.cat ? "" : b.dataset.cat; render();
 });
+{ const qp = new URLSearchParams(location.search).get("q"); if (qp) $("q").value = qp; }
 let att; $("q").addEventListener("input", () => { clearTimeout(att); att = setTimeout(render, 150); });
 
 $("exporter").addEventListener("click", () => {

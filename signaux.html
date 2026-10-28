@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Signaux Sentinelle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+/* Layout : une colonne — bandeau des 4 catégories (filtres rapides), filtres collants, puis fiches classées par probabilité */
+:root {
+  --bg: #0b1016;
+  --surface: #141c26;
+  --ink: #eef2f6;
+  --muted: #9aa8b8;
+  --line: #263241;
+  --accent: #f7931e;
+  --chip: #1f2a37;
+  --fort: #1a0f02;
+  --fort-bg: #f7931e;
+  --warn-bg: rgba(247, 147, 30, .14);
+  --warn-ink: #eef2f6;
+  --display: "Sora", "Avenir Next", system-ui, sans-serif;
+  --body: "Manrope", system-ui, -apple-system, sans-serif;
+  --mono: "Manrope", system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: rgba(11, 16, 22, .94); border-bottom: 1px solid var(--line);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+nav .in { max-width: 980px; margin: 0 auto; display: flex; align-items: center; gap: 8px 28px; padding-block: 12px; flex-wrap: wrap; }
+.marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.marque svg { width: 30px; height: 34px; color: var(--accent); }
+.marque span { font: 700 18px var(--display); letter-spacing: .28em; }
+.nliens { display: flex; gap: 22px; }
+.nliens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
+.nliens a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+.filtres { top: calc(env(safe-area-inset-top, 0px) + 60px) !important; }
+input[type=checkbox] { accent-color: var(--accent); }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 20px 60px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 18px; }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 20px; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1 var(--display); letter-spacing: -0.02em; margin: 0; }
+h1 span { display: block; font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+a { color: var(--accent); }
+.retour { font-weight: 600; text-decoration: none; }
+.retour:hover { text-decoration: underline; }
+
+.cats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 700px) { .cats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.cat { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; cursor: pointer; color: var(--ink); font: inherit; display: grid; gap: 2px; }
+.cat b { font: 700 24px var(--display); font-variant-numeric: tabular-nums; }
+.cat small { color: var(--muted); font-size: 12px; line-height: 1.3; }
+.cat[aria-pressed="true"] { border: 2px solid var(--accent); background: rgba(247,147,30,.08); padding: 9px 11px; }
+.niv { font: 600 13px var(--body); letter-spacing: .1em; color: var(--accent); }
+
+.filtres { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  padding-block: 10px; display: grid; gap: 8px; grid-template-columns: 2fr repeat(5, 1fr); border-bottom: 1px solid var(--line); }
+@media (max-width: 700px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres .q { grid-column: 1 / -1; } }
+label.f { display: grid; gap: 3px; font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
+input, select, textarea { font: 15px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 8px 10px; width: 100%; box-sizing: border-box; min-width: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+
+.groupe { display: grid; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.groupe > h2 { margin: 0; padding: 12px 16px; font: 700 20px var(--display); border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.groupe > h2 small { font: 400 14px var(--body); color: var(--muted); }
+.fiche { padding: 12px 16px; display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 8px 16px; border-top: 1px solid var(--line); }
+.groupe > h2 + .fiche { border-top: 0; }
+@media (max-width: 640px) { .fiche { grid-template-columns: 1fr; } }
+.fiche h3 { margin: 0; font: 600 16px/1.35 var(--body); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.score { font: 500 12px var(--mono); padding: 1px 8px; border-radius: 99px; background: var(--chip); color: var(--ink); }
+.nboff { font: 700 12px var(--body); padding: 1px 9px; border-radius: 99px; border: 1px solid var(--accent); color: var(--accent); text-decoration: none; }
+.nboff.zero { border-color: var(--line); color: var(--muted); font-weight: 600; }
+a.nboff:hover { background: rgba(247,147,30,.12); }
+.score.fort { background: var(--fort-bg); color: var(--fort); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--muted); }
+.meta b { color: var(--ink); font-weight: 500; }
+details { font-size: 14px; }
+summary { cursor: pointer; color: var(--accent); font-weight: 500; }
+details ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 2px; }
+.suivi { display: grid; gap: 6px; align-content: start; }
+.suivi textarea { min-height: 38px; resize: vertical; font-size: 14px; }
+.etat { font-size: 12px; color: var(--muted); min-height: 1em; }
+.liens { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 14px; }
+
+.methode { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+.methode summary { font: 700 16px var(--display); color: var(--ink); }
+.methode p, .methode li { max-width: 70ch; }
+.methode table { border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+.methode td, .methode th { border-bottom: 1px solid var(--line); padding: 6px 10px 6px 0; text-align: left; vertical-align: top; }
+.methode td:last-child { font: 500 13px var(--mono); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tbl { overflow-x: auto; }
+.outils { display: flex; flex-wrap: wrap; gap: 8px; }
+button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+.selbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
+.selbar b { font-variant-numeric: tabular-nums; }
+.selbar textarea { flex-basis: 100%; min-height: 80px; font: 13px var(--mono); }
+.surv { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 500; cursor: pointer; }
+.surv input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); }
+.vide, .avis { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 24px 20px; text-align: center; color: var(--muted); }
+.avis { background: var(--warn-bg); color: var(--warn-ink); border: 0; text-align: left; padding: 12px 16px; }
+
+.cats.trois { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.filtres.sig { grid-template-columns: 2fr 1fr 1fr 1fr; position: static; }
+@media (max-width: 700px) { .filtres.sig { grid-template-columns: 1fr 1fr; } }
+.sig-carte { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; }
+.sig-carte.vu { opacity: .6; }
+.sig-tete { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 13px; color: var(--muted); }
+.force { font: 700 12px var(--body); padding: 1px 10px; border-radius: 99px; border: 1px solid var(--line); color: var(--ink); }
+.force.Fort { background: var(--fort-bg); color: var(--fort); border-color: var(--fort-bg); }
+.force.Moyen { border-color: var(--accent); color: var(--accent); }
+.type { font: 600 12px var(--body); padding: 1px 10px; border-radius: 99px; background: var(--chip); }
+.sig-carte h3 { margin: 0; font: 700 18px/1.3 var(--display); }
+.sig-carte h3 small { display: block; font: 600 15px var(--body); color: var(--muted); margin-top: 2px; }
+.sig-carte p { margin: 0; max-width: 75ch; }
+.angle { background: var(--warn-bg); border-radius: 8px; padding: 8px 12px; font-size: 14px; }
+.angle b { color: var(--accent); }
+.sig-bas { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 14px; }
+.sig-bas select { width: auto; padding: 5px 8px; font-size: 13px; }
+.liste-sig { display: grid; gap: 12px; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="in">
+    <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg viewBox="0 0 30 34" aria-hidden="true"><path d="M15 1 2 6v9c0 8.5 5.6 15 13 18 7.4-3 13-9.5 13-18V6L15 1Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><circle cx="15" cy="13.5" r="5" fill="currentColor"/><path d="M8.5 26c1.5-4.2 3.8-6.2 6.5-6.2s5 2 6.5 6.2" fill="currentColor"/></svg><span>SENTINELLE</span></a>
+    <div class="nliens"><a href="./">Offres</a><a href="prospects.html">Prospects</a><a href="signaux.html" aria-current="page">Signaux</a></div>
+  </div>
+</nav>
+<div class="wrap">
+  <header>
+    <h1>Signaux d'affaires<span>Les entreprises qui vont recruter, avant qu'elles affichent</span></h1>
+    <div class="etat" id="maj"></div>
+  </header>
+
+  <div class="cats trois" id="cats"></div>
+
+  <details class="methode">
+    <summary>Comment lire les signaux</summary>
+    <p>Un agrandissement, une nouvelle usine, une acquisition ou une campagne d'embauche annonce des besoins de recrutement des semaines ou des mois avant que les postes soient affichés. Chaque signal vient d'une nouvelle publique (le lien est fourni) et reçoit une force :</p>
+    <ul>
+      <li><b>Fort</b> : PME, ou poste de direction annoncé, ou ouverture imminente. À approcher maintenant.</li>
+      <li><b>Moyen</b> : besoin probable, mais plus tard ou moins certain (entreprise en démarrage, acquisition, filiale).</li>
+      <li><b>Faible</b> : grande entreprise avec son propre recrutement. À surveiller pour des postes de direction seulement.</li>
+    </ul>
+    <p>L'« angle d'approche » propose quoi offrir à l'entreprise. Le suivi (À approcher, Contactée…) est gardé sur cet appareil.</p>
+  </details>
+
+  <div class="filtres sig">
+    <label class="f q">Recherche<input id="q" type="search" placeholder="Entreprise, ville…" autocomplete="off"></label>
+    <label class="f">Région<select id="region"><option value="">Toutes</option></select></label>
+    <label class="f">Type<select id="type"><option value="">Tous</option></select></label>
+    <label class="f">Suivi<select id="suiviF"><option value="">Tous</option><option value="a-faire">Pas encore traités</option><option value="approcher">À approcher</option><option value="contacte">Contactée</option><option value="non">Pas pertinent</option></select></label>
+  </div>
+
+  <div class="avis" id="avis" hidden></div>
+  <div class="liste-sig" id="liste"><div class="vide">Chargement des signaux…</div></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const sureUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
+const slugN = (x) => String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const STOPW = new Set(["groupe","group","les","le","la","l","industries","industrie","inc","canada","ltee","ltd","corporation","corp","compagnie","cie","entreprises","entreprise","produits","services","the","company","de","du","des","et","s","e","c"]);
+const coeur = (nom) => { const t = slugN(String(nom || "").split(/ – | \(/)[0]).split("-").filter(w => w && !STOPW.has(w)); return t[0] || slugN(nom); };
+const SUIVIS = { "": "Suivi…", "approcher": "À approcher", "contacte": "Contactée", "non": "Pas pertinent" };
+const CLE = "sentinelle-signaux-suivi";
+const st = { signaux: [], offres: {}, prospects: {}, force: "", suivi: {} };
+try { st.suivi = JSON.parse(localStorage.getItem(CLE) || "{}") || {}; } catch { st.suivi = {}; }
+const sauver = () => { try { localStorage.setItem(CLE, JSON.stringify(st.suivi)); } catch {} };
+const params = new URLSearchParams(location.search); if (params.get("q")) $("q").value = params.get("q");
+const dateFr = (d) => { const x = new Date(d + "T12:00:00"); return isNaN(x) ? "" : x.toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric" }); };
+
+function filtrer() {
+  const q = $("q").value.trim().toLowerCase(), r = $("region").value, t = $("type").value, s = $("suiviF").value;
+  return st.signaux.filter(x => {
+    if (st.force && x.force !== st.force) return false;
+    if (r && x.region !== r) return false;
+    if (t && x.type !== t) return false;
+    const su = st.suivi[x.id] || "";
+    if (s === "a-faire" ? su : s && su !== s) return false;
+    if (q && ![x.entreprise, x.ville, x.titre, x.resume].join(" ").toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+function carte(x) {
+  const k = x.cle || coeur(x.entreprise), no = st.offres[k] || 0, pr = st.prospects[k] || (x.cle && st.prospects[x.cle]);
+  const su = st.suivi[x.id] || "";
+  const meta = [x.montant && `<span><b>Investissement</b> ${esc(x.montant)}</span>`, x.emplois && `<span><b>Emplois</b> ${esc(x.emplois)}</span>`, x.echeance && `<span><b>Échéance</b> ${esc(x.echeance)}</span>`].filter(Boolean).join("");
+  return `<article class="sig-carte${su === "non" ? " vu" : ""}">
+    <div class="sig-tete"><span class="force ${esc(x.force)}">${esc(x.force)}</span><span class="type">${esc(x.type)}</span><span>${esc(x.ville)} · ${esc(x.region)}</span><span>${esc(dateFr(x.date))}</span></div>
+    <h3>${esc(x.entreprise)}<small>${esc(x.titre)}</small></h3>
+    <p>${esc(x.resume)}</p>
+    ${meta ? `<div class="meta">${meta}</div>` : ""}
+    <div class="angle"><b>Angle d'approche :</b> ${esc(x.angle)}</div>
+    <div class="sig-bas">
+      ${(x.sources || []).map(s => sureUrl(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">Lire : ${esc(s.nom)}</a>` : "").join("")}
+      ${no ? `<a class="nboff" href="./?q=${encodeURIComponent(x.entreprise.split(" (")[0])}">${no} offre${no > 1 ? "s" : ""} en cours</a>` : `<span class="nboff zero">Aucune offre affichée</span>`}
+      ${pr ? `<a href="prospects.html?q=${encodeURIComponent(pr)}">Fiche Prospect</a>` : ""}
+      <select class="js-suivi" data-id="${esc(x.id)}" aria-label="Suivi du signal ${esc(x.entreprise)}">${Object.entries(SUIVIS).map(([v, l]) => `<option value="${v}" ${su === v ? "selected" : ""}>${l}</option>`).join("")}</select>
+    </div>
+  </article>`;
+}
+function render() {
+  const L = filtrer().sort((a, b) => ({ Fort: 0, Moyen: 1, Faible: 2 }[a.force] - { Fort: 0, Moyen: 1, Faible: 2 }[b.force]) || b.date.localeCompare(a.date));
+  $("liste").innerHTML = L.length ? L.map(carte).join("") : `<div class="vide">Aucun signal ne correspond à ces filtres.</div>`;
+  const n = f => st.signaux.filter(x => x.force === f).length;
+  const C = [["Fort", "À approcher maintenant"], ["Moyen", "Besoin probable, à suivre"], ["Faible", "Grandes entreprises"]];
+  $("cats").innerHTML = C.map(([f, d]) => `<button class="cat" type="button" data-f="${f}" aria-pressed="${st.force === f}"><span class="niv">${f}</span><b>${n(f)}</b><small>${d}</small></button>`).join("");
+}
+document.addEventListener("click", e => { const b = e.target.closest(".cat"); if (b) { st.force = st.force === b.dataset.f ? "" : b.dataset.f; render(); } });
+document.addEventListener("change", e => {
+  const s = e.target.closest(".js-suivi"); if (s) { if (s.value) st.suivi[s.dataset.id] = s.value; else delete st.suivi[s.dataset.id]; sauver(); render(); return; }
+  if (["region", "type", "suiviF"].includes(e.target.id)) render();
+});
+$("q").addEventListener("input", render);
+const remplir = (id, vals) => { $(id).innerHTML = $(id).options[0].outerHTML + vals.map(v => `<option>${esc(v)}</option>`).join(""); };
+(async () => {
+  try {
+    const [s, o, p] = await Promise.all(["data/signaux.json", "data/offres.json", "data/prospects.json"].map(u => fetch(u + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : null)));
+    st.signaux = (s && s.signaux) || [];
+    if (s && s.miseAJour) $("maj").textContent = "Mis à jour le " + dateFr(s.miseAJour);
+    for (const x of ((o && o.offres) || [])) if (!x.terminee) { const k = coeur(x.entreprise); st.offres[k] = (st.offres[k] || 0) + 1; }
+    for (const e of ((p && p.entreprises) || [])) st.prospects[coeur(e.nom)] = e.nom;
+    remplir("region", [...new Set(st.signaux.map(x => x.region))].sort((a, b) => a.localeCompare(b, "fr")));
+    remplir("type", [...new Set(st.signaux.map(x => x.type))].sort((a, b) => a.localeCompare(b, "fr")));
+    render();
+  } catch { $("avis").hidden = false; $("avis").textContent = "Impossible de charger les signaux. Recharge la page."; }
+})();
+</script>
+</body>
+</html>

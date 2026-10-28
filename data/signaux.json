@@ -1,0 +1,333 @@
+{
+ "miseAJour": "2026-10-28",
+ "explication": "Nouvelles publiques (agrandissements, nouvelles usines, acquisitions, campagnes d'embauche) qui annoncent des besoins de recrutement avant l'affichage des postes.",
+ "signaux": [
+  {
+   "id": "mecxel-2026-10",
+   "date": "2026-10-26",
+   "entreprise": "Mecxel (Mécanitec et Excelpro)",
+   "ville": "Trois-Rivières",
+   "region": "Mauricie",
+   "type": "Nouvelle usine",
+   "titre": "Mécanitec et Excelpro s'unissent et bâtissent une usine de 8 M$",
+   "resume": "Les deux PME trifluviennes créent la coentreprise Mecxel et construisent une usine de 25 000 pi² dans le parc des Hautes-Forges, ouverture prévue cet automne. Une deuxième phase de 60 000 pi² est envisagée.",
+   "montant": "8 M$",
+   "emplois": "30 emplois, puis 30 autres en phase 2",
+   "echeance": "Automne 2026",
+   "force": "Fort",
+   "angle": "Nouvelle coentreprise de PME : il faudra structurer l'équipe de direction (directeur d'usine ou de production, contrôleur, ingénieur de fabrication). Approcher les deux fondateurs maintenant, avant l'ouverture.",
+   "sources": [
+    {
+     "nom": "Le Nouvelliste",
+     "url": "https://www.lenouvelliste.ca/affaires/affaires-locales/2026/10/26/une-nouvelle-usine-pour-deux-entreprises-LF4Z6U6WTJAHPGKAVKPQDZRITA/"
+    }
+   ]
+  },
+  {
+   "id": "meunerie-victo-2026-09",
+   "date": "2026-09-08",
+   "entreprise": "Groupe Meunerie Victo",
+   "ville": "Victoriaville",
+   "region": "Centre-du-Québec",
+   "type": "Agrandissement",
+   "titre": "Groupe Meunerie Victo investit 3,5 M$ et crée un nouveau poste de direction",
+   "resume": "Agrandissement de l'immeuble du boulevard Labbé Nord et construction d'une usine pour la marque Jawgler. L'entreprise compte 25 employés et annonce la création d'un nouveau poste de direction.",
+   "montant": "3,5 M$",
+   "emplois": "Nouveau poste de direction (25 employés)",
+   "echeance": "Travaux terminés en janvier 2027",
+   "force": "Fort",
+   "angle": "Petite entreprise sans service RH qui doit recruter un cadre : cas typique de mandat. Proposer la recherche du nouveau directeur.",
+   "sources": [
+    {
+     "nom": "Mon Victo",
+     "url": "https://monvicto.com/2026/09/08/groupe-meunerie-victo-investit-35-m-dans-ses-installations-de-victoriaville/"
+    }
+   ]
+  },
+  {
+   "id": "cif-metal-2026-05",
+   "date": "2026-05-20",
+   "entreprise": "CIF Métal",
+   "ville": "Thetford Mines",
+   "region": "Chaudière-Appalaches",
+   "type": "Campagne d'embauche",
+   "titre": "CIF Métal ouvre plus de 40 postes, dont un directeur qualité et amélioration continue",
+   "resume": "La fonderie d'aluminium (plus de 170 employés) recrute pour soutenir sa croissance : ingénieur de procédés, directeur de la qualité et de l'amélioration continue, superviseurs et métiers spécialisés. Elle évoque une pénurie de main-d'œuvre.",
+   "montant": "",
+   "emplois": "Plus de 40 postes",
+   "echeance": "Dans les prochains mois",
+   "force": "Fort",
+   "angle": "PME en région éloignée avec des postes de cadres et d'ingénieurs difficiles à combler. Vérifier si le directeur qualité et l'ingénieur de procédés sont encore à pourvoir.",
+   "sources": [
+    {
+     "nom": "Communiqué (Newswire)",
+     "url": "https://www.newswire.ca/fr/news-releases/cif-metal-lance-une-importante-campagne-de-recrutement-et-ouvre-plus-de-40-postes-a-thetford-mines-885403400.html"
+    }
+   ]
+  },
+  {
+   "id": "galvanisation-quebec-2026",
+   "date": "2025-02-18",
+   "entreprise": "Galvanisation Québec",
+   "ville": "Drummondville",
+   "region": "Centre-du-Québec",
+   "type": "Nouvelle usine",
+   "titre": "Nouvelle usine de 50 M$ à Drummondville, ouverture prévue en décembre 2026",
+   "resume": "Usine automatisée dans le parc Vitrine 55, en complément de l'installation de Princeville. Une centaine d'emplois créés.",
+   "montant": "50 M$",
+   "emplois": "Environ 100",
+   "echeance": "Ouverture en décembre 2026",
+   "force": "Fort",
+   "angle": "L'ouverture approche : l'embauche bat son plein (un poste RH est déjà affiché dans Sentinelle). Postes de gestion probables : directeur d'usine, superviseurs, maintenance, qualité.",
+   "sources": [
+    {
+     "nom": "Vingt55",
+     "url": "https://vingt55.ca/galvanisation-quebec-investit-50-m-dans-lexpansion-de-lentreprise-et-cree-100-emplois-a-drummondville/"
+    },
+    {
+     "nom": "Radio-Canada",
+     "url": "https://ici.radio-canada.ca/nouvelle/2141818/galvanisation-quebec-investissement-industrie-acier"
+    }
+   ]
+  },
+  {
+   "id": "caray-2026-10",
+   "date": "2026-10-15",
+   "entreprise": "Groupe CaRay",
+   "ville": "Saint-Pie",
+   "region": "Montérégie",
+   "type": "Nouvelle usine",
+   "titre": "Chanvre industriel : deux usines pour 27 M$ à Saint-Pie",
+   "resume": "Nouvelle entreprise qui bâtit une chanvrière (opérationnelle début 2027) puis une usine de systèmes de construction préfabriqués en chanvre (construction à l'automne 2027).",
+   "montant": "27 M$",
+   "emplois": "Peu de travailleurs selon les fondateurs",
+   "echeance": "Début 2027, puis automne 2027",
+   "force": "Moyen",
+   "angle": "Entreprise en démarrage : premier directeur d'usine, responsable de production et contrôleur à recruter. Peu de postes, mais des postes clés.",
+   "sources": [
+    {
+     "nom": "Le Soleil",
+     "url": "https://www.lesoleil.com/affaires/2026/10/15/chanvre-industriel-un-projet-evalue-a-27-m-en-monteregie-A6QUGFGJOVE3PK3ZTLLTSTQK6A/"
+    }
+   ]
+  },
+  {
+   "id": "simmonds-2026-10",
+   "date": "2026-10-22",
+   "entreprise": "Acier Simmonds",
+   "ville": "Sherbrooke",
+   "region": "Estrie",
+   "type": "Acquisition",
+   "titre": "Acier Simmonds vendu 45 M$ à l'albertaine Varsteel",
+   "resume": "Varsteel achète l'usine de la rue Galt Est et sa filiale Acier Ménard (Saint-Alphonse-de-Granby), 70 employés au total. La direction reste en place « pour le moment ».",
+   "montant": "45 M$",
+   "emplois": "70 employés",
+   "echeance": "",
+   "force": "Moyen",
+   "angle": "Après une acquisition, des départs de cadres et une réorganisation suivent souvent dans les 6 à 18 mois. Garder un œil et prendre contact avec la direction locale.",
+   "sources": [
+    {
+     "nom": "La Tribune",
+     "url": "https://www.latribune.ca/affaires/affaires-locales/2026/10/22/acier-simmonds-vendu-pour-45-millions-a-un-geant-albertain-DB6KENPJ2BHEZJVEOLOISMCAME/"
+    }
+   ]
+  },
+  {
+   "id": "pioneer-2026-10",
+   "date": "2026-10-02",
+   "entreprise": "Transformateurs Pioneer",
+   "ville": "Granby",
+   "region": "Montérégie",
+   "type": "Agrandissement",
+   "titre": "Transformateurs Pioneer investit 20 M$ et passera de 135 à 200 employés",
+   "resume": "Nouveaux bâtiments et trois lignes de fabrication supplémentaires pour doubler la production. Environ 65 embauches d'ici 2027-2028.",
+   "montant": "20 M$",
+   "emplois": "Environ 65",
+   "echeance": "2027-2028",
+   "force": "Moyen",
+   "angle": "Filiale de l'américaine ERMCO, qui dit ne pas avoir de difficulté à recruter. Plutôt pour des postes de cadres intermédiaires ou d'ingénieurs pointus.",
+   "sources": [
+    {
+     "nom": "La Voix de l'Est",
+     "url": "https://www.lavoixdelest.ca/affaires/affaires-locales/2026/10/02/transformateurs-pioneer-investi-20-m-pour-assurer-son-avenir-a-granby-K72YK63T2RCWLBAQJE3UR354WA/"
+    }
+   ]
+  },
+  {
+   "id": "williams-2026-10",
+   "date": "2026-10-27",
+   "entreprise": "Aluminiums Williams",
+   "ville": "Saint-Alphonse-de-Granby",
+   "region": "Montérégie",
+   "type": "Agrandissement",
+   "titre": "Troisième agrandissement de 5 M$ chez Aluminiums Williams",
+   "resume": "Le fabricant de garde-corps (40 employés) ajoute 25 000 pi² pour percer des marchés hors Québec. Fin des travaux en avril 2027.",
+   "montant": "5 M$",
+   "emplois": "8 à 10 embauches",
+   "echeance": "Avril 2027",
+   "force": "Moyen",
+   "angle": "Petite PME en croissance vers l'extérieur du Québec : besoin probable d'un directeur des ventes ou du développement des affaires, et d'un responsable de production.",
+   "sources": [
+    {
+     "nom": "La Voix de l'Est",
+     "url": "https://www.lavoixdelest.ca/affaires/affaires-locales/2026/10/27/un-3e-agrandissement-chez-aluminiums-williams-a-saint-alphonse-de-granby-KSNA3SBPHBCY5M3J2GBYAY3DRQ/"
+    }
+   ]
+  },
+  {
+   "id": "consignaction-2026-10",
+   "date": "2026-10-23",
+   "entreprise": "Consignaction (AQRCB)",
+   "ville": "Sorel-Tracy",
+   "region": "Montérégie",
+   "type": "Nouvelle usine",
+   "titre": "Future usine de conditionnement du verre de la consigne à Sorel-Tracy",
+   "resume": "L'organisme des producteurs prévoit une usine pour traiter le verre de la consigne élargie (jusqu'à 125 000 tonnes en 2027). Le projet est contesté par une partie de l'industrie du recyclage.",
+   "montant": "",
+   "emplois": "",
+   "echeance": "Consigne élargie au 1er mars 2027",
+   "force": "Moyen",
+   "angle": "Nouvelle usine à doter d'une direction (directeur d'usine, maintenance, SST). Projet encore contesté : à suivre avant d'approcher.",
+   "sources": [
+    {
+     "nom": "Journal de Sherbrooke",
+     "url": "https://www.journaldesherbrooke.com/2026/10/23/consignaction-une-nouvelle-usine-qui-divise-lindustrie-du-recyclage/"
+    },
+    {
+     "nom": "Le Soleil",
+     "url": "https://www.lesoleil.com/affaires/2026/10/24/consigaction-une-future-usine-de-conditionnement-suscite-de-vives-reactions-QMU443JA5NEEDJ4JDSW3TFUVYY/"
+    }
+   ]
+  },
+  {
+   "id": "teknion-2026-07",
+   "date": "2026-07-20",
+   "entreprise": "Teknion Roy & Breton",
+   "ville": "Saint-Vallier",
+   "region": "Chaudière-Appalaches",
+   "type": "Modernisation",
+   "titre": "20,3 M$ pour automatiser quatre usines (Saint-Vallier, Lévis, Montmagny, Laurier-Station)",
+   "resume": "Projet d'automatisation et de modernisation appuyé par 7,5 M$ de fonds publics. Création d'une quarantaine d'emplois en Chaudière-Appalaches.",
+   "montant": "20,3 M$",
+   "emplois": "Environ 40",
+   "echeance": "",
+   "force": "Moyen",
+   "angle": "L'automatisation crée des besoins en ingénieurs en automatisation, en programmeurs d'automates et en amélioration continue.",
+   "sources": [
+    {
+     "nom": "Passion FM",
+     "url": "https://passion-fm.com/2026/07/20/une-partie-dun-investissement-de-203-m-touchera-lusine-teknion-de-saint-vallier/"
+    }
+   ]
+  },
+  {
+   "id": "adf-2026-07",
+   "date": "2026-07-14",
+   "entreprise": "Groupe ADF",
+   "ville": "Terrebonne",
+   "region": "Lanaudière",
+   "type": "Agrandissement",
+   "titre": "Groupe ADF : 50 M$ de projets, dont des pylônes pour Hydro-Québec à Terrebonne",
+   "resume": "Modernisation des usines de Terrebonne et de Métabetchouan, appuyée par Québec (15 M$) et Ottawa (12,5 M$). Une vingtaine d'emplois créés dans Lanaudière.",
+   "montant": "50 M$ (10 M$ à Terrebonne)",
+   "emplois": "20 dans Lanaudière (102 au total)",
+   "echeance": "Deux ans",
+   "force": "Faible",
+   "angle": "Grande entreprise (plus de 500 employés) : plutôt pour des mandats de cadres ou d'ingénieurs en structure d'acier.",
+   "sources": [
+    {
+     "nom": "Portail Constructo",
+     "url": "https://www.portailconstructo.com/actualites/groupe_adf_investit_50_m_pour_accroitre_sa_capacite_manufacturiere"
+    },
+    {
+     "nom": "Mon Joliette",
+     "url": "https://monjoliette.com/2026/07/06/gouvernement-du-canada-125-m-pour-une-entreprise-de-terrebonne/"
+    }
+   ]
+  },
+  {
+   "id": "agropur-beauceville-2026-04",
+   "date": "2026-04-23",
+   "entreprise": "Agropur",
+   "ville": "Beauceville",
+   "region": "Chaudière-Appalaches",
+   "type": "Agrandissement",
+   "titre": "Agropur investirait une centaine de millions à son usine de Beauceville",
+   "resume": "Doublement de la capacité de l'usine de protéines et 60 emplois créés, selon les sources d'EnBeauce.com.",
+   "montant": "Environ 100 M$",
+   "emplois": "60",
+   "echeance": "",
+   "force": "Faible",
+   "angle": "Grande coopérative avec une équipe d'acquisition de talents : pertinent seulement pour des postes de direction d'usine.",
+   "sources": [
+    {
+     "nom": "EnBeauce.com",
+     "url": "https://www.enbeauce.com/actualites/affaires/663903/agropur-investira-une-centaine-de-millions-dans-son-usine-de-beauceville"
+    }
+   ]
+  },
+  {
+   "id": "toromont-2026-05",
+   "date": "2026-05-21",
+   "entreprise": "Toromont",
+   "ville": "Saint-Augustin-de-Desmaures",
+   "region": "Capitale-Nationale",
+   "type": "Nouvelle usine",
+   "titre": "Toromont bâtit un centre de reconditionnement de 55 M$",
+   "resume": "Installation de 90 000 pi² pour le reconditionnement de composants d'équipement lourd. Ouverture à l'été 2027.",
+   "montant": "55 M$",
+   "emplois": "",
+   "echeance": "Été 2027",
+   "force": "Faible",
+   "angle": "Grande entreprise : poste de directeur du nouveau centre possible, mais recrutement surtout interne.",
+   "sources": [
+    {
+     "nom": "Le Soleil",
+     "url": "https://www.lesoleil.com/affaires/2026/05/21/toromont-ouvrira-un-centre-de-reconditionnement-a-saint-augustin-7HUYEHCBBBFEFA2X4PFI6W2LDE/"
+    }
+   ]
+  },
+  {
+   "id": "mec-precision-2026-10",
+   "date": "2026-10-19",
+   "entreprise": "MEC Précision",
+   "ville": "Granby",
+   "region": "Montérégie",
+   "type": "Agrandissement",
+   "titre": "MEC Précision agrandit son usine de Granby",
+   "resume": "Consolidation de trois entrepôts et réaménagement des postes de travail, opérationnel au printemps 2027. L'entreprise peine à trouver des techniciens spécialisés.",
+   "montant": "",
+   "emplois": "",
+   "echeance": "Printemps 2027",
+   "force": "Faible",
+   "angle": "Besoins surtout en techniciens (hors du créneau habituel), mais une PME qui grandit et peine à recruter peut avoir besoin d'aide pour un poste clé.",
+   "sources": [
+    {
+     "nom": "La Voix de l'Est",
+     "url": "https://www.lavoixdelest.ca/affaires/affaires-locales/2026/10/19/lentreprise-industrielle-mec-precision-en-phase-dagrandissement-a-granby-4EMKX672DBH7TGM4EQOCCYOFW4/"
+    }
+   ]
+  },
+  {
+   "id": "olymel-tr-2026-09",
+   "date": "2026-09-23",
+   "entreprise": "Olymel",
+   "ville": "Trois-Rivières",
+   "region": "Mauricie",
+   "type": "Agrandissement",
+   "titre": "Olymel termine l'agrandissement de son usine de Trois-Rivières",
+   "resume": "L'usine intégrée agrandie est inaugurée; les embauches sont plus nombreuses que prévu.",
+   "montant": "",
+   "emplois": "",
+   "echeance": "Terminé",
+   "force": "Faible",
+   "angle": "Très grande entreprise avec recrutement interne : à surveiller pour des postes de direction seulement.",
+   "sources": [
+    {
+     "nom": "La Presse",
+     "url": "https://www.lapresse.ca/affaires/entreprises/2026-09-23/olymel-a-termine-l-agrandissement-de-son-usine-de-transformation-a-trois-rivieres.php"
+    }
+   ]
+  }
+ ]
+}

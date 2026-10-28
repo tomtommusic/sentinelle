@@ -214,6 +214,7 @@ details.suivi summary b { color: var(--orange); }
     <div class="liens">
       <a href="./" aria-current="page">Offres</a>
       <a href="prospects.html">Prospects</a>
+      <a href="signaux.html">Signaux</a>
     </div>
     <button class="btn" id="ajoutNav" type="button" title="Ajouter une offre trouvée par toi">＋ Ajouter une offre</button>
     <button class="btn fav-nav" id="favNav" type="button" aria-pressed="false"><svg><use href="#i-coeur"/></svg> Mes favoris <span id="nbFav"></span></button>
@@ -607,6 +608,7 @@ document.addEventListener("change", (ev) => {
   if (["region", "domaine", "tri"].includes(t.id) || t.closest("#periodes, #casesSource, #casesSuivi") || t.id === "voirTerm") { memoFiltres(); render(); }
 });
 $("formRecherche").addEventListener("submit", (ev) => { ev.preventDefault(); memoFiltres(); render(); $("titreRes").scrollIntoView({ behavior: "smooth", block: "start" }); });
+{ const qp = new URLSearchParams(location.search).get("q"); if (qp) { $("q").value = qp; document.querySelectorAll("#periodes input").forEach(c => c.checked = false); } }
 let attente; $("q").addEventListener("input", () => { clearTimeout(attente); attente = setTimeout(render, 150); });
 $("favNav").addEventListener("click", () => { state.favSeul = !state.favSeul; render(); });
 $("vueListe").addEventListener("click", () => { state.vue = "liste"; memoFiltres(); render(); });

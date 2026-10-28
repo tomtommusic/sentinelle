@@ -169,3 +169,20 @@ Une autre tournée a peut-être publié entre-temps. Dans ce cas :
 2. relancer `tournee.py fusion` avec les mêmes fichiers bruts, puis `fermer` et `ouvertes`;
 3. relancer `decouvrir.py`;
 4. refaire le commit et le push.
+
+## 10. Signaux d'affaires (le lundi seulement)
+
+Le lundi, en plus de la tournée, chercher les nouvelles des 7 derniers jours qui annoncent des embauches : agrandissements, nouvelles usines, investissements ou prêts publics (Investissement Québec, quebec.ca, DEC), acquisitions, campagnes d'embauche, nominations ou départs de dirigeants. Couvrir les 10 régions du territoire.
+
+**Recherches utiles :** WebSearch « agrandissement usine <région> <mois année> », « investissement emplois <ville> », « acquiert <ville> », puis vérifier chaque article avec WebFetch : date, montant, emplois, échéance.
+
+**Sources régionales :** La Tribune, La Voix de l'Est, Le Nouvelliste, L'Express, Vingt55, Mon Victo, EnBeauce.com, Le Soleil, Mon Joliette, Les Affaires.
+
+Ajouter chaque signal vérifié à `data/signaux.json`, au même format que les signaux existants, et mettre à jour `miseAJour`. La **force** se choisit ainsi :
+- **Fort** : PME, ou poste de direction annoncé, ou ouverture imminente;
+- **Moyen** : besoin probable mais plus tard ou incertain (démarrage, acquisition, filiale);
+- **Faible** : grande entreprise avec son propre recrutement.
+
+Rédiger un « angle d'approche » concret pour chaque signal. Ne garder que des nouvelles de moins de 6 mois, sauf une ouverture d'usine encore à venir. Ajouter l'entreprise aux Prospects si elle n'y est pas, avec la raison « Signal d'affaires : … ».
+
+Ne jamais inventer un fait : chaque signal doit avoir au moins une source avec un lien.
