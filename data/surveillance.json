@@ -66,6 +66,270 @@
    {
     "terme": "gérant de projet",
     "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Directeur d'usine",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Directeur de production",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Surintendant de production",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Directeur des opérations",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Directeur de maintenance",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Planificateur de maintenance",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Ingénieur fiabilité",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Directeur qualité",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Ingénieur qualité",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Coordonnateur qualité (ISO)",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Ingénieur en amélioration continue",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur en automatisation",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Programmeur d'automates (PLC)",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur électrique",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur de procédés",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur industriel",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Directeur ingénierie",
+    "domaine": "Direction"
+   },
+   {
+    "terme": "Directeur des achats",
+    "domaine": "Approvisionnement et logistique"
+   },
+   {
+    "terme": "Directeur de la chaîne d'approvisionnement",
+    "domaine": "Approvisionnement et logistique"
+   },
+   {
+    "terme": "Directeur logistique",
+    "domaine": "Approvisionnement et logistique"
+   },
+   {
+    "terme": "Conseiller en santé-sécurité (SST)",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Directeur santé-sécurité",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Directeur des ventes",
+    "domaine": "Ventes et développement des affaires"
+   },
+   {
+    "terme": "Directeur du développement des affaires",
+    "domaine": "Ventes et développement des affaires"
+   },
+   {
+    "terme": "Estimateur",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Chargé de projets en construction",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Directeur de projets",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Directeur TI",
+    "domaine": "Technologies de l'information"
+   },
+   {
+    "terme": "Analyste ERP",
+    "domaine": "Technologies de l'information"
+   },
+   {
+    "terme": "Directeur administratif",
+    "domaine": "Direction"
+   },
+   {
+    "terme": "Directeur général adjoint",
+    "domaine": "Direction"
+   },
+   {
+    "terme": "Trésorier",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Fiscaliste",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Conseiller en relations de travail",
+    "domaine": "Ressources humaines"
+   },
+   {
+    "terme": "Conseiller en acquisition de talents",
+    "domaine": "Ressources humaines"
+   },
+   {
+    "terme": "Conseiller en rémunération",
+    "domaine": "Ressources humaines"
+   },
+   {
+    "terme": "Concepteur mécanique",
+    "domaine": "Génie mécanique"
+   },
+   {
+    "terme": "Dessinateur-concepteur (SolidWorks/Inventor)",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur en mécanique du bâtiment (CVAC)",
+    "domaine": "Génie mécanique"
+   },
+   {
+    "terme": "Ingénieur en réfrigération industrielle",
+    "domaine": "Génie mécanique"
+   },
+   {
+    "terme": "Ingénieur en centres de données",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur méthodes (aérospatiale)",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Agent méthodes",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur de liaison (aérospatiale)",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur en robotique",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur en photonique / optique",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur en conception de produits",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur en emballage",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur de production alimentaire",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Directeur de production alimentaire",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Responsable salubrité / HACCP",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Contrôleur de coûts",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Analyste coût de revient",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Analyste FP&A",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Chef comptable",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Contrôleur corporatif",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Directeur de la paie",
+    "domaine": "Finance et comptabilité"
+   },
+   {
+    "terme": "Partenaire d'affaires RH",
+    "domaine": "Ressources humaines"
+   },
+   {
+    "terme": "Responsable RH (PME manufacturière)",
+    "domaine": "Ressources humaines"
+   },
+   {
+    "terme": "Directeur d'usine d'asphalte / béton",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Directeur de carrière",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Chargé de projets en environnement",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Chargé de projets en énergie / électricité",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Ingénieur de projets en transport d'énergie",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Ingénieur en infrastructures municipales",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Directeur de comptes industriels",
+    "domaine": "Ventes et développement des affaires"
    }
   ],
   "territoire": "Sud du Québec : Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec (Capitale-Nationale), Montréal et Laval.",

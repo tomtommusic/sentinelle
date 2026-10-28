@@ -36,20 +36,25 @@ def to_iso(age):
          "semaine": datetime.timedelta(weeks=n), "mois": datetime.timedelta(days=30 * n)}[u]
     return (now - d).isoformat()
 def domaine(titre, tag):
+    T = titre.lower()
     if tag == "ALL":
-        T = titre.lower()
-        if re.search(r"m[ée]cani|mechanical", T): return "Génie mécanique"
-        if re.search(r"ing[ée]nieur|engineer", T): return "Ingénierie et production"
-        if re.search(r"contr[ôo]l|comptab|financ|cpa", T): return "Finance et comptabilité"
-        if re.search(r"ressources humaines|\brh\b|talent|recrut", T): return "Ressources humaines"
-        if re.search(r"projet", T): return "Gestion de projets"
+        if re.search(r"qualit|maintenance|fiabilit|salubrit|haccp|\bsst\b|sant[ée].{0,4}s[ée]curit|\bhse\b|\behs\b", T): return "Qualité, maintenance et SST"
+        if re.search(r"m[ée]cani|mechanical|cvac|hvac|r[ée]frig[ée]ration", T): return "Génie mécanique"
+        if re.search(r"contr[ôo]l|comptab|financ|cpa|tr[ée]sor|fiscal|co[uû]t de revient|fp&a|\bpaie\b", T): return "Finance et comptabilité"
+        if re.search(r"ressources humaines|\brh\b|talent|recrut|relations de travail|r[ée]mun[ée]ration|human resources|\bhr\b", T): return "Ressources humaines"
+        if re.search(r"achat|approvision|logisti|cha[iî]ne d|supply|procurement", T): return "Approvisionnement et logistique"
+        if re.search(r"vente|d[ée]veloppement des affaires|business development|comptes industriels|\bsales\b", T): return "Ventes et développement des affaires"
+        if re.search(r"\bti\b|\berp\b|informatique|technologies de l.information|\bit director", T): return "Technologies de l'information"
+        if re.search(r"ing[ée]nieur|engineer|concepteur|dessinateur|designer|agent m[ée]thodes|programmeur d.automates|\bplc\b", T): return "Ingénierie et production"
+        if re.search(r"usine|production|surintendant|op[ée]rations|carri[èe]re|am[ée]lioration continue|lean", T): return "Opérations et production"
+        if re.search(r"projet|estimat", T): return "Gestion de projets"
         return "Direction"
     if tag in ("Génie mécanique", "Ingénierie et production"):
-        if re.search(r"m[ée]cani|mechanical|tuyauterie|piping|m[ée]cano", titre, re.I): return "Génie mécanique"
+        if re.search(r"m[ée]cani|mechanical|tuyauterie|piping|m[ée]cano|cvac|hvac", titre, re.I): return "Génie mécanique"
         return "Ingénierie et production"
     return tag
 
 def est_agence(cie):
     s = slug(cie)
     return any(s == a or s.startswith(a + "-") for a in AGENCES)
-BRUIT = re.compile(r"(salle à manger|restauration|restaurant|hébergement touristique|auberge|entretien ménager|ferme d'élevage|succursale|planification préalable|candidature spontanée|étudiant|stagiaire|stage\b|technicien|adjoint(e)? (administrati|de direction))", re.I)
+BRUIT = re.compile(r"(salle à manger|restauration|restaurant|hébergement touristique|auberge|entretien ménager|ferme d'élevage|succursale|planification préalable|candidature spontanée|étudiant|stagiaire|stage\b|technicien|personnel enseignant|professeur|enseignant|adjoint(e)? (administrati|de direction))", re.I)

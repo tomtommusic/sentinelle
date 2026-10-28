@@ -28,6 +28,11 @@ Deux requêtes, pour chaque ville pivot avec son rayon :
 
 - **Générale** (`QG`) : `ingénieur OR contrôleur OR comptable OR "ressources humaines" OR "chargé de projet" OR "vice-président" OR "directeur financier" OR "directeur général" OR "directeur des opérations"`
 - **Ingénierie** (`QE`) : `"ingénieur mécanique" OR "ingénieur de projets" OR "ingénieur industriel" OR "ingénieur de procédés" OR "directeur de production" OR "directeur d'usine"`
+- **Opérations, qualité, maintenance, SST** (`QO`) : `"directeur d'usine" OR "directeur de production" OR surintendant OR "directeur de maintenance" OR "planificateur de maintenance" OR fiabilité OR "directeur qualité" OR "ingénieur qualité" OR "coordonnateur qualité" OR "amélioration continue" OR automatisation OR automates OR "santé et sécurité" OR SST OR salubrité OR HACCP`
+- **Achats, ventes, TI, finance et RH spécialisés** (`QA`) : `"directeur des achats" OR approvisionnement OR logistique OR "directeur des ventes" OR "développement des affaires" OR "directeur TI" OR ERP OR trésorier OR fiscaliste OR "relations de travail" OR "acquisition de talents" OR rémunération OR "directeur administratif" OR "directeur général adjoint" OR "coût de revient" OR "FP&A" OR "chef comptable" OR "contrôleur corporatif" OR "directeur de la paie" OR "partenaire d'affaires"`
+- **Spécialités techniques** (`QT`) : `"concepteur mécanique" OR dessinateur OR CVAC OR réfrigération OR "centre de données" OR "ingénieur méthodes" OR "agent méthodes" OR robotique OR photonique OR "conception de produits" OR emballage OR estimateur OR "directeur de projets" OR "ingénieur électrique" OR "infrastructures municipales" OR "chargé de projets"`
+
+QO, QA et QT : une page chacune, chaque jour, pour Sherbrooke (60), Drummondville (50), Trois-Rivières (50), Joliette (40), Saint-Hyacinthe (40), Saint-Jean-sur-Richelieu (30), Montréal (15), Saint-Jérôme (35), Québec (35) et Saint-Georges (50). Ne garder que les postes de professionnels, de spécialistes et de cadres : pas de techniciens, d'opérateurs, de journaliers, de gens de métier (soudeur, mécanicien, électricien) ni de représentants de commerce de détail.
 
 | Ville (rayon en km) | Pages QG | Pages QE |
 |---|---|---|
