@@ -127,6 +127,8 @@ details.groupe-f:not([open]) summary::after { transform: rotate(45deg); margin-t
 a.tag:hover { border-color: var(--orange); color: var(--orange); }
 .droite { display: grid; justify-items: end; align-content: space-between; gap: 8px; grid-row: span 2; }
 .haut-droite { display: flex; align-items: center; gap: 10px; }
+.termine { border: 1px dashed var(--muted); color: var(--muted); border-radius: 99px; padding: 1px 10px; font-size: 12px; font-weight: 700; }
+.carte.fermee { opacity: .62; }
 .nouveau { border: 1px solid var(--orange); color: var(--orange); background: var(--orange-soft); border-radius: 99px; padding: 1px 10px; font-size: 12px; font-weight: 700; }
 .coeur { background: none; border: 0; color: var(--muted); cursor: pointer; padding: 4px; display: grid; }
 .coeur svg { width: 22px; height: 22px; }
@@ -253,6 +255,10 @@ details.suivi summary b { color: var(--orange); }
           <summary>Suivi</summary>
           <div class="cases" id="casesSuivi"></div>
         </details>
+        <details class="groupe-f">
+          <summary>Offres terminées</summary>
+          <div class="cases"><label><input type="checkbox" id="voirTerm"> Afficher aussi les offres terminées <small id="nbTerm"></small></label></div>
+        </details>
       </div>
       <div class="panneau" id="panExclues" hidden>
         <details class="groupe-f" open>
@@ -368,6 +374,7 @@ function filtrer() {
     const n = state.notes[o.id] || {};
     if (state.favSeul && !n.favori) return false;
     if (estExclue(o.entreprise)) return false;
+    if (o.terminee && !$("voirTerm").checked) return false;
     if (fen.length) { const h = age(o.publieLe).h; if (!fen.some(([a, b]) => h >= a && h <= b)) return false; }
     if (reg && o.region !== reg) return false;
     if (dom && o.domaine !== dom) return false;
@@ -392,7 +399,8 @@ function carte(o) {
   if (sureUrl(e.linkedinUrl)) c.push(`<span><b>LinkedIn</b> <a href="${esc(e.linkedinUrl)}" target="_blank" rel="noopener">page de l'entreprise</a></span>`);
   const r = o.recruteur && o.recruteur.nom ? `<span>${ico("i-recruteur")}${sureUrl(o.recruteur.profilUrl) ? `<a href="${esc(o.recruteur.profilUrl)}" target="_blank" rel="noopener">${esc(o.recruteur.nom)}</a>` : esc(o.recruteur.nom)}${o.recruteur.titre ? ` · ${esc(o.recruteur.titre)}` : ""}</span>` : "";
   const statut = n.statut && n.statut !== "nouveau" ? ` · <b>${esc(STATUTS[n.statut])}</b>` : "";
-  return `<article class="carte">
+  const fin = o.terminee ? new Date(o.terminee + "T12:00:00").toLocaleDateString("fr-CA", { day: "numeric", month: "long" }) : "";
+  return `<article class="carte${o.terminee ? " fermee" : ""}">
     <div class="logo" aria-hidden="true">${esc((o.entreprise || "?").trim().charAt(0).toUpperCase())}</div>
     <div style="min-width:0">
       <h3>${sureUrl(o.urlOffre) ? `<a href="${esc(o.urlOffre)}" target="_blank" rel="noopener">${esc(o.titre)}</a>` : esc(o.titre)}</h3>
@@ -400,7 +408,7 @@ function carte(o) {
     </div>
     <div class="droite">
       <div class="haut-droite">
-        ${a.h <= 24 && !a.approx ? `<span class="nouveau">Nouveau</span>` : ""}
+        ${o.terminee ? `<span class="termine" title="${esc(o.termineeRaison || "")}">Terminée le ${esc(fin)}</span>` : a.h <= 24 && !a.approx ? `<span class="nouveau">Nouveau</span>` : ""}
         <button class="exclure js-excl" type="button" data-cie="${esc(o.entreprise)}" title="Exclure cette entreprise" aria-label="Exclure ${esc(o.entreprise)} des résultats">${ico("i-exclure")}</button>
         <button class="coeur js-fav" type="button" data-id="${esc(o.id)}" aria-pressed="${!!n.favori}" aria-label="${n.favori ? "Retirer des favoris" : "Ajouter aux favoris"}">${ico("i-coeur")}</button>
       </div>
@@ -431,6 +439,7 @@ function carte(o) {
 function render() {
   const { offres, notes, meta } = state;
   if (meta && meta.date) $("veille").innerHTML = `Dernière tournée : <b>${esc(dateCourte(meta.date))}</b>${meta.regions ? ` · ${esc(meta.regions)}` : ""}`;
+  { const nt = offres.filter(o => o.terminee).length; $("nbTerm").textContent = nt ? `(${nt})` : "(aucune)"; }
   remplirSelect("region", [...new Set(offres.map(o => o.region).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr")), "Toutes les régions");
   remplirSelect("domaine", [...new Set(offres.map(o => o.domaine).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr")), "Tous les domaines");
   const srcChoisies = coches("casesSource").length ? coches("casesSource") : (memo.sources || []);
@@ -510,7 +519,7 @@ document.addEventListener("change", (ev) => {
   const t = ev.target;
   if (t.classList.contains("js-statut")) { sauver(t.dataset.id, { statut: t.value }); return; }
   if (t.classList.contains("js-note")) { sauver(t.dataset.id, { texte: t.value.trim() }); return; }
-  if (["region", "domaine", "tri"].includes(t.id) || t.closest("#periodes, #casesSource, #casesSuivi")) { memoFiltres(); render(); }
+  if (["region", "domaine", "tri"].includes(t.id) || t.closest("#periodes, #casesSource, #casesSuivi") || t.id === "voirTerm") { memoFiltres(); render(); }
 });
 $("formRecherche").addEventListener("submit", (ev) => { ev.preventDefault(); memoFiltres(); render(); $("titreRes").scrollIntoView({ behavior: "smooth", block: "start" }); });
 let attente; $("q").addEventListener("input", () => { clearTimeout(attente); attente = setTimeout(render, 150); });

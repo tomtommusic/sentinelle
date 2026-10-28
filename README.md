@@ -30,3 +30,10 @@ Les notes et statuts de suivi sont gardés dans le navigateur de la personne qui
 ## Prospects
 
 `prospects.html` est un outil séparé : les entreprises entre Montréal et Québec (de Sorel-Tracy et Saint-Hyacinthe à Stanstead, jusqu'à Shawinigan), classées selon leur probabilité de faire appel à une firme de recrutement (Fort probable, Probable, Mandats de cadres, Peu probable). Les données sont dans `data/prospects.json`; la méthode de pointage est expliquée dans la page. Le suivi (statut et notes) est gardé dans le navigateur.
+
+## Tournées automatiques
+
+- `outils/TOURNEE.md` : la marche à suivre de la tournée du matin (sources, villes, extraction, offres terminées).
+- `outils/tournee.py` : ajoute les nouvelles offres à `data/offres.json` et gère les offres terminées.
+- `outils/decouvrir.py` : ajoute aux Prospects les employeurs trouvés dans les offres.
+- `outils/commun.py` : régions et villes, agences exclues, classement par domaine.
