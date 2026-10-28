@@ -125,6 +125,11 @@ details.groupe-f:not([open]) summary::after { transform: rotate(45deg); margin-t
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .tag { background: var(--tag); color: #d3dbe4; border: 1px solid var(--line); border-radius: 99px; padding: 2px 12px; font-size: 13px; text-decoration: none; }
 a.tag:hover { border-color: var(--orange); color: var(--orange); }
+.candidats { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 8px; font-size: 13px; color: var(--muted); }
+.candidats .lbl { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; color: var(--text, #e8eef4); }
+.candidats .lbl svg { width: 16px; height: 16px; }
+.candidats a { border: 1px solid var(--orange); color: var(--orange); border-radius: 99px; padding: 2px 12px; text-decoration: none; font-weight: 600; }
+.candidats a:hover { background: var(--orange-soft); }
 .droite { display: grid; justify-items: end; align-content: space-between; gap: 8px; grid-row: span 2; }
 .haut-droite { display: flex; align-items: center; gap: 10px; }
 .termine { border: 1px dashed var(--muted); color: var(--muted); border-radius: 99px; padding: 1px 10px; font-size: 12px; font-weight: 700; }
@@ -321,6 +326,40 @@ function sourcesDe(o) {
   if (Array.isArray(o.sources)) return o.sources.map(x => typeof x === "string" ? x : x && x.nom).filter(Boolean);
   return o.source ? [o.source] : [];
 }
+// Recherche de candidats : ouvre une recherche dans LinkedIn ou Google, rien n'est copié ni stocké
+const EN = [[/contr[ôo]leur financier/, "contrôleur financier", "financial controller"], [/contr[ôo]leur (de )?co[uû]ts?/, "contrôleur de coûts", "cost controller"],
+  [/contr[ôo]leur/, "contrôleur", "controller"], [/concepteur m[ée]canique|ing[ée]nieur concepteur/, "concepteur mécanique", "mechanical designer"],
+  [/m[ée]canique du b[âa]timent|cvac/, "mécanique du bâtiment", "HVAC engineer"], [/ing[ée]nieur.{0,12}fiabilit/, "ingénieur fiabilité", "reliability engineer"], [/ing[ée]nieur.{0,15}m[ée]canique/, "ingénieur mécanique", "mechanical engineer"],
+  [/ing[ée]nieur.{0,10}[ée]lectri/, "ingénieur électrique", "electrical engineer"], [/ing[ée]nieur.{0,5}industriel/, "ingénieur industriel", "industrial engineer"],
+  [/ing[ée]nieur.{0,10}proc[ée]d[ée]s/, "ingénieur procédés", "process engineer"], [/ing[ée]nieur.{0,5}qualit[ée]/, "ingénieur qualité", "quality engineer"],
+  [/ing[ée]nieur.{0,10}automatisation/, "ingénieur automatisation", "automation engineer"], [/ing[ée]nieur.{0,10}production/, "ingénieur production", "manufacturing engineer"],
+  [/ing[ée]nieur (de |en )?projets?/, "ingénieur de projets", "project engineer"], [/directeur.{0,30}(ressources humaines|\brh\b|capital humain)/, "directeur ressources humaines", "HR director"],
+  [/conseill.{0,12}(ressources humaines|\brh\b)/, "conseiller ressources humaines", "HR advisor"], [/partenaire d.affaires/, "partenaire d'affaires RH", "HR business partner"],
+  [/acquisition de talents?/, "acquisition de talents", "talent acquisition"], [/directeur d.usine|directeur.{0,6}usine/, "directeur d'usine", "plant manager"],
+  [/directeur de (la )?production/, "directeur de production", "production manager"], [/directeur.{0,5}op[ée]rations/, "directeur des opérations", "operations director"],
+  [/directeur.{0,5}achats|approvisionnement/, "directeur approvisionnement", "procurement manager"], [/directeur.{0,5}financ/, "directeur financier", "finance director"],
+  [/analyste financier/, "analyste financier", "financial analyst"], [/chef comptable/, "chef comptable", "accounting manager"], [/comptable/, "comptable", "accountant"],
+  [/charg[ée] de projets?/, "chargé de projets", "project manager"], [/estimat/, "estimateur", "estimator"], [/dessinat/, "dessinateur", "drafter"],
+  [/vice-pr[ée]sident/, "vice-président", "vice president"], [/maintenance/, "maintenance", "maintenance manager"],
+  [/\bsst\b|sant[ée].{0,4}s[ée]curit|pr[ée]vention/, "santé et sécurité", "health and safety"], [/am[ée]lioration continue/, "amélioration continue", "continuous improvement"],
+  [/qualit[ée]/, "qualité", "quality"], [/directeur (de |des )?ti\b|technologies de l/, "directeur TI", "IT director"]];
+function titreNet(t) {
+  let x = String(t || "").replace(/\(.*?\)/g, " ").split(/\s[-–|:]\s|\/|,/)[0];
+  x = x.replace(/[·.](e|ne|trice|rice|euse|ère|ere|eure)s?\b/gi, "").replace(/\b(h\/f|senior|sénior|junior|temporaire|hybride|principal|principale)\b/gi, " ");
+  return x.replace(/\s+/g, " ").trim();
+}
+function liensCandidats(o) {
+  const fr = titreNet(o.titre); if (fr.length < 4) return "";
+  const t = String(o.titre).toLowerCase(), m = EN.find(([r]) => r.test(t));
+  const poste = m ? `("${m[1]}" OR "${m[2]}")` : `"${fr.split(" ").slice(0, 3).join(" ")}"`;
+  const ville = String(o.lieu || "").replace(/, QC$/, "").trim();
+  const lieux = [ville, o.region].filter((v, i, a) => v && a.indexOf(v) === i).map(v => `"${v}"`).join(" OR ");
+  const li = "https://www.linkedin.com/search/results/people/?keywords=" + encodeURIComponent(`${poste} AND (${lieux})`);
+  const go = "https://www.google.com/search?q=" + encodeURIComponent(`site:linkedin.com/in ${poste} (${lieux})`);
+  return `<div class="candidats"><span class="lbl">${ico("i-recruteur")}Trouver des candidats</span>
+    <a href="${esc(li)}" target="_blank" rel="noopener" title="Recherche de personnes dans LinkedIn : ${esc(poste)}, ${esc(lieux)}">LinkedIn</a>
+    <a href="${esc(go)}" target="_blank" rel="noopener" title="Profils LinkedIn publics trouvés par Google">Google</a></div>`;
+}
 function liensSources(o) {
   const l = Array.isArray(o.sources) ? o.sources : (o.source ? [{ nom: o.source, url: o.urlOffre }] : []);
   return l.map(x => {
@@ -421,6 +460,7 @@ function carte(o) {
         ${r}
       </div>
       <div class="tags">${o.domaine ? `<span class="tag">${esc(o.domaine)}</span>` : ""}${liensSources(o)}</div>
+      ${liensCandidats(o)}
       <details class="suivi">
         <summary>Coordonnées et suivi${statut}</summary>
         <div class="suivi-corps">
