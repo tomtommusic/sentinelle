@@ -1,7 +1,7 @@
 {
  "tournee": {
-  "date": "2026-10-27T19:49:00-04:00",
-  "regions": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches et Laurentides · offres des 60 derniers jours",
+  "date": "2026-10-28T07:17:00-04:00",
+  "regions": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides et Québec (Capitale-Nationale) · offres des 60 derniers jours",
   "sources": [
    "LinkedIn",
    "Jobillico",
@@ -67,6 +67,9 @@
   },
   "olymel": {
    "siteWeb": "https://www.olymel.ca"
+  },
+  "stantec": {
+   "siteWeb": "https://www.stantec.com"
   }
  },
  "offres": [
@@ -77,7 +80,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-27T19:26:00-04:00",
+   "publieLe": "2026-10-28T06:54:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482247596/",
    "sources": [
     {
@@ -93,7 +96,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-27T19:19:00-04:00",
+   "publieLe": "2026-10-28T06:47:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483691729/",
    "sources": [
     {
@@ -109,7 +112,7 @@
    "lieu": "Saint-Robert, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-27T16:49:00-04:00",
+   "publieLe": "2026-10-28T04:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484245319/",
    "sources": [
     {
@@ -125,7 +128,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-27T15:49:00-04:00",
+   "publieLe": "2026-10-28T03:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484211849/",
    "sources": [
     {
@@ -141,7 +144,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-27T15:49:00-04:00",
+   "publieLe": "2026-10-28T03:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484225196/",
    "sources": [
     {
@@ -157,7 +160,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-27T15:49:00-04:00",
+   "publieLe": "2026-10-28T03:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484224149/",
    "sources": [
     {
@@ -173,7 +176,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-27T15:49:00-04:00",
+   "publieLe": "2026-10-28T03:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484213582/",
    "sources": [
     {
@@ -189,7 +192,7 @@
    "lieu": "Estrie, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-27T15:49:00-04:00",
+   "publieLe": "2026-10-28T03:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484221726/",
    "sources": [
     {
@@ -205,7 +208,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-27T15:49:00-04:00",
+   "publieLe": "2026-10-28T03:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484229019/",
    "sources": [
     {
@@ -221,7 +224,7 @@
    "lieu": "Bécancour, QC",
    "region": "Centre-du-Québec",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-27T15:49:00-04:00",
+   "publieLe": "2026-10-28T03:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484207592/",
    "sources": [
     {
@@ -237,7 +240,7 @@
    "lieu": "Nicolet, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-27T14:49:00-04:00",
+   "publieLe": "2026-10-28T02:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483690051/",
    "sources": [
     {
@@ -253,7 +256,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-27T14:49:00-04:00",
+   "publieLe": "2026-10-28T02:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4484213384/",
    "sources": [
     {
@@ -269,7 +272,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-27T11:49:00-04:00",
+   "publieLe": "2026-10-27T23:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4427865090/",
    "sources": [
     {
@@ -285,7 +288,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-27T08:49:00-04:00",
+   "publieLe": "2026-10-27T20:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4475825299/",
    "sources": [
     {
@@ -301,7 +304,7 @@
    "lieu": "Plessisville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-27T08:49:00-04:00",
+   "publieLe": "2026-10-27T20:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4416848559/",
    "sources": [
     {
@@ -317,7 +320,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-26T20:49:00-04:00",
+   "publieLe": "2026-10-27T08:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4471690691/",
    "sources": [
     {
@@ -333,7 +336,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472964074/",
    "sources": [
     {
@@ -349,7 +352,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483562794/",
    "sources": [
     {
@@ -365,7 +368,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483728140/",
    "sources": [
     {
@@ -381,7 +384,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Direction",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483715838/",
    "sources": [
     {
@@ -397,7 +400,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483265111/",
    "sources": [
     {
@@ -413,7 +416,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4438249488/",
    "sources": [
     {
@@ -429,7 +432,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4439387262/",
    "sources": [
     {
@@ -445,7 +448,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483559155/",
    "sources": [
     {
@@ -461,7 +464,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4471503454/",
    "sources": [
     {
@@ -477,7 +480,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483554397/",
    "sources": [
     {
@@ -493,7 +496,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483552762/",
    "sources": [
     {
@@ -509,7 +512,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4430492252/",
    "sources": [
     {
@@ -525,7 +528,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483718001/",
    "sources": [
     {
@@ -541,7 +544,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483706760/",
    "sources": [
     {
@@ -557,7 +560,7 @@
    "lieu": "Repentigny, QC",
    "region": "Lanaudière",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/gbi-services-dingenierie/ingenieur-en-infrastructures-urbaines/17646924",
    "sources": [
     {
@@ -573,7 +576,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/dube-loiselle.fQmsGo/controleur-financier/17648331",
    "sources": [
     {
@@ -593,7 +596,7 @@
    "lieu": "Sainte-Brigitte-des-Saults, QC",
    "region": "Centre-du-Québec",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/machinerie-lepine-inc.uCcbCb/ingenieur-mecanique/16606071",
    "sources": [
     {
@@ -609,7 +612,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/estampages-ise-inc/controleur-financier/17647260",
    "sources": [
     {
@@ -625,7 +628,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/confidentiel/controleur-/15215827",
    "sources": [
     {
@@ -641,7 +644,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/ville-de-shawinigan.tYkcTx/ressources-humaines-recrutement/17647035",
    "sources": [
     {
@@ -657,7 +660,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T19:49:00-04:00",
+   "publieLe": "2026-10-27T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4400127313/",
    "sources": [
     {
@@ -673,7 +676,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-25T19:49:00-04:00",
+   "publieLe": "2026-10-26T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4444194365/",
    "sources": [
     {
@@ -689,7 +692,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-25T19:49:00-04:00",
+   "publieLe": "2026-10-26T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482910190/",
    "sources": [
     {
@@ -705,7 +708,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-25T19:49:00-04:00",
+   "publieLe": "2026-10-26T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483397746/",
    "sources": [
     {
@@ -721,7 +724,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-25T19:49:00-04:00",
+   "publieLe": "2026-10-26T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4466434024/",
    "sources": [
     {
@@ -737,7 +740,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-25T19:49:00-04:00",
+   "publieLe": "2026-10-26T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482907236/",
    "sources": [
     {
@@ -753,7 +756,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-25T19:49:00-04:00",
+   "publieLe": "2026-10-26T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-logiciel-embarque/17477343",
    "sources": [
     {
@@ -769,7 +772,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4464593954/",
    "sources": [
     {
@@ -785,7 +788,7 @@
    "lieu": "Kingsey Falls, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4428089271/",
    "sources": [
     {
@@ -801,7 +804,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4429718673/",
    "sources": [
     {
@@ -817,7 +820,7 @@
    "lieu": "Estrie, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483336426/",
    "sources": [
     {
@@ -833,7 +836,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4464247039/",
    "sources": [
     {
@@ -849,7 +852,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4428423857/",
    "sources": [
     {
@@ -865,7 +868,7 @@
    "lieu": "Windsor, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4363721417/",
    "sources": [
     {
@@ -881,7 +884,7 @@
    "lieu": "Estrie, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483306977/",
    "sources": [
     {
@@ -897,7 +900,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483336564/",
    "sources": [
     {
@@ -913,7 +916,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481016529/",
    "sources": [
     {
@@ -929,7 +932,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4475032799/",
    "sources": [
     {
@@ -945,7 +948,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4428422872/",
    "sources": [
     {
@@ -961,7 +964,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4428431796/",
    "sources": [
     {
@@ -977,7 +980,7 @@
    "lieu": "Aston Junction, QC",
    "region": "Centre-du-Québec",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4408121248/",
    "sources": [
     {
@@ -993,7 +996,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4466359002/",
    "sources": [
     {
@@ -1009,7 +1012,7 @@
    "lieu": "Victoriaville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483167910/",
    "sources": [
     {
@@ -1025,7 +1028,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/horizon-notaires/technicien-comptable/17556996",
    "sources": [
     {
@@ -1041,7 +1044,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Direction",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=466b03d20370be8e",
    "sources": [
     {
@@ -1058,7 +1061,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=83ac97b6e7f268f2",
    "sources": [
     {
@@ -1075,7 +1078,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=aaa5b09b1fa1f7d7",
    "sources": [
     {
@@ -1092,7 +1095,7 @@
    "lieu": "Estrie, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=0aa9d90e502ede52",
    "sources": [
     {
@@ -1109,7 +1112,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=fe6706a8f4d4c3da",
    "sources": [
     {
@@ -1126,7 +1129,7 @@
    "lieu": "Farnham, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=e2bfd68b1051c741",
    "sources": [
     {
@@ -1143,12 +1146,148 @@
    "lieu": "Bromont, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-24T19:49:00-04:00",
+   "publieLe": "2026-10-25T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d852f783e0a6644a",
    "sources": [
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=d852f783e0a6644a"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-38f0aaeb06f735f3",
+   "titre": "Contrôleur financier ou contrôleuse financière",
+   "entreprise": "Quadra Plast",
+   "lieu": "Sainte-Thérèse, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=38f0aaeb06f735f3",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=38f0aaeb06f735f3"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-e42142e20f887786",
+   "titre": "Contrôleur(euse) comptable",
+   "entreprise": "A1 Imports",
+   "lieu": "Bois-des-Filion, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=e42142e20f887786",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e42142e20f887786"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-7c374df82a253fb7",
+   "titre": "Analyste financier",
+   "entreprise": "Bain Dépôt",
+   "lieu": "Blainville, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=7c374df82a253fb7",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7c374df82a253fb7"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-d21c01ff18f5cde5",
+   "titre": "Contrôleur financier (temps partiel)",
+   "entreprise": "Neopharm Labs",
+   "lieu": "Blainville, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=d21c01ff18f5cde5",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=d21c01ff18f5cde5"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-7d674c0ebbde5eca",
+   "titre": "Contrôleur financier",
+   "entreprise": "PREST",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=7d674c0ebbde5eca",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7d674c0ebbde5eca"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-88e5a2a4d602960d",
+   "titre": "Responsable de la comptabilité - Télétravail",
+   "entreprise": "Mallette",
+   "lieu": "Boischatel, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=88e5a2a4d602960d",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=88e5a2a4d602960d"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-0cc71014a3ed1e4a",
+   "titre": "Analyste financier·ère",
+   "entreprise": "Harris Computer Systems",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=0cc71014a3ed1e4a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0cc71014a3ed1e4a"
+    }
+   ],
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-95045e9c6996da96",
+   "titre": "Directeur(trice) de production",
+   "entreprise": "CMC Carrier",
+   "lieu": "Terrebonne, QC",
+   "region": "Lanaudière",
+   "domaine": "Direction",
+   "publieLe": "2026-10-25T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=95045e9c6996da96",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=95045e9c6996da96"
     }
    ],
    "dateApprox": "Moins de 7 jours"
@@ -1160,7 +1299,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481929642/",
    "sources": [
     {
@@ -1176,7 +1315,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473502676/",
    "sources": [
     {
@@ -1192,7 +1331,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472984128/",
    "sources": [
     {
@@ -1208,7 +1347,7 @@
    "lieu": "Rougemont, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4464811113/",
    "sources": [
     {
@@ -1224,7 +1363,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4446590167/",
    "sources": [
     {
@@ -1240,7 +1379,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481697740/",
    "sources": [
     {
@@ -1256,7 +1395,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4456340497/",
    "sources": [
     {
@@ -1272,7 +1411,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480674914/",
    "sources": [
     {
@@ -1288,7 +1427,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480688306/",
    "sources": [
     {
@@ -1304,7 +1443,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481929039/",
    "sources": [
     {
@@ -1320,7 +1459,7 @@
    "lieu": "Mansonville, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483150164/",
    "sources": [
     {
@@ -1336,7 +1475,7 @@
    "lieu": "Victoriaville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481902843/",
    "sources": [
     {
@@ -1352,7 +1491,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4474548112/",
    "sources": [
     {
@@ -1368,7 +1507,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4464159304/",
    "sources": [
     {
@@ -1384,7 +1523,7 @@
    "lieu": "Bécancour, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482809287/",
    "sources": [
     {
@@ -1400,7 +1539,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4463498915/",
    "sources": [
     {
@@ -1416,7 +1555,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480690398/",
    "sources": [
     {
@@ -1432,7 +1571,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483134851/",
    "sources": [
     {
@@ -1448,7 +1587,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4465871552/",
    "sources": [
     {
@@ -1468,7 +1607,7 @@
    "lieu": "Princeville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482796140/",
    "sources": [
     {
@@ -1484,7 +1623,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481002288/",
    "sources": [
     {
@@ -1500,7 +1639,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4428439669/",
    "sources": [
     {
@@ -1516,7 +1655,7 @@
    "lieu": "Bolton-Ouest, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481950436/",
    "sources": [
     {
@@ -1532,7 +1671,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483153638/",
    "sources": [
     {
@@ -1548,7 +1687,7 @@
    "lieu": "Bromont, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4459954093/",
    "sources": [
     {
@@ -1564,7 +1703,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482882766/",
    "sources": [
     {
@@ -1580,7 +1719,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483114374/",
    "sources": [
     {
@@ -1596,7 +1735,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/fbl-sencrl-societe-de-comptables-professionnels-ag/technicien-comptable/14565795",
    "sources": [
     {
@@ -1612,7 +1751,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/perreault-et-associes/controleur-financier/17456823",
    "sources": [
     {
@@ -1628,7 +1767,7 @@
    "lieu": "Sainte-Geneviève-de-Batiscan, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/construction-st-arnaud-inc-.mGxdNs/ingenieur-methode/17553264",
    "sources": [
     {
@@ -1644,7 +1783,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-23T19:49:00-04:00",
+   "publieLe": "2026-10-24T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4465366073/",
    "sources": [
     {
@@ -1660,7 +1799,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4445168658/",
    "sources": [
     {
@@ -1676,7 +1815,7 @@
    "lieu": "Repentigny, QC",
    "region": "Lanaudière",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482775798/",
    "sources": [
     {
@@ -1696,7 +1835,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477424880/",
    "sources": [
     {
@@ -1712,7 +1851,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481615001/",
    "sources": [
     {
@@ -1728,7 +1867,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4418216101/",
    "sources": [
     {
@@ -1744,7 +1883,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Direction",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481376420/",
    "sources": [
     {
@@ -1760,7 +1899,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4463044528/",
    "sources": [
     {
@@ -1776,7 +1915,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482702180/",
    "sources": [
     {
@@ -1792,7 +1931,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481365684/",
    "sources": [
     {
@@ -1808,7 +1947,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480055512/",
    "sources": [
     {
@@ -1824,7 +1963,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482709877/",
    "sources": [
     {
@@ -1840,7 +1979,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482711346/",
    "sources": [
     {
@@ -1856,7 +1995,7 @@
    "lieu": "Kingsey Falls, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472654333/",
    "sources": [
     {
@@ -1872,7 +2011,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482703838/",
    "sources": [
     {
@@ -1888,7 +2027,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473900544/",
    "sources": [
     {
@@ -1904,7 +2043,7 @@
    "lieu": "Warwick, QC",
    "region": "Centre-du-Québec",
    "domaine": "Direction",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482707516/",
    "sources": [
     {
@@ -1924,7 +2063,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482167851/",
    "sources": [
     {
@@ -1940,7 +2079,7 @@
    "lieu": "Kingsey Falls, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4464131861/",
    "sources": [
     {
@@ -1956,7 +2095,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482197087/",
    "sources": [
     {
@@ -1972,7 +2111,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480068036/",
    "sources": [
     {
@@ -1988,7 +2127,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477446056/",
    "sources": [
     {
@@ -2004,7 +2143,7 @@
    "lieu": "Bromont, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4475257994/",
    "sources": [
     {
@@ -2020,7 +2159,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472646526/",
    "sources": [
     {
@@ -2036,7 +2175,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472655237/",
    "sources": [
     {
@@ -2052,7 +2191,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482435050/",
    "sources": [
     {
@@ -2068,7 +2207,7 @@
    "lieu": "Warwick, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482722147/",
    "sources": [
     {
@@ -2084,7 +2223,7 @@
    "lieu": "Bécancour, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/metro-beaumier.lWnpLd/technicien-ne-comptable/17549445",
    "sources": [
     {
@@ -2100,7 +2239,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/produits-ideal-tfc/charge-de-projet/5341025",
    "sources": [
     {
@@ -2116,7 +2255,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/egzatek-inc/charge-de-projet-installation/17639271",
    "sources": [
     {
@@ -2132,7 +2271,7 @@
    "lieu": "Eastman, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/kyo-construction-design/designer-charge-e-de-projet/17637192",
    "sources": [
     {
@@ -2148,7 +2287,7 @@
    "lieu": "Victoriaville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/construction-valard-inc-lGgtUg/ingenieur-/16928287",
    "sources": [
     {
@@ -2164,7 +2303,7 @@
    "lieu": "Stoke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/adjoint-aux-ressources-humaines/17639649",
    "sources": [
     {
@@ -2180,7 +2319,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/hotel-suites-le-dauphin-drummondville/technicien.ne-ressources-humaines-et-paie/17638692",
    "sources": [
     {
@@ -2196,7 +2335,7 @@
    "lieu": "Stoke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/technicien-aux-ressources-humaines/17639682",
    "sources": [
     {
@@ -2212,7 +2351,7 @@
    "lieu": "Stoke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/groupe-mario-cote/conseiller-en-ressources-humaines/17639778",
    "sources": [
     {
@@ -2228,7 +2367,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-22T19:49:00-04:00",
+   "publieLe": "2026-10-23T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482746584/",
    "sources": [
     {
@@ -2244,7 +2383,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482175769/",
    "sources": [
     {
@@ -2260,7 +2399,7 @@
    "lieu": "Sainte-Julie, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480273803/",
    "sources": [
     {
@@ -2276,7 +2415,7 @@
    "lieu": "Brossard, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482020839/",
    "sources": [
     {
@@ -2292,7 +2431,7 @@
    "lieu": "Windsor, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482119027/",
    "sources": [
     {
@@ -2308,7 +2447,7 @@
    "lieu": "Bromont, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482154109/",
    "sources": [
     {
@@ -2324,7 +2463,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482175222/",
    "sources": [
     {
@@ -2340,7 +2479,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482155859/",
    "sources": [
     {
@@ -2356,7 +2495,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4457521776/",
    "sources": [
     {
@@ -2380,7 +2519,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479446564/",
    "sources": [
     {
@@ -2396,7 +2535,7 @@
    "lieu": "Estrie, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481144432/",
    "sources": [
     {
@@ -2412,7 +2551,7 @@
    "lieu": "East Angus, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479445526/",
    "sources": [
     {
@@ -2428,7 +2567,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482162859/",
    "sources": [
     {
@@ -2444,7 +2583,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473501380/",
    "sources": [
     {
@@ -2460,7 +2599,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481167015/",
    "sources": [
     {
@@ -2476,7 +2615,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482185628/",
    "sources": [
     {
@@ -2496,7 +2635,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482025868/",
    "sources": [
     {
@@ -2512,7 +2651,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482041470/",
    "sources": [
     {
@@ -2528,7 +2667,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4363500026/",
    "sources": [
     {
@@ -2544,7 +2683,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482129308/",
    "sources": [
     {
@@ -2564,7 +2703,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/transport-scolaire-sogesco/technicien-ne-comptable-/17545584",
    "sources": [
     {
@@ -2580,7 +2719,7 @@
    "lieu": "Beloeil, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/metalium/technicien-ne-ressources-humaines/17633685",
    "sources": [
     {
@@ -2596,7 +2735,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4462479775/",
    "sources": [
     {
@@ -2612,7 +2751,7 @@
    "lieu": "Saint-Nicolas, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481131842/",
    "sources": [
     {
@@ -2628,7 +2767,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480743523/",
    "sources": [
     {
@@ -2644,7 +2783,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-21T19:49:00-04:00",
+   "publieLe": "2026-10-22T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4482132603/",
    "sources": [
     {
@@ -2660,7 +2799,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4467242644/",
    "sources": [
     {
@@ -2676,7 +2815,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4467240681/",
    "sources": [
     {
@@ -2692,7 +2831,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4449069489/",
    "sources": [
     {
@@ -2708,7 +2847,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4416967600/",
    "sources": [
     {
@@ -2724,7 +2863,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4416959696/",
    "sources": [
     {
@@ -2740,7 +2879,7 @@
    "lieu": "Contrecoeur, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4467398487/",
    "sources": [
     {
@@ -2756,7 +2895,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480983101/",
    "sources": [
     {
@@ -2772,7 +2911,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479627242/",
    "sources": [
     {
@@ -2788,7 +2927,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479123215/",
    "sources": [
     {
@@ -2804,7 +2943,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4470016775/",
    "sources": [
     {
@@ -2820,7 +2959,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4416961623/",
    "sources": [
     {
@@ -2836,7 +2975,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481766264/",
    "sources": [
     {
@@ -2852,7 +2991,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4468906715/",
    "sources": [
     {
@@ -2868,7 +3007,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480547259/",
    "sources": [
     {
@@ -2884,7 +3023,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4464392279/",
    "sources": [
     {
@@ -2900,7 +3039,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4455432021/",
    "sources": [
     {
@@ -2916,7 +3055,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4470331364/",
    "sources": [
     {
@@ -2932,7 +3071,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479398715/",
    "sources": [
     {
@@ -2948,7 +3087,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480939533/",
    "sources": [
     {
@@ -2964,7 +3103,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479311176/",
    "sources": [
     {
@@ -2980,7 +3119,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4461906300/",
    "sources": [
     {
@@ -2996,7 +3135,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4415106528/",
    "sources": [
     {
@@ -3012,7 +3151,7 @@
    "lieu": "Contrecoeur, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478679466/",
    "sources": [
     {
@@ -3028,7 +3167,7 @@
    "lieu": "Brossard, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478472038/",
    "sources": [
     {
@@ -3044,7 +3183,7 @@
    "lieu": "Saint-Bruno, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4469949494/",
    "sources": [
     {
@@ -3060,7 +3199,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4413335753/",
    "sources": [
     {
@@ -3076,7 +3215,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4416927629/",
    "sources": [
     {
@@ -3092,7 +3231,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4467229767/",
    "sources": [
     {
@@ -3108,7 +3247,7 @@
    "lieu": "Boisbriand, QC",
    "region": "Laurentides",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4461221517/",
    "sources": [
     {
@@ -3124,7 +3263,7 @@
    "lieu": "Saint-Jean-sur-Richelieu, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481595896/",
    "sources": [
     {
@@ -3140,7 +3279,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477061221/",
    "sources": [
     {
@@ -3156,7 +3295,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478869534/",
    "sources": [
     {
@@ -3172,7 +3311,7 @@
    "lieu": "Sorel-Tracy, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477000737/",
    "sources": [
     {
@@ -3188,7 +3327,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480579044/",
    "sources": [
     {
@@ -3208,7 +3347,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4443189936/",
    "sources": [
     {
@@ -3224,7 +3363,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480573241/",
    "sources": [
     {
@@ -3240,7 +3379,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481594063/",
    "sources": [
     {
@@ -3256,7 +3395,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4433134432/",
    "sources": [
     {
@@ -3272,7 +3411,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4433129685/",
    "sources": [
     {
@@ -3288,7 +3427,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480576111/",
    "sources": [
     {
@@ -3308,7 +3447,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480577114/",
    "sources": [
     {
@@ -3328,7 +3467,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479364796/",
    "sources": [
     {
@@ -3344,7 +3483,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4461217197/",
    "sources": [
     {
@@ -3360,7 +3499,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478473920/",
    "sources": [
     {
@@ -3376,7 +3515,7 @@
    "lieu": "Kingsey Falls, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480291753/",
    "sources": [
     {
@@ -3392,7 +3531,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4462873488/",
    "sources": [
     {
@@ -3408,7 +3547,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480172215/",
    "sources": [
     {
@@ -3424,7 +3563,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480558948/",
    "sources": [
     {
@@ -3444,7 +3583,7 @@
    "lieu": "Lac-Mégantic, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4443543340/",
    "sources": [
     {
@@ -3460,7 +3599,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478449462/",
    "sources": [
     {
@@ -3476,7 +3615,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4426689469/",
    "sources": [
     {
@@ -3492,7 +3631,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480560961/",
    "sources": [
     {
@@ -3508,7 +3647,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479306371/",
    "sources": [
     {
@@ -3524,7 +3663,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4427614731/",
    "sources": [
     {
@@ -3540,7 +3679,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479631250/",
    "sources": [
     {
@@ -3556,7 +3695,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4470975074/",
    "sources": [
     {
@@ -3572,7 +3711,7 @@
    "lieu": "Saint-Valérien-de-Milton, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4457945673/",
    "sources": [
     {
@@ -3588,7 +3727,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480567452/",
    "sources": [
     {
@@ -3608,7 +3747,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480180334/",
    "sources": [
     {
@@ -3624,7 +3763,7 @@
    "lieu": "Victoriaville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4483120598/",
    "sources": [
     {
@@ -3640,7 +3779,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4385925622/",
    "sources": [
     {
@@ -3660,7 +3799,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478909215/",
    "sources": [
     {
@@ -3676,7 +3815,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4453244395/",
    "sources": [
     {
@@ -3692,7 +3831,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4436631841/",
    "sources": [
     {
@@ -3708,7 +3847,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477730184/",
    "sources": [
     {
@@ -3724,7 +3863,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4461907303/",
    "sources": [
     {
@@ -3740,7 +3879,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478936003/",
    "sources": [
     {
@@ -3756,7 +3895,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480168513/",
    "sources": [
     {
@@ -3772,7 +3911,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480378092/",
    "sources": [
     {
@@ -3788,7 +3927,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4452816324/",
    "sources": [
     {
@@ -3804,7 +3943,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4463377896/",
    "sources": [
     {
@@ -3820,7 +3959,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481776858/",
    "sources": [
     {
@@ -3836,7 +3975,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480272126/",
    "sources": [
     {
@@ -3852,7 +3991,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4462486305/",
    "sources": [
     {
@@ -3868,7 +4007,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473297429/",
    "sources": [
     {
@@ -3884,7 +4023,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480595271/",
    "sources": [
     {
@@ -3900,7 +4039,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4405147260/",
    "sources": [
     {
@@ -3916,7 +4055,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476656858/",
    "sources": [
     {
@@ -3932,7 +4071,7 @@
    "lieu": "St-Lambert-de-Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4481249906/",
    "sources": [
     {
@@ -3948,7 +4087,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4460782964/",
    "sources": [
     {
@@ -3964,7 +4103,7 @@
    "lieu": "L'Islet, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4387861354/",
    "sources": [
     {
@@ -3980,7 +4119,7 @@
    "lieu": "Saint-Nicolas, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479356993/",
    "sources": [
     {
@@ -3996,7 +4135,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480393924/",
    "sources": [
     {
@@ -4012,7 +4151,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4480462847/",
    "sources": [
     {
@@ -4028,7 +4167,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4441608340/",
    "sources": [
     {
@@ -4044,7 +4183,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4459581194/",
    "sources": [
     {
@@ -4060,7 +4199,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-20T19:49:00-04:00",
+   "publieLe": "2026-10-21T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4462055960/",
    "sources": [
     {
@@ -4076,7 +4215,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-18T19:49:00-04:00",
+   "publieLe": "2026-10-19T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4456312894/",
    "sources": [
     {
@@ -4096,7 +4235,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-18T19:49:00-04:00",
+   "publieLe": "2026-10-19T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-analytique/17371209",
    "sources": [
     {
@@ -4112,7 +4251,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-18T19:49:00-04:00",
+   "publieLe": "2026-10-19T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/soucy/ingenieur-e-developpement-de-produits/17542848",
    "sources": [
     {
@@ -4132,7 +4271,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-15T19:49:00-04:00",
+   "publieLe": "2026-10-16T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4429982436/",
    "sources": [
     {
@@ -4156,7 +4295,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-15T19:49:00-04:00",
+   "publieLe": "2026-10-16T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/pluritec/ingenieur.e-genie-civil/17529420",
    "sources": [
     {
@@ -4172,7 +4311,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-15T19:49:00-04:00",
+   "publieLe": "2026-10-16T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/soucy/ingenieur-e-procedes/17621100",
    "sources": [
     {
@@ -4188,7 +4327,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-15T19:49:00-04:00",
+   "publieLe": "2026-10-16T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/pluritec/ingenieur.e-genie-civil/17529417",
    "sources": [
     {
@@ -4204,7 +4343,7 @@
    "lieu": "Wickham, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-15T19:49:00-04:00",
+   "publieLe": "2026-10-16T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/tardif-equipements-de-ferme/technicien-ne-comptable/17592666",
    "sources": [
     {
@@ -4220,7 +4359,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T19:49:00-04:00",
+   "publieLe": "2026-10-15T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/kruger-wayagamack-inc-lxefep/ingenieur-de-procede/10956276",
    "sources": [
     {
@@ -4236,7 +4375,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T19:49:00-04:00",
+   "publieLe": "2026-10-15T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/soteck-clauger/ingenieur-en-efficacite-energetique/16665399",
    "sources": [
     {
@@ -4252,7 +4391,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T19:49:00-04:00",
+   "publieLe": "2026-10-15T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/tetra-tech/ingenieur-civil/16128352",
    "sources": [
     {
@@ -4268,7 +4407,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T19:49:00-04:00",
+   "publieLe": "2026-10-15T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/tetra-tech/ingenieur-civil-infrastructures-urbaines/16128349",
    "sources": [
     {
@@ -4284,7 +4423,7 @@
    "lieu": "Repentigny, QC",
    "region": "Lanaudière",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T19:49:00-04:00",
+   "publieLe": "2026-10-15T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/gbi-services-dingenierie/ingenieur.e-genie-routier/16504218",
    "sources": [
     {
@@ -4300,7 +4439,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477485234/",
    "sources": [
     {
@@ -4316,7 +4455,7 @@
    "lieu": "Bécancour, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4468143766/",
    "sources": [
     {
@@ -4332,7 +4471,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476450064/",
    "sources": [
     {
@@ -4348,7 +4487,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478170205/",
    "sources": [
     {
@@ -4364,7 +4503,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4450715545/",
    "sources": [
     {
@@ -4380,7 +4519,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4475239934/",
    "sources": [
     {
@@ -4396,7 +4535,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4474436999/",
    "sources": [
     {
@@ -4412,7 +4551,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4366266813/",
    "sources": [
     {
@@ -4428,7 +4567,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4366966559/",
    "sources": [
     {
@@ -4444,7 +4583,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4475700778/",
    "sources": [
     {
@@ -4460,7 +4599,7 @@
    "lieu": "Varennes, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476471117/",
    "sources": [
     {
@@ -4476,7 +4615,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4475974599/",
    "sources": [
     {
@@ -4492,7 +4631,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4403404642/",
    "sources": [
     {
@@ -4508,7 +4647,7 @@
    "lieu": "Bécancour, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477439638/",
    "sources": [
     {
@@ -4524,7 +4663,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4457174219/",
    "sources": [
     {
@@ -4540,7 +4679,7 @@
    "lieu": "Mont-Saint-Hilaire, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4466207141/",
    "sources": [
     {
@@ -4556,7 +4695,7 @@
    "lieu": "Saint-Jacques, QC",
    "region": "Lanaudière",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477863841/",
    "sources": [
     {
@@ -4572,7 +4711,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478117123/",
    "sources": [
     {
@@ -4588,7 +4727,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477192572/",
    "sources": [
     {
@@ -4604,7 +4743,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4431449978/",
    "sources": [
     {
@@ -4620,7 +4759,7 @@
    "lieu": "Rougemont, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4440569702/",
    "sources": [
     {
@@ -4636,7 +4775,7 @@
    "lieu": "Brossard, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476477611/",
    "sources": [
     {
@@ -4652,7 +4791,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4478137947/",
    "sources": [
     {
@@ -4668,7 +4807,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477836981/",
    "sources": [
     {
@@ -4684,7 +4823,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4424137788/",
    "sources": [
     {
@@ -4700,7 +4839,7 @@
    "lieu": "St-François-du-Lac, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4459313698/",
    "sources": [
     {
@@ -4716,7 +4855,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4468348886/",
    "sources": [
     {
@@ -4732,7 +4871,7 @@
    "lieu": "Mont-Saint-Hilaire, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4466937659/",
    "sources": [
     {
@@ -4748,7 +4887,7 @@
    "lieu": "Rougemont, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477865827/",
    "sources": [
     {
@@ -4764,7 +4903,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479063323/",
    "sources": [
     {
@@ -4780,7 +4919,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476852961/",
    "sources": [
     {
@@ -4796,7 +4935,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4467794343/",
    "sources": [
     {
@@ -4812,7 +4951,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4465065710/",
    "sources": [
     {
@@ -4832,7 +4971,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4460377069/",
    "sources": [
     {
@@ -4852,7 +4991,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476788653/",
    "sources": [
     {
@@ -4868,7 +5007,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4460125914/",
    "sources": [
     {
@@ -4884,7 +5023,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4465859783/",
    "sources": [
     {
@@ -4900,7 +5039,7 @@
    "lieu": "Windsor, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4416923616/",
    "sources": [
     {
@@ -4916,7 +5055,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4468239199/",
    "sources": [
     {
@@ -4936,7 +5075,7 @@
    "lieu": "Lac-Mégantic, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4469169401/",
    "sources": [
     {
@@ -4952,7 +5091,7 @@
    "lieu": "Windsor, QC",
    "region": "Estrie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476942716/",
    "sources": [
     {
@@ -4968,7 +5107,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477851468/",
    "sources": [
     {
@@ -4984,7 +5123,7 @@
    "lieu": "Kingsey Falls, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476884124/",
    "sources": [
     {
@@ -5000,7 +5139,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477997935/",
    "sources": [
     {
@@ -5020,7 +5159,7 @@
    "lieu": "Kingsey Falls, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476221856/",
    "sources": [
     {
@@ -5036,7 +5175,7 @@
    "lieu": "Bécancour, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4475992263/",
    "sources": [
     {
@@ -5052,7 +5191,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476871845/",
    "sources": [
     {
@@ -5068,7 +5207,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4356046622/",
    "sources": [
     {
@@ -5084,7 +5223,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4441613281/",
    "sources": [
     {
@@ -5100,7 +5239,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4412150133/",
    "sources": [
     {
@@ -5116,7 +5255,7 @@
    "lieu": "Victoriaville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477261473/",
    "sources": [
     {
@@ -5132,7 +5271,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4424155157/",
    "sources": [
     {
@@ -5148,7 +5287,7 @@
    "lieu": "Kingsey Falls, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4458940599/",
    "sources": [
     {
@@ -5164,7 +5303,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4477819616/",
    "sources": [
     {
@@ -5180,7 +5319,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/groupe-arno/ingenieur-ou-ingenieure-de-projets/16883802",
    "sources": [
     {
@@ -5196,7 +5335,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/equibras-inc.tJetPm/ingenieur-mecanique/2628857",
    "sources": [
     {
@@ -5212,7 +5351,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/geo-energie-inc/ingenieur-mecanique-du-batiment-/17598780",
    "sources": [
     {
@@ -5228,7 +5367,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/tetra-tech/ingenieur-principal-traitement-des-eaux/17096999",
    "sources": [
     {
@@ -5244,7 +5383,7 @@
    "lieu": "Sainte-Julienne, QC",
    "region": "Lanaudière",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/municipalite-de-sainte-juliennedDssJf/ingenieur-municipal/17594268",
    "sources": [
     {
@@ -5260,7 +5399,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/soluce/comptable-en-conformite-fiscale/17594643",
    "sources": [
     {
@@ -5276,7 +5415,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-industriel/17592645",
    "sources": [
     {
@@ -5292,7 +5431,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/norda-stelo/ingenieur-ou-ingenieure-en-electricite-du-batiment-conception-/17187595",
    "sources": [
     {
@@ -5308,7 +5447,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/arjo/ingenieur-e-mecanique/17611266",
    "sources": [
     {
@@ -5324,7 +5463,7 @@
    "lieu": "Baie-du-Febvre, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/covris-cooperative/comptable-de-division/17511990",
    "sources": [
     {
@@ -5340,7 +5479,7 @@
    "lieu": "Compton, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/les-installations-electriques-r.-theberg.bWixTo/charge-de-projet-electricite/17510100",
    "sources": [
     {
@@ -5356,7 +5495,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/entreprise-courtval-inc-.fBxrIz/charge-e-de-projet/17611764",
    "sources": [
     {
@@ -5372,7 +5511,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/maconnerie-desrosiers-de-l-estrie-inc-dekzhn/charge-de-projet-senior/17596080",
    "sources": [
     {
@@ -5388,7 +5527,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=ea81ad358042c0ac",
    "sources": [
     {
@@ -5405,7 +5544,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f603f8fdb625e0a7",
    "sources": [
     {
@@ -5422,7 +5561,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f9285ee0c886d9a0",
    "sources": [
     {
@@ -5439,7 +5578,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=072610aba318a3fc",
    "sources": [
     {
@@ -5456,7 +5595,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f7b551d9a6a95f58",
    "sources": [
     {
@@ -5473,7 +5612,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=739e3a4f30008b9b",
    "sources": [
     {
@@ -5490,7 +5629,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=fb82643cbc367ca8",
    "sources": [
     {
@@ -5507,7 +5646,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=1a9e697cdce75ea7",
    "sources": [
     {
@@ -5524,7 +5663,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=773b3c4671edc7e4",
    "sources": [
     {
@@ -5541,7 +5680,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=be4f54fc5e1749a8",
    "sources": [
     {
@@ -5558,7 +5697,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f421fa591fd8aae7",
    "sources": [
     {
@@ -5575,7 +5714,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f39dfdf0b4090ba1",
    "sources": [
     {
@@ -5592,7 +5731,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=7ecc3e40b0ace38f",
    "sources": [
     {
@@ -5609,7 +5748,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=3a12379928f60a11",
    "sources": [
     {
@@ -5626,7 +5765,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=6a922edc0d509528",
    "sources": [
     {
@@ -5643,7 +5782,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=dde9fe08611c880d",
    "sources": [
     {
@@ -5660,7 +5799,7 @@
    "lieu": "Nicolet, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=adce708148a3320b",
    "sources": [
     {
@@ -5677,7 +5816,7 @@
    "lieu": "Valcourt, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=e3407900771aa24a",
    "sources": [
     {
@@ -5694,7 +5833,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d2100f700405e970",
    "sources": [
     {
@@ -5711,7 +5850,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=701a10b4c167ccff",
    "sources": [
     {
@@ -5728,7 +5867,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=4eddada7393f5590",
    "sources": [
     {
@@ -5745,7 +5884,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=7ba11e8c57033adc",
    "sources": [
     {
@@ -5762,7 +5901,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=19f0499889972efc",
    "sources": [
     {
@@ -5779,7 +5918,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=3f7fcd35f1ad28cc",
    "sources": [
     {
@@ -5796,7 +5935,7 @@
    "lieu": "Saint-Stanislas, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=1ac109f5e0c22ace",
    "sources": [
     {
@@ -5813,7 +5952,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=cce86dbb18840e62",
    "sources": [
     {
@@ -5830,7 +5969,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=62b386f17ce003ea",
    "sources": [
     {
@@ -5847,7 +5986,7 @@
    "lieu": "Farnham, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d1412014d9f76cbe",
    "sources": [
     {
@@ -5864,7 +6003,7 @@
    "lieu": "Saint-Jean-sur-Richelieu, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=6fc19ac688e274b6",
    "sources": [
     {
@@ -5881,7 +6020,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=781e191e8d536c66",
    "sources": [
     {
@@ -5898,7 +6037,7 @@
    "lieu": "Varennes, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=8e3c057ced60b713",
    "sources": [
     {
@@ -5915,7 +6054,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=9c03f392f9cba72b",
    "sources": [
     {
@@ -5932,7 +6071,7 @@
    "lieu": "Bromont, QC",
    "region": "Montérégie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=dfcd0eb442add990",
    "sources": [
     {
@@ -5949,7 +6088,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f61ad85e44d03032",
    "sources": [
     {
@@ -5966,7 +6105,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=7d57bb93d3920746",
    "sources": [
     {
@@ -5983,7 +6122,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=9beb6ef54e7d4e05",
    "sources": [
     {
@@ -6000,7 +6139,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f8b64538a9139214",
    "sources": [
     {
@@ -6017,7 +6156,7 @@
    "lieu": "Terrebonne, QC",
    "region": "Lanaudière",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=fc7a0f52a1ef4c89",
    "sources": [
     {
@@ -6034,7 +6173,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=8047902666ef8232",
    "sources": [
     {
@@ -6051,7 +6190,7 @@
    "lieu": "Notre-Dame-des-Prairies, QC",
    "region": "Lanaudière",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=bf26b7b1c0f3571a",
    "sources": [
     {
@@ -6068,7 +6207,7 @@
    "lieu": "Berthierville, QC",
    "region": "Lanaudière",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=7a2dd36a12f20826",
    "sources": [
     {
@@ -6085,7 +6224,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=6611f1cc7e45d724",
    "sources": [
     {
@@ -6102,7 +6241,7 @@
    "lieu": "Berthierville, QC",
    "region": "Lanaudière",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=02aac5f549e46aad",
    "sources": [
     {
@@ -6119,7 +6258,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f174632f58fa6b08",
    "sources": [
     {
@@ -6136,7 +6275,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=69c130d93910d21f",
    "sources": [
     {
@@ -6153,7 +6292,7 @@
    "lieu": "Saint-Léonard-d'Aston, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=236d3882ba92d5fd",
    "sources": [
     {
@@ -6170,7 +6309,7 @@
    "lieu": "Victoriaville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=527218a3d23a0a2f",
    "sources": [
     {
@@ -6187,7 +6326,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=77f97bf15f1a965a",
    "sources": [
     {
@@ -6204,7 +6343,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=6f731edb36ab2888",
    "sources": [
     {
@@ -6221,7 +6360,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=611812edda69c2ba",
    "sources": [
     {
@@ -6238,7 +6377,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=95245eafb7d05624",
    "sources": [
     {
@@ -6255,7 +6394,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d23dab4956eb2ba6",
    "sources": [
     {
@@ -6272,7 +6411,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f62d9d3b66b42cc9",
    "sources": [
     {
@@ -6289,7 +6428,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=ee6c438583ac95aa",
    "sources": [
     {
@@ -6306,7 +6445,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=cce4fda241c89834",
    "sources": [
     {
@@ -6323,7 +6462,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=4f6555aaa795f560",
    "sources": [
     {
@@ -6340,7 +6479,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=08f37a6ec559ed23",
    "sources": [
     {
@@ -6357,7 +6496,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=22b7a0dc194ef102",
    "sources": [
     {
@@ -6374,7 +6513,7 @@
    "lieu": "Saint-Bruno-de-Montarville, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d9ac2d6244802c4e",
    "sources": [
     {
@@ -6391,7 +6530,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=cbba2f0131b9744f",
    "sources": [
     {
@@ -6408,7 +6547,7 @@
    "lieu": "Saint-Jean-sur-Richelieu, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=06361787d0dbd83e",
    "sources": [
     {
@@ -6425,7 +6564,7 @@
    "lieu": "Saint-Hyacinthe, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=9cd4c4c8c4a252d3",
    "sources": [
     {
@@ -6442,7 +6581,7 @@
    "lieu": "La Prairie, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=e3fbecb172e46e78",
    "sources": [
     {
@@ -6459,7 +6598,7 @@
    "lieu": "Sainte-Julie, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=6c18b28b9a0013c1",
    "sources": [
     {
@@ -6476,7 +6615,7 @@
    "lieu": "Brossard, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d8d5eecc9d3624c6",
    "sources": [
     {
@@ -6493,7 +6632,7 @@
    "lieu": "Repentigny, QC",
    "region": "Lanaudière",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=2d09b5d07dbf6ba9",
    "sources": [
     {
@@ -6510,7 +6649,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=6555967aa65eb4dd",
    "sources": [
     {
@@ -6527,7 +6666,7 @@
    "lieu": "Acton Vale, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=0425091f0cae6253",
    "sources": [
     {
@@ -6544,7 +6683,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=ad31302afaa4c2af",
    "sources": [
     {
@@ -6561,7 +6700,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=7d39399b1518e93d",
    "sources": [
     {
@@ -6578,7 +6717,7 @@
    "lieu": "Granby, QC",
    "region": "Montérégie",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=e321ba9b7c8d4b50",
    "sources": [
     {
@@ -6595,7 +6734,7 @@
    "lieu": "Knowlton, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=229e7dd99947bc44",
    "sources": [
     {
@@ -6612,7 +6751,7 @@
    "lieu": "Saint-Jean-sur-Richelieu, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=00e8095179604796",
    "sources": [
     {
@@ -6629,7 +6768,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4440642558/",
    "sources": [
     {
@@ -6645,7 +6784,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476476942/",
    "sources": [
     {
@@ -6661,7 +6800,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4431104137/",
    "sources": [
     {
@@ -6677,7 +6816,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4457626696/",
    "sources": [
     {
@@ -6693,7 +6832,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4459880918/",
    "sources": [
     {
@@ -6709,7 +6848,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4440818523/",
    "sources": [
     {
@@ -6725,7 +6864,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4474477717/",
    "sources": [
     {
@@ -6741,7 +6880,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4474419423/",
    "sources": [
     {
@@ -6757,7 +6896,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476377730/",
    "sources": [
     {
@@ -6773,7 +6912,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4479087199/",
    "sources": [
     {
@@ -6789,7 +6928,7 @@
    "lieu": "Tring-Jonction, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=c05746a065671628",
    "sources": [
     {
@@ -6806,7 +6945,7 @@
    "lieu": "Sainte-Marie, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=9cec8a517d44677f",
    "sources": [
     {
@@ -6823,7 +6962,7 @@
    "lieu": "Saint-Joseph-de-Beauce, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=dc9d2f9f7aa1df41",
    "sources": [
     {
@@ -6840,7 +6979,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=c5db286bb3a6ca9f",
    "sources": [
     {
@@ -6857,7 +6996,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=5acb7db61647d09e",
    "sources": [
     {
@@ -6874,7 +7013,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d45decc6c02d9217",
    "sources": [
     {
@@ -6891,7 +7030,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=176791cf5e532025",
    "sources": [
     {
@@ -6908,7 +7047,7 @@
    "lieu": "Saint-Éphrem-de-Beauce, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=d74d9480821b3f55",
    "sources": [
     {
@@ -6925,7 +7064,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=4c05871878a17044",
    "sources": [
     {
@@ -6942,7 +7081,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=628a176ea4573f59",
    "sources": [
     {
@@ -6959,7 +7098,7 @@
    "lieu": "Sainte-Marie, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=f89c135d548be042",
    "sources": [
     {
@@ -6976,7 +7115,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=2e28affaa3e3aa01",
    "sources": [
     {
@@ -6993,7 +7132,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=2a4e0e6faa6bb801",
    "sources": [
     {
@@ -7010,7 +7149,7 @@
    "lieu": "Thetford Mines, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Direction",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=4e8ce58cf125a61f",
    "sources": [
     {
@@ -7027,7 +7166,7 @@
    "lieu": "Saint-Georges, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=73f173a0edb7ed37",
    "sources": [
     {
@@ -7044,12 +7183,743 @@
    "lieu": "Beauceville, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-13T19:49:00-04:00",
+   "publieLe": "2026-10-14T07:17:00-04:00",
    "urlOffre": "https://ca.indeed.com/viewjob?jk=520f4ee1fbe1b04a",
    "sources": [
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=520f4ee1fbe1b04a"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-4583ffa18e5414a6",
+   "titre": "Directeur/directrice de l’administration et des finance",
+   "entreprise": "Le Groupe Lefebvre M.R.P.",
+   "lieu": "Saint-Eustache, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=4583ffa18e5414a6",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=4583ffa18e5414a6"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-7c049dc083c8950e",
+   "titre": "Contrôleur(e) financier(ère) - CPA",
+   "entreprise": "LION",
+   "lieu": "Saint-Jérôme, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=7c049dc083c8950e",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7c049dc083c8950e"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-e5ce5fb3b19f782c",
+   "titre": "Contrôleur des finances",
+   "entreprise": "LOOP Juices",
+   "lieu": "Boisbriand, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=e5ce5fb3b19f782c",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e5ce5fb3b19f782c"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-1b621f85d6867039",
+   "titre": "Conseiller(ère) ressources humaines (Profil opérations)",
+   "entreprise": "Duchesnay",
+   "lieu": "Blainville, QC",
+   "region": "Laurentides",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=1b621f85d6867039",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=1b621f85d6867039"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-617b60f6cfc944b9",
+   "titre": "Ingénieur(e) de projets",
+   "entreprise": "LION",
+   "lieu": "Saint-Jérôme, QC",
+   "region": "Laurentides",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=617b60f6cfc944b9",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=617b60f6cfc944b9"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-921c2f73cabac27f",
+   "titre": "Contrôleur(euse)",
+   "entreprise": "Trévi",
+   "lieu": "Mirabel, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=921c2f73cabac27f",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=921c2f73cabac27f"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-1a4b944045349a11",
+   "titre": "Analyste financier Opérations et Service après-ventes",
+   "entreprise": "Nova Bus",
+   "lieu": "Saint-Eustache, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=1a4b944045349a11",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=1a4b944045349a11"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-5c49d833c52721fc",
+   "titre": "Chef comptable | Relève du contrôleur",
+   "entreprise": "Ateliers Jacob",
+   "lieu": "Saint-Jérôme, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=5c49d833c52721fc",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=5c49d833c52721fc"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-e302705e6e09d41a",
+   "titre": "Contrôleur(euse) Financier(ière)",
+   "entreprise": "Les Aliments Kamloop",
+   "lieu": "Boisbriand, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=e302705e6e09d41a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e302705e6e09d41a"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-d27b14cc43ad524f",
+   "titre": "Directeur ou directrice des opérations",
+   "entreprise": "Mallette",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=d27b14cc43ad524f",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=d27b14cc43ad524f"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-d9416f37b9b3a2ba",
+   "titre": "Analyste financier – Québec",
+   "entreprise": "Beton Provincial",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=d9416f37b9b3a2ba",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=d9416f37b9b3a2ba"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-22eaa4cdfcafb01a",
+   "titre": "Contrôleur(euse) des finances",
+   "entreprise": "Womance",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=22eaa4cdfcafb01a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=22eaa4cdfcafb01a"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-106952dc8ae2ee2b",
+   "titre": "Ingénieur(e) senior en gestion de projets et optimisati",
+   "entreprise": "PepsiCo",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=106952dc8ae2ee2b",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=106952dc8ae2ee2b"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-9336df843e29680f",
+   "titre": "Directeur projets corporatifs",
+   "entreprise": "GROUPE BISCUITS LECLERC INC.",
+   "lieu": "Saint-Augustin-de-Desmaures, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=9336df843e29680f",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=9336df843e29680f"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-860cf5fe72a09001",
+   "titre": "Directeur(trice) de projet - Pont de l'île d'Orléans",
+   "entreprise": "Groupe AGF",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=860cf5fe72a09001",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=860cf5fe72a09001"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-2bd327f759b64e2a",
+   "titre": "Directeur(trice) des ressources humaines",
+   "entreprise": "MRC de La Haute-Côte-Nord",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=2bd327f759b64e2a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=2bd327f759b64e2a"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-3ba5d2ea62402c51",
+   "titre": "Conseiller(ère) en ressources humaines - Volet relation",
+   "entreprise": "Centre d'hébergement du Boisé",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=3ba5d2ea62402c51",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3ba5d2ea62402c51"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-aa26e271153148b3",
+   "titre": "Chargé de projet senior",
+   "entreprise": "Compugen",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=aa26e271153148b3",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=aa26e271153148b3"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-bf6e92fac795aef2",
+   "titre": "Directeur(trice), certification et comptabilité",
+   "entreprise": "MNP",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=bf6e92fac795aef2",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=bf6e92fac795aef2"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-e57834c89a6694ef",
+   "titre": "Chargé(e) de projet - Ingénieur(e) en mécanique du bâtiment",
+   "entreprise": "AtkinsRéalis",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=e57834c89a6694ef",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e57834c89a6694ef"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-3f500405ec9e3a69",
+   "titre": "Analyste financier(ère) -ACT",
+   "entreprise": "Couche-Tard",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=3f500405ec9e3a69",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3f500405ec9e3a69"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-644e1d97fed0ccd1",
+   "titre": "Directeur / Directrice principal(e), Fiscalité des entreprises",
+   "entreprise": "Deloitte",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=644e1d97fed0ccd1",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=644e1d97fed0ccd1"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-8616c6158082954b",
+   "titre": "Vice-président adjoint ou vice-présidente adjointe, Ins",
+   "entreprise": "Desjardins",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=8616c6158082954b",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=8616c6158082954b"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-1e3b5523a2e7a518",
+   "titre": "Chargée/Chargé de projet senior – Ingénieure/Ingénieur",
+   "entreprise": "Stantec",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=1e3b5523a2e7a518",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=1e3b5523a2e7a518"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-ee0be8915ec4b39b",
+   "titre": "Premier(ere) Directeur(trice) Transformation de la fonc",
+   "entreprise": "Pwc Canada",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=ee0be8915ec4b39b",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=ee0be8915ec4b39b"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-e9f93e9efc37b594",
+   "titre": "Ingénieur(e) chargé(e) de projets d’usine",
+   "entreprise": "Tetra Tech",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=e9f93e9efc37b594",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e9f93e9efc37b594"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-971560e080b2c33c",
+   "titre": "Analyste sénior.e en planification financière (FP&A)",
+   "entreprise": "Coveo Solutions",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=971560e080b2c33c",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=971560e080b2c33c"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-5b918a0b50ab6729",
+   "titre": "Chargé(e) de projet – Environnement et gestion des sols",
+   "entreprise": "Groupe Conseil UDA",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=5b918a0b50ab6729",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=5b918a0b50ab6729"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-91cafcf1144389a7",
+   "titre": "Contrôleur de gestion",
+   "entreprise": "GROUPE BISCUITS LECLERC INC.",
+   "lieu": "Saint-Augustin-de-Desmaures, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=91cafcf1144389a7",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=91cafcf1144389a7"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-593f44fea0c268b9",
+   "titre": "Contrôleur corporatif",
+   "entreprise": "GROUPE BISCUITS LECLERC INC.",
+   "lieu": "Saint-Augustin-de-Desmaures, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=593f44fea0c268b9",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=593f44fea0c268b9"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-94497fc7dedd4c52",
+   "titre": "Chef ou cheffe comptable",
+   "entreprise": "Mallette",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=94497fc7dedd4c52",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=94497fc7dedd4c52"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-245c845bddae0ef6",
+   "titre": "Chargé(e) de projets",
+   "entreprise": "Groupe Sirius Conseils",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=245c845bddae0ef6",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=245c845bddae0ef6"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-05b0f84c7ff3c8c9",
+   "titre": "Ingénieur industriel ou autre",
+   "entreprise": "Investissement Québec",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=05b0f84c7ff3c8c9",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=05b0f84c7ff3c8c9"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-472be40a89dc0d85",
+   "titre": "Directeur de production",
+   "entreprise": "Ascencio",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=472be40a89dc0d85",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=472be40a89dc0d85"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-cdc98a6334b6ec58",
+   "titre": "Ingénieur mécanique sénior",
+   "entreprise": "Steris",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=cdc98a6334b6ec58",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=cdc98a6334b6ec58"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-f53e61f2eedd9c9c",
+   "titre": "Ingénieur.e Industriel",
+   "entreprise": "Ouellet",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=f53e61f2eedd9c9c",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=f53e61f2eedd9c9c"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-7e0915f66a98b84d",
+   "titre": "Chargé(e) de projets/Ingénieur",
+   "entreprise": "Groupe EBR",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=7e0915f66a98b84d",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7e0915f66a98b84d"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-0266e34e1d758545",
+   "titre": "Ingénieur(e) mécanique",
+   "entreprise": "Novolecs, Solutions Électrique",
+   "lieu": "Saint-Augustin-de-Desmaures, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=0266e34e1d758545",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0266e34e1d758545"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-b117d655f0d6cfc4",
+   "titre": "Centre de données – Ingénieur principal en procédés",
+   "entreprise": "H2O Innovation",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=b117d655f0d6cfc4",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=b117d655f0d6cfc4"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-97816bf1b6df0500",
+   "titre": "Directeur/directrice d'usine",
+   "entreprise": "Wipro Lauak Canada",
+   "lieu": "Mirabel, QC",
+   "region": "Laurentides",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=97816bf1b6df0500",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=97816bf1b6df0500"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-035dc3d6c63ff823",
+   "titre": "Directeur (trice) d'usine (Boisbriand)",
+   "entreprise": "Sika",
+   "lieu": "Boisbriand, QC",
+   "region": "Laurentides",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=035dc3d6c63ff823",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=035dc3d6c63ff823"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-ca6c75a3a744005d",
+   "titre": "Directeur (directrice) d'usine d'asphalte",
+   "entreprise": "Amrize",
+   "lieu": "Saint-Eustache, QC",
+   "region": "Laurentides",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=ca6c75a3a744005d",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=ca6c75a3a744005d"
+    }
+   ],
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-139ec75f34e6d0b9",
+   "titre": "Ingénieur mécanique – intégration des systèmes",
+   "entreprise": "Ivys",
+   "lieu": "Blainville, QC",
+   "region": "Laurentides",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:17:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=139ec75f34e6d0b9",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=139ec75f34e6d0b9"
     }
    ],
    "dateApprox": "Plus de 7 jours"
@@ -7061,7 +7931,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472310039/",
    "sources": [
     {
@@ -7077,7 +7947,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473368240/",
    "sources": [
     {
@@ -7093,7 +7963,7 @@
    "lieu": "Contrecoeur, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4434869627/",
    "sources": [
     {
@@ -7109,7 +7979,7 @@
    "lieu": "Salaberry-de-Valleyfield, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4434881205/",
    "sources": [
     {
@@ -7125,7 +7995,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4463860766/",
    "sources": [
     {
@@ -7141,7 +8011,7 @@
    "lieu": "Boucherville, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476315741/",
    "sources": [
     {
@@ -7157,7 +8027,7 @@
    "lieu": "Joliette, QC",
    "region": "Lanaudière",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476344489/",
    "sources": [
     {
@@ -7173,7 +8043,7 @@
    "lieu": "Saint-Jean-sur-Richelieu, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473341275/",
    "sources": [
     {
@@ -7189,7 +8059,7 @@
    "lieu": "Lavaltrie, QC",
    "region": "Lanaudière",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4474179637/",
    "sources": [
     {
@@ -7205,7 +8075,7 @@
    "lieu": "St-Germain-de-Grantham, QC",
    "region": "Centre-du-Québec",
    "domaine": "Génie mécanique",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4371497419/",
    "sources": [
     {
@@ -7221,7 +8091,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4448631700/",
    "sources": [
     {
@@ -7237,7 +8107,7 @@
    "lieu": "Lac-Mégantic, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4474989986/",
    "sources": [
     {
@@ -7253,7 +8123,7 @@
    "lieu": "Marbleton, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472324297/",
    "sources": [
     {
@@ -7269,7 +8139,7 @@
    "lieu": "Lac-Mégantic, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473579874/",
    "sources": [
     {
@@ -7285,7 +8155,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473347302/",
    "sources": [
     {
@@ -7301,7 +8171,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Direction",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4448604535/",
    "sources": [
     {
@@ -7317,7 +8187,7 @@
    "lieu": "Victoriaville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4472330421/",
    "sources": [
     {
@@ -7333,7 +8203,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473368998/",
    "sources": [
     {
@@ -7349,7 +8219,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4476196942/",
    "sources": [
     {
@@ -7365,7 +8235,7 @@
    "lieu": "Daveluyville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/machinage-piche-inc/ingenieur-de-projet/17407398",
    "sources": [
     {
@@ -7381,7 +8251,7 @@
    "lieu": "Daveluyville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/machinage-piche-inc/ingenieur-en-mecatronique/17588016",
    "sources": [
     {
@@ -7397,7 +8267,7 @@
    "lieu": "Varennes, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/gcm-consultants-inc/ingenieur-electrique-junior-cpi-teletravail-possible-/17589156",
    "sources": [
     {
@@ -7413,7 +8283,7 @@
    "lieu": "Saint-Boniface, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/portes-milette-inc/technicien-comptable-senior/17578290",
    "sources": [
     {
@@ -7429,7 +8299,7 @@
    "lieu": "Trois-Rivières, QC",
    "region": "Mauricie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/charles-turcotte-et-fils-ltee/technicien-ne-comptable/16242691",
    "sources": [
     {
@@ -7445,7 +8315,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/fempro-consumer-products-ulc/ingenieur-de-procedes/17582619",
    "sources": [
     {
@@ -7461,7 +8331,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Gestion de projets",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/construction-geratek-ltee/charge-de-projet-senior/17586177",
    "sources": [
     {
@@ -7477,7 +8347,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-10-06T19:49:00-04:00",
+   "publieLe": "2026-10-07T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4474977949/",
    "sources": [
     {
@@ -7493,7 +8363,7 @@
    "lieu": "Drummondville, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-09-29T19:49:00-04:00",
+   "publieLe": "2026-09-30T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473286563/",
    "sources": [
     {
@@ -7513,7 +8383,7 @@
    "lieu": "Beloeil, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-29T19:49:00-04:00",
+   "publieLe": "2026-09-30T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/industries-bonneville/ingenieur-en-structure-du-batiment/17149537",
    "sources": [
     {
@@ -7529,7 +8399,7 @@
    "lieu": "Varennes, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-29T19:49:00-04:00",
+   "publieLe": "2026-09-30T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/gcm-consultants-inc/ingenieur.e-de-procede-teletravail-possible-/17567286",
    "sources": [
     {
@@ -7545,7 +8415,7 @@
    "lieu": "Saint-Césaire, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-09-29T19:49:00-04:00",
+   "publieLe": "2026-09-30T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/semences-prograin-inc-.hGrvFk/controleur-financier-adjoint/17334977",
    "sources": [
     {
@@ -7561,7 +8431,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Direction",
-   "publieLe": "2026-09-29T19:49:00-04:00",
+   "publieLe": "2026-09-30T07:17:00-04:00",
    "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/gcm-consultants-inc/directeur.trice-instrumentation-et-controle/17568045",
    "sources": [
     {
@@ -7577,7 +8447,7 @@
    "lieu": "Brossard, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4469746350/",
    "sources": [
     {
@@ -7593,7 +8463,7 @@
    "lieu": "Saint-Jean-sur-Richelieu, QC",
    "region": "Montérégie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473093415/",
    "sources": [
     {
@@ -7609,7 +8479,7 @@
    "lieu": "Shawinigan, QC",
    "region": "Mauricie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4450795996/",
    "sources": [
     {
@@ -7625,7 +8495,7 @@
    "lieu": "Saint-Jean-sur-Richelieu, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4467098426/",
    "sources": [
     {
@@ -7641,7 +8511,7 @@
    "lieu": "Longueuil, QC",
    "region": "Montérégie",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4461343435/",
    "sources": [
     {
@@ -7657,7 +8527,7 @@
    "lieu": "Acton Vale, QC",
    "region": "Montérégie",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4461976256/",
    "sources": [
     {
@@ -7673,7 +8543,7 @@
    "lieu": "Sainte-Mélanie, QC",
    "region": "Lanaudière",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4471535135/",
    "sources": [
     {
@@ -7689,7 +8559,7 @@
    "lieu": "Magog, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4464574089/",
    "sources": [
     {
@@ -7705,7 +8575,7 @@
    "lieu": "Sherbrooke, QC",
    "region": "Estrie",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4471153348/",
    "sources": [
     {
@@ -7721,7 +8591,7 @@
    "lieu": "Baie-du-Febvre, QC",
    "region": "Centre-du-Québec",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4454901469/",
    "sources": [
     {
@@ -7737,7 +8607,7 @@
    "lieu": "St-Apollinaire, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ingénierie et production",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4459852500/",
    "sources": [
     {
@@ -7753,7 +8623,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Finance et comptabilité",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4467555507/",
    "sources": [
     {
@@ -7769,7 +8639,7 @@
    "lieu": "Lévis, QC",
    "region": "Chaudière-Appalaches",
    "domaine": "Ressources humaines",
-   "publieLe": "2026-09-27T19:49:00-04:00",
+   "publieLe": "2026-09-28T07:17:00-04:00",
    "urlOffre": "https://www.linkedin.com/jobs/view/4473548312/",
    "sources": [
     {
