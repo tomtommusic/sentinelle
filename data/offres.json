@@ -1,6 +1,6 @@
 {
  "tournee": {
-  "date": "2026-10-28T08:32:00-04:00",
+  "date": "2026-10-28T09:06:00-04:00",
   "regions": "Capitale-Nationale, Centre-du-Québec, Chaudière-Appalaches, Estrie, Lanaudière, Laurentides, Laval, Mauricie, Montréal, Montérégie · offres des 60 derniers jours",
   "sources": [
    "Indeed",
@@ -2901,6 +2901,10 @@
     {
      "nom": "Jobillico",
      "url": "https://www.jobillico.com/fr/offre-d-emploi/general-dynamics-produits-de-defense-et-systemes-t/ingenieur-de-projets/17641824"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=d779df574e7bd1ce"
     }
    ],
    "premiereVue": "2026-10-23",
@@ -6577,6 +6581,804 @@
    "vuLe": "2026-10-28"
   },
   {
+   "id": "jb-025d71c24b77b1c7",
+   "titre": "Ingénieur(e) en compatibilité électromagnétique",
+   "entreprise": "Nord Quantique",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=025d71c24b77b1c7",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=025d71c24b77b1c7"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-318b11c494b3f300",
+   "titre": "Chef·fe de service maintenance",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=318b11c494b3f300",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=318b11c494b3f300"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-c00f5415aa2d4029",
+   "titre": "Directeur(trice) TI - Technologies de l'information",
+   "entreprise": "Barrette Structural",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Technologies de l'information",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=c00f5415aa2d4029",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=c00f5415aa2d4029"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-7a20d886e7b41d88",
+   "titre": "Comptable",
+   "entreprise": "NexWav",
+   "lieu": "Sainte-Eulalie, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=7a20d886e7b41d88",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7a20d886e7b41d88"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-77e0b3e42def1c53",
+   "titre": "Conseiller(ère) en ressources humaines",
+   "entreprise": "Galvanisation Québec",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=77e0b3e42def1c53",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=77e0b3e42def1c53"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-23f560f2c3d6aaeb",
+   "titre": "Responsable fabrication découpe",
+   "entreprise": "SOPREMA",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=23f560f2c3d6aaeb",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=23f560f2c3d6aaeb"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-597ad146326da554",
+   "titre": "Dessinateur(trice)",
+   "entreprise": "Sécurifort",
+   "lieu": "Tingwick, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=597ad146326da554",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=597ad146326da554"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-19119f5aa587ab05",
+   "titre": "Dessinateur technique",
+   "entreprise": "Machinage Piché",
+   "lieu": "Daveluyville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=19119f5aa587ab05",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=19119f5aa587ab05"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-531d80476bc3adc0",
+   "titre": "Directeur de production/usine",
+   "entreprise": "Machinerie agricole Bois-Francs",
+   "lieu": "Warwick, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=531d80476bc3adc0",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=531d80476bc3adc0"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-d7e99f972c9f8bf8",
+   "titre": "Chargé de projets - Génie civil",
+   "entreprise": "Roxboro Excavation",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=d7e99f972c9f8bf8",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=d7e99f972c9f8bf8"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-4dbea740df6fa1e6",
+   "titre": "Chargé(e) de projets - spécialiste en environnement",
+   "entreprise": "Progestech",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=4dbea740df6fa1e6",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=4dbea740df6fa1e6"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-59e5d0298814239d",
+   "titre": "Conseiller en santé et sécurité au travail",
+   "entreprise": "Prémoulé",
+   "lieu": "Saint-Augustin-de-Desmaures, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=59e5d0298814239d",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=59e5d0298814239d"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-0b3069aac3828f7a",
+   "titre": "Conseiller(ère) en ressources humaines",
+   "entreprise": "Groupe Patrimoine",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=0b3069aac3828f7a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0b3069aac3828f7a"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-67717d9ae001fc8e",
+   "titre": "Contrôleur financier",
+   "entreprise": "NexWav",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=67717d9ae001fc8e",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=67717d9ae001fc8e"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-858f1beeceed51a3",
+   "titre": "CPI – Ponts et ouvrages d'art",
+   "entreprise": "GHD",
+   "lieu": "Ville de Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=858f1beeceed51a3",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=858f1beeceed51a3"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-565b5b597e472458",
+   "titre": "Directeur(trice) des ressources humaines",
+   "entreprise": "La Converse",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=565b5b597e472458",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=565b5b597e472458"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-ab566c7eb8387a84",
+   "titre": "Conseiller(ère), Acquisition de talents et RH",
+   "entreprise": "SPB Solutions",
+   "lieu": "Boucherville, QC",
+   "region": "Montérégie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=ab566c7eb8387a84",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=ab566c7eb8387a84"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-776164770ca03623",
+   "titre": "Contrôleur financier ou contrôleuse financière",
+   "entreprise": "Mallette",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=776164770ca03623",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=776164770ca03623"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-82918b01445be50c",
+   "titre": "Chef(fe) d'équipe Ingénieur électrique",
+   "entreprise": "Via Rail Canada",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=82918b01445be50c",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=82918b01445be50c"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-4f0ff013f7262041",
+   "titre": "Partenaire en acquisition de talents",
+   "entreprise": "Digitech Payments",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=4f0ff013f7262041",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=4f0ff013f7262041"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-3942e702dc5966ed",
+   "titre": "Chef comptable, Immobilier",
+   "entreprise": "Groupe Touchette",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=3942e702dc5966ed",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3942e702dc5966ed"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-76460517e342b29f",
+   "titre": "Chargé(e) de projets - Plomberie",
+   "entreprise": "Navada",
+   "lieu": "Longueuil, QC",
+   "region": "Montérégie",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=76460517e342b29f",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=76460517e342b29f"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-0d201a5a94ef07e6",
+   "titre": "Comptable",
+   "entreprise": "Corporation Tantrum",
+   "lieu": "Laval, QC",
+   "region": "Laval",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=0d201a5a94ef07e6",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0d201a5a94ef07e6"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-d1d337ddce41582f",
+   "titre": "Ingénieur en amélioration continue",
+   "entreprise": "Rolls-Royce",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=d1d337ddce41582f",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=d1d337ddce41582f"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-f6b3b84579d4fdcb",
+   "titre": "Ingénieur R&D – Conception mécanique",
+   "entreprise": "MindCore Technologies",
+   "lieu": "Terrebonne, QC",
+   "region": "Lanaudière",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=f6b3b84579d4fdcb",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=f6b3b84579d4fdcb"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-690b45034d9786b2",
+   "titre": "Dessinateur de meubles",
+   "entreprise": "ICM Fabrication",
+   "lieu": "Terrebonne, QC",
+   "region": "Lanaudière",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=690b45034d9786b2",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=690b45034d9786b2"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-e116133923db6dd4",
+   "titre": "Directeur de production – Cimenterie Joliette",
+   "entreprise": "Béton Provincial",
+   "lieu": "Joliette, QC",
+   "region": "Lanaudière",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=e116133923db6dd4",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e116133923db6dd4"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-f41a62e38a7ef515",
+   "titre": "Chargé(e) de projets",
+   "entreprise": "Usinage St-Laurent",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=f41a62e38a7ef515",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=f41a62e38a7ef515"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-2f560fd0822c851c",
+   "titre": "Ingénieur(e) en mécanique du bâtiment",
+   "entreprise": "Les Cheminées CLC",
+   "lieu": "Mascouche, QC",
+   "region": "Lanaudière",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=2f560fd0822c851c",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=2f560fd0822c851c"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-89079b201a8ee215",
+   "titre": "Ingénieur(e) mécanique ou automatisation en sécurité machine",
+   "entreprise": "Intervention Prévention",
+   "lieu": "Beloeil, QC",
+   "region": "Montérégie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=89079b201a8ee215",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=89079b201a8ee215"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-4667e4788418f11a",
+   "titre": "Partenaire d'affaires ressources humaines",
+   "entreprise": "Transdev Québec",
+   "lieu": "Beloeil, QC",
+   "region": "Montérégie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=4667e4788418f11a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=4667e4788418f11a"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-ff208ff96c063756",
+   "titre": "Chef de service, Approvisionnement",
+   "entreprise": "CDMV",
+   "lieu": "Saint-Hyacinthe, QC",
+   "region": "Montérégie",
+   "domaine": "Approvisionnement et logistique",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=ff208ff96c063756",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=ff208ff96c063756"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-5ae3c28f81fbdfbf",
+   "titre": "Conseiller en prévention et SST",
+   "entreprise": "Olymel",
+   "lieu": "Sainte-Rosalie, QC",
+   "region": "Montérégie",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=5ae3c28f81fbdfbf",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=5ae3c28f81fbdfbf"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-dcbe3b9200c138ba",
+   "titre": "Spécialiste qualité",
+   "entreprise": "Transformateurs Pioneer",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=dcbe3b9200c138ba",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=dcbe3b9200c138ba"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-95e17ca47b2bebb7",
+   "titre": "Ingénieur industriel",
+   "entreprise": "Merkur",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=95e17ca47b2bebb7",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=95e17ca47b2bebb7"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-ef764959cb1eda14",
+   "titre": "Ingénieur de projets – Développement de produits",
+   "entreprise": "Merkur",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=ef764959cb1eda14",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=ef764959cb1eda14"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-6f0ca2b797768aa0",
+   "titre": "Ingénieur produits et procédés",
+   "entreprise": "Continental",
+   "lieu": "Saint-Alphonse-de-Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=6f0ca2b797768aa0",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=6f0ca2b797768aa0"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-cc4f97d505ecd321",
+   "titre": "Conseiller(ère) ressources humaines et santé-sécurité",
+   "entreprise": "Albany International Canada",
+   "lieu": "Cowansville, QC",
+   "region": "Montérégie",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=cc4f97d505ecd321",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=cc4f97d505ecd321"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-04636cd33c14e8a4",
+   "titre": "Comptable",
+   "entreprise": "Rona",
+   "lieu": "Saint-Jean-sur-Richelieu, QC",
+   "region": "Montérégie",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=04636cd33c14e8a4",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=04636cd33c14e8a4"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-b958afeb28b91054",
+   "titre": "Directeur(trice) des achats",
+   "entreprise": "Soleno",
+   "lieu": "Saint-Jean-sur-Richelieu, QC",
+   "region": "Montérégie",
+   "domaine": "Approvisionnement et logistique",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=b958afeb28b91054",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=b958afeb28b91054"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-f05efab406867675",
+   "titre": "Directeur d’usine - multisites",
+   "entreprise": "North West Rubber",
+   "lieu": "Beauceville, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=f05efab406867675",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=f05efab406867675"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-7ca6f52c67a56414",
+   "titre": "Ingénieur(e) mécanique",
+   "entreprise": "Nova Bus",
+   "lieu": "Saint-Eustache, QC",
+   "region": "Laurentides",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T09:06:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=7ca6f52c67a56414",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7ca6f52c67a56414"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
    "id": "jb-8939886e3bcc2f15",
    "titre": "Coordonnateur SST et mesures d’urgence",
    "entreprise": "Gurit Americas",
@@ -9350,6 +10152,10 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4441613281/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=2f5019aa6be9fad1"
     }
    ],
    "premiereVue": "2026-10-14",
@@ -13742,6 +14548,10 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4474179637/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=c9cd4b4f1060e853"
     }
    ],
    "premiereVue": "2026-10-07",
