@@ -81,6 +81,17 @@ aside { display: grid; gap: 14px; position: sticky; top: calc(env(safe-area-inse
 .panneau-tete { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--line); }
 .panneau-tete h2 { margin: 0; font: 700 17px var(--display); display: flex; align-items: center; gap: 8px; }
 .panneau-tete h2 svg { width: 18px; height: 18px; color: var(--orange); }
+dialog.ajout { background: var(--panel, #121a23); color: var(--ink); border: 1px solid var(--line); border-radius: 14px; padding: 0; width: min(560px, calc(100vw - 32px)); }
+dialog.ajout::backdrop { background: rgba(0,0,0,.6); }
+dialog.ajout form { padding: 22px; display: grid; gap: 12px; }
+dialog.ajout h2 { margin: 0 0 4px; font: 700 20px var(--titre, inherit); }
+dialog.ajout p.aide { margin: 0; color: var(--muted); font-size: 13px; }
+dialog.ajout label { display: grid; gap: 5px; font-size: 13px; font-weight: 600; }
+dialog.ajout input, dialog.ajout select, dialog.ajout textarea { font: 15px var(--body); color: var(--ink); background: var(--bg, #0b1016); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; width: 100%; box-sizing: border-box; }
+dialog.ajout .deux { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 560px) { dialog.ajout .deux { grid-template-columns: 1fr; } }
+dialog.ajout .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 4px; }
+.tag.perso { border-style: dashed; border-color: var(--orange); color: var(--orange); }
 .lien-btn { background: none; border: 0; color: var(--muted); font: 600 13px var(--body); cursor: pointer; padding: 4px; }
 .lien-btn:hover { color: var(--ink); }
 details.groupe-f { border-bottom: 1px solid var(--line); padding: 12px 16px; }
@@ -204,6 +215,7 @@ details.suivi summary b { color: var(--orange); }
       <a href="./" aria-current="page">Offres</a>
       <a href="prospects.html">Prospects</a>
     </div>
+    <button class="btn" id="ajoutNav" type="button" title="Ajouter une offre trouvée par toi">＋ Ajouter une offre</button>
     <button class="btn fav-nav" id="favNav" type="button" aria-pressed="false"><svg><use href="#i-coeur"/></svg> Mes favoris <span id="nbFav"></span></button>
   </div>
 </nav>
@@ -302,20 +314,46 @@ details.suivi summary b { color: var(--orange); }
         </div>
       </div>
       <div class="pied">
-        <span>Tes favoris, statuts et notes sont gardés sur cet appareil.</span>
-        <button class="btn" id="exporter" type="button">Sauvegarder mes notes</button>
-        <button class="btn" id="importer" type="button">Restaurer des notes</button>
+        <span>Tes favoris, statuts, notes et offres ajoutées sont gardés sur cet appareil.</span>
+        <button class="btn" id="exporter" type="button">Sauvegarder mes données</button>
+        <button class="btn" id="importer" type="button">Restaurer une sauvegarde</button>
         <input id="fichier" type="file" accept="application/json,.json" hidden>
       </div>
     </section>
   </div>
 </main>
 
+<dialog class="ajout" id="dlgAjout" aria-labelledby="titreAjout">
+  <form id="formAjout" method="dialog">
+    <h2 id="titreAjout">Ajouter une offre</h2>
+    <p class="aide">Une offre que tu as dénichée toi-même. Elle s'ajoute à ta liste, sur cet appareil seulement, avec la mention « Ajoutée par toi ».</p>
+    <label>Titre du poste *<input name="titre" required maxlength="150" placeholder="Ex. : Directeur de production"></label>
+    <label>Entreprise *<input name="entreprise" required maxlength="120"></label>
+    <div class="deux">
+      <label>Ville *<input name="ville" required maxlength="80" placeholder="Ex. : Drummondville"></label>
+      <label>Région<select name="region" id="ajRegion"></select></label>
+    </div>
+    <div class="deux">
+      <label>Domaine<select name="domaine" id="ajDomaine"></select></label>
+      <label>Date de parution<input name="date" type="date" id="ajDate"></label>
+    </div>
+    <label>Lien vers l'offre<input name="url" type="url" maxlength="500" placeholder="https://…"></label>
+    <label>Comment tu l'as trouvée (facultatif)<input name="origine" maxlength="120" placeholder="Ex. : site de l'entreprise, contact, journal local"></label>
+    <div class="actions"><button class="btn" type="button" id="ajAnnuler">Annuler</button><button class="btn plein" type="submit">Ajouter</button></div>
+  </form>
+</dialog>
+
 <div class="toast" id="toast" hidden role="status"><span id="toastTxt"></span><button type="button" id="toastAnnuler">Annuler</button></div>
 
 <script>
 const STATUTS = { "nouveau": "Nouveau", "a-contacter": "À contacter", "contacte": "Contacté", "sans-suite": "Sans suite" };
-const state = { offres: [], entreprises: {}, notes: {}, meta: null, vue: "liste", favSeul: false };
+const state = { offres: [], serveur: [], perso: [], entreprises: {}, notes: {}, meta: null, vue: "liste", favSeul: false, annuler: null };
+const CLE_PERSO = "sentinelle-offres-perso";
+const REGIONS = ["Estrie", "Centre-du-Québec", "Mauricie", "Lanaudière", "Montérégie", "Chaudière-Appalaches", "Laurentides", "Capitale-Nationale", "Montréal", "Laval", "Autre"];
+const DOMAINES = ["Génie mécanique", "Ingénierie et production", "Opérations et production", "Qualité, maintenance et SST", "Finance et comptabilité", "Ressources humaines", "Direction", "Gestion de projets", "Approvisionnement et logistique", "Ventes et développement des affaires", "Technologies de l'information", "Autre"];
+function chargerPerso() { try { const v = JSON.parse(localStorage.getItem(CLE_PERSO) || "[]"); state.perso = Array.isArray(v) ? v : []; } catch { state.perso = []; } }
+function ecrirePerso() { try { localStorage.setItem(CLE_PERSO, JSON.stringify(state.perso)); } catch { montrerAvis("Impossible d'enregistrer sur cet appareil (navigation privée ?)."); } }
+function fusionner() { state.offres = [...state.perso, ...state.serveur]; }
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const slug = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -414,7 +452,7 @@ function filtrer() {
     if (state.favSeul && !n.favori) return false;
     if (estExclue(o.entreprise)) return false;
     if (o.terminee && !$("voirTerm").checked) return false;
-    if (fen.length) { const h = age(o.publieLe).h; if (!fen.some(([a, b]) => h >= a && h <= b)) return false; }
+    if (fen.length && !o.perso) { const h = age(o.publieLe).h; if (!fen.some(([a, b]) => h >= a && h <= b)) return false; }
     if (reg && o.region !== reg) return false;
     if (dom && o.domaine !== dom) return false;
     if (srcs.length && !sourcesDe(o).some(s => srcs.includes(s))) return false;
@@ -459,7 +497,7 @@ function carte(o) {
         ${o.modalite ? `<span>${ico("i-malette")}${esc(o.modalite)}</span>` : ""}
         ${r}
       </div>
-      <div class="tags">${o.domaine ? `<span class="tag">${esc(o.domaine)}</span>` : ""}${liensSources(o)}</div>
+      <div class="tags">${o.domaine ? `<span class="tag">${esc(o.domaine)}</span>` : ""}${o.perso ? `<span class="tag perso">Ajoutée par toi${o.origine ? " · " + esc(o.origine) : ""}</span>${sureUrl(o.urlOffre) ? `<a class="tag" href="${esc(o.urlOffre)}" target="_blank" rel="noopener">Voir l'offre</a>` : ""}<button class="tag js-retirer" type="button" data-id="${esc(o.id)}" style="cursor:pointer">Retirer</button>` : liensSources(o)}</div>
       ${liensCandidats(o)}
       <details class="suivi">
         <summary>Coordonnées et suivi${statut}</summary>
@@ -544,10 +582,17 @@ function renderExclues() {
 }
 let dernierExclu = null, minuteur;
 function montrerToast(txt) { $("toastTxt").textContent = txt; $("toast").hidden = false; clearTimeout(minuteur); minuteur = setTimeout(() => $("toast").hidden = true, 6000); }
-$("toastAnnuler").addEventListener("click", () => { if (dernierExclu) { exclues.delete(dernierExclu); ecrireExclues(); renderExclues(); render(); } $("toast").hidden = true; });
+$("toastAnnuler").addEventListener("click", () => { if (state.annuler) { const f = state.annuler; state.annuler = null; f(); $("toast").hidden = true; return; } if (dernierExclu) { exclues.delete(dernierExclu); ecrireExclues(); renderExclues(); render(); } $("toast").hidden = true; });
 document.addEventListener("click", (ev) => {
   const x = ev.target.closest(".js-excl");
-  if (x) { const nom = x.dataset.cie, k = slug(nom); exclues.set(k, nom); dernierExclu = k; ecrireExclues(); renderExclues(); render(); montrerToast(`${nom} est exclue des résultats.`); return; }
+  if (x) { state.annuler = null; const nom = x.dataset.cie, k = slug(nom); exclues.set(k, nom); dernierExclu = k; ecrireExclues(); renderExclues(); render(); montrerToast(`${nom} est exclue des résultats.`); return; }
+  const rt = ev.target.closest(".js-retirer");
+  if (rt) {
+    const i = state.perso.findIndex(o => o.id === rt.dataset.id); if (i < 0) return;
+    const [o] = state.perso.splice(i, 1); ecrirePerso(); fusionner(); render();
+    state.annuler = () => { state.perso.splice(i, 0, o); ecrirePerso(); fusionner(); render(); };
+    montrerToast("Offre retirée."); return;
+  }
   const rb = ev.target.closest(".js-retablir");
   if (rb) { exclues.delete(rb.dataset.k); ecrireExclues(); renderExclues(); render(); return; }
 });
@@ -573,8 +618,22 @@ $("reinit").addEventListener("click", () => {
   memoFiltres(); render();
 });
 
+$("ajRegion").innerHTML = REGIONS.map(r => `<option>${esc(r)}</option>`).join("");
+$("ajDomaine").innerHTML = DOMAINES.map(r => `<option>${esc(r)}</option>`).join("");
+$("ajoutNav").addEventListener("click", () => { $("formAjout").reset(); $("ajDate").value = new Date().toISOString().slice(0, 10); $("dlgAjout").showModal(); });
+$("ajAnnuler").addEventListener("click", () => $("dlgAjout").close());
+$("formAjout").addEventListener("submit", (ev) => {
+  const f = new FormData(ev.target), v = k => String(f.get(k) || "").trim();
+  if (!v("titre") || !v("entreprise") || !v("ville")) return;
+  const auj = new Date().toISOString().slice(0, 10), date = v("date") && v("date") !== auj ? new Date(v("date") + "T12:00:00") : new Date();
+  const url = sureUrl(v("url"));
+  const o = { id: "perso-" + Date.now().toString(36), perso: true, titre: v("titre"), entreprise: v("entreprise"), lieu: v("ville") + ", QC", region: v("region"),
+    domaine: v("domaine"), publieLe: date.toISOString(), urlOffre: url, origine: v("origine"), sources: [{ nom: "Ajout manuel", url }], ajouteeLe: new Date().toISOString() };
+  state.perso.unshift(o); ecrirePerso(); fusionner(); render();
+  montrerToast(`« ${o.titre} » ajoutée.`); state.annuler = () => { state.perso = state.perso.filter(x => x.id !== o.id); ecrirePerso(); fusionner(); render(); };
+});
 $("exporter").addEventListener("click", () => {
-  const blob = new Blob([JSON.stringify({ app: "sentinelle", exporteLe: new Date().toISOString(), notes: state.notes }, null, 2)], { type: "application/json" });
+  const blob = new Blob([JSON.stringify({ app: "sentinelle", exporteLe: new Date().toISOString(), notes: state.notes, offresPerso: state.perso }, null, 2)], { type: "application/json" });
   const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
   a.download = `sentinelle-notes-${new Date().toISOString().slice(0, 10)}.json`;
   document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
@@ -591,7 +650,10 @@ $("fichier").addEventListener("change", async (ev) => {
       const ici = state.notes[id];
       if (!ici || (Date.parse(note.majLe) || 0) > (Date.parse(ici.majLe) || 0)) { state.notes[id] = note; n++; }
     }
-    ecrireNotes(); render(); montrerAvis(`${n} note${n > 1 ? "s" : ""} restaurée${n > 1 ? "s" : ""}.`);
+    let p = 0;
+    if (Array.isArray(obj.offresPerso)) for (const o of obj.offresPerso) if (o && o.id && o.perso && !state.perso.some(x => x.id === o.id)) { state.perso.push(o); p++; }
+    if (p) { ecrirePerso(); fusionner(); }
+    ecrireNotes(); render(); montrerAvis(`${n} note${n > 1 ? "s" : ""} et ${p} offre${p > 1 ? "s" : ""} ajoutée${p > 1 ? "s" : ""} restaurées.`);
   } catch { montrerAvis("Ce fichier n'est pas une sauvegarde de Sentinelle."); }
   ev.target.value = "";
 });
@@ -611,7 +673,7 @@ async function chargerOffres() {
     const r = await fetch("data/offres.json?t=" + Date.now(), { cache: "no-store" });
     if (!r.ok) throw new Error(r.status);
     const d = await r.json();
-    state.offres = Array.isArray(d.offres) ? d.offres : [];
+    state.serveur = Array.isArray(d.offres) ? d.offres : []; fusionner();
     state.entreprises = d.entreprises && typeof d.entreprises === "object" ? d.entreprises : {};
     state.meta = d.tournee || null;
     renderSur();
@@ -619,6 +681,7 @@ async function chargerOffres() {
 }
 if (window.matchMedia("(max-width: 900px)").matches) document.querySelectorAll("details.groupe-f").forEach(d => d.open = false);
 chargerNotes();
+chargerPerso(); fusionner();
 renderExclues();
 render();
 chargerOffres();
