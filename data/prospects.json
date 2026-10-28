@@ -1,6 +1,6 @@
 {
  "miseAJour": "2026-10-28",
- "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides et Québec",
+ "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec, Montréal et Laval",
  "entreprises": [
   {
    "id": "ciusss-de-l-estrie-chus",
@@ -8693,6 +8693,812 @@
     "Taille à confirmer (probablement une PME)",
     "Recrute des profils spécialisés (Génie mécanique)",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "eclairage-iguzzini-amerique-du-nord",
+   "nom": "Éclairage iGuzzini Amérique du Nord",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "sterilia",
+   "nom": "Sterilia",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "samsic-assistance-canada",
+   "nom": "Samsic Assistance Canada",
+   "region": "Montréal",
+   "ville": "Dorval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "ceriu",
+   "nom": "CERIU",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats",
+    "1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "frare-gallant-construction",
+   "nom": "Frare & Gallant Construction",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "elemission",
+   "nom": "Elemission",
+   "region": "Montréal",
+   "ville": "Saint-Laurent",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "cellcom-communications",
+   "nom": "Cellcom Communications",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "multi-color-corporation",
+   "nom": "Multi-Color Corporation",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "simport-scientifique",
+   "nom": "Simport Scientifique",
+   "region": "Montérégie",
+   "ville": "Saint-Hubert",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "cowan-dynamics",
+   "nom": "Cowan Dynamics",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "trane-technologies",
+   "nom": "Trane Technologies",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "solution-sinistre-360",
+   "nom": "Solution Sinistre 360",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "la-boite-a-bonbons",
+   "nom": "La boite a bonbons",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "groupe-helios-gestion-d-infrastructures",
+   "nom": "Groupe Helios Gestion d'infrastructures",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "beaute-cove",
+   "nom": "Beaute Cove",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ressources humaines)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ressources humaines), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "soquij",
+   "nom": "SOQUIJ",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats",
+    "1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "gestion-providentia",
+   "nom": "Gestion Providentia",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "confiserie-mondoux",
+   "nom": "Confiserie Mondoux",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "aga-assurances-collectives",
+   "nom": "AGA Assurances Collectives",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "mty-group",
+   "nom": "MTY Group",
+   "region": "Montréal",
+   "ville": "Saint-Laurent",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "produits-alimentaires-berthelet",
+   "nom": "Produits Alimentaires Berthelet",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "tci",
+   "nom": "TCI+",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "groupe-energie-bdl",
+   "nom": "Groupe Énergie BDL",
+   "region": "Montréal",
+   "ville": "Anjou",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "vegpro-international",
+   "nom": "VegPro International",
+   "region": "Montérégie",
+   "ville": "Brossard",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "xo-construction",
+   "nom": "XO Construction",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "groupe-amiel",
+   "nom": "Groupe Amiel",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "chambre-de-commerce-du-montreal-metropolitain",
+   "nom": "Chambre de commerce du Montréal métropolitain",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
+   "raisons": [
+    "Employeur public : embauche encadrée par des conventions et des règles d'attribution de contrats",
+    "1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "global-partner-solutions",
+   "nom": "Global Partner Solutions",
+   "region": "Montréal",
+   "ville": "Dorval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "transdev-canada",
+   "nom": "Transdev Canada",
+   "region": "Montérégie",
+   "ville": "Brossard",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "american-iron-and-metal",
+   "nom": "American Iron and Metal",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "uap",
+   "nom": "UAP",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "manhattan-international-trade",
+   "nom": "Manhattan International Trade",
+   "region": "Montréal",
+   "ville": "Saint-Laurent",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "groupe-grilli-samuel",
+   "nom": "Groupe Grilli Samuel",
+   "region": "Montérégie",
+   "ville": "Longueuil",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "air-liquide",
+   "nom": "Air Liquide",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "andritz",
+   "nom": "ANDRITZ",
+   "region": "Montérégie",
+   "ville": "Boucherville",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "celanese",
+   "nom": "Celanese",
+   "region": "Montérégie",
+   "ville": "Boucherville",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "systra",
+   "nom": "SYSTRA",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "vinci-energies",
+   "nom": "VINCI Energies",
+   "region": "Laval",
+   "ville": "Laval",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "vention",
+   "nom": "Vention",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "nordex",
+   "nom": "Nordex",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "1000+",
+   "type": "Filiale d'un groupe international",
+   "score": 0,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Filiale d'une multinationale : recrutement souvent centralisé au siège",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "xnrgy-climate-systems",
+   "nom": "XNRGY Climate Systems",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "coencorp",
+   "nom": "Coencorp",
+   "region": "Montérégie",
+   "ville": "Brossard",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "cryopak",
+   "nom": "Cryopak",
+   "region": "Montréal",
+   "ville": "Anjou",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "bronswerk-group",
+   "nom": "Bronswerk Group",
+   "region": "Montérégie",
+   "ville": "Brossard",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "navada",
+   "nom": "Navada",
+   "region": "Montérégie",
+   "ville": "Longueuil",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "carmichael-engineering",
+   "nom": "Carmichael Engineering",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-10-28"
+   ]
+  },
+  {
+   "id": "jelco",
+   "nom": "JELCO",
+   "region": "Montréal",
+   "ville": "Montréal",
+   "secteur": "À préciser",
+   "decouvert": "2026-10-28",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Direction)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Direction), découverte le 2026-10-28"
    ]
   }
  ]

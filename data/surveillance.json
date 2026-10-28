@@ -20,7 +20,10 @@
    "Blainville",
    "Mirabel",
    "Québec",
-   "Saint-Augustin-de-Desmaures"
+   "Saint-Augustin-de-Desmaures",
+   "Montréal",
+   "Saint-Laurent",
+   "Laval"
   ],
   "rayonKm": 80,
   "postes": [
@@ -65,7 +68,7 @@
     "domaine": "Gestion de projets"
    }
   ],
-  "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides et Québec (Capitale-Nationale). À venir : Montréal et Laval.",
+  "territoire": "Sud du Québec : Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec (Capitale-Nationale), Montréal et Laval.",
   "groupesDeRecherche": [
    {
     "domaine": "Génie mécanique",
