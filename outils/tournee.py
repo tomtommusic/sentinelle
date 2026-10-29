@@ -16,7 +16,7 @@ Format de brut.txt (un champ par ¦) :
 
 Règles des offres terminées :
   - confirmée fermée en ouvrant l'offre (commande fermer)      -> « terminee » avec la date
-  - plus vue dans aucune tournée depuis 14 jours               -> « terminee » (probablement fermée)
+  - ni revue ni confirmée ouverte depuis 30 jours              -> « terminee » (probablement fermée)
   - publiée il y a plus de 60 jours                            -> retirée (hors de la fenêtre suivie)
   - terminée depuis plus de 30 jours                           -> retirée
 """
@@ -82,8 +82,8 @@ def menage(d):
         if a is not None and a > 60: continue
         if o.get("terminee"):
             if (now.date() - datetime.date.fromisoformat(o["terminee"])).days > 30: continue
-        elif (now.date() - datetime.date.fromisoformat(o["vuLe"])).days >= 14:
-            o["terminee"] = AUJ; o["termineeRaison"] = "Plus affichée depuis 14 jours"
+        elif (now.date() - datetime.date.fromisoformat(o["vuLe"])).days >= 30:
+            o["terminee"] = AUJ; o["termineeRaison"] = "Introuvable depuis 30 jours"
         garde.append(o)
     d["offres"] = sorted(garde, key=lambda o: o.get("publieLe") or "", reverse=True)
 

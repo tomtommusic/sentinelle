@@ -138,7 +138,7 @@ La commande ajoute les nouvelles offres, met à jour celles qui ont été revues
    ```
 
 Règles automatiques, appliquées à chaque enregistrement :
-- une offre qui n'est plus vue depuis 14 jours devient « terminée »;
+- une offre ni revue ni confirmée ouverte depuis 30 jours devient « terminée ». Les recherches ne montrent que les premières pages : une offre absente des résultats n'est pas forcément fermée, d'où la vérification de l'étape 7, à faire chaque jour sur les 40 offres les plus anciennement vues;
 - une offre publiée il y a plus de 60 jours est retirée;
 - une offre terminée depuis plus de 30 jours est retirée.
 
@@ -186,3 +186,10 @@ Ajouter chaque signal vérifié à `data/signaux.json`, au même format que les 
 Rédiger un « angle d'approche » concret pour chaque signal. Ne garder que des nouvelles de moins de 6 mois, sauf une ouverture d'usine encore à venir. Ajouter l'entreprise aux Prospects si elle n'y est pas, avec la raison « Signal d'affaires : … ».
 
 Ne jamais inventer un fait : chaque signal doit avoir au moins une source avec un lien.
+
+## 11. Si Indeed affiche « Security Check » ou « Vérification supplémentaire requise »
+
+Arrêter Indeed pour la journée sans tenter de contourner la vérification. Passer à LinkedIn et à Jobillico, et le signaler dans le compte rendu. Pour réduire le risque :
+- espacer les pages;
+- après la première tournée complète, utiliser `&fromage=3` (offres des 3 derniers jours) pour les recherches quotidiennes;
+- refaire une tournée complète sans `fromage` seulement le lundi.
