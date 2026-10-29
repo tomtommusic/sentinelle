@@ -11912,13 +11912,12 @@
    "ville": "Québec",
    "secteur": "À préciser",
    "decouvert": "2026-10-29",
-   "taille": "",
+   "taille": "1000+",
    "type": "Privé",
-   "score": 4,
-   "categorie": "Probable",
+   "score": -2,
+   "categorie": "Mandats de cadres",
    "raisons": [
-    "Taille à confirmer (probablement une PME)",
-    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Grand cabinet d'avocats national : recrutement interne",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-29"
    ]
   },
@@ -11981,12 +11980,11 @@
    "secteur": "À préciser",
    "decouvert": "2026-10-29",
    "taille": "",
-   "type": "Privé",
-   "score": 4,
-   "categorie": "Probable",
+   "type": "Public / parapublic",
+   "score": -5,
+   "categorie": "Peu probable",
    "raisons": [
-    "Taille à confirmer (probablement une PME)",
-    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Centre de recherche parapublic : embauche encadrée",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-29"
    ]
   },
