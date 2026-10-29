@@ -454,11 +454,11 @@ function filtrer() {
     if (estExclue(o.entreprise)) return false;
     if (o.terminee && !$("voirTerm").checked) return false;
     if (fen.length && !o.perso) { const h = age(o.publieLe).h; if (!fen.some(([a, b]) => h >= a && h <= b)) return false; }
-    if (reg && o.region !== reg) return false;
+    if (reg && o.region !== reg && !(o.autresRegions || []).includes(reg)) return false;
     if (dom && o.domaine !== dom) return false;
     if (srcs.length && !sourcesDe(o).some(s => srcs.includes(s))) return false;
     if (suivis.length && !suivis.includes(n.statut || "nouveau")) return false;
-    if (q && ![o.titre, o.entreprise, o.lieu, o.domaine, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase().includes(q)) return false;
+    if (q && ![o.titre, o.entreprise, o.lieu, (o.autresLieux || []).join(" "), o.domaine, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase().includes(q)) return false;
     return true;
   });
 }
@@ -494,7 +494,7 @@ function carte(o) {
     </div>
     <div class="plus">
       <div class="infos">
-        ${o.lieu || o.region ? `<span>${ico("i-lieu")}${esc(o.lieu || o.region)}</span>` : ""}
+        ${o.lieu || o.region ? `<span>${ico("i-lieu")}${esc(o.lieu || o.region)}${Array.isArray(o.autresLieux) && o.autresLieux.length ? ` · aussi affichée à ${esc(o.autresLieux.map(l => l.replace(/, QC$/, "")).join(", "))}` : ""}</span>` : ""}
         ${o.modalite ? `<span>${ico("i-malette")}${esc(o.modalite)}</span>` : ""}
         ${r}
       </div>

@@ -58,3 +58,23 @@ def est_agence(cie):
     s = slug(cie)
     return any(s == a or s.startswith(a + "-") for a in AGENCES)
 BRUIT = re.compile(r"(salle à manger|restauration|restaurant|hébergement touristique|auberge|entretien ménager|ferme d'élevage|succursale|planification préalable|candidature spontanée|étudiant|stagiaire|stage\b|technicien|personnel enseignant|professeur|enseignant|adjoint(e)? (administrati|de direction))", re.I)
+
+STOP_CIE = {"groupe", "group", "les", "le", "la", "l", "industries", "industrie", "inc", "canada", "ltee", "ltd", "corporation", "corp",
+            "compagnie", "cie", "entreprises", "entreprise", "produits", "services", "the", "company", "de", "du", "des", "et", "s", "e", "c"}
+def coeur_cie(nom):
+    t = [w for w in slug(re.split(r" – | \(", nom or "")[0]).split("-") if w and w not in STOP_CIE]
+    return t[0] if t else slug(nom)
+def titre_norm(t):
+    t = re.sub(r"\(.*?\)", " ", (t or "").lower()).strip()      # (e), (H/F), (Trois-Rivières)…
+    if "/" in t:                                                   # forme masculine/féminine
+        a, b = [x.strip() for x in t.split("/", 1)]
+        if a[:4] and b[:4] == a[:4]:
+            t = a + b[len(b.split(" ")[0]):] if " " not in a else a
+    m = re.search(r"\s[-–|]\s*([^-–|]+)$", t)                     # « … - Longueuil » : retirer la ville
+    if m and region(m.group(1).strip()): t = t[:m.start()]
+    t = re.sub(r"[·.](e|ne|trice|rice|euse|ère|ere|eure)s?\b", "", t)
+    t = re.sub(r"\b(h/f|f/h|senior|sénior|junior|temporaire|hybride)\b", " ", t)
+    return slug(t)[:40]
+def cle_offre(o):
+    """Même poste, même entreprise : un seul doublon, quelle que soit la ville ou la source."""
+    return (titre_norm(o["titre"]), coeur_cie(o["entreprise"]))

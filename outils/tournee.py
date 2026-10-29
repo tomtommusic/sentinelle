@@ -22,7 +22,7 @@ Règles des offres terminées :
 """
 import json, os, re, sys, datetime
 sys.path.insert(0, os.path.dirname(__file__))
-from commun import slug, region, est_agence, to_iso, domaine, BRUIT, now
+from commun import slug, region, est_agence, to_iso, domaine, BRUIT, now, cle_offre
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 F = os.path.join(RACINE, "data", "offres.json")
@@ -39,7 +39,34 @@ def charger():
 
 
 def cle(o):
-    return (slug(o["titre"])[:30], slug(o["entreprise"]).split("-")[0], slug(o["lieu"].replace(", QC", "")))
+    return cle_offre(o)
+
+
+def fusionner_dans(ex, o):
+    """Réunit le doublon o dans l'offre ex : sources, autres villes, dates."""
+    for s_ in o.get("sources", []):
+        if s_["nom"] not in [x["nom"] for x in ex["sources"]]: ex["sources"].append(s_)
+    if o["lieu"] != ex["lieu"]:
+        al = ex.setdefault("autresLieux", [])
+        if o["lieu"] not in al: al.append(o["lieu"])
+    for l in o.get("autresLieux", []):
+        if l != ex["lieu"] and l not in ex.setdefault("autresLieux", []): ex["autresLieux"].append(l)
+    regs = sorted({r for r in (region(l.replace(", QC", "")) for l in ex.get("autresLieux", [])) if r and r != ex["region"]})
+    if regs: ex["autresRegions"] = regs
+    ex["vuLe"] = max(ex.get("vuLe", ""), o.get("vuLe", ""))
+    if o.get("publieLe") and not o.get("dateApprox") and (ex.get("dateApprox") or not ex.get("publieLe") or o["publieLe"] < ex["publieLe"]):
+        ex["publieLe"] = o["publieLe"]; ex.pop("dateApprox", None)
+
+
+def dedoublonner(d):
+    garde, vu, n = [], {}, 0
+    # on garde en priorité l'offre la mieux renseignée (plus de sources, date exacte)
+    for o in sorted(d["offres"], key=lambda o: (-len(o.get("sources", [])), bool(o.get("dateApprox")))):
+        k = cle(o)
+        if k in vu: fusionner_dans(vu[k], o); n += 1; continue
+        vu[k] = o; garde.append(o)
+    d["offres"] = garde
+    return n
 
 
 def jours(iso):
@@ -62,6 +89,7 @@ def menage(d):
 
 
 def sauver(d):
+    dedoublonner(d)
     menage(d)
     regs = sorted({o["region"] for o in d["offres"]})
     d["tournee"] = {"date": now.isoformat(), "regions": ", ".join(regs) + " · offres des 60 derniers jours",
@@ -96,15 +124,15 @@ def fusion(brut, frais_f=None):
         else:
             iso = to_iso(age)
         if iso and jours(iso) > 60: ignorees += 1; continue
+        ville = re.sub(r"^Ville de ", "", ville)
         o = {"id": k, "titre": titre, "entreprise": cie, "lieu": ville + ", QC", "region": r, "domaine": domaine(titre, tag),
              "publieLe": iso, "urlOffre": url, "sources": [{"nom": src, "url": url}], "premiereVue": AUJ, "vuLe": AUJ}
         ex = par_id.get(k) or par_cle.get(cle(o))
         if ex:
-            ex["vuLe"] = AUJ; revues += 1
+            revues += 1
             ex.pop("terminee", None); ex.pop("termineeRaison", None)
-            if src not in [s["nom"] for s in ex["sources"]]: ex["sources"].append({"nom": src, "url": url})
-            if iso and not approx and (not ex.get("publieLe") or ex.get("dateApprox") or iso < ex["publieLe"]):
-                ex["publieLe"] = iso; ex.pop("dateApprox", None)
+            if approx: o["dateApprox"] = "x"
+            fusionner_dans(ex, o); ex["vuLe"] = AUJ
             continue
         if approx: o["dateApprox"] = "x"
         d["offres"].append(o); par_id[k] = o; par_cle[cle(o)] = o; nouvelles.append(o)
@@ -147,5 +175,5 @@ if __name__ == "__main__":
     elif c == "averifier": averifier(int(sys.argv[2]) if len(sys.argv) > 2 else 40)
     elif c == "fermer": fermer(sys.argv[2])
     elif c == "ouvertes": revues(sys.argv[2])
-    elif c == "menage": d = charger(); sauver(d); print("ok", len(d["offres"]))
+    elif c == "menage": d = charger(); n = dedoublonner(d); sauver(d); print("doublons réunis :", n, "· total", len(d["offres"]))
     else: print(__doc__)

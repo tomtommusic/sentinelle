@@ -1,6 +1,6 @@
 {
  "tournee": {
-  "date": "2026-10-28T09:06:00-04:00",
+  "date": "2026-10-29T16:28:00-04:00",
   "regions": "Capitale-Nationale, Centre-du-Québec, Chaudière-Appalaches, Estrie, Lanaudière, Laurentides, Laval, Mauricie, Montréal, Montérégie · offres des 60 derniers jours",
   "sources": [
    "Indeed",
@@ -197,25 +197,13 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4484213582",
-   "titre": "Ingénieure ou Ingénieur senior, Mécanique et tuyauterie industrielle (Hydroélectricité)",
-   "entreprise": "EXP",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-28T03:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4484213582/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4484213582/"
-    }
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Drummondville, QC"
    ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
+   "autresRegions": [
+    "Centre-du-Québec"
+   ]
   },
   {
    "id": "li-4484221726",
@@ -362,24 +350,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4475825299",
-   "titre": "Analyste au prix de revient",
-   "entreprise": "Soucy",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-27T20:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4475825299/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4475825299/"
-    }
-   ],
-   "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4416848559",
    "titre": "Ingénieur de projets",
    "entreprise": "Agropur",
@@ -392,6 +362,34 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4416848559/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=520f4ee1fbe1b04a"
+    }
+   ],
+   "premiereVue": "2026-10-27",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Beauceville, QC"
+   ],
+   "autresRegions": [
+    "Chaudière-Appalaches"
+   ]
+  },
+  {
+   "id": "li-4475825299",
+   "titre": "Analyste au prix de revient",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-27T20:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4475825299/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4475825299/"
     }
    ],
    "premiereVue": "2026-10-27",
@@ -506,24 +504,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4481893439",
-   "titre": "Director, Human Resources and Legal Affairs",
-   "entreprise": "Aeromag",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-27T10:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4481893439/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4481893439/"
-    }
-   ],
-   "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4474001386",
    "titre": "Analyste financier(ère) -ACT",
    "entreprise": "Couche-Tard",
@@ -536,6 +516,28 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4474001386/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3f500405ec9e3a69"
+    }
+   ],
+   "premiereVue": "2026-10-27",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4481893439",
+   "titre": "Director, Human Resources and Legal Affairs",
+   "entreprise": "Aeromag",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-27T10:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481893439/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481893439/"
     }
    ],
    "premiereVue": "2026-10-27",
@@ -572,6 +574,50 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4471690691/"
+    }
+   ],
+   "premiereVue": "2026-10-27",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4483718001",
+   "titre": "Ingénieur·e de procédés - Qualité",
+   "entreprise": "Soucy",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-27T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483718001/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483718001/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=a5e74cf4f3ecfba4"
+    }
+   ],
+   "premiereVue": "2026-10-27",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "jb-17648331",
+   "titre": "Contrôleur financier",
+   "entreprise": "Dubé Loiselle",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-27T07:40:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/dube-loiselle.fQmsGo/controleur-financier/17648331",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/dube-loiselle.fQmsGo/controleur-financier/17648331"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=1ac76c1838e80f1a"
     }
    ],
    "premiereVue": "2026-10-27",
@@ -794,28 +840,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4483718001",
-   "titre": "Ingénieur·e de procédés - Qualité",
-   "entreprise": "Soucy",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Qualité, maintenance et SST",
-   "publieLe": "2026-10-27T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4483718001/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4483718001/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=a5e74cf4f3ecfba4"
-    }
-   ],
-   "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4483706760",
    "titre": "Responsable procédés",
    "entreprise": "Soucy",
@@ -846,28 +870,6 @@
     {
      "nom": "Jobillico",
      "url": "https://www.jobillico.com/fr/offre-d-emploi/gbi-services-dingenierie/ingenieur-en-infrastructures-urbaines/17646924"
-    }
-   ],
-   "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-17648331",
-   "titre": "Contrôleur financier",
-   "entreprise": "Dubé Loiselle",
-   "lieu": "Granby, QC",
-   "region": "Montérégie",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-27T07:40:00-04:00",
-   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/dube-loiselle.fQmsGo/controleur-financier/17648331",
-   "sources": [
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/dube-loiselle.fQmsGo/controleur-financier/17648331"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=1ac76c1838e80f1a"
     }
    ],
    "premiereVue": "2026-10-27",
@@ -1323,7 +1325,13 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Trois-Rivières, QC"
+   ],
+   "autresRegions": [
+    "Mauricie"
+   ]
   },
   {
    "id": "li-4363721417",
@@ -1416,42 +1424,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4428422872",
-   "titre": "Ingénieur(e) de procédés sénior(e)",
-   "entreprise": "WSP au Canada",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4428422872/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4428422872/"
-    }
-   ],
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4428431796",
-   "titre": "Ingénieur(e) de procédés intermédiaire",
-   "entreprise": "WSP au Canada",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4428431796/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4428431796/"
-    }
-   ],
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4408121248",
    "titre": "Concepteur Piping 3D - Technicien",
    "entreprise": "Nortek Air Solutions",
@@ -1524,6 +1496,60 @@
    "vuLe": "2026-10-28"
   },
   {
+   "id": "li-4473813824",
+   "titre": "Ingénieur de projet",
+   "entreprise": "Maple Leaf Foods",
+   "lieu": "Laval, QC",
+   "region": "Laval",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-25T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4473813824/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4473813824/"
+    }
+   ],
+   "premiereVue": "2026-10-25",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4475374497",
+   "titre": "Ingénieure / Ingénieur, Mécanique du bâtiment",
+   "entreprise": "BPA",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-25T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4475374497/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4475374497/"
+    }
+   ],
+   "premiereVue": "2026-10-25",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4465897405",
+   "titre": "Ingénieur mécanique sénior",
+   "entreprise": "AtkinsRéalis",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-25T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4465897405/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4465897405/"
+    }
+   ],
+   "premiereVue": "2026-10-25",
+   "vuLe": "2026-10-28"
+  },
+  {
    "id": "jb-466b03d20370be8e",
    "titre": "Directeur(trice) pédagogique",
    "entreprise": "École Val Marie",
@@ -1574,25 +1600,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=aaa5b09b1fa1f7d7"
-    }
-   ],
-   "dateApprox": "Moins de 7 jours",
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-0aa9d90e502ede52",
-   "titre": "Conseiller(ère) en ressources humaines",
-   "entreprise": "UNNO",
-   "lieu": "Estrie, QC",
-   "region": "Estrie",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=0aa9d90e502ede52",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=0aa9d90e502ede52"
     }
    ],
    "dateApprox": "Moins de 7 jours",
@@ -1695,25 +1702,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-e42142e20f887786",
-   "titre": "Contrôleur(euse) comptable",
-   "entreprise": "A1 Imports",
-   "lieu": "Bois-des-Filion, QC",
-   "region": "Laurentides",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=e42142e20f887786",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=e42142e20f887786"
-    }
-   ],
-   "dateApprox": "Moins de 7 jours",
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-7c374df82a253fb7",
    "titre": "Analyste financier",
    "entreprise": "Bain Dépôt",
@@ -1755,7 +1743,7 @@
    "id": "jb-7d674c0ebbde5eca",
    "titre": "Contrôleur financier",
    "entreprise": "PREST",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-25T07:40:00-04:00",
@@ -1793,7 +1781,7 @@
    "id": "jb-0cc71014a3ed1e4a",
    "titre": "Analyste financier·ère",
    "entreprise": "Harris Computer Systems",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-25T07:40:00-04:00",
@@ -1916,25 +1904,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=fe976796b3fe72d4"
-    }
-   ],
-   "dateApprox": "Moins de 7 jours",
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-78043e194ebb0de3",
-   "titre": "Chargé.e de projet- Électricité",
-   "entreprise": "Les installations électriques",
-   "lieu": "Montréal-Est, QC",
-   "region": "Montréal",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=78043e194ebb0de3",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=78043e194ebb0de3"
     }
    ],
    "dateApprox": "Moins de 7 jours",
@@ -2113,78 +2082,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4473813824",
-   "titre": "Ingénieur de projet",
-   "entreprise": "Maple Leaf Foods",
-   "lieu": "Laval, QC",
-   "region": "Laval",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4473813824/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4473813824/"
-    }
-   ],
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4475374497",
-   "titre": "Ingénieure / Ingénieur, Mécanique du bâtiment",
-   "entreprise": "BPA",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4475374497/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4475374497/"
-    }
-   ],
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4465897405",
-   "titre": "Ingénieur mécanique sénior",
-   "entreprise": "AtkinsRéalis",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4465897405/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4465897405/"
-    }
-   ],
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4481929642",
-   "titre": "Ingénieur(e) en mécanique Bâtiment - Protection incendie",
-   "entreprise": "Hydro-Québec",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4481929642/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4481929642/"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4473502676",
    "titre": "Chargé de projet en amélioration continue",
    "entreprise": "Marmen",
@@ -2201,6 +2098,170 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=2ca5b66ce7b22bcb"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4446590167",
+   "titre": "Chargé de projet - Assurance qualité",
+   "entreprise": "Marmen",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-24T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4446590167/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4446590167/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=f3224eec7e49e02a"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4483134851",
+   "titre": "Dessinateur/concepteur",
+   "entreprise": "Marmen",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483134851/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483134851/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=133f5d431ab94231"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4465871552",
+   "titre": "Directeur·trice génie manufacturier",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4465871552/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4465871552/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=8811af6ca75ebb54"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4481929039",
+   "titre": "Conseiller(ère) en ressources humaines",
+   "entreprise": "UNNO",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-24T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481929039/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481929039/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0aa9d90e502ede52"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Estrie, QC"
+   ],
+   "autresRegions": [
+    "Estrie"
+   ]
+  },
+  {
+   "id": "li-4481913493",
+   "titre": "Contrôleur(euse) Comptable",
+   "entreprise": "A1 Imports",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-24T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481913493/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481913493/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e42142e20f887786"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Bois-des-Filion, QC"
+   ],
+   "autresRegions": [
+    "Laurentides"
+   ]
+  },
+  {
+   "id": "li-4428422872",
+   "titre": "Ingénieur(e) de procédés sénior(e)",
+   "entreprise": "WSP au Canada",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-24T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4428422872/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4428422872/"
+    }
+   ],
+   "premiereVue": "2026-10-25",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Sherbrooke, QC"
+   ],
+   "autresRegions": [
+    "Estrie"
+   ]
+  },
+  {
+   "id": "li-4481929642",
+   "titre": "Ingénieur(e) en mécanique Bâtiment - Protection incendie",
+   "entreprise": "Hydro-Québec",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-24T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481929642/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481929642/"
     }
    ],
    "premiereVue": "2026-10-24",
@@ -2243,28 +2304,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4446590167",
-   "titre": "Chargé de projet - Assurance qualité",
-   "entreprise": "Marmen",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Qualité, maintenance et SST",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4446590167/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4446590167/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=f3224eec7e49e02a"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4481697740",
    "titre": "Chef·fe de la direction",
    "entreprise": "Agiska Coopérative",
@@ -2301,60 +2340,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4480674914",
-   "titre": "Ingénieur(e) mécanique - Magog, Canada",
-   "entreprise": "Arjo",
-   "lieu": "Magog, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480674914/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480674914/"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4480688306",
-   "titre": "Mechanical Engineer - Magog, Canada",
-   "entreprise": "Arjo",
-   "lieu": "Magog, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480688306/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480688306/"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4481929039",
-   "titre": "Conseiller(ère) en ressources humaines",
-   "entreprise": "UNNO",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4481929039/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4481929039/"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4483150164",
    "titre": "Human Resources Generalist",
    "entreprise": "NexKemia",
@@ -2367,24 +2352,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4483150164/"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4481902843",
-   "titre": "Analyste, contrôle de gestion",
-   "entreprise": "Groupe Lactalis",
-   "lieu": "Victoriaville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4481902843/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4481902843/"
     }
    ],
    "premiereVue": "2026-10-24",
@@ -2481,50 +2448,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4483134851",
-   "titre": "Dessinateur/concepteur",
-   "entreprise": "Marmen",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4483134851/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4483134851/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=133f5d431ab94231"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4465871552",
-   "titre": "Directeur·trice génie manufacturier",
-   "entreprise": "Soucy",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4465871552/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4465871552/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=8811af6ca75ebb54"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4482796140",
    "titre": "Chargé·e de projets - Ingénierie des structures",
    "entreprise": "Machinex",
@@ -2555,24 +2478,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4481002288/"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4428439669",
-   "titre": "Ingénieur(e) de procédés sénior(e)",
-   "entreprise": "WSP au Canada",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4428439669/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4428439669/"
     }
    ],
    "premiereVue": "2026-10-24",
@@ -2759,24 +2664,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4481913493",
-   "titre": "Contrôleur(euse) Comptable",
-   "entreprise": "A1 Imports",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-24T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4481913493/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4481913493/"
-    }
-   ],
-   "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4481392550",
    "titre": "Contrôleur financier",
    "entreprise": "Musée McCord Stewart",
@@ -2867,24 +2754,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4445168658",
-   "titre": "CPI en mécanique-tuyauterie Sorel-Tracy",
-   "entreprise": "Hatch",
-   "lieu": "Sorel-Tracy, QC",
-   "region": "Montérégie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4445168658/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4445168658/"
-    }
-   ],
-   "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4482775798",
    "titre": "Ingénieur de projets",
    "entreprise": "General Dynamics Ordnance and Tactical Systems",
@@ -2911,18 +2780,58 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4477424880",
-   "titre": "Gestionnaire projet ingénierie",
-   "entreprise": "Lactalis Canada",
-   "lieu": "Granby, QC",
-   "region": "Montérégie",
-   "domaine": "Ingénierie et production",
+   "id": "li-4482707516",
+   "titre": "Vice-président(e) Ressources humaines",
+   "entreprise": "Aliments Krispy Kernels",
+   "lieu": "Warwick, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Direction",
    "publieLe": "2026-10-23T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477424880/",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482707516/",
    "sources": [
     {
      "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477424880/"
+     "url": "https://www.linkedin.com/jobs/view/4482707516/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=8ca6b3cbea032ab5"
+    }
+   ],
+   "premiereVue": "2026-10-23",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4480688306",
+   "titre": "Mechanical Engineer - Magog, Canada",
+   "entreprise": "Arjo",
+   "lieu": "Magog, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-23T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480688306/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480688306/"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4445168658",
+   "titre": "CPI en mécanique-tuyauterie Sorel-Tracy",
+   "entreprise": "Hatch",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-23T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4445168658/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4445168658/"
     }
    ],
    "premiereVue": "2026-10-23",
@@ -3145,28 +3054,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4482707516",
-   "titre": "Vice-président(e) Ressources humaines",
-   "entreprise": "Aliments Krispy Kernels",
-   "lieu": "Warwick, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Direction",
-   "publieLe": "2026-10-23T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4482707516/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4482707516/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=8ca6b3cbea032ab5"
-    }
-   ],
-   "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4482167851",
    "titre": "Concepteur·trice",
    "entreprise": "Soucy",
@@ -3269,42 +3156,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4475257994/"
-    }
-   ],
-   "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4472646526",
-   "titre": "Senior Mechanical Engineer - Magog, Canada",
-   "entreprise": "Arjo",
-   "lieu": "Magog, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4472646526/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4472646526/"
-    }
-   ],
-   "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4472655237",
-   "titre": "Ingénieur(e) mécanique sénior - Magog, Canada",
-   "entreprise": "Arjo",
-   "lieu": "Magog, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-23T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4472655237/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4472655237/"
     }
    ],
    "premiereVue": "2026-10-23",
@@ -3635,6 +3486,76 @@
    "vuLe": "2026-10-28"
   },
   {
+   "id": "li-4457521776",
+   "titre": "Ingénieur validation de produits",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4457521776/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4457521776/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/soucy/ingenieur-validation-de-produits/17467257"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e720b7fedbcd6772"
+    }
+   ],
+   "premiereVue": "2026-10-22",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4482185628",
+   "titre": "Ingénieur en soudure",
+   "entreprise": "GE Vernova",
+   "lieu": "Sorel-Tracy, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482185628/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482185628/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/ge-vernova/ingenieur-en-soudure/17636433"
+    }
+   ],
+   "premiereVue": "2026-10-22",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4482129308",
+   "titre": "Ingénieure ou ingénieur, Certification des accessoires",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-22T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482129308/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482129308/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-certification-des-accessoires/17636283"
+    }
+   ],
+   "premiereVue": "2026-10-22",
+   "vuLe": "2026-10-28"
+  },
+  {
    "id": "li-4482175769",
    "titre": "Analyste financier(ère) sénior",
    "entreprise": "Barrette Structural",
@@ -3761,32 +3682,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4457521776",
-   "titre": "Ingénieur validation de produits",
-   "entreprise": "Soucy",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4457521776/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4457521776/"
-    },
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/soucy/ingenieur-validation-de-produits/17467257"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=e720b7fedbcd6772"
-    }
-   ],
-   "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4479446564",
    "titre": "Directrice administrative ou directeur administratif - Institut quantique",
    "entreprise": "Université de Sherbrooke",
@@ -3859,24 +3754,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4473501380",
-   "titre": "Chargée ou Chargé de projet, Énergie",
-   "entreprise": "EXP",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-22T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4473501380/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4473501380/"
-    }
-   ],
-   "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4481167015",
    "titre": "Chargé(e) de projet, Sciences de l’environnement",
    "entreprise": "WSP au Canada",
@@ -3889,28 +3766,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4481167015/"
-    }
-   ],
-   "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4482185628",
-   "titre": "Ingénieur en soudure",
-   "entreprise": "GE Vernova",
-   "lieu": "Sorel-Tracy, QC",
-   "region": "Montérégie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4482185628/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4482185628/"
-    },
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/ge-vernova/ingenieur-en-soudure/17636433"
     }
    ],
    "premiereVue": "2026-10-22",
@@ -3965,28 +3820,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4363500026/"
-    }
-   ],
-   "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4482129308",
-   "titre": "Ingénieure ou ingénieur, Certification des accessoires",
-   "entreprise": "BRP",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-22T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4482129308/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4482129308/"
-    },
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-certification-des-accessoires/17636283"
     }
    ],
    "premiereVue": "2026-10-22",
@@ -4217,6 +4050,338 @@
    "vuLe": "2026-10-28"
   },
   {
+   "id": "li-4480547259",
+   "titre": "Ingénieur de projet",
+   "entreprise": "Intersand",
+   "lieu": "Boucherville, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480547259/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480547259/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=027e418052c69a99"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4480939533",
+   "titre": "Conseiller, Ressources humaines (H/F)",
+   "entreprise": "Lovo",
+   "lieu": "Saint-Hyacinthe, QC",
+   "region": "Montérégie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480939533/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480939533/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=92212e6d4bf7c286"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4467229767",
+   "titre": "Chargé de projet - Production",
+   "entreprise": "Marmen",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4467229767/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4467229767/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=69b48ab015e8141c"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4480579044",
+   "titre": "Ingénieur concepteur mécanique",
+   "entreprise": "Merkur",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480579044/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480579044/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=f57dcad19b36de1c"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Valcourt, QC"
+   ]
+  },
+  {
+   "id": "li-4480573241",
+   "titre": "Concepteur mécanique",
+   "entreprise": "Merkur",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480573241/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480573241/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=dcf079c829203497"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4480576111",
+   "titre": "Ingénieur de projets – Développement de produits",
+   "entreprise": "Merkur",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480576111/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480576111/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=e9b37ccc4ac6ea66"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Granby, QC",
+    "Valcourt, QC"
+   ],
+   "autresRegions": [
+    "Montérégie"
+   ]
+  },
+  {
+   "id": "li-4480558948",
+   "titre": "Ingénieur industriel",
+   "entreprise": "Merkur",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480558948/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480558948/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7349ff8573498196"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Granby, QC",
+    "Valcourt, QC"
+   ],
+   "autresRegions": [
+    "Montérégie"
+   ]
+  },
+  {
+   "id": "li-4480567452",
+   "titre": "Partenaire RH – Talent et expérience employé",
+   "entreprise": "Merkur",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480567452/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480567452/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=b3787870d0f708b7"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Sherbrooke, QC"
+   ]
+  },
+  {
+   "id": "li-4385925622",
+   "titre": "Technicien(ne) en comptabilité, Certification et comptabilité",
+   "entreprise": "MNP",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4385925622/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4385925622/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=37a90b80c4cab7c8"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477730184",
+   "titre": "Contrôleur(euse) corporatif(ive) / FP&A Manager",
+   "entreprise": "Groupe TYT",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477730184/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477730184/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=d661eba37374feba"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4457945673",
+   "titre": "Partenaire d’affaires ressources humaines",
+   "entreprise": "TENCO",
+   "lieu": "Saint-Valérien-de-Milton, QC",
+   "region": "Montérégie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4457945673/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4457945673/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=63ac313adf5254fe"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Ayer's Cliff, QC"
+   ],
+   "autresRegions": [
+    "Estrie"
+   ]
+  },
+  {
+   "id": "li-4394663122",
+   "titre": "Contrôleur corporatif",
+   "entreprise": "Biscuits Leclerc",
+   "lieu": "Saint-Augustin-de-Desmaures, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4394663122/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4394663122/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=593f44fea0c268b9"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4481902843",
+   "titre": "Analyste, contrôle de gestion",
+   "entreprise": "Groupe Lactalis",
+   "lieu": "Victoriaville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481902843/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481902843/"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4473501380",
+   "titre": "Chargée ou Chargé de projet, Énergie",
+   "entreprise": "EXP",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-21T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4473501380/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4473501380/"
+    }
+   ],
+   "premiereVue": "2026-10-22",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Sherbrooke, QC"
+   ],
+   "autresRegions": [
+    "Estrie"
+   ]
+  },
+  {
    "id": "li-4449069489",
    "titre": "Concepteur mécanique",
    "entreprise": "Valmet",
@@ -4247,24 +4412,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4416967600/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4416959696",
-   "titre": "Ingénieur(e) de procédés",
-   "entreprise": "Kruger",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4416959696/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4416959696/"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -4415,28 +4562,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4480547259",
-   "titre": "Ingénieur de projet",
-   "entreprise": "Intersand",
-   "lieu": "Boucherville, QC",
-   "region": "Montérégie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480547259/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480547259/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=027e418052c69a99"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4464392279",
    "titre": "Spécialiste, essais et tests / Test Specialist",
    "entreprise": "Pratt & Whitney",
@@ -4509,28 +4634,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4480939533",
-   "titre": "Conseiller, Ressources humaines (H/F)",
-   "entreprise": "Lovo",
-   "lieu": "Saint-Hyacinthe, QC",
-   "region": "Montérégie",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480939533/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480939533/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=92212e6d4bf7c286"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4479311176",
    "titre": "Talent acquisition advisor for our consulting Team",
    "entreprise": "MNP",
@@ -4564,7 +4667,13 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Drummondville, QC"
+   ],
+   "autresRegions": [
+    "Centre-du-Québec"
+   ]
   },
   {
    "id": "li-4415106528",
@@ -4675,28 +4784,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4467229767",
-   "titre": "Chargé de projet - Production",
-   "entreprise": "Marmen",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Opérations et production",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4467229767/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4467229767/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=69b48ab015e8141c"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4461221517",
    "titre": "Contrôleur financier, contrôleuse financière",
    "entreprise": "Elopak",
@@ -4787,28 +4874,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4480579044",
-   "titre": "Ingénieur concepteur mécanique",
-   "entreprise": "Merkur",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480579044/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480579044/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=f57dcad19b36de1c"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4443189936",
    "titre": "Ingénieur(e) en mécanique auxiliaire de centrale pour des projets hydroélectriques",
    "entreprise": "WSP au Canada",
@@ -4821,28 +4886,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4443189936/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4480573241",
-   "titre": "Concepteur mécanique",
-   "entreprise": "Merkur",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480573241/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480573241/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=dcf079c829203497"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -4897,50 +4940,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4433129685/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4480576111",
-   "titre": "Ingénieur de projets – Développement de produits",
-   "entreprise": "Merkur",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480576111/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480576111/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=e9b37ccc4ac6ea66"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4480577114",
-   "titre": "Ingénieur concepteur mécanique",
-   "entreprise": "Merkur",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480577114/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480577114/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=ef7a32270400c61e"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -5055,28 +5054,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4480558948",
-   "titre": "Ingénieur industriel",
-   "entreprise": "Merkur",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480558948/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480558948/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=7349ff8573498196"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4443543340",
    "titre": "Coordonnateur Planification",
    "entreprise": "Pomerleau",
@@ -5125,24 +5102,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4426689469/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4480560961",
-   "titre": "Partenaire RH – Talent et expérience employé",
-   "entreprise": "Merkur",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480560961/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480560961/"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -5221,46 +5180,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4457945673",
-   "titre": "Partenaire d’affaires ressources humaines",
-   "entreprise": "TENCO",
-   "lieu": "Saint-Valérien-de-Milton, QC",
-   "region": "Montérégie",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4457945673/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4457945673/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4480567452",
-   "titre": "Partenaire RH – Talent et expérience employé",
-   "entreprise": "Merkur",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4480567452/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4480567452/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=b3787870d0f708b7"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4480180334",
    "titre": "Technicien(ne) en ressources humaines",
    "entreprise": "Transport Scolaire Sogesco",
@@ -5273,46 +5192,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4480180334/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4483120598",
-   "titre": "Analyste, contrôle de gestion",
-   "entreprise": "Lactalis Canada",
-   "lieu": "Victoriaville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4483120598/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4483120598/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4385925622",
-   "titre": "Technicien(ne) en comptabilité, Certification et comptabilité",
-   "entreprise": "MNP",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4385925622/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4385925622/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=37a90b80c4cab7c8"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -5367,46 +5246,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4436631841/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4477730184",
-   "titre": "Contrôleur(euse) corporatif(ive) / FP&A Manager",
-   "entreprise": "Groupe TYT",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477730184/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477730184/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=d661eba37374feba"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4461907303",
-   "titre": "Comptable, certification et comptabilité",
-   "entreprise": "MNP",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4461907303/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4461907303/"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -5485,24 +5324,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4463377896",
-   "titre": "Chargé·e de projets senior - Développement de produits",
-   "entreprise": "Soucy",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4463377896/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4463377896/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4481776858",
    "titre": "Agente ou agent de projets en environnement",
    "entreprise": "Ville de Sherbrooke",
@@ -5551,24 +5372,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4462486305/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4473297429",
-   "titre": "Chargée ou Chargé de projet, Énergie",
-   "entreprise": "EXP",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4473297429/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4473297429/"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -5932,7 +5735,13 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Québec, QC"
+   ],
+   "autresRegions": [
+    "Capitale-Nationale"
+   ]
   },
   {
    "id": "li-4474471236",
@@ -6148,25 +5957,13 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4470878478",
-   "titre": "Ingénieur(e) mécanique",
-   "entreprise": "WSP au Canada",
-   "lieu": "St-Lambert-de-Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4470878478/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4470878478/"
-    }
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "St-Lambert-de-Lévis, QC"
    ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "autresRegions": [
+    "Chaudière-Appalaches"
+   ]
   },
   {
    "id": "li-4478495573",
@@ -6199,42 +5996,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4479592787/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4462817999",
-   "titre": "Contrôleur·euse de coûts",
-   "entreprise": "Pomerleau",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4462817999/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4462817999/"
-    }
-   ],
-   "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4394663122",
-   "titre": "Contrôleur corporatif",
-   "entreprise": "Biscuits Leclerc",
-   "lieu": "Saint-Augustin-de-Desmaures, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-21T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4394663122/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4394663122/"
     }
    ],
    "premiereVue": "2026-10-21",
@@ -6353,24 +6114,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-17371209",
-   "titre": "Ingénieure ou ingénieur analytique",
-   "entreprise": "BRP",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-19T07:40:00-04:00",
-   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-analytique/17371209",
-   "sources": [
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-analytique/17371209"
-    }
-   ],
-   "premiereVue": "2026-10-19",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-17542848",
    "titre": "Ingénieur·e développement de produits",
    "entreprise": "Soucy",
@@ -6387,6 +6130,24 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=944ca63ce68600f8"
+    }
+   ],
+   "premiereVue": "2026-10-19",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "jb-17371209",
+   "titre": "Ingénieure ou ingénieur analytique",
+   "entreprise": "BRP",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-19T07:40:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-analytique/17371209",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-analytique/17371209"
     }
    ],
    "premiereVue": "2026-10-19",
@@ -6434,7 +6195,13 @@
     }
    ],
    "premiereVue": "2026-10-16",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Drummondville, QC"
+   ],
+   "autresRegions": [
+    "Centre-du-Québec"
+   ]
   },
   {
    "id": "jb-17621100",
@@ -6449,24 +6216,6 @@
     {
      "nom": "Jobillico",
      "url": "https://www.jobillico.com/fr/offre-d-emploi/soucy/ingenieur-e-procedes/17621100"
-    }
-   ],
-   "premiereVue": "2026-10-16",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-17529417",
-   "titre": "Ingénieur.e, Génie civil",
-   "entreprise": "Pluritec",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-16T07:40:00-04:00",
-   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/pluritec/ingenieur.e-genie-civil/17529417",
-   "sources": [
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/pluritec/ingenieur.e-genie-civil/17529417"
     }
    ],
    "premiereVue": "2026-10-16",
@@ -6768,7 +6517,15 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "autresLieux": [
+    "L'Épiphanie, QC",
+    "Blainville, QC"
+   ],
+   "autresRegions": [
+    "Lanaudière",
+    "Laurentides"
+   ]
   },
   {
    "id": "jb-4dbea740df6fa1e6",
@@ -6812,7 +6569,7 @@
    "id": "jb-0b3069aac3828f7a",
    "titre": "Conseiller(ère) en ressources humaines",
    "entreprise": "Groupe Patrimoine",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ressources humaines",
    "publieLe": "2026-10-14T09:06:00-04:00",
@@ -6831,7 +6588,7 @@
    "id": "jb-67717d9ae001fc8e",
    "titre": "Contrôleur financier",
    "entreprise": "NexWav",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-14T09:06:00-04:00",
@@ -6850,7 +6607,7 @@
    "id": "jb-858f1beeceed51a3",
    "titre": "CPI – Ponts et ouvrages d'art",
    "entreprise": "GHD",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Direction",
    "publieLe": "2026-10-14T09:06:00-04:00",
@@ -7227,44 +6984,6 @@
    "dateApprox": "Plus de 7 jours"
   },
   {
-   "id": "jb-95e17ca47b2bebb7",
-   "titre": "Ingénieur industriel",
-   "entreprise": "Merkur",
-   "lieu": "Granby, QC",
-   "region": "Montérégie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T09:06:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=95e17ca47b2bebb7",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=95e17ca47b2bebb7"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
-  },
-  {
-   "id": "jb-ef764959cb1eda14",
-   "titre": "Ingénieur de projets – Développement de produits",
-   "entreprise": "Merkur",
-   "lieu": "Granby, QC",
-   "region": "Montérégie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T09:06:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=ef764959cb1eda14",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=ef764959cb1eda14"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
-  },
-  {
    "id": "jb-6f0ca2b797768aa0",
    "titre": "Ingénieur produits et procédés",
    "entreprise": "Continental",
@@ -7512,25 +7231,6 @@
    "dateApprox": "Plus de 7 jours"
   },
   {
-   "id": "jb-63ac313adf5254fe",
-   "titre": "Partenaire d’affaires ressources humaines",
-   "entreprise": "Tenco",
-   "lieu": "Ayer's Cliff, QC",
-   "region": "Estrie",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-14T08:32:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=63ac313adf5254fe",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=63ac313adf5254fe"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
-  },
-  {
    "id": "jb-9ac58eba8f7312ae",
    "titre": "Chef(fe) au développement des affaires",
    "entreprise": "ROYER",
@@ -7585,7 +7285,10 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "autresLieux": [
+    "Valcourt, QC"
+   ]
   },
   {
    "id": "jb-d83490e723226f80",
@@ -8063,25 +7766,6 @@
    "dateApprox": "Plus de 7 jours"
   },
   {
-   "id": "jb-19e240e9797aea63",
-   "titre": "Chargé de projets - Génie civil",
-   "entreprise": "Roxboro Excavation",
-   "lieu": "L'Épiphanie, QC",
-   "region": "Lanaudière",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-14T08:32:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=19e240e9797aea63",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=19e240e9797aea63"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
-  },
-  {
    "id": "jb-609551384c0a713a",
    "titre": "Spécialiste en Assurance Qualité",
    "entreprise": "The Hershey Company",
@@ -8288,7 +7972,10 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "autresLieux": [
+    "Chambly, QC"
+   ]
   },
   {
    "id": "jb-5c1ead024999e9a2",
@@ -8322,25 +8009,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=23f7e8cee78835c1"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
-  },
-  {
-   "id": "jb-019b08711d62adbc",
-   "titre": "Estimateur / Estimatrice sénior",
-   "entreprise": "BMR",
-   "lieu": "Chambly, QC",
-   "region": "Montérégie",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-14T08:32:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=019b08711d62adbc",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=019b08711d62adbc"
     }
    ],
    "premiereVue": "2026-10-28",
@@ -8823,25 +8491,6 @@
    "dateApprox": "Plus de 7 jours"
   },
   {
-   "id": "jb-1990a92d4679ee97",
-   "titre": "Chargé de projets sénior - Génie Civil",
-   "entreprise": "Roxboro Excavation",
-   "lieu": "Blainville, QC",
-   "region": "Laurentides",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-14T08:32:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=1990a92d4679ee97",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=1990a92d4679ee97"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
-  },
-  {
    "id": "jb-9cf38ad72ab82b2c",
    "titre": "Concepteur de prototypes métalliques",
    "entreprise": "Présentoirs Filotech",
@@ -8978,7 +8627,7 @@
    "id": "jb-c7df124efc2540bb",
    "titre": "Contrôleur industriel - Division Développement durable",
    "entreprise": "Environmental 360 Solutions",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-14T08:32:00-04:00",
@@ -8997,7 +8646,7 @@
    "id": "jb-0a69b33ca371a20c",
    "titre": "Spécialiste aux méthodes et amélioration manufacturière",
    "entreprise": "Ver-Mac",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Direction",
    "publieLe": "2026-10-14T08:32:00-04:00",
@@ -9016,7 +8665,7 @@
    "id": "jb-6bc04b5d0843a92d",
    "titre": "Dessinateur - Électrique",
    "entreprise": "Franklin Empire",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ingénierie et production",
    "publieLe": "2026-10-14T08:32:00-04:00",
@@ -9035,7 +8684,7 @@
    "id": "jb-85b49ba1d91a827d",
    "titre": "Coordonnateur(trice) de projets en logistique",
    "entreprise": "The Group Master",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Approvisionnement et logistique",
    "publieLe": "2026-10-14T08:32:00-04:00",
@@ -9054,7 +8703,7 @@
    "id": "jb-9d16f8076722780c",
    "titre": "Estimateur/gestionnaire de projet en systèmes de protection incendie",
    "entreprise": "Troy Life & Fire Safety",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Gestion de projets",
    "publieLe": "2026-10-14T08:32:00-04:00",
@@ -9063,25 +8712,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=9d16f8076722780c"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
-  },
-  {
-   "id": "jb-06d6e7e14277f97a",
-   "titre": "Concepteur mécanique",
-   "entreprise": "Fives Services",
-   "lieu": "Ville de Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T08:32:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=06d6e7e14277f97a",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=06d6e7e14277f97a"
     }
    ],
    "premiereVue": "2026-10-28",
@@ -9260,6 +8890,271 @@
    "dateApprox": "Plus de 7 jours"
   },
   {
+   "id": "li-4465065710",
+   "titre": "Ingénieure ou ingénieur, Caisses",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4465065710/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4465065710/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-caisses/17512845"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4460377069",
+   "titre": "Ingénieur·e aux équipements",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4460377069/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4460377069/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/soucy/ingenieur-e-aux-equipements/17485797"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4468239199",
+   "titre": "Ingénieure ou ingénieur de projet, Véhicule connecté",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4468239199/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4468239199/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-de-projet-vehicule-connecte/17533332"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477997935",
+   "titre": "Directeur(trice) des ressources humaines",
+   "entreprise": "Techlift",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477997935/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477997935/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=95e4a874f81f2fc9"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4441613281",
+   "titre": "Chargé·e de projets - Développement de produits",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4441613281/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4441613281/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=2f5019aa6be9fad1"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "jb-41e6a282f2684222",
+   "titre": "Ingénieur mécanique ou industriel",
+   "entreprise": "Investissement Québec",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=41e6a282f2684222",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=41e6a282f2684222"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477880708/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4480674914",
+   "titre": "Ingénieur(e) mécanique - Magog, Canada",
+   "entreprise": "Arjo",
+   "lieu": "Magog, QC",
+   "region": "Estrie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4480674914/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4480674914/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/arjo/ingenieur-e-mecanique/17611266"
+    }
+   ],
+   "premiereVue": "2026-10-24",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "jb-17510100",
+   "titre": "Chargé de projet électricité",
+   "entreprise": "Les Installations Électriques R. Théberge",
+   "lieu": "Compton, QC",
+   "region": "Estrie",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/les-installations-electriques-r.-theberg.bWixTo/charge-de-projet-electricite/17510100",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/les-installations-electriques-r.-theberg.bWixTo/charge-de-projet-electricite/17510100"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=78043e194ebb0de3"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Montréal-Est, QC"
+   ],
+   "autresRegions": [
+    "Montréal"
+   ]
+  },
+  {
+   "id": "li-4458304880",
+   "titre": "Concepteur mécanique",
+   "entreprise": "Fives",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4458304880/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4458304880/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=06d6e7e14277f97a"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4476964521",
+   "titre": "Analyste financier.ère FP&A",
+   "entreprise": "Pomerleau",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476964521/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476964521/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=2e28affaa3e3aa01"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Saint-Georges, QC"
+   ]
+  },
+  {
+   "id": "li-4477424880",
+   "titre": "Gestionnaire projet ingénierie",
+   "entreprise": "Lactalis Canada",
+   "lieu": "Granby, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477424880/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477424880/"
+    }
+   ],
+   "premiereVue": "2026-10-23",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4416959696",
+   "titre": "Ingénieur(e) de procédés",
+   "entreprise": "Kruger",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4416959696/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4416959696/"
+    }
+   ],
+   "premiereVue": "2026-10-21",
+   "vuLe": "2026-10-28"
+  },
+  {
    "id": "li-4477485234",
    "titre": "Technicien(ne) en génie mécanique",
    "entreprise": "Barrette Structural",
@@ -9386,24 +9281,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4366266813",
-   "titre": "Ingénieur de procédés",
-   "entreprise": "Kruger",
-   "lieu": "Trois-Rivières, QC",
-   "region": "Mauricie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4366266813/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4366266813/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4366966559",
    "titre": "Ingénieur réseau – Ingénierie et conception",
    "entreprise": "Pratt & Whitney",
@@ -9452,24 +9329,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4476471117/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4475974599",
-   "titre": "Gestionnaire projet ingénierie",
-   "entreprise": "Groupe Lactalis",
-   "lieu": "Granby, QC",
-   "region": "Montérégie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4475974599/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4475974599/"
     }
    ],
    "premiereVue": "2026-10-14",
@@ -9689,7 +9548,13 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Lévis, QC"
+   ],
+   "autresRegions": [
+    "Chaudière-Appalaches"
+   ]
   },
   {
    "id": "li-4424137788",
@@ -9836,50 +9701,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4465065710",
-   "titre": "Ingénieure ou ingénieur, Caisses",
-   "entreprise": "BRP",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4465065710/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4465065710/"
-    },
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-caisses/17512845"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4460377069",
-   "titre": "Ingénieur·e aux équipements",
-   "entreprise": "Soucy",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4460377069/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4460377069/"
-    },
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/soucy/ingenieur-e-aux-equipements/17485797"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4476788653",
    "titre": "Ingénieure ou Ingénieur en mécanique lourde (Hydroélectricité)",
    "entreprise": "CIMA+",
@@ -9946,28 +9767,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4416923616/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4468239199",
-   "titre": "Ingénieure ou ingénieur de projet, Véhicule connecté",
-   "entreprise": "BRP",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4468239199/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4468239199/"
-    },
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-de-projet-vehicule-connecte/17533332"
     }
    ],
    "premiereVue": "2026-10-14",
@@ -10046,28 +9845,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4477997935",
-   "titre": "Directeur(trice) des ressources humaines",
-   "entreprise": "Techlift",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477997935/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477997935/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=95e4a874f81f2fc9"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4476221856",
    "titre": "Analyste financier sénior - gouvernance",
    "entreprise": "Cascades",
@@ -10134,28 +9911,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4356046622/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4441613281",
-   "titre": "Chargé·e de projets - Développement de produits",
-   "entreprise": "Soucy",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4441613281/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4441613281/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=2f5019aa6be9fad1"
     }
    ],
    "premiereVue": "2026-10-14",
@@ -10396,24 +10151,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-17611266",
-   "titre": "Ingénieur(e) mécanique",
-   "entreprise": "Arjo",
-   "lieu": "Magog, QC",
-   "region": "Estrie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/arjo/ingenieur-e-mecanique/17611266",
-   "sources": [
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/arjo/ingenieur-e-mecanique/17611266"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-17511990",
    "titre": "Comptable de division",
    "entreprise": "COVRIS Coopérative",
@@ -10426,24 +10163,6 @@
     {
      "nom": "Jobillico",
      "url": "https://www.jobillico.com/fr/offre-d-emploi/covris-cooperative/comptable-de-division/17511990"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-17510100",
-   "titre": "Chargé de projet électricité",
-   "entreprise": "Les Installations Électriques R. Théberge",
-   "lieu": "Compton, QC",
-   "region": "Estrie",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/les-installations-electriques-r.-theberg.bWixTo/charge-de-projet-electricite/17510100",
-   "sources": [
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/les-installations-electriques-r.-theberg.bWixTo/charge-de-projet-electricite/17510100"
     }
    ],
    "premiereVue": "2026-10-14",
@@ -10480,6 +10199,492 @@
     {
      "nom": "Jobillico",
      "url": "https://www.jobillico.com/fr/offre-d-emploi/maconnerie-desrosiers-de-l-estrie-inc-dekzhn/charge-de-projet-senior/17596080"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4440642558",
+   "titre": "Systems Specialist",
+   "entreprise": "Davie",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4440642558/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4440642558/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4476476942",
+   "titre": "Ingénieure ou ingénieur en gestion d'actifs",
+   "entreprise": "Ville de Lévis",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476476942/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476476942/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4431104137",
+   "titre": "Ingénieure ou ingénieur en surveillance de travaux en infrastructures",
+   "entreprise": "EXP",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4431104137/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4431104137/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4457626696",
+   "titre": "Ingénieur(e) principal(e) de projet – Lignes de transport",
+   "entreprise": "WSP au Canada",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4457626696/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4457626696/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4459880918",
+   "titre": "Spécialiste contrôle de projets",
+   "entreprise": "Pomerleau",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4459880918/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4459880918/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4440818523",
+   "titre": "Directeur général/Directrice générale",
+   "entreprise": "Groupe Perspective",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Direction",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4440818523/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4440818523/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4474477717",
+   "titre": "Financial analyst",
+   "entreprise": "Pomerleau",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4474477717/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4474477717/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4474419423",
+   "titre": "Advisor, General finance and accounting",
+   "entreprise": "Desjardins",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4474419423/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4474419423/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4476377730",
+   "titre": "Conseiller·ère, ressources humaines",
+   "entreprise": "Metro",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476377730/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476377730/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477809853",
+   "titre": "Ingénieur de projets/Ingénieure de projets",
+   "entreprise": "St-Amour",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477809853/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477809853/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4449769478",
+   "titre": "SGT-A35 Service Engineer / Ingénieur d’entretien",
+   "entreprise": "Siemens Energy",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4449769478/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4449769478/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477601002",
+   "titre": "Spécialiste en Ingénierie Mécanique - Centre de Données",
+   "entreprise": "Amazon Web Services (AWS)",
+   "lieu": "Varennes, QC",
+   "region": "Montérégie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477601002/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477601002/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4398134025",
+   "titre": "Ingénieur(e) - chargé(e) de projets",
+   "entreprise": "Ville de Laval",
+   "lieu": "Laval, QC",
+   "region": "Laval",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4398134025/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4398134025/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4425931281",
+   "titre": "Ingénieur chargé de projet",
+   "entreprise": "EXP",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4425931281/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4425931281/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4479022521",
+   "titre": "Contrôleur financier/Contrôleuse financière",
+   "entreprise": "5N Plus",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4479022521/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4479022521/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477803972",
+   "titre": "Directeur(trice), Opérations du Personnel / Director, People Operations",
+   "entreprise": "Royal Vet",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477803972/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477803972/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4476755981",
+   "titre": "Vice-président, Ressources humaines (Amériques)",
+   "entreprise": "Future Electronics",
+   "lieu": "Kirkland, QC",
+   "region": "Montréal",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476755981/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476755981/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477830130",
+   "titre": "Directeur(trice) principal(e), Partenaire d’affaires RH",
+   "entreprise": "Fiera Capital",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477830130/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477830130/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477182978",
+   "titre": "Vice-président opérations",
+   "entreprise": "CAMBLI",
+   "lieu": "Saint-Jean-Sur-Richelieu, QC",
+   "region": "Montérégie",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477182978/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477182978/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4382168832",
+   "titre": "Ingénieur(e) mécanique - Projets Manufacturiers",
+   "entreprise": "Prevost",
+   "lieu": "Ste-Claire, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4382168832/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4382168832/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4468021495",
+   "titre": "Concepteur mécanique / Mechanical Engineer",
+   "entreprise": "Malvern Panalytical",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4468021495/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4468021495/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4384897809",
+   "titre": "Designer, Mechanical, Piping and Structural",
+   "entreprise": "BBA Consultants",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4384897809/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4384897809/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4476824761",
+   "titre": "Spécialiste en procédés de fabrication",
+   "entreprise": "Les Industries Radisson",
+   "lieu": "Saint-Lambert-de-Lauzon, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476824761/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476824761/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4477196112",
+   "titre": "Contrôleur financier/Contrôleuse financière",
+   "entreprise": "Groupe Perspective",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477196112/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477196112/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4453708903",
+   "titre": "Directeur(rice) adjoint(e) - Comptabilité financière et audit",
+   "entreprise": "Groupe Océan",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4453708903/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4453708903/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4476866233",
+   "titre": "Contrôleur.e Financier.ère",
+   "entreprise": "Chef Dumas",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476866233/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476866233/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4460501606",
+   "titre": "Responsable des ressources humaines",
+   "entreprise": "Kerry",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4460501606/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4460501606/"
     }
    ],
    "premiereVue": "2026-10-14",
@@ -10555,25 +10760,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=072610aba318a3fc"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-f7b551d9a6a95f58",
-   "titre": "Ingénieur/ingénieure en compatibilité électromagnétique",
-   "entreprise": "Nord Quantique",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=f7b551d9a6a95f58",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=f7b551d9a6a95f58"
     }
    ],
    "dateApprox": "Plus de 7 jours",
@@ -10673,7 +10859,10 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "autresLieux": [
+    "Valcourt, QC"
+   ]
   },
   {
    "id": "jb-f421fa591fd8aae7",
@@ -10688,82 +10877,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=f421fa591fd8aae7"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-f39dfdf0b4090ba1",
-   "titre": "Ingénieur électrique – Développement de produits",
-   "entreprise": "Merkur",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=f39dfdf0b4090ba1",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=f39dfdf0b4090ba1"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-7ecc3e40b0ace38f",
-   "titre": "Ingénieur systèmes embarqués",
-   "entreprise": "Merkur",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=7ecc3e40b0ace38f",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=7ecc3e40b0ace38f"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-3a12379928f60a11",
-   "titre": "Ingénieur de projets – Développement de produits",
-   "entreprise": "Merkur",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=3a12379928f60a11",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=3a12379928f60a11"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-6a922edc0d509528",
-   "titre": "Ingénieur industriel",
-   "entreprise": "Merkur",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=6a922edc0d509528",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=6a922edc0d509528"
     }
    ],
    "dateApprox": "Plus de 7 jours",
@@ -11854,186 +11967,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4440642558",
-   "titre": "Systems Specialist",
-   "entreprise": "Davie",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4440642558/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4440642558/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4476476942",
-   "titre": "Ingénieure ou ingénieur en gestion d'actifs",
-   "entreprise": "Ville de Lévis",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4476476942/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4476476942/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4431104137",
-   "titre": "Ingénieure ou ingénieur en surveillance de travaux en infrastructures",
-   "entreprise": "EXP",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4431104137/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4431104137/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4457626696",
-   "titre": "Ingénieur(e) principal(e) de projet – Lignes de transport",
-   "entreprise": "WSP au Canada",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4457626696/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4457626696/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4459880918",
-   "titre": "Spécialiste contrôle de projets",
-   "entreprise": "Pomerleau",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4459880918/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4459880918/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4440818523",
-   "titre": "Directeur général/Directrice générale",
-   "entreprise": "Groupe Perspective",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Direction",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4440818523/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4440818523/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4474477717",
-   "titre": "Financial analyst",
-   "entreprise": "Pomerleau",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4474477717/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4474477717/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4474419423",
-   "titre": "Advisor, General finance and accounting",
-   "entreprise": "Desjardins",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4474419423/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4474419423/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4476377730",
-   "titre": "Conseiller·ère, ressources humaines",
-   "entreprise": "Metro",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4476377730/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4476377730/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4479087199",
-   "titre": "Chargé ou chargée de projets",
-   "entreprise": "Mallette",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4479087199/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4479087199/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-c05746a065671628",
    "titre": "Directeur(trice) financier",
    "entreprise": "KSM",
@@ -12243,25 +12176,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-2e28affaa3e3aa01",
-   "titre": "Analyste financier·ère FP&A",
-   "entreprise": "Pomerleau",
-   "lieu": "Saint-Georges, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=2e28affaa3e3aa01",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=2e28affaa3e3aa01"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-2a4e0e6faa6bb801",
    "titre": "Gestionnaire acquisition de talents",
    "entreprise": "Garaga",
@@ -12312,25 +12226,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=73f173a0edb7ed37"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-520f4ee1fbe1b04a",
-   "titre": "Ingénieur de projets",
-   "entreprise": "Agropur",
-   "lieu": "Beauceville, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=520f4ee1fbe1b04a",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=520f4ee1fbe1b04a"
     }
    ],
    "dateApprox": "Plus de 7 jours",
@@ -12512,7 +12407,7 @@
    "id": "jb-d27b14cc43ad524f",
    "titre": "Directeur ou directrice des opérations",
    "entreprise": "Mallette",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Opérations et production",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12531,7 +12426,7 @@
    "id": "jb-d9416f37b9b3a2ba",
    "titre": "Analyste financier – Québec",
    "entreprise": "Beton Provincial",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12550,7 +12445,7 @@
    "id": "jb-22eaa4cdfcafb01a",
    "titre": "Contrôleur(euse) des finances",
    "entreprise": "Womance",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12607,7 +12502,7 @@
    "id": "jb-860cf5fe72a09001",
    "titre": "Directeur(trice) de projet - Pont de l'île d'Orléans",
    "entreprise": "Groupe AGF",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Gestion de projets",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12626,7 +12521,7 @@
    "id": "jb-2bd327f759b64e2a",
    "titre": "Directeur(trice) des ressources humaines",
    "entreprise": "MRC de La Haute-Côte-Nord",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ressources humaines",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12645,7 +12540,7 @@
    "id": "jb-3ba5d2ea62402c51",
    "titre": "Conseiller(ère) en ressources humaines - Volet relation",
    "entreprise": "Centre d'hébergement du Boisé",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ressources humaines",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12664,7 +12559,7 @@
    "id": "jb-aa26e271153148b3",
    "titre": "Chargé de projet senior",
    "entreprise": "Compugen",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Gestion de projets",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12683,7 +12578,7 @@
    "id": "jb-bf6e92fac795aef2",
    "titre": "Directeur(trice), certification et comptabilité",
    "entreprise": "MNP",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12702,7 +12597,7 @@
    "id": "jb-e57834c89a6694ef",
    "titre": "Chargé(e) de projet - Ingénieur(e) en mécanique du bâtiment",
    "entreprise": "AtkinsRéalis",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Génie mécanique",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12718,29 +12613,10 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-3f500405ec9e3a69",
-   "titre": "Analyste financier(ère) -ACT",
-   "entreprise": "Couche-Tard",
-   "lieu": "Ville de Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=3f500405ec9e3a69",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=3f500405ec9e3a69"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-644e1d97fed0ccd1",
    "titre": "Directeur / Directrice principal(e), Fiscalité des entreprises",
    "entreprise": "Deloitte",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Direction",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12759,7 +12635,7 @@
    "id": "jb-8616c6158082954b",
    "titre": "Vice-président adjoint ou vice-présidente adjointe, Ins",
    "entreprise": "Desjardins",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Direction",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12778,7 +12654,7 @@
    "id": "jb-1e3b5523a2e7a518",
    "titre": "Chargée/Chargé de projet senior – Ingénieure/Ingénieur",
    "entreprise": "Stantec",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ingénierie et production",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12797,7 +12673,7 @@
    "id": "jb-ee0be8915ec4b39b",
    "titre": "Premier(ere) Directeur(trice) Transformation de la fonc",
    "entreprise": "Pwc Canada",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Direction",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12816,7 +12692,7 @@
    "id": "jb-e9f93e9efc37b594",
    "titre": "Ingénieur(e) chargé(e) de projets d’usine",
    "entreprise": "Tetra Tech",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ingénierie et production",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12835,7 +12711,7 @@
    "id": "jb-971560e080b2c33c",
    "titre": "Analyste sénior.e en planification financière (FP&A)",
    "entreprise": "Coveo Solutions",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Finance et comptabilité",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12854,7 +12730,7 @@
    "id": "jb-5b918a0b50ab6729",
    "titre": "Chargé(e) de projet – Environnement et gestion des sols",
    "entreprise": "Groupe Conseil UDA",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Gestion de projets",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12889,25 +12765,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-593f44fea0c268b9",
-   "titre": "Contrôleur corporatif",
-   "entreprise": "GROUPE BISCUITS LECLERC INC.",
-   "lieu": "Saint-Augustin-de-Desmaures, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=593f44fea0c268b9",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=593f44fea0c268b9"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-94497fc7dedd4c52",
    "titre": "Chef ou cheffe comptable",
    "entreprise": "Mallette",
@@ -12930,7 +12787,7 @@
    "id": "jb-245c845bddae0ef6",
    "titre": "Chargé(e) de projets",
    "entreprise": "Groupe Sirius Conseils",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Gestion de projets",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12949,7 +12806,7 @@
    "id": "jb-05b0f84c7ff3c8c9",
    "titre": "Ingénieur industriel ou autre",
    "entreprise": "Investissement Québec",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ingénierie et production",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12968,7 +12825,7 @@
    "id": "jb-472be40a89dc0d85",
    "titre": "Directeur de production",
    "entreprise": "Ascencio",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Opérations et production",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -12987,7 +12844,7 @@
    "id": "jb-cdc98a6334b6ec58",
    "titre": "Ingénieur mécanique sénior",
    "entreprise": "Steris",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Génie mécanique",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -13025,7 +12882,7 @@
    "id": "jb-7e0915f66a98b84d",
    "titre": "Chargé(e) de projets/Ingénieur",
    "entreprise": "Groupe EBR",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ingénierie et production",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -13063,7 +12920,7 @@
    "id": "jb-b117d655f0d6cfc4",
    "titre": "Centre de données – Ingénieur principal en procédés",
    "entreprise": "H2O Innovation",
-   "lieu": "Ville de Québec, QC",
+   "lieu": "Québec, QC",
    "region": "Capitale-Nationale",
    "domaine": "Ingénierie et production",
    "publieLe": "2026-10-14T07:40:00-04:00",
@@ -13782,28 +13639,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-41e6a282f2684222",
-   "titre": "Ingénieur mécanique ou industriel",
-   "entreprise": "Investissement Québec",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=41e6a282f2684222",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=41e6a282f2684222"
-    },
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477880708/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-97f13c2af7d01b86",
    "titre": "Ingénieur de projets manufacturiers – Outillages et équipements",
    "entreprise": "Merkur",
@@ -14032,363 +13867,25 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4477809853",
-   "titre": "Ingénieur de projets/Ingénieure de projets",
-   "entreprise": "St-Amour",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477809853/",
+   "id": "li-4474179637",
+   "titre": "Chargé(e) de projets",
+   "entreprise": "Coffrages Synergy Formwork",
+   "lieu": "Lavaltrie, QC",
+   "region": "Lanaudière",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-07T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4474179637/",
    "sources": [
     {
      "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477809853/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4449769478",
-   "titre": "SGT-A35 Service Engineer / Ingénieur d’entretien",
-   "entreprise": "Siemens Energy",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4449769478/",
-   "sources": [
+     "url": "https://www.linkedin.com/jobs/view/4474179637/"
+    },
     {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4449769478/"
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=c9cd4b4f1060e853"
     }
    ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4477601002",
-   "titre": "Spécialiste en Ingénierie Mécanique - Centre de Données",
-   "entreprise": "Amazon Web Services (AWS)",
-   "lieu": "Varennes, QC",
-   "region": "Montérégie",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477601002/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477601002/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4398134025",
-   "titre": "Ingénieur(e) - chargé(e) de projets",
-   "entreprise": "Ville de Laval",
-   "lieu": "Laval, QC",
-   "region": "Laval",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4398134025/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4398134025/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4425931281",
-   "titre": "Ingénieur chargé de projet",
-   "entreprise": "EXP",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4425931281/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4425931281/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4479022521",
-   "titre": "Contrôleur financier/Contrôleuse financière",
-   "entreprise": "5N Plus",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4479022521/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4479022521/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4477803972",
-   "titre": "Directeur(trice), Opérations du Personnel / Director, People Operations",
-   "entreprise": "Royal Vet",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477803972/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477803972/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4476755981",
-   "titre": "Vice-président, Ressources humaines (Amériques)",
-   "entreprise": "Future Electronics",
-   "lieu": "Kirkland, QC",
-   "region": "Montréal",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4476755981/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4476755981/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4477830130",
-   "titre": "Directeur(trice) principal(e), Partenaire d’affaires RH",
-   "entreprise": "Fiera Capital",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477830130/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477830130/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4477182978",
-   "titre": "Vice-président opérations",
-   "entreprise": "CAMBLI",
-   "lieu": "Saint-Jean-Sur-Richelieu, QC",
-   "region": "Montérégie",
-   "domaine": "Opérations et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477182978/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477182978/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4382168832",
-   "titre": "Ingénieur(e) mécanique - Projets Manufacturiers",
-   "entreprise": "Prevost",
-   "lieu": "Ste-Claire, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4382168832/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4382168832/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4468021495",
-   "titre": "Concepteur mécanique / Mechanical Engineer",
-   "entreprise": "Malvern Panalytical",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4468021495/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4468021495/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4384897809",
-   "titre": "Designer, Mechanical, Piping and Structural",
-   "entreprise": "BBA Consultants",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4384897809/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4384897809/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4458304880",
-   "titre": "Concepteur mécanique",
-   "entreprise": "Fives",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4458304880/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4458304880/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4476824761",
-   "titre": "Spécialiste en procédés de fabrication",
-   "entreprise": "Les Industries Radisson",
-   "lieu": "Saint-Lambert-de-Lauzon, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4476824761/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4476824761/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4477196112",
-   "titre": "Contrôleur financier/Contrôleuse financière",
-   "entreprise": "Groupe Perspective",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4477196112/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4477196112/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4453708903",
-   "titre": "Directeur(rice) adjoint(e) - Comptabilité financière et audit",
-   "entreprise": "Groupe Océan",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4453708903/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4453708903/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4476866233",
-   "titre": "Contrôleur.e Financier.ère",
-   "entreprise": "Chef Dumas",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4476866233/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4476866233/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4476964521",
-   "titre": "Analyste financier.ère FP&A",
-   "entreprise": "Pomerleau",
-   "lieu": "Lévis, QC",
-   "region": "Chaudière-Appalaches",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4476964521/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4476964521/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4460501606",
-   "titre": "Responsable des ressources humaines",
-   "entreprise": "Kerry",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4460501606/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4460501606/"
-    }
-   ],
-   "premiereVue": "2026-10-14",
+   "premiereVue": "2026-10-07",
    "vuLe": "2026-10-28"
   },
   {
@@ -14530,28 +14027,6 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4473341275/"
-    }
-   ],
-   "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "li-4474179637",
-   "titre": "Chargé(e) de projets",
-   "entreprise": "Coffrages Synergy Formwork",
-   "lieu": "Lavaltrie, QC",
-   "region": "Lanaudière",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-07T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4474179637/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4474179637/"
-    },
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=c9cd4b4f1060e853"
     }
    ],
    "premiereVue": "2026-10-07",
@@ -15606,24 +15081,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4481697065",
-   "titre": "Comptable",
-   "entreprise": "Château Ste-Agnès",
-   "lieu": "Sutton, QC",
-   "region": "Montérégie",
-   "domaine": "Finance et comptabilité",
-   "publieLe": null,
-   "urlOffre": "https://www.linkedin.com/jobs/view/4481697065/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4481697065/"
-    }
-   ],
-   "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "li-4474776022",
    "titre": "Ingénieur en maintenance industrielle",
    "entreprise": "Marmen",
@@ -15640,6 +15097,24 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=30be787d2f74de88"
+    }
+   ],
+   "premiereVue": "2026-10-28",
+   "vuLe": "2026-10-28"
+  },
+  {
+   "id": "li-4481697065",
+   "titre": "Comptable",
+   "entreprise": "Château Ste-Agnès",
+   "lieu": "Sutton, QC",
+   "region": "Montérégie",
+   "domaine": "Finance et comptabilité",
+   "publieLe": null,
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481697065/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481697065/"
     }
    ],
    "premiereVue": "2026-10-28",
