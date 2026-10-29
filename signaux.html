@@ -233,6 +233,41 @@ const remplir = (id, vals) => { $(id).innerHTML = $(id).options[0].outerHTML + v
     render();
   } catch { $("avis").hidden = false; $("avis").textContent = "Impossible de charger les signaux. Recharge la page."; }
 })();
+
+// Journal d'activité : gardé seulement dans ce navigateur (clé sentinelle-journal), jamais envoyé ailleurs.
+(function () {
+  const CLE = "sentinelle-journal", MAX = 4000, PAGE = (location.pathname.split("/").pop() || "index.html").replace(".html", "") || "index";
+  const ecrire = (e, d) => {
+    try {
+      const j = JSON.parse(localStorage.getItem(CLE) || "[]");
+      j.push({ t: new Date().toISOString(), p: PAGE, e, ...(d || {}) });
+      localStorage.setItem(CLE, JSON.stringify(j.slice(-MAX)));
+    } catch {}
+  };
+  window.journal = ecrire;
+  ecrire("visite", { q: location.search.slice(0, 80) || undefined });
+  document.addEventListener("visibilitychange", () => ecrire(document.hidden ? "quitte" : "revient"));
+  const desc = (el) => {
+    const carte = el.closest("article, .fiche, .sig-carte");
+    const idc = carte && (carte.querySelector("[data-id]") || {}).dataset ? (carte.querySelector("[data-id]") || {}).dataset.id : undefined;
+    const h = carte && carte.querySelector("h3");
+    return { id: el.dataset && el.dataset.id || idc, quoi: (el.innerText || el.getAttribute("aria-label") || el.title || "").trim().slice(0, 50),
+      fiche: h ? h.innerText.split("\n")[0].trim().slice(0, 70) : undefined, vers: el.href ? new URL(el.href, location.href).hostname + new URL(el.href, location.href).pathname.slice(0, 30) : undefined };
+  };
+  document.addEventListener("click", (ev) => {
+    const el = ev.target.closest("a, button, summary, .cat");
+    if (el) ecrire("clic", desc(el));
+  }, true);
+  document.addEventListener("change", (ev) => {
+    const t = ev.target; if (!t || !t.id && !t.className) return;
+    if (t.tagName === "TEXTAREA") { ecrire("note", { id: t.dataset.id, longueur: t.value.length }); return; }
+    ecrire("choix", { champ: t.id || t.name || String(t.className).slice(0, 30), valeur: t.type === "checkbox" ? (t.checked ? "coché:" : "décoché:") + t.value : String(t.value).slice(0, 60), id: t.dataset && t.dataset.id });
+  }, true);
+  let att; document.addEventListener("input", (ev) => {
+    const t = ev.target; if (!t || t.type !== "search") return;
+    clearTimeout(att); att = setTimeout(() => { if (t.value.trim()) ecrire("recherche", { champ: t.id, valeur: t.value.trim().slice(0, 60) }); }, 1200);
+  }, true);
+})();
 </script>
 </body>
 </html>
