@@ -51,6 +51,8 @@ https://ca.indeed.com/jobs?q=<QG ou QE encodé>&l=<Ville>%2C+QC&radius=<r>&lang=
 await new Promise(r=>setTimeout(r,2200));window.__r=[...document.querySelectorAll('a[data-jk]')].map(a=>{const card=a.closest('li')||a.closest('td')||a.parentElement;const co=(card.querySelector('[data-testid="company-name"]')||{}).innerText||'';const lo=(card.querySelector('[data-testid="text-location"]')||{}).innerText||'';return [a.getAttribute('data-jk'),(a.innerText||'').trim().slice(0,60),co.trim().slice(0,40),lo.replace(/, QC.*$/,'').trim()].join('¦')}).filter(s=>!/^(0123|1234|2345|3456|4567|5678|6789|789a|890a|89ab|9abc|abcd|bcde|cdef|0f1e|a1b2|fedc|f1e2)/.test(s));'n='+window.__r.length
 ```
 
+Garder la colonne lieu telle quelle (sans `, QC`) : Indeed écrit « Télétravail hybride à Sherbrooke » ou « Télétravail à Montréal ». `tournee.py` en tire le mode de travail. Ne pas utiliser le filtre « télétravail » d'Indeed (`sc=0kf:attr(...)`) : il renvoie aussi des offres sur place.
+
 Lire ensuite le résultat par tranches : `window.__r.slice(0,8).join('\n')`, puis `slice(8,16)`. Les sorties de plus de 1000 caractères sont tronquées. Les identifiants en suite hexadécimale (abcdef0123…) sont des leurres, il faut les ignorer.
 
 **Offres récentes :** relancer QG et QE avec `&fromage=7` (une page chacune), récupérer seulement les identifiants et les ajouter à `frais.txt`. Indeed ne donne pas de date : une offre récente est datée d'environ 3 jours, les autres d'environ 14 jours.
@@ -80,10 +82,14 @@ https://www.linkedin.com/jobs/search-results/?keywords=<terme à Ville encodé>&
 **Extraction.** On calcule d'abord, en retournant seulement le nombre d'offres :
 
 ```js
-await new Promise(r=>setTimeout(r,2500));let sc=document.querySelector('[componentkey^="job-card-component-ref-"]');while(sc&&sc!==document.body){const s=getComputedStyle(sc);if(/(auto|scroll)/.test(s.overflowY)&&sc.scrollHeight>sc.clientHeight+20)break;sc=sc.parentElement;}for(let i=0;i<8;i++){if(sc&&sc!==document.body)sc.scrollTop=sc.scrollHeight;await new Promise(r=>setTimeout(r,450));}const V=/ \(offre d’emploi vérifiée\)$/;window.__r=[...document.querySelectorAll('[componentkey^="job-card-component-ref-"]')].map(d=>{const id=d.getAttribute('componentkey').replace('job-card-component-ref-','');let l=d.innerText.split('\n').map(s=>s.trim()).filter(Boolean);if(V.test(l[0]))l=l.slice(1);if(l[1]===l[0])l=l.slice(1);const pub=(l.find(x=>/^Publication /.test(x))||'').replace(/^Publication il y a /,'');return [id,l[0].slice(0,60),l[1],(l[2]||'').replace(/ \(.*\)$/,'').replace(/, QC$/,''),pub].join('¦')});'n='+window.__r.length
+await new Promise(r=>setTimeout(r,2500));let sc=document.querySelector('[componentkey^="job-card-component-ref-"]');while(sc&&sc!==document.body){const s=getComputedStyle(sc);if(/(auto|scroll)/.test(s.overflowY)&&sc.scrollHeight>sc.clientHeight+20)break;sc=sc.parentElement;}for(let i=0;i<8;i++){if(sc&&sc!==document.body)sc.scrollTop=sc.scrollHeight;await new Promise(r=>setTimeout(r,450));}const V=/ \(offre d’emploi vérifiée\)$/;window.__r=[...document.querySelectorAll('[componentkey^="job-card-component-ref-"]')].map(d=>{const id=d.getAttribute('componentkey').replace('job-card-component-ref-','');let l=d.innerText.split('\n').map(s=>s.trim()).filter(Boolean);if(V.test(l[0]))l=l.slice(1);if(l[1]===l[0])l=l.slice(1);const pub=(l.find(x=>/^Publication /.test(x))||'').replace(/^Publication il y a /,'');return [id,l[0].slice(0,60),l[1],(l[2]||'').replace(/, QC( \(|$)/,'$1'),pub].join('¦')});'n='+window.__r.length
 ```
 
 On lit ensuite les tranches `slice(0,8)`, `slice(8,16)` et `slice(16,25)`.
+
+**Garder la mention du mode de travail.** LinkedIn ajoute au lieu « (Hybride) », « (À distance) » ou « (Sur site) ». Il faut la laisser dans la colonne ville du fichier brut (ex. `Sherbrooke (Hybride)`) : `tournee.py` la retire du lieu et l'enregistre dans le champ `modalite`, qui alimente l'onglet Télétravail.
+
+**Télétravail (le vendredi, en plus de Montréal) :** ajouter `&f_WT=2` (à distance) ou `&f_WT=3` (hybride) à 2 ou 3 recherches, dans la limite des 12 pages.
 
 ## 4. Jobillico (facultatif, si le temps le permet)
 
@@ -107,6 +113,8 @@ Il faut écrire `brut.txt` en gardant seulement les postes visés et en retirant
 #Ressources humaines
 ...
 ```
+
+La ligne `#MODE Télétravail` ou `#MODE Hybride` (puis `#MODE` seul) force le mode de travail des lignes qui suivent, quand on l'a vérifié dans l'offre.
 
 Les étiquettes de domaine possibles sont :
 - `#ALL` (domaine deviné d'après le titre);

@@ -44,6 +44,8 @@ nav .inner { display: flex; align-items: center; gap: 8px 28px; padding-block: 1
 .liens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
 .liens a[aria-current="page"] { color: var(--orange); border-bottom-color: var(--orange); }
 .liens a:hover { color: var(--ink); }
+.tele-choix { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; font-weight: 600; }
+.tele-choix label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
 .btn { font: 600 14px var(--body); color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
 .btn:hover { border-color: var(--orange); }
 .btn.plein { background: var(--orange); border-color: var(--orange); color: var(--orange-ink); }
@@ -212,7 +214,8 @@ details.suivi summary b { color: var(--orange); }
   <div class="inner">
     <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg style="color:var(--orange)"><use href="#i-bouclier"/></svg><span>SENTINELLE</span></a>
     <div class="liens">
-      <a href="./" aria-current="page">Offres</a>
+      <a href="./" id="lienOffres" aria-current="page">Offres</a>
+      <a href="./?mode=teletravail" id="lienTele">Télétravail</a>
       <a href="prospects.html">Prospects</a>
       <a href="signaux.html">Signaux</a>
     </div>
@@ -444,12 +447,28 @@ function memoFiltres() {
     periodes: coches("periodes"), sources: coches("casesSource"), suivis: coches("casesSuivi") })); } catch {}
 }
 
+// Onglet Télétravail : ./?mode=teletravail (télétravail complet et hybride)
+let TELE = new URLSearchParams(location.search).get("mode") === "teletravail" ? "tous" : "";
+if (TELE) {
+  $("lienOffres").removeAttribute("aria-current"); $("lienTele").setAttribute("aria-current", "page");
+  document.title = "Sentinelle · Télétravail";
+  document.querySelector(".hero h1").textContent = "Les offres en télétravail et en mode hybride.";
+  document.querySelector(".hero .inner > p").textContent = "Les postes qui se font en tout ou en partie à distance. Le mode de travail est indiqué sur chaque offre.";
+  const box = document.createElement("div"); box.className = "tele-choix"; box.setAttribute("role", "group"); box.setAttribute("aria-label", "Mode de travail");
+  box.innerHTML = [["tous", "Télétravail et hybride"], ["Télétravail", "Télétravail seulement"], ["Hybride", "Hybride seulement"]]
+    .map(([v, l]) => `<label><input type="radio" name="tele" value="${v}" ${v === "tous" ? "checked" : ""}> ${l}</label>`).join("");
+  $("formRecherche").after(box);
+  box.addEventListener("change", (ev) => { TELE = ev.target.value; render(); });
+}
+
 function filtrer() {
   const q = $("q").value.trim().toLowerCase(), reg = $("region").value, dom = $("domaine").value;
   const fen = coches("periodes").map(v => v.includes("-") ? v.split("-").map(Number) : [0, Number(v)]);
   const srcs = coches("casesSource"), suivis = coches("casesSuivi");
   return state.offres.filter(o => {
     const n = state.notes[o.id] || {};
+    if (TELE && !o.modalite) return false;
+    if (TELE && TELE !== "tous" && o.modalite !== TELE) return false;
     if (state.favSeul && !n.favori) return false;
     if (estExclue(o.entreprise)) return false;
     if (o.terminee && !$("voirTerm").checked) return false;

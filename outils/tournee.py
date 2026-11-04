@@ -10,6 +10,7 @@ et gère les offres terminées.
 Format de brut.txt (un champ par ¦) :
   #SRC LinkedIn | #SRC Indeed | #SRC Jobillico     source des lignes suivantes
   #ALL | #Génie mécanique | #Ressources humaines …  domaine des lignes suivantes (#ALL = deviné d'après le titre)
+  #MODE Télétravail | #MODE Hybride | #MODE        mode de travail des lignes suivantes (recherche filtrée), #MODE seul pour finir
   LinkedIn  : id¦titre¦entreprise¦ville¦âge (ex. « 2 semaines »)
   Indeed    : id¦titre¦entreprise¦ville          (les id récents vont dans frais.txt)
   Jobillico : id¦titre¦entreprise¦ville¦âge¦chemin-de-l-offre
@@ -69,6 +70,26 @@ def dedoublonner(d):
     return n
 
 
+PARTOUT = "Partout au Québec"
+
+
+def modalite(ville, titre):
+    """Repère le télétravail : préfixe Indeed, suffixe LinkedIn ou titre. Rend (ville nettoyée, modalité)."""
+    mode = None
+    m = re.match(r"(t[ée]l[ée]travail(?: hybride)?|hybride|en partie en t[ée]l[ée]travail|remote|hybrid)(?: (?:à|a|in) |$)", ville, re.I)
+    if m:
+        mode = "Télétravail" if re.fullmatch(r"t[ée]l[ée]travail|remote", m.group(1), re.I) else "Hybride"
+        ville = ville[m.end():].strip()
+    m = re.search(r"\s*\((hybride|hybrid|à distance|a distance|remote|sur site|on-site)\)$", ville, re.I)
+    if m:
+        k = m.group(1).lower()
+        mode = mode or ("Hybride" if k.startswith("hybri") else "Télétravail" if k in ("à distance", "a distance", "remote") else None)
+        ville = ville[:m.start()].strip()
+    if not mode and re.search(r"t[ée]l[ée]travail|remote|hybride|hybrid", titre or "", re.I):
+        mode = "Hybride" if re.search(r"hybride|hybrid|possible|partiel", titre, re.I) else "Télétravail"
+    return ville, mode
+
+
 def jours(iso):
     return (now - datetime.datetime.fromisoformat(iso)).total_seconds() / 86400 if iso else None
 
@@ -103,16 +124,22 @@ def fusion(brut, frais_f=None):
     par_id = {o["id"]: o for o in d["offres"]}
     par_cle = {cle(o): o for o in d["offres"]}
     src, tag, nouvelles, revues, ignorees = "LinkedIn", "ALL", [], 0, 0
+    mode_bloc = None  # #MODE Télétravail | #MODE Hybride | #MODE (fin) : recherches filtrées par mode de travail
     for line in open(brut, encoding="utf-8"):
         line = line.strip()
         if not line: continue
         if line.startswith("#SRC"): src = line[4:].strip(); continue
+        if line.startswith("#MODE"): mode_bloc = line[5:].strip() or None; continue
         if line.startswith("#"): tag = TAGS.get(line[1:], line[1:]); continue
         p = [x.strip() for x in line.split("¦")]
         if len(p) < 4: continue
         oid, titre, cie, ville = p[:4]
         age = p[4] if len(p) > 4 else ""
+        ville, mode = modalite(ville, titre)
+        mode = mode_bloc or mode
         r = region(ville)
+        if not r and mode and (not ville or re.search(r"qu[ée]bec|province|canada", ville, re.I)):
+            r, ville = PARTOUT, "Télétravail"
         if not r or est_agence(cie) or BRUIT.search(titre): ignorees += 1; continue
         cie = re.sub(r",? (inc\.?|Inc\.?|INC\.?|ltée|Ltée|ULC|S\.E\.N\.C\.R\.L\..*)$", "", cie).strip()
         url = {"LinkedIn": f"https://www.linkedin.com/jobs/view/{oid}/",
@@ -127,12 +154,14 @@ def fusion(brut, frais_f=None):
         ville = re.sub(r"^Ville de ", "", ville)
         o = {"id": k, "titre": titre, "entreprise": cie, "lieu": ville + ", QC", "region": r, "domaine": domaine(titre, tag),
              "publieLe": iso, "urlOffre": url, "sources": [{"nom": src, "url": url}], "premiereVue": AUJ, "vuLe": AUJ}
+        if mode: o["modalite"] = mode
         ex = par_id.get(k) or par_cle.get(cle(o))
         if ex:
             revues += 1
             ex.pop("terminee", None); ex.pop("termineeRaison", None)
             if approx: o["dateApprox"] = "x"
             fusionner_dans(ex, o); ex["vuLe"] = AUJ
+            if mode: ex["modalite"] = mode
             continue
         if approx: o["dateApprox"] = "x"
         d["offres"].append(o); par_id[k] = o; par_cle[cle(o)] = o; nouvelles.append(o)
