@@ -1,6 +1,6 @@
 {
  "tournee": {
-  "date": "2026-11-01T10:12:00-04:00",
+  "date": "2026-11-04T07:08:00-04:00",
   "regions": "Capitale-Nationale, Centre-du-Québec, Chaudière-Appalaches, Estrie, Lanaudière, Laurentides, Laval, Mauricie, Montréal, Montérégie · offres des 60 derniers jours",
   "sources": [
    "Indeed",
@@ -73,6 +73,906 @@
   }
  },
  "offres": [
+  {
+   "id": "li-4486362728",
+   "titre": "Ingénieur de projets/intégrateur",
+   "entreprise": "Chrome Technologies",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-04T07:00:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486362728/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486362728/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "jb-ad348547b779745a",
+   "titre": "Contrôleur financier",
+   "entreprise": "United Petfood Group",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-04T06:26:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=ad348547b779745a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=ad348547b779745a"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485073525/"
+    }
+   ],
+   "premiereVue": "2026-11-01",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4475137328",
+   "titre": "Expert en bâtiment (ingénieur ou architecte)",
+   "entreprise": "Avisa",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T21:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4475137328/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4475137328/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4487086032",
+   "titre": "Ingénieur(e) électrique - support technique",
+   "entreprise": "Seneca",
+   "lieu": "Bécancour, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T20:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4487086032/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4487086032/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4486322127",
+   "titre": "Ingénieur(e) d'exécution de projets",
+   "entreprise": "Veolia North America",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T20:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486322127/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486322127/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4486089953",
+   "titre": "Ingénieur de projets",
+   "entreprise": "Artika",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T19:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486089953/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486089953/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4486079807",
+   "titre": "Ingénieur mécanique CAO/PLM",
+   "entreprise": "Solutions Techso",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-11-03T17:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486079807/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486079807/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4486078380",
+   "titre": "Gestionnaire de l'ingénierie",
+   "entreprise": "GNA alutech",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Direction",
+   "publieLe": "2026-11-03T15:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486078380/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486078380/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4487022914",
+   "titre": "Analyste financier(ère)",
+   "entreprise": "Valsoft Corporation",
+   "lieu": "Saint-Laurent, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-03T15:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4487022914/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4487022914/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484851169",
+   "titre": "Directeur des opérations douanières",
+   "entreprise": "Axxess International",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-11-03T14:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484851169/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484851169/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485004003",
+   "titre": "Ingénieur(e) de projets",
+   "entreprise": "Veolia Water Tech",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T13:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485004003/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485004003/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4478556209",
+   "titre": "Ingénieur de projets",
+   "entreprise": "Boccard",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T11:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4478556209/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4478556209/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "jb-bf6e92fac795aef2",
+   "titre": "Directeur(trice), certification et comptabilité",
+   "entreprise": "MNP",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=bf6e92fac795aef2",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=bf6e92fac795aef2"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4382457763/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-11-04",
+   "autresLieux": [
+    "Trois-Rivières, QC",
+    "Drummondville, QC",
+    "Shawinigan, QC",
+    "Victoriaville, QC"
+   ],
+   "autresRegions": [
+    "Centre-du-Québec",
+    "Mauricie"
+   ]
+  },
+  {
+   "id": "li-4486153615",
+   "titre": "Ingénieur industriel",
+   "entreprise": "Bridgestone Americas",
+   "lieu": "Joliette, QC",
+   "region": "Lanaudière",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486153615/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486153615/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4486003635",
+   "titre": "Chef d’équipe ingénierie",
+   "entreprise": "Sezam",
+   "lieu": "Longueuil, QC",
+   "region": "Montérégie",
+   "domaine": "Direction",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486003635/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486003635/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4486012107",
+   "titre": "Ingénieur de projets/Ingénieure de projets",
+   "entreprise": "Sezam",
+   "lieu": "Longueuil, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486012107/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486012107/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485754167",
+   "titre": "Contrôleur·euse financier·ère",
+   "entreprise": "Evvo",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485754167/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485754167/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485761734",
+   "titre": "Contrôleur financier",
+   "entreprise": "1-800 Radiator & A/C",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485761734/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485761734/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485767721",
+   "titre": "Directeur(trice) principal(e), gestion de projets",
+   "entreprise": "Rainville et Frères",
+   "lieu": "Chambly, QC",
+   "region": "Montérégie",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485767721/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485767721/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484606077",
+   "titre": "Directeur recherche et développement",
+   "entreprise": "Yoplait Liberté Canada",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Direction",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484606077/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484606077/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484385105",
+   "titre": "Ingénieur de projets/Ingénieure de projets",
+   "entreprise": "Cabot Corporation",
+   "lieu": "Saint-Jean-sur-Richelieu, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484385105/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484385105/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485738157",
+   "titre": "Ingénieur principal",
+   "entreprise": "Équipement d'essai Aérospatial",
+   "lieu": "Longueuil, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485738157/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485738157/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4486072319",
+   "titre": "Conseiller(ère), Développement des compétences",
+   "entreprise": "UV Assurance",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Direction",
+   "publieLe": "2026-11-03T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486072319/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486072319/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "jb-6c96365a5dece190",
+   "titre": "Ingénieur mécanique sénior",
+   "entreprise": "Stantec",
+   "lieu": "Laval, QC",
+   "region": "Laval",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-11-02T07:08:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=6c96365a5dece190",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=6c96365a5dece190"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486410122/"
+    }
+   ],
+   "premiereVue": "2026-10-25",
+   "vuLe": "2026-11-04",
+   "autresLieux": [
+    "Trois-Rivières, QC"
+   ],
+   "autresRegions": [
+    "Mauricie"
+   ]
+  },
+  {
+   "id": "li-4457502923",
+   "titre": "Ingénieur(e) industriel(le)",
+   "entreprise": "CAD Industries Ferroviaires",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-02T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4457502923/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4457502923/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4440919021",
+   "titre": "Chef - ingénierie et maintenance",
+   "entreprise": "Bridgestone Americas",
+   "lieu": "Joliette, QC",
+   "region": "Lanaudière",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-11-01T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4440919021/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4440919021/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4449961274",
+   "titre": "Professionnel·le Ingénierie, Acoustique & Vibrations",
+   "entreprise": "Bombardier",
+   "lieu": "Dorval, QC",
+   "region": "Montréal",
+   "domaine": "Direction",
+   "publieLe": "2026-11-01T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4449961274/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4449961274/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485160723",
+   "titre": "CPA – Responsable de dossiers principal",
+   "entreprise": "Roberge & Reid CPA",
+   "lieu": "Sainte-Adèle, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-01T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485160723/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485160723/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4458022589",
+   "titre": "Directeur(trice), Gestion de projets - Industriel",
+   "entreprise": "WSP au Canada",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-11-01T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4458022589/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4458022589/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4476847921",
+   "titre": "Directeur(trice) de la construction – Centres de données",
+   "entreprise": "Groupe Hypertec",
+   "lieu": "Saint-Laurent, QC",
+   "region": "Montréal",
+   "domaine": "Direction",
+   "publieLe": "2026-11-01T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476847921/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476847921/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4477472349",
+   "titre": "Ingénieur(e) de projets",
+   "entreprise": "Pratt & Whitney",
+   "lieu": "Longueuil, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-31T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477472349/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477472349/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484110685",
+   "titre": "Contrôleur",
+   "entreprise": "ThreePDS",
+   "lieu": "Terrebonne, QC",
+   "region": "Lanaudière",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-31T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484110685/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484110685/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4450604540",
+   "titre": "Directeur excellence opérationnelle",
+   "entreprise": "Bridgestone Americas",
+   "lieu": "Joliette, QC",
+   "region": "Lanaudière",
+   "domaine": "Direction",
+   "publieLe": "2026-10-31T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4450604540/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4450604540/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485318776",
+   "titre": "Directeur(trice) – Moyens généraux & immobilier",
+   "entreprise": "Bruneau Électrique",
+   "lieu": "Joliette, QC",
+   "region": "Lanaudière",
+   "domaine": "Direction",
+   "publieLe": "2026-10-31T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485318776/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485318776/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485370810",
+   "titre": "Directeur de production - Cimenterie de Joliette",
+   "entreprise": "Béton Provincial",
+   "lieu": "Joliette, QC",
+   "region": "Lanaudière",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-10-31T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485370810/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485370810/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4476230619",
+   "titre": "Analyste financier sénior - manufacturier",
+   "entreprise": "Cascades",
+   "lieu": "Kingsey Falls, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-31T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4476230619/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476230619/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485392805",
+   "titre": "Partenaire d'affaires en ressources humaines",
+   "entreprise": "Agiska Coopérative",
+   "lieu": "Saint-Hyacinthe, QC",
+   "region": "Montérégie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-31T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485392805/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485392805/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "jb-dfdcab6bb33112d0",
+   "titre": "Spécialiste en acquisition de talents",
+   "entreprise": "Co7 Technologies",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=dfdcab6bb33112d0",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=dfdcab6bb33112d0"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484806889/"
+    }
+   ],
+   "premiereVue": "2026-11-01",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "jb-7ba11e8c57033adc",
+   "titre": "Directeur·trice achats, approvisionnement et planification",
+   "entreprise": "Soucy",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Approvisionnement et logistique",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=7ba11e8c57033adc",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=7ba11e8c57033adc"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476773716/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484574136",
+   "titre": "Responsable, Préconstruction et construction",
+   "entreprise": "Laurier Capital",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Direction",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484574136/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484574136/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485218713",
+   "titre": "Ingénieur(e) de projets",
+   "entreprise": "Celanese",
+   "lieu": "Boucherville, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485218713/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485218713/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485613758",
+   "titre": "Ingénieur manufacturier",
+   "entreprise": "Malach Metal & Machining",
+   "lieu": "Brossard, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485613758/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485613758/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484477626",
+   "titre": "Contrôleur financier/Contrôleuse financière",
+   "entreprise": "St-Amour",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484477626/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484477626/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484977534",
+   "titre": "Contrôleur financier / Contrôleuse financière",
+   "entreprise": "Exceleris",
+   "lieu": "Brossard, QC",
+   "region": "Montérégie",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484977534/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484977534/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4485269079",
+   "titre": "Contrôleur financier ou contrôleuse financière",
+   "entreprise": "GIRO",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485269079/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485269079/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4474463840",
+   "titre": "Planification et analyse financières",
+   "entreprise": "JAM Industries",
+   "lieu": "Baie-d'Urfé, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4474463840/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4474463840/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4483063026",
+   "titre": "Directeur adjoint des technologies de l'information",
+   "entreprise": "Micro Bird",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Technologies de l'information",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483063026/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483063026/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484509796",
+   "titre": "Conseiller en ressources humaines",
+   "entreprise": "Princecraft",
+   "lieu": "Princeville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-30T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484509796/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484509796/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
   {
    "id": "li-4448545777",
    "titre": "Ingénieur(e) de Projets",
@@ -1135,25 +2035,6 @@
    "dateApprox": "Moins de 7 jours"
   },
   {
-   "id": "jb-dfdcab6bb33112d0",
-   "titre": "Spécialiste en acquisition de talents",
-   "entreprise": "Co7 Technologies",
-   "lieu": "Sherbrooke, QC",
-   "region": "Estrie",
-   "domaine": "Ressources humaines",
-   "publieLe": "2026-10-29T10:12:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=dfdcab6bb33112d0",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=dfdcab6bb33112d0"
-    }
-   ],
-   "premiereVue": "2026-11-01",
-   "vuLe": "2026-11-01",
-   "dateApprox": "Moins de 7 jours"
-  },
-  {
    "id": "jb-ecde25088b24d586",
    "titre": "Directeur, directrice des opérations",
    "entreprise": "Estrimont",
@@ -1166,25 +2047,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=ecde25088b24d586"
-    }
-   ],
-   "premiereVue": "2026-11-01",
-   "vuLe": "2026-11-01",
-   "dateApprox": "Moins de 7 jours"
-  },
-  {
-   "id": "jb-ad348547b779745a",
-   "titre": "Contrôleur financier",
-   "entreprise": "United Petfood Group",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-29T10:12:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=ad348547b779745a",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=ad348547b779745a"
     }
    ],
    "premiereVue": "2026-11-01",
@@ -1285,6 +2147,204 @@
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
    "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "li-4484710885",
+   "titre": "Ingénieur manufacturier",
+   "entreprise": "Hydraulic Technologies",
+   "lieu": "Saint-Hyacinthe, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484710885/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484710885/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484475215",
+   "titre": "Contrôleur financier/Contrôleuse financière",
+   "entreprise": "Arcand et Associés",
+   "lieu": "Saint-Eustache, QC",
+   "region": "Laurentides",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484475215/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484475215/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4482548242",
+   "titre": "Contrôleur(euse)",
+   "entreprise": "Prana",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4482548242/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4482548242/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484478712",
+   "titre": "Vice-président des finances",
+   "entreprise": "Future Electronics",
+   "lieu": "Kirkland, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484478712/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484478712/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484764285",
+   "titre": "Directeur(trice), ressources humaines",
+   "entreprise": "CF Montréal",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484764285/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484764285/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484731524",
+   "titre": "Directeur général - Secteur",
+   "entreprise": "St-Amour",
+   "lieu": "Saint-Jean-sur-Richelieu, QC",
+   "region": "Montérégie",
+   "domaine": "Direction",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484731524/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484731524/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484126759",
+   "titre": "Gestionnaire, finances",
+   "entreprise": "Maison Birks",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484126759/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484126759/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4483873795",
+   "titre": "Ingénieur(e) électrique / électronique",
+   "entreprise": "Infinition",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483873795/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483873795/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4483879868",
+   "titre": "Ingénieur(e) mécanique",
+   "entreprise": "Infinition",
+   "lieu": "Trois-Rivières, QC",
+   "region": "Mauricie",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483879868/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483879868/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4400434320",
+   "titre": "Directrice ou directeur – Distribution électrique",
+   "entreprise": "EXP",
+   "lieu": "Drummondville, QC",
+   "region": "Centre-du-Québec",
+   "domaine": "Direction",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4400434320/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4400434320/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4484111420",
+   "titre": "Conseiller(ère), ressources humaines",
+   "entreprise": "Phaneuf - Équipements agricoles",
+   "lieu": "Upton, QC",
+   "region": "Montérégie",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-10-29T07:08:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484111420/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484111420/"
+    }
+   ],
+   "premiereVue": "2026-11-04",
+   "vuLe": "2026-11-04"
   },
   {
    "id": "jb-94497fc7dedd4c52",
@@ -2176,7 +3236,13 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04",
+   "autresLieux": [
+    "Montréal, QC"
+   ],
+   "autresRegions": [
+    "Montréal"
+   ]
   },
   {
    "id": "li-4471690691",
@@ -2602,7 +3668,7 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4483599985",
@@ -2711,7 +3777,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-2e08519a8ee383a7",
@@ -2730,7 +3796,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-7f500f5bd58b044f",
@@ -2749,7 +3815,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-b2d8f6e34d78f31f",
@@ -2768,7 +3834,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-cc18bd76d03ba861",
@@ -2787,7 +3853,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-1648939fdcefdabb",
@@ -2806,7 +3872,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-967e6ace6b40ad23",
@@ -2825,7 +3891,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-abbaf717a254bca3",
@@ -2844,7 +3910,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-73d03e3a536e5fd0",
@@ -2863,7 +3929,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-0cae2631d91a50d8",
@@ -2882,7 +3948,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-fcf5b874b9b06a99",
@@ -2901,7 +3967,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-c2a45e717404fcd9",
@@ -2920,7 +3986,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-ac9729717ce8e93f",
@@ -2939,7 +4005,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-f0253a66b9cbbc68",
@@ -2958,7 +4024,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-d6747655d2ca768e",
@@ -2977,7 +4043,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-08ef43779e870f2f",
@@ -2996,7 +4062,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-240302519968d33d",
@@ -3015,7 +4081,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-a44e071ba9a9d902",
@@ -3034,7 +4100,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-ce2fe13f9575afbc",
@@ -3053,7 +4119,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-4977c4cc4d5a08f2",
@@ -3072,7 +4138,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-ec359cbe43787c28",
@@ -3091,7 +4157,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-f7c2b528e116007a",
@@ -3110,7 +4176,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-adfdca99c2c6815f",
@@ -3129,7 +4195,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-b49a910f53f7309e",
@@ -3148,7 +4214,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-32134a552c7b0941",
@@ -3167,7 +4233,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-e70f9b877767dc53",
@@ -3186,7 +4252,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-97547eb7ad392dfd",
@@ -3205,7 +4271,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-888db47f25d9104e",
@@ -3224,7 +4290,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-3ab97786c58976cb",
@@ -3243,7 +4309,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-da2760ef2414d221",
@@ -3262,7 +4328,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-47a77feae7135b08",
@@ -3281,7 +4347,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-fe51ab1fad4794cb",
@@ -3300,7 +4366,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-d6c35ded28ad7db7",
@@ -3319,7 +4385,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-aee4c6c221b9d89f",
@@ -3338,7 +4404,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-4218fc7a24c2bdf8",
@@ -3357,7 +4423,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-15586f0e6f9e2e22",
@@ -3376,7 +4442,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "jb-4b0528b4e90a08fb",
@@ -3395,7 +4461,7 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Plus de 7 jours"
   },
   {
    "id": "li-4444194365",
@@ -3709,7 +4775,7 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4481016529",
@@ -4323,25 +5389,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=1d28541700e2e63e"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-6c96365a5dece190",
-   "titre": "Ingénieur mécanique sénior",
-   "entreprise": "Stantec",
-   "lieu": "Laval, QC",
-   "region": "Laval",
-   "domaine": "Génie mécanique",
-   "publieLe": "2026-10-25T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=6c96365a5dece190",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=6c96365a5dece190"
     }
    ],
    "dateApprox": "Plus de 7 jours",
@@ -5104,7 +6151,7 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4480688306",
@@ -5302,7 +6349,7 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4472654333",
@@ -5500,7 +6547,7 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "jb-17549445",
@@ -6244,7 +7291,13 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04",
+   "autresLieux": [
+    "Boucherville, QC"
+   ],
+   "autresRegions": [
+    "Montérégie"
+   ]
   },
   {
    "id": "li-4464638967",
@@ -8162,7 +9215,7 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4450825807",
@@ -8405,28 +9458,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "li-4456312894",
-   "titre": "Ingénieure ou ingénieur électronique",
-   "entreprise": "BRP",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-19T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4456312894/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4456312894/"
-    },
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-electronique/17455812"
-    }
-   ],
-   "premiereVue": "2026-10-19",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-17542848",
    "titre": "Ingénieur·e développement de produits",
    "entreprise": "Soucy",
@@ -8443,6 +9474,32 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=944ca63ce68600f8"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4469255527/"
+    }
+   ],
+   "premiereVue": "2026-10-19",
+   "vuLe": "2026-11-04"
+  },
+  {
+   "id": "li-4456312894",
+   "titre": "Ingénieure ou ingénieur électronique",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-19T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4456312894/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4456312894/"
+    },
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-electronique/17455812"
     }
    ],
    "premiereVue": "2026-10-19",
@@ -11460,6 +12517,28 @@
    ]
   },
   {
+   "id": "jb-17592645",
+   "titre": "Ingénieure ou ingénieur industriel",
+   "entreprise": "BRP",
+   "lieu": "Valcourt, QC",
+   "region": "Estrie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-14T07:40:00-04:00",
+   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-industriel/17592645",
+   "sources": [
+    {
+     "nom": "Jobillico",
+     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-industriel/17592645"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4476389249/"
+    }
+   ],
+   "premiereVue": "2026-10-14",
+   "vuLe": "2026-11-04"
+  },
+  {
    "id": "li-4477424880",
    "titre": "Gestionnaire projet ingénierie",
    "entreprise": "Lactalis Canada",
@@ -11493,7 +12572,7 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4477485234",
@@ -11655,7 +12734,7 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4476471117",
@@ -11709,7 +12788,7 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4457174219",
@@ -11727,7 +12806,7 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4466207141",
@@ -11925,7 +13004,7 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4466937659",
@@ -12177,7 +13256,7 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4475992263",
@@ -12303,7 +13382,7 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4477819616",
@@ -12426,24 +13505,6 @@
     {
      "nom": "Jobillico",
      "url": "https://www.jobillico.com/fr/offre-d-emploi/soluce/comptable-en-conformite-fiscale/17594643"
-    }
-   ],
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-17592645",
-   "titre": "Ingénieure ou ingénieur industriel",
-   "entreprise": "BRP",
-   "lieu": "Valcourt, QC",
-   "region": "Estrie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-industriel/17592645",
-   "sources": [
-    {
-     "nom": "Jobillico",
-     "url": "https://www.jobillico.com/fr/offre-d-emploi/brp-/ingenieure-ou-ingenieur-industriel/17592645"
     }
    ],
    "premiereVue": "2026-10-14",
@@ -13314,25 +14375,6 @@
     {
      "nom": "Indeed",
      "url": "https://ca.indeed.com/viewjob?jk=4eddada7393f5590"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
-   "id": "jb-7ba11e8c57033adc",
-   "titre": "Directeur·trice achats, approvisionnement et planification",
-   "entreprise": "Soucy",
-   "lieu": "Drummondville, QC",
-   "region": "Centre-du-Québec",
-   "domaine": "Approvisionnement et logistique",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=7ba11e8c57033adc",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=7ba11e8c57033adc"
     }
    ],
    "dateApprox": "Plus de 7 jours",
@@ -14898,25 +15940,6 @@
    "vuLe": "2026-10-28"
   },
   {
-   "id": "jb-bf6e92fac795aef2",
-   "titre": "Directeur(trice), certification et comptabilité",
-   "entreprise": "MNP",
-   "lieu": "Québec, QC",
-   "region": "Capitale-Nationale",
-   "domaine": "Finance et comptabilité",
-   "publieLe": "2026-10-14T07:40:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=bf6e92fac795aef2",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=bf6e92fac795aef2"
-    }
-   ],
-   "dateApprox": "Plus de 7 jours",
-   "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
-  },
-  {
    "id": "jb-e57834c89a6694ef",
    "titre": "Chargé(e) de projet - Ingénieur(e) en mécanique du bâtiment",
    "entreprise": "AtkinsRéalis",
@@ -16244,7 +17267,7 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4434881205",
@@ -16316,7 +17339,7 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4473341275",
@@ -16442,7 +17465,7 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4448604535",
@@ -16712,7 +17735,7 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4460994740",
@@ -17202,7 +18225,7 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-11-04"
   },
   {
    "id": "li-4463896662",
