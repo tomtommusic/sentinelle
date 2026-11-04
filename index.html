@@ -443,6 +443,7 @@ for (const v of (memo.v === 2 && Array.isArray(memo.periodes) ? memo.periodes : 
 $("region").dataset.memo = memo.region || "";
 $("domaine").dataset.memo = memo.domaine || "";
 function memoFiltres() {
+  if (typeof TELE !== "undefined" && TELE) return; // l'onglet Télétravail ne modifie pas les filtres enregistrés
   try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ v: 2, region: $("region").value, domaine: $("domaine").value, tri: $("tri").value, vue: state.vue,
     periodes: coches("periodes"), sources: coches("casesSource"), suivis: coches("casesSuivi") })); } catch {}
 }
@@ -459,6 +460,9 @@ if (TELE) {
     .map(([v, l]) => `<label><input type="radio" name="tele" value="${v}" ${v === "tous" ? "checked" : ""}> ${l}</label>`).join("");
   $("formRecherche").after(box);
   box.addEventListener("change", (ev) => { TELE = ev.target.value; render(); });
+  // L'onglet part sans filtre : les filtres enregistrés de l'onglet Offres ne s'appliquent pas ici
+  document.querySelectorAll("#periodes input").forEach(c => c.checked = false);
+  $("region").dataset.memo = ""; $("domaine").dataset.memo = ""; $("region").value = ""; $("domaine").value = "";
 }
 
 function filtrer() {
