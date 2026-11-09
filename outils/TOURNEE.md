@@ -33,11 +33,14 @@ Deux requêtes, pour chaque ville pivot avec son rayon :
 - **Achats, ventes, TI, finance et RH spécialisés** (`QA`) : `"directeur des achats" OR approvisionnement OR logistique OR "directeur des ventes" OR "développement des affaires" OR "directeur TI" OR ERP OR trésorier OR fiscaliste OR "relations de travail" OR "acquisition de talents" OR rémunération OR "directeur administratif" OR "directeur général adjoint" OR "coût de revient" OR "FP&A" OR "chef comptable" OR "contrôleur corporatif" OR "directeur de la paie" OR "partenaire d'affaires"`
 - **Spécialités techniques** (`QT`) : `"concepteur mécanique" OR dessinateur OR CVAC OR réfrigération OR "centre de données" OR "ingénieur méthodes" OR "agent méthodes" OR robotique OR photonique OR "conception de produits" OR emballage OR estimateur OR "directeur de projets" OR "ingénieur électrique" OR "infrastructures municipales" OR "chargé de projets"`
 
-- **Secteurs** (`QS`) : `éolien OR "énergie renouvelable" OR "postes électriques" OR "lignes de transport" OR défense OR naval OR "construction navale" OR minier OR "ingénieur minier" OR géologue OR métallurgiste OR aluminerie OR "transformation alimentaire" OR "qualité alimentaire" OR "traitement des eaux" OR "environnement" OR pharmaceutique OR "affaires réglementaires" OR "directeur général"`
+- **Secteurs**, en trois requêtes courtes (une longue liste de termes donne des résultats sans rapport, vérifié le 9 novembre 2026) :
+  - `QS1` énergie et défense : `éolien OR "énergie renouvelable" OR "postes électriques" OR "construction navale" OR défense`
+  - `QS2` mines : `"ingénieur minier" OR géologue OR métallurgiste OR "directeur de mine" OR "surintendant de mine"`
+  - `QS3` agroalimentaire, environnement, pharma : `"transformation alimentaire" OR "assurance qualité alimentaire" OR "traitement des eaux" OR "affaires réglementaires"`
 
-**Régions ressources (lundi et jeudi) :** QG et QS, une page chacune, pour Rouyn-Noranda (50), Val-d'Or (40), Chibougamau (80), Sept-Îles (40), Baie-Comeau (40), Saguenay (40), Alma (40), Rimouski (50) et Rivière-du-Loup (50). Avec `fromage=7` le lundi et `fromage=3` le jeudi. Garder les pauses de 10 à 15 secondes entre les pages.
+**Régions ressources (lundi et jeudi) :** QG, plus QS2 en Abitibi et sur la Côte-Nord et QS1 au Bas-Saint-Laurent et au Saguenay, une page chacune, pour Rouyn-Noranda (50), Val-d'Or (40), Chibougamau (80), Sept-Îles (40), Baie-Comeau (40), Saguenay (40), Alma (40), Rimouski (50) et Rivière-du-Loup (50). Avec `fromage=7` le lundi et `fromage=3` le jeudi. Garder les pauses de 10 à 15 secondes entre les pages.
 
-**QS dans le sud :** une page par jour, en alternance entre Sherbrooke, Trois-Rivières, Québec, Lévis, Montréal et Saint-Jean-sur-Richelieu.
+**QS1 et QS3 dans le sud :** une page par jour, en alternance entre Sherbrooke, Trois-Rivières, Québec, Lévis, Montréal et Saint-Jean-sur-Richelieu.
 
 QO, QA et QT : une page chacune, chaque jour, pour Sherbrooke (60), Drummondville (50), Trois-Rivières (50), Joliette (40), Saint-Hyacinthe (40), Saint-Jean-sur-Richelieu (30), Montréal (15), Saint-Jérôme (35), Québec (35) et Saint-Georges (50). Ne garder que les postes de professionnels, de spécialistes et de cadres : pas de techniciens, d'opérateurs, de journaliers, de gens de métier (soudeur, mécanicien, électricien) ni de représentants de commerce de détail.
 

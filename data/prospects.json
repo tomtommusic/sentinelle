@@ -1,6 +1,6 @@
 {
  "miseAJour": "2026-11-09",
- "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec, Montréal et Laval",
+ "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec, Montréal, Laval, et depuis novembre 2026 : Abitibi-Témiscamingue, Nord-du-Québec, Côte-Nord, Saguenay–Lac-Saint-Jean et Bas-Saint-Laurent",
  "entreprises": [
   {
    "id": "ciusss-de-l-estrie-chus",
@@ -17392,6 +17392,146 @@
      "Technologues et techniciens en génie électrique et électronique"
     ]
    },
+   "secteurAuto": true
+  },
+  {
+   "id": "grues-tessier",
+   "nom": "Grues Tessier",
+   "region": "Côte-Nord",
+   "ville": "Baie-Comeau",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-11-09"
+   ]
+  },
+  {
+   "id": "perron-auto-ford",
+   "nom": "Perron Auto Ford",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "ville": "Chicoutimi",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-11-09"
+   ]
+  },
+  {
+   "id": "cegerco",
+   "nom": "CEGERCO",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "ville": "Chicoutimi",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-11-09"
+   ]
+  },
+  {
+   "id": "tremblay-express",
+   "nom": "Tremblay Express",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "ville": "Jonquière",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-11-09"
+   ]
+  },
+  {
+   "id": "mageco-lmg",
+   "nom": "MAGECO LMG",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "ville": "Jonquière",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 5,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets, Ingénierie et production)",
+    "Recrute en ce moment : 3 offres en cours dans Sentinelle (Gestion de projets, Ingénierie et production), découverte le 2026-11-09",
+    "Plusieurs postes ouverts en même temps"
+   ]
+  },
+  {
+   "id": "potvin-bouchard",
+   "nom": "Potvin & Bouchard",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "ville": "Jonquière",
+   "secteur": "Construction et génie-conseil",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-11-09"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "m2s-electronique",
+   "nom": "M2S Électronique",
+   "region": "Capitale-Nationale",
+   "ville": "Québec",
+   "secteur": "Environnement",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Qualité, maintenance et SST)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Qualité, maintenance et SST), découverte le 2026-11-09"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "agnico-eagle",
+   "nom": "Agnico Eagle",
+   "region": "Abitibi-Témiscamingue",
+   "ville": "Malartic",
+   "secteur": "Mines et métallurgie",
+   "decouvert": "2026-11-09",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-11-09"
+   ],
    "secteurAuto": true
   }
  ]

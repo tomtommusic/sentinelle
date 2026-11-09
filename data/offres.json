@@ -1,7 +1,7 @@
 {
  "tournee": {
-  "date": "2026-11-09T11:48:00-04:00",
-  "regions": "Capitale-Nationale, Centre-du-Québec, Chaudière-Appalaches, Estrie, Lanaudière, Laurentides, Laval, Mauricie, Montréal, Montérégie · offres des 60 derniers jours",
+  "date": "2026-11-09T13:59:00-04:00",
+  "regions": "Abitibi-Témiscamingue, Bas-Saint-Laurent, Capitale-Nationale, Centre-du-Québec, Chaudière-Appalaches, Côte-Nord, Estrie, Lanaudière, Laurentides, Laval, Mauricie, Montréal, Montérégie, Saguenay–Lac-Saint-Jean · offres des 60 derniers jours",
   "sources": [
    "Indeed",
    "Jobillico",
@@ -148,11 +148,21 @@
     {
      "nom": "LinkedIn",
      "url": "https://www.linkedin.com/jobs/view/4488855579/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=14d6bda454eca041"
     }
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "secteur": "Construction et génie-conseil"
+   "secteur": "Construction et génie-conseil",
+   "autresLieux": [
+    "Rivière-du-Loup, QC"
+   ],
+   "autresRegions": [
+    "Bas-Saint-Laurent"
+   ]
   },
   {
    "id": "li-4487684809",
@@ -7364,6 +7374,34 @@
    "secteur": "Manufacturier"
   },
   {
+   "id": "li-4483599985",
+   "titre": "Chargé.e de projets en amiante et matières dangereuses",
+   "entreprise": "Le Groupe Gesfor Poirier, Pinchin",
+   "lieu": "Montréal, QC",
+   "region": "Montréal",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-27T07:40:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483599985/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483599985/"
+    },
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=bb78114452a823bb"
+    }
+   ],
+   "premiereVue": "2026-10-27",
+   "vuLe": "2026-11-09",
+   "autresLieux": [
+    "Jonquière, QC"
+   ],
+   "autresRegions": [
+    "Saguenay–Lac-Saint-Jean"
+   ]
+  },
+  {
    "id": "li-4472964074",
    "titre": "Concepteur/Conceptrice",
    "entreprise": "ASTEC",
@@ -7718,24 +7756,6 @@
    "premiereVue": "2026-10-27",
    "vuLe": "2026-11-04",
    "secteur": "Aérospatiale"
-  },
-  {
-   "id": "li-4483599985",
-   "titre": "Chargé.e de projets en amiante et matières dangereuses",
-   "entreprise": "Le Groupe Gesfor Poirier, Pinchin",
-   "lieu": "Montréal, QC",
-   "region": "Montréal",
-   "domaine": "Gestion de projets",
-   "publieLe": "2026-10-27T07:40:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4483599985/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4483599985/"
-    }
-   ],
-   "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
   },
   {
    "id": "li-4466129308",
@@ -8537,6 +8557,339 @@
    "vuLe": "2026-10-29",
    "dateApprox": "Plus de 7 jours",
    "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "jb-1bd4eb0e202b01d0",
+   "titre": "CPI en génie électrique / instrumentation et contrôle",
+   "entreprise": "WSP",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=1bd4eb0e202b01d0",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=1bd4eb0e202b01d0"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "jb-914babd293b0f594",
+   "titre": "Expert(e) en agroenvironnement",
+   "entreprise": "Synagri",
+   "lieu": "Sherbrooke, QC",
+   "region": "Estrie",
+   "domaine": "Direction",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=914babd293b0f594",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=914babd293b0f594"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
+  },
+  {
+   "id": "jb-68799e1d4d498218",
+   "titre": "Ingénieur minier - ventilation",
+   "entreprise": "Agnico Eagle",
+   "lieu": "Malartic, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=68799e1d4d498218",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=68799e1d4d498218"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "jb-9c02225ae3393bc3",
+   "titre": "Contrôleur(euse) comptable",
+   "entreprise": "Grues Tessier",
+   "lieu": "Baie-Comeau, QC",
+   "region": "Côte-Nord",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=9c02225ae3393bc3",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=9c02225ae3393bc3"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-0d7c58a95da048d4",
+   "titre": "Contrôleur financier",
+   "entreprise": "Perron Auto Ford",
+   "lieu": "Chicoutimi, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=0d7c58a95da048d4",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0d7c58a95da048d4"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-f4111a8c49e2b2d3",
+   "titre": "Conseiller(ère) principal(e), ingénierie",
+   "entreprise": "Rio Tinto",
+   "lieu": "Laterrière, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Direction",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=f4111a8c49e2b2d3",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=f4111a8c49e2b2d3"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "jb-42ee9aca11ca3bf0",
+   "titre": "Ingénieur(e) électrique – Responsable automatisation",
+   "entreprise": "Rio Tinto",
+   "lieu": "Saguenay, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=42ee9aca11ca3bf0",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=42ee9aca11ca3bf0"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "jb-5b7239b7939c5e29",
+   "titre": "Contrôleur financier / Contrôleuse financière",
+   "entreprise": "CEGERCO",
+   "lieu": "Chicoutimi, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=5b7239b7939c5e29",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=5b7239b7939c5e29"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-c88da8f6c65ccc2c",
+   "titre": "Contrôleur(euse) comptable",
+   "entreprise": "Tremblay Express",
+   "lieu": "Jonquière, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=c88da8f6c65ccc2c",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=c88da8f6c65ccc2c"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-b43c29e6fb39faf4",
+   "titre": "Chargé(e) de projets",
+   "entreprise": "MAGECO LMG",
+   "lieu": "Jonquière, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=b43c29e6fb39faf4",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=b43c29e6fb39faf4"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-3ad244232e9feef7",
+   "titre": "Ingénieur(e) en génie civil",
+   "entreprise": "MAGECO LMG",
+   "lieu": "Jonquière, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=3ad244232e9feef7",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3ad244232e9feef7"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-8f04675d4de22d41",
+   "titre": "Ingénieur(e) structure",
+   "entreprise": "MAGECO LMG",
+   "lieu": "Jonquière, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=8f04675d4de22d41",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=8f04675d4de22d41"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours"
+  },
+  {
+   "id": "jb-fe6fb07c9108cf03",
+   "titre": "Contrôleur corporatif",
+   "entreprise": "Meunerie",
+   "lieu": "Rimouski, QC",
+   "region": "Bas-Saint-Laurent",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=fe6fb07c9108cf03",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=fe6fb07c9108cf03"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
+  },
+  {
+   "id": "jb-672496bc245971bc",
+   "titre": "Acheteur(euse) secteur industriel",
+   "entreprise": "Soucy Industriel",
+   "lieu": "Rivière-du-Loup, QC",
+   "region": "Bas-Saint-Laurent",
+   "domaine": "Direction",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=672496bc245971bc",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=672496bc245971bc"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
+  },
+  {
+   "id": "jb-9dc16a8428c584da",
+   "titre": "Estimateur / Estimatrice",
+   "entreprise": "Potvin & Bouchard",
+   "lieu": "Jonquière, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=9dc16a8428c584da",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=9dc16a8428c584da"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "jb-1dcd7ba9e7af2efd",
+   "titre": "Ingénieur(e) métallurgique (nouveau diplômé)",
+   "entreprise": "Rio Tinto",
+   "lieu": "Saguenay, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=1dcd7ba9e7af2efd",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=1dcd7ba9e7af2efd"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "jb-15ea21a9c03da81a",
+   "titre": "Spécialiste assurance qualité et environnement",
+   "entreprise": "M2S Électronique",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-10-26T13:59:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=15ea21a9c03da81a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=15ea21a9c03da81a"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Environnement"
   },
   {
    "id": "li-4444194365",
