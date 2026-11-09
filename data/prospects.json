@@ -17533,6 +17533,57 @@
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-11-09"
    ],
    "secteurAuto": true
+  },
+  {
+   "id": "moreau",
+   "nom": "Moreau",
+   "region": "Abitibi-Témiscamingue",
+   "ville": "Rouyn-Noranda",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-11-09"
+   ]
+  },
+  {
+   "id": "weir-minerals",
+   "nom": "Weir Minerals",
+   "region": "Abitibi-Témiscamingue",
+   "ville": "Rouyn-Noranda",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-11-09"
+   ]
+  },
+  {
+   "id": "motion",
+   "nom": "Motion",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "ville": "Chicoutimi",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-09",
+   "taille": "1000+",
+   "type": "Privé",
+   "score": 1,
+   "categorie": "Mandats de cadres",
+   "raisons": [
+    "Très grande organisation : équipe d'acquisition de talents interne",
+    "Recrute des profils spécialisés (Opérations et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Opérations et production), découverte le 2026-11-09"
+   ]
   }
  ]
 }

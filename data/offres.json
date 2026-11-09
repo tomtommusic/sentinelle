@@ -1,6 +1,6 @@
 {
  "tournee": {
-  "date": "2026-11-09T13:59:00-04:00",
+  "date": "2026-11-09T14:01:00-04:00",
   "regions": "Abitibi-Témiscamingue, Bas-Saint-Laurent, Capitale-Nationale, Centre-du-Québec, Chaudière-Appalaches, Côte-Nord, Estrie, Lanaudière, Laurentides, Laval, Mauricie, Montréal, Montérégie, Saguenay–Lac-Saint-Jean · offres des 60 derniers jours",
   "sources": [
    "Indeed",
@@ -91,7 +91,13 @@
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
    "modalite": "Hybride",
-   "secteur": "Construction et génie-conseil"
+   "secteur": "Construction et génie-conseil",
+   "autresLieux": [
+    "Saguenay, QC"
+   ],
+   "autresRegions": [
+    "Saguenay–Lac-Saint-Jean"
+   ]
   },
   {
    "id": "jb-0026a3711eba308f",
@@ -183,6 +189,25 @@
    "vuLe": "2026-11-09"
   },
   {
+   "id": "li-4463615557",
+   "titre": "Gestionnaire de la maintenance et de l’ingénierie",
+   "entreprise": "Prysmian",
+   "lieu": "Saguenay, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-11-08T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4463615557/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4463615557/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
+  },
+  {
    "id": "li-4470062974",
    "titre": "Contrôleur d'usine, produits électriques",
    "entreprise": "Siemens",
@@ -257,6 +282,42 @@
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
    "secteur": "Pâtes, papiers et forêt"
+  },
+  {
+   "id": "li-4486277832",
+   "titre": "Ingénieur de terrain",
+   "entreprise": "Weir Minerals",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-07T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486277832/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486277832/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09"
+  },
+  {
+   "id": "li-4488712482",
+   "titre": "Ingénieur/ingénieure en mécanique",
+   "entreprise": "Moreau",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-11-07T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4488712482/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4488712482/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09"
   },
   {
    "id": "li-4488727268",
@@ -485,6 +546,26 @@
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
    "secteur": "Manufacturier"
+  },
+  {
+   "id": "li-4486261200",
+   "titre": "Contrôleur.euse de l'ingénierie - IAGC",
+   "entreprise": "BBA Consultants",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-06T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4486261200/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486261200/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-b843d0c2fa5edc0d",
@@ -1031,26 +1112,6 @@
    "secteur": "Agroalimentaire"
   },
   {
-   "id": "li-4485852057",
-   "titre": "Ingénieur.e, acoustique et vibrations",
-   "entreprise": "BBA Consultants",
-   "lieu": "Mont-Saint-Hilaire, QC",
-   "region": "Montérégie",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-11-06T11:42:00-04:00",
-   "urlOffre": "https://www.linkedin.com/jobs/view/4485852057/",
-   "sources": [
-    {
-     "nom": "LinkedIn",
-     "url": "https://www.linkedin.com/jobs/view/4485852057/"
-    }
-   ],
-   "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09",
-   "modalite": "Hybride",
-   "secteur": "Construction et génie-conseil"
-  },
-  {
    "id": "li-4485857721",
    "titre": "Spécialiste ingénierie d'application",
    "entreprise": "ALDES Amérique du Nord",
@@ -1106,6 +1167,52 @@
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
    "secteur": "Manufacturier"
+  },
+  {
+   "id": "li-4485852057",
+   "titre": "Ingénieur.e, acoustique et vibrations",
+   "entreprise": "BBA Consultants",
+   "lieu": "Mont-Saint-Hilaire, QC",
+   "region": "Montérégie",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-05T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485852057/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485852057/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil",
+   "autresLieux": [
+    "Rouyn-Noranda, QC"
+   ],
+   "autresRegions": [
+    "Abitibi-Témiscamingue"
+   ]
+  },
+  {
+   "id": "li-4440193374",
+   "titre": "Responsable de l’ingénierie de chantier",
+   "entreprise": "WSP au Canada",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Direction",
+   "publieLe": "2026-11-05T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4440193374/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4440193374/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-e965cd94a9637ebc",
@@ -2179,6 +2286,49 @@
    "secteur": "Transport et logistique"
   },
   {
+   "id": "jb-68799e1d4d498218",
+   "titre": "Ingénieur minier - ventilation",
+   "entreprise": "Agnico Eagle",
+   "lieu": "Malartic, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-03T14:01:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=68799e1d4d498218",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=68799e1d4d498218"
+    },
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4486476579/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "li-4383065008",
+   "titre": "Ingénieur.e intermédiaire - Automatisation, instrumentation et contrôle",
+   "entreprise": "BBA Consultants",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-03T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4383065008/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4383065008/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
    "id": "li-4485004003",
    "titre": "Ingénieur(e) de projets",
    "entreprise": "Veolia Water Tech",
@@ -2655,6 +2805,162 @@
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
    "secteur": "Services financiers et professionnels"
+  },
+  {
+   "id": "li-4484203581",
+   "titre": "Ingénieure ou ingénieur structure",
+   "entreprise": "CIMA+",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4484203581/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4484203581/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "li-4467787679",
+   "titre": "Ingénieur(e) intermédiaire en contrôle des matériaux",
+   "entreprise": "WSP au Canada",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4467787679/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4467787679/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "li-4439271979",
+   "titre": "Ingénieur.e - Réseaux d'énergie intelligents",
+   "entreprise": "BBA Consultants",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4439271979/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4439271979/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "li-4449094855",
+   "titre": "Directeur des opérations (atelier)",
+   "entreprise": "Motion",
+   "lieu": "Chicoutimi, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4449094855/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4449094855/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09"
+  },
+  {
+   "id": "li-4481809648",
+   "titre": "Directeur.rice de projet, mécanique industrielle",
+   "entreprise": "BBA Consultants",
+   "lieu": "Saguenay, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4481809648/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4481809648/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "li-4485243424",
+   "titre": "Directeur(trice) entretien mécanique et électrique",
+   "entreprise": "Domtar",
+   "lieu": "Alma, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4485243424/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4485243424/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "secteur": "Pâtes, papiers et forêt"
+  },
+  {
+   "id": "li-4467267721",
+   "titre": "Surintendant d'usine",
+   "entreprise": "Domtar",
+   "lieu": "Larouche, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4467267721/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4467267721/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "secteur": "Pâtes, papiers et forêt"
+  },
+  {
+   "id": "li-4466977253",
+   "titre": "Chef(fe) régional(e) Saguenay-Lac-Saint-Jean, sciences de la Terre",
+   "entreprise": "WSP au Canada",
+   "lieu": "Chicoutimi, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Direction",
+   "publieLe": "2026-11-02T14:01:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4466977253/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4466977253/"
+    }
+   ],
+   "premiereVue": "2026-11-09",
+   "vuLe": "2026-11-09",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-d906aa3e56520335",
@@ -8597,26 +8903,6 @@
    "vuLe": "2026-11-09",
    "dateApprox": "Plus de 7 jours",
    "secteur": "Agroalimentaire"
-  },
-  {
-   "id": "jb-68799e1d4d498218",
-   "titre": "Ingénieur minier - ventilation",
-   "entreprise": "Agnico Eagle",
-   "lieu": "Malartic, QC",
-   "region": "Abitibi-Témiscamingue",
-   "domaine": "Ingénierie et production",
-   "publieLe": "2026-10-26T13:59:00-04:00",
-   "urlOffre": "https://ca.indeed.com/viewjob?jk=68799e1d4d498218",
-   "sources": [
-    {
-     "nom": "Indeed",
-     "url": "https://ca.indeed.com/viewjob?jk=68799e1d4d498218"
-    }
-   ],
-   "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09",
-   "dateApprox": "Plus de 7 jours",
-   "secteur": "Mines et métallurgie"
   },
   {
    "id": "jb-9c02225ae3393bc3",
@@ -18359,8 +18645,15 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28",
-   "secteur": "Construction et génie-conseil"
+   "vuLe": "2026-11-09",
+   "secteur": "Construction et génie-conseil",
+   "autresLieux": [
+    "Rouyn-Noranda, QC"
+   ],
+   "autresRegions": [
+    "Abitibi-Témiscamingue"
+   ],
+   "modalite": "Hybride"
   },
   {
    "id": "li-4457626696",
