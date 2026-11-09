@@ -16,6 +16,15 @@ REG["Laurentides"] = ["Saint-Jérôme","Mirabel","Blainville","Boisbriand","Sain
 REG["Capitale-Nationale"] = ["Ville de Québec","Québec","Quebec","Sainte-Foy","Sillery","Beauport","Charlesbourg","Cap-Rouge","Val-Bélair","Loretteville","L'Ancienne-Lorette","Ancienne-Lorette","Saint-Augustin-de-Desmaures","Lac-Beauport","Stoneham","Shannon","Wendake","Boischatel","L'Ange-Gardien","Château-Richer","Sainte-Anne-de-Beaupré","Pont-Rouge","Donnacona","Saint-Raymond","Neuville","Portneuf","Saint-Marc-des-Carrières","Baie-Saint-Paul","La Malbaie","Lac-Saint-Charles","Sainte-Brigitte-de-Laval","Stoneham","Deschambault","Saint-Tite-des-Caps","Capitale-Nationale"]
 REG["Montréal"] = ["Montréal","Montreal","Saint-Laurent","Dorval","Pointe-Claire","Lachine","LaSalle","Anjou","Kirkland","Dollard-des-Ormeaux","Mont-Royal","Ville Mont-Royal","Westmount","Verdun","Saint-Léonard","Pierrefonds","Baie-D'Urfé","Sainte-Anne-de-Bellevue","Beaconsfield","Côte-Saint-Luc","Hampstead","Rivière-des-Prairies","Outremont"]
 REG["Laval"] = ["Laval"]
+# Régions ajoutées le 9 novembre 2026 (mines, énergie, éolien, aluminium)
+REG["Abitibi-Témiscamingue"] = ["Rouyn-Noranda","Val-d'Or","Val-D'Or","Amos","La Sarre","Ville-Marie","Malartic","Senneterre","Macamic","Témiscaming","Cadillac","Évain","Preissac","Rivière-Héva","Barraute","Notre-Dame-du-Nord","Duparquet","Launay","Abitibi-Témiscamingue","Abitibi"]
+REG["Nord-du-Québec"] = ["Chibougamau","Chapais","Matagami","Lebel-sur-Quévillon","Radisson","Chisasibi","Mistissini","Waswanipi","Oujé-Bougoumou","Wemindji","Eastmain","Waskaganish","Kuujjuaq","Kuujjuarapik","Salluit","Inukjuak","Eeyou Istchee","Baie-James","Nord-du-Québec","Nunavik"]
+REG["Côte-Nord"] = ["Sept-Îles","Sept-Iles","Baie-Comeau","Port-Cartier","Fermont","Forestville","Les Escoumins","Havre-Saint-Pierre","Pointe-aux-Outardes","Chute-aux-Outardes","Ragueneau","Pointe-Lebel","Tadoussac","Uashat","Natashquan","Sacré-Coeur","Côte-Nord"]
+REG["Saguenay–Lac-Saint-Jean"] = ["Saguenay","Chicoutimi","Jonquière","La Baie","Alma","Roberval","Dolbeau-Mistassini","Dolbeau","Saint-Félicien","Normandin","Chambord","Desbiens","Métabetchouan","Hébertville","Laterrière","Saint-Prime","Mashteuiatsh","Larouche","Saint-Fulgence","Albanel","Saint-Gédéon","Lac-Saint-Jean","Saguenay–Lac-Saint-Jean","Saguenay-Lac-Saint-Jean"]
+REG["Bas-Saint-Laurent"] = ["Rimouski","Rivière-du-Loup","Matane","Amqui","Mont-Joli","Trois-Pistoles","La Pocatière","Cacouna","Témiscouata-sur-le-Lac","Dégelis","Pohénégamook","Saint-Pascal","Kamouraska","Pointe-au-Père","Le Bic","Sayabec","Causapscal","Saint-Anaclet","Squatec","Notre-Dame-du-Lac","Cabano","Saint-Alexandre-de-Kamouraska","Bas-Saint-Laurent"]
+# Régions du territoire de départ (sud du Québec) et régions ressources ajoutées
+REGIONS_SUD = ["Estrie","Centre-du-Québec","Mauricie","Lanaudière","Montérégie","Chaudière-Appalaches","Laurentides","Capitale-Nationale","Montréal","Laval"]
+REGIONS_RESSOURCES = ["Abitibi-Témiscamingue","Nord-du-Québec","Côte-Nord","Saguenay–Lac-Saint-Jean","Bas-Saint-Laurent"]
 def _n(x):
     x = unicodedata.normalize('NFD', x.lower()); x = ''.join(c for c in x if unicodedata.category(c) != 'Mn')
     x = re.sub(r"^st-", "saint-", x); x = re.sub(r"^ste-", "sainte-", x)
@@ -45,7 +54,7 @@ def domaine(titre, tag):
         if re.search(r"achat|approvision|logisti|cha[iî]ne d|supply|procurement", T): return "Approvisionnement et logistique"
         if re.search(r"vente|d[ée]veloppement des affaires|business development|comptes industriels|\bsales\b", T): return "Ventes et développement des affaires"
         if re.search(r"\bti\b|\berp\b|informatique|technologies de l.information|\bit director", T): return "Technologies de l'information"
-        if re.search(r"ing[ée]nieur|engineer|concepteur|dessinateur|designer|agent m[ée]thodes|programmeur d.automates|\bplc\b", T): return "Ingénierie et production"
+        if re.search(r"ing[ée]nieur|engineer|concepteur|dessinateur|designer|agent m[ée]thodes|programmeur d.automates|\bplc\b|g[ée]olog|m[ée]tallurg|minier|architecte naval", T): return "Ingénierie et production"
         if re.search(r"usine|production|surintendant|op[ée]rations|carri[èe]re|am[ée]lioration continue|lean", T): return "Opérations et production"
         if re.search(r"projet|estimat", T): return "Gestion de projets"
         return "Direction"
@@ -78,3 +87,34 @@ def titre_norm(t):
 def cle_offre(o):
     """Même poste, même entreprise : un seul doublon, quelle que soit la ville ou la source."""
     return (titre_norm(o["titre"]), coeur_cie(o["entreprise"]))
+
+# Secteurs d'activité (ajoutés le 9 novembre 2026). Deviné d'après le nom de l'entreprise et le titre du poste ;
+# l'ordre compte : le premier secteur reconnu l'emporte.
+SECTEURS = [
+ ("Public et parapublic", r"centre de services scolaire|c[ée]gep|minist[èe]re|municipalit|\bville de\b|sant[ée] qu[ée]bec|ciusss|cisss|universit[ée]|gouvernement|\bmrc\b|soci[ée]t[ée] qu[ée]b[ée]coise|soci[ée]t[ée] de transport|r[ée]seau de transport|hydro-qu[ée]bec|forces arm[ée]es|commission scolaire"),
+ ("Défense et naval", r"d[ée]fense|defen[cs]e|naval|chantier (davie|naval)|shipyard|\bdavie\b|rheinmetall|general dynamics|thales|kongsberg|groupe oc[ée]an|ocean group|lockheed|leonardo drs|armement|munition|maritime"),
+ ("Aérospatiale", r"a[ée]rospatial|aerospace|a[ée]ronauti|aviation|airbus|bombardier|pratt|h[ée]roux|safran|rolls-royce|\bcae\b|mhi rj|a[ée]ro\b|aircraft|avionique"),
+ ("Mines et métallurgie", r"\bmines?\b|minier|mini[èe]re|mining|min[ée]raux|aluminerie|aluminium|alcoa|rio tinto|alouette|fonderie|foundry|forage|drilling|g[ée]olog|agnico|eldorado|iamgold|osisko|graphite|lithium|phosphate|m[ée]tallurg|smelter|graymont|carri[èe]re|magotteaux|zinc|cuivre|copper|nickel|cezinc|sidbec|arcelormittal"),
+ ("Énergie", r"[ée]nergi|energy|[ée]olien|\bwind\b|solaire|solar|boralex|innergex|hydro[ -]|biog[az]|biomasse|bio[ée]nergie|hydrog[èe]ne|evlo|stockage d.[ée]nergie|power systems|transport d.[ée]nergie|postes? [ée]lectriques?|centrale"),
+ ("Agroalimentaire", r"aliment|food|boulang|bakery|fromag|laiti|dairy|viande|meat|abattoir|olymel|agropur|lactalis|saputo|biscuit|brasserie|brewer|cidrerie|vergers?|[ée]rable|maple|chocolat|callebaut|canneberge|patates|l[ée]gumes|fruits|nortera|bonduelle|c[ée]r[ée]ales|meunerie|moul[ée]e|sollio|petfood|haccp|salubrit|transformation alimentaire|grain|prot[ée]ine|confiserie|p[âa]tisserie|viandex|krispy|lassonde|kerry|bridor|boulart|mondelez|pepsico"),
+ ("Environnement", r"environnement|environmental|recycl|r[ée]cup[ée]r|traitement des eaux|eau potable|eaux us[ée]es|veolia|h2o innovation|d[ée]chets|waste|matières r[ée]siduelles|d[ée]veloppement durable|\besg\b|sanimax|nordikeau|nvira"),
+ ("Santé et pharma", r"pharma|m[ée]dic|medical|biotech|laborato|diagnosti|clinique|dentaire|sant[ée]|health|hospital|steri|v[ée]t[ée]rinaire|cosm[ée]ti|proteom|pathogen"),
+ ("Construction et génie-conseil", r"construction|b[ée]ton|concrete|coffrage|toiture|g[ée]nie-conseil|consultants|\bwsp\b|cima|\bexp\b|stantec|pomerleau|architect|arpentage|excavation|pavage|asphalte|entrepreneur g[ée]n[ée]ral|charpente|estimat|surintendant de chantier|infrastructures|immobili|gicleurs|plomberie|[ée]lectrique inc|m[ée]canique du b[âa]timent|[ée]lectricit[ée] du b[âa]timent|cvac|hvac|[ée]lectrique inc|entrepreneur [ée]lectricien"),
+ ("Pâtes, papiers et forêt", r"papier|paper|p[âa]tes|kruger|cascades|domtar|r[ée]solu|resolute|scierie|sawmill|\bbois\b|lumber|forest|for[êe]t|sciage|planchers?|panneaux|chantiers de chibougamau|mitchel lincoln"),
+ ("Transport et logistique", r"transport|logisti|camionnage|courrier|freight|\btransit\b|autobus|ferroviaire|\brail\b|entreposage|distribution|douan|axxess|intelcom"),
+ ("Technologies", r"logiciel|software|informatique|technologies? de l.information|\bti\b|num[ée]rique|digital|data|quantique|photonique|optique|semi-conduct|cybers[ée]curit|\bsaas\b|cloud|infonuag|intelligence artificielle"),
+ ("Services financiers et professionnels", r"banque|bank|desjardins|assurance|insurance|financi[èe]re?\b|cpa\b|comptables? agr|mnp|mallette|kpmg|deloitte|\brbc\b|\bbmo\b|\btd\b|raymond chabot|services-conseils|conseil en gestion|avocats|notaires"),
+ ("Manufacturier", r"industri|manufactur|fabrica|usine|usinage|plastique|emballage|m[ée]tal|acier|steel|soudure|machin|[ée]quipement|composant|pi[èe]ces|moulage|estampage|automatisation|robotique|portes et fen[êe]tres|meubles|textile|caoutchouc|chimique|peinture|composites|remorques|v[ée]hicules|structures?"),
+]
+_SECT = [(s, re.compile(p, re.I)) for s, p in SECTEURS]
+def secteur(entreprise, titre=""):
+    """Secteur probable d'après le nom de l'entreprise d'abord, puis d'après le titre du poste."""
+    for s, r in _SECT:
+        if r.search(entreprise or ""): return s
+    # Le titre décrit la fonction : « contrôleur financier », « santé-sécurité » ou « directeur TI » ne disent rien du secteur
+    t = re.sub(r"sant[ée].{0,25}environnement|\bsse\b", " ", titre or "", flags=re.I)
+    for s, r in _SECT:
+        if s in TITRE_EXCLU: continue
+        if r.search(t): return s
+    return ""
+TITRE_EXCLU = {"Public et parapublic", "Santé et pharma", "Services financiers et professionnels", "Technologies", "Manufacturier"}

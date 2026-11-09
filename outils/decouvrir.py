@@ -57,7 +57,10 @@ ids = {e["id"] for e in pros["entreprises"]}
 ajout = [a for a in ajout if a["id"] not in ids]
 pros["entreprises"].extend(ajout)
 pros["miseAJour"] = aujourd
-pros["territoire"] = "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec, Montréal et Laval"
+pros["territoire"] = "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec, Montréal, Laval, et depuis novembre 2026 : Abitibi-Témiscamingue, Nord-du-Québec, Côte-Nord, Saguenay–Lac-Saint-Jean et Bas-Saint-Laurent"
 json.dump(pros, open(R + 'prospects.json', 'w'), ensure_ascii=False, indent=1)
+import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from secteurs import tout as secteurs_tout
+secteurs_tout()
 from collections import Counter
 print(len(ajout), Counter(a["categorie"] for a in ajout), "total", len(pros["entreprises"]))

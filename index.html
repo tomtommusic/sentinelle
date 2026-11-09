@@ -40,7 +40,9 @@ nav .inner { display: flex; align-items: center; gap: 8px 28px; padding-block: 1
 .marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 .marque svg { width: 30px; height: 34px; flex: none; }
 .marque span { font: 700 18px var(--display); letter-spacing: .28em; }
-.liens { display: flex; gap: 22px; margin-right: auto; }
+.liens { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-right: auto; }
+.liens a { white-space: nowrap; }
+@media (max-width: 520px) { .liens { gap: 2px 16px; } }
 .liens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
 .liens a[aria-current="page"] { color: var(--orange); border-bottom-color: var(--orange); }
 .liens a:hover { color: var(--ink); }
@@ -96,6 +98,7 @@ dialog.ajout .actions { display: flex; justify-content: flex-end; gap: 8px; marg
 .tag.perso { border-style: dashed; border-color: var(--orange); color: var(--orange); }
 .lien-btn { background: none; border: 0; color: var(--muted); font: 600 13px var(--body); cursor: pointer; padding: 4px; }
 .lien-btn:hover { color: var(--ink); }
+.sel-f { width: 100%; margin-top: 10px; background: var(--bg-2); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: 600 14px var(--body); }
 details.groupe-f { border-bottom: 1px solid var(--line); padding: 12px 16px; }
 details.groupe-f:last-child { border-bottom: 0; }
 details.groupe-f summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 700; }
@@ -218,6 +221,7 @@ details.suivi summary b { color: var(--orange); }
       <a href="./?mode=teletravail" id="lienTele">Télétravail</a>
       <a href="prospects.html">Prospects</a>
       <a href="signaux.html">Signaux</a>
+      <a href="retour.html">Retour en région</a>
     </div>
     <button class="btn" id="ajoutNav" type="button" title="Ajouter une offre trouvée par toi">＋ Ajouter une offre</button>
     <button class="btn fav-nav" id="favNav" type="button" aria-pressed="false"><svg><use href="#i-coeur"/></svg> Mes favoris <span id="nbFav"></span></button>
@@ -267,6 +271,10 @@ details.suivi summary b { color: var(--orange); }
             <label><input type="checkbox" id="p168" value="168"> Dernière semaine</label>
             <label><input type="checkbox" id="p168-1440" value="168-1440"> Entre 7 et 60 jours</label>
           </div>
+        </details>
+        <details class="groupe-f" open>
+          <summary>Secteur d'activité</summary>
+          <select id="secteur" class="sel-f" aria-label="Secteur d'activité"><option value="">Tous les secteurs</option></select>
         </details>
         <details class="groupe-f" open>
           <summary>Source</summary>
@@ -400,7 +408,8 @@ function liensCandidats(o) {
   const go = "https://www.google.com/search?q=" + encodeURIComponent(`site:linkedin.com/in ${poste} (${lieux})`);
   return `<div class="candidats"><span class="lbl">${ico("i-recruteur")}Trouver des candidats</span>
     <a href="${esc(li)}" target="_blank" rel="noopener" title="Recherche de personnes dans LinkedIn : ${esc(poste)}, ${esc(lieux)}">LinkedIn</a>
-    <a href="${esc(go)}" target="_blank" rel="noopener" title="Profils LinkedIn publics trouvés par Google">Google</a></div>`;
+    <a href="${esc(go)}" target="_blank" rel="noopener" title="Profils LinkedIn publics trouvés par Google">Google</a>${o.region && o.region !== "Montréal" && o.region !== "Laval" ? `
+    <a href="retour.html?${esc(new URLSearchParams({ titre: o.titre, region: o.region, ville }).toString())}" title="Des gens qui ont étudié en ${esc(o.region)} et travaillent dans les grands centres">Retour en région</a>` : ""}</div>`;
 }
 function liensSources(o) {
   const l = Array.isArray(o.sources) ? o.sources : (o.source ? [{ nom: o.source, url: o.urlOffre }] : []);
@@ -442,9 +451,10 @@ if (memo.vue) state.vue = memo.vue;
 for (const v of (memo.v === 2 && Array.isArray(memo.periodes) ? memo.periodes : ["168-1440"])) { const c = $("p" + v); if (c) c.checked = true; }
 $("region").dataset.memo = memo.region || "";
 $("domaine").dataset.memo = memo.domaine || "";
+$("secteur").dataset.memo = memo.secteur || "";
 function memoFiltres() {
   if (typeof TELE !== "undefined" && TELE) return; // l'onglet Télétravail ne modifie pas les filtres enregistrés
-  try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ v: 2, region: $("region").value, domaine: $("domaine").value, tri: $("tri").value, vue: state.vue,
+  try { localStorage.setItem("sentinelle-filtres", JSON.stringify({ v: 2, region: $("region").value, domaine: $("domaine").value, secteur: $("secteur").value, tri: $("tri").value, vue: state.vue,
     periodes: coches("periodes"), sources: coches("casesSource"), suivis: coches("casesSuivi") })); } catch {}
 }
 
@@ -463,10 +473,11 @@ if (TELE) {
   // L'onglet part sans filtre : les filtres enregistrés de l'onglet Offres ne s'appliquent pas ici
   document.querySelectorAll("#periodes input").forEach(c => c.checked = false);
   $("region").dataset.memo = ""; $("domaine").dataset.memo = ""; $("region").value = ""; $("domaine").value = "";
+  $("secteur").dataset.memo = ""; $("secteur").value = "";
 }
 
 function filtrer() {
-  const q = $("q").value.trim().toLowerCase(), reg = $("region").value, dom = $("domaine").value;
+  const q = $("q").value.trim().toLowerCase(), reg = $("region").value, dom = $("domaine").value, sec = $("secteur").value;
   const fen = coches("periodes").map(v => v.includes("-") ? v.split("-").map(Number) : [0, Number(v)]);
   const srcs = coches("casesSource"), suivis = coches("casesSuivi");
   return state.offres.filter(o => {
@@ -479,9 +490,10 @@ function filtrer() {
     if (fen.length && !o.perso) { const h = age(o.publieLe).h; if (!fen.some(([a, b]) => h >= a && h <= b)) return false; }
     if (reg && o.region !== reg && !(o.autresRegions || []).includes(reg)) return false;
     if (dom && o.domaine !== dom) return false;
+    if (sec && o.secteur !== sec) return false;
     if (srcs.length && !sourcesDe(o).some(s => srcs.includes(s))) return false;
     if (suivis.length && !suivis.includes(n.statut || "nouveau")) return false;
-    if (q && ![o.titre, o.entreprise, o.lieu, (o.autresLieux || []).join(" "), o.domaine, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase().includes(q)) return false;
+    if (q && ![o.titre, o.entreprise, o.lieu, (o.autresLieux || []).join(" "), o.domaine, o.secteur, o.recruteur && o.recruteur.nom, n.texte].join(" ").toLowerCase().includes(q)) return false;
     return true;
   });
 }
@@ -521,7 +533,7 @@ function carte(o) {
         ${o.modalite ? `<span>${ico("i-malette")}${esc(o.modalite)}</span>` : ""}
         ${r}
       </div>
-      <div class="tags">${o.domaine ? `<span class="tag">${esc(o.domaine)}</span>` : ""}${o.perso ? `<span class="tag perso">Ajoutée par toi${o.origine ? " · " + esc(o.origine) : ""}</span>${sureUrl(o.urlOffre) ? `<a class="tag" href="${esc(o.urlOffre)}" target="_blank" rel="noopener">Voir l'offre</a>` : ""}<button class="tag js-retirer" type="button" data-id="${esc(o.id)}" style="cursor:pointer">Retirer</button>` : liensSources(o)}</div>
+      <div class="tags">${o.domaine ? `<span class="tag">${esc(o.domaine)}</span>` : ""}${o.secteur ? `<span class="tag">${esc(o.secteur)}</span>` : ""}${o.perso ? `<span class="tag perso">Ajoutée par toi${o.origine ? " · " + esc(o.origine) : ""}</span>${sureUrl(o.urlOffre) ? `<a class="tag" href="${esc(o.urlOffre)}" target="_blank" rel="noopener">Voir l'offre</a>` : ""}<button class="tag js-retirer" type="button" data-id="${esc(o.id)}" style="cursor:pointer">Retirer</button>` : liensSources(o)}</div>
       ${liensCandidats(o)}
       <details class="suivi">
         <summary>Coordonnées et suivi${statut}</summary>
@@ -544,6 +556,7 @@ function render() {
   { const nt = offres.filter(o => o.terminee).length; $("nbTerm").textContent = nt ? `(${nt})` : "(aucune)"; }
   remplirSelect("region", [...new Set(offres.map(o => o.region).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr")), "Toutes les régions");
   remplirSelect("domaine", [...new Set(offres.map(o => o.domaine).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr")), "Tous les domaines");
+  remplirSelect("secteur", [...new Set(offres.map(o => o.secteur).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr")), "Tous les secteurs");
   const srcChoisies = coches("casesSource").length ? coches("casesSource") : (memo.sources || []);
   casesDyn("casesSource", [...new Set(offres.flatMap(sourcesDe))].sort((a, b) => a.localeCompare(b, "fr")), v => offres.filter(o => sourcesDe(o).includes(v)).length, srcChoisies);
   const suiviChoisis = coches("casesSuivi").length ? coches("casesSuivi") : (memo.suivis || []);
@@ -628,7 +641,7 @@ document.addEventListener("change", (ev) => {
   const t = ev.target;
   if (t.classList.contains("js-statut")) { sauver(t.dataset.id, { statut: t.value }); return; }
   if (t.classList.contains("js-note")) { sauver(t.dataset.id, { texte: t.value.trim() }); return; }
-  if (["region", "domaine", "tri"].includes(t.id) || t.closest("#periodes, #casesSource, #casesSuivi") || t.id === "voirTerm") { memoFiltres(); render(); }
+  if (["region", "domaine", "secteur", "tri"].includes(t.id) || t.closest("#periodes, #casesSource, #casesSuivi") || t.id === "voirTerm") { memoFiltres(); render(); }
 });
 $("formRecherche").addEventListener("submit", (ev) => { ev.preventDefault(); memoFiltres(); render(); $("titreRes").scrollIntoView({ behavior: "smooth", block: "start" }); });
 { const qp = new URLSearchParams(location.search).get("q"); if (qp) { $("q").value = qp; document.querySelectorAll("#periodes input").forEach(c => c.checked = false); } }
@@ -639,7 +652,7 @@ $("vueEnt").addEventListener("click", () => { state.vue = "entreprise"; memoFilt
 $("reinit").addEventListener("click", () => {
   /* les entreprises exclues restent exclues; on les rétablit une à une */
   document.querySelectorAll("aside input[type=checkbox]").forEach(i => i.checked = false);
-  $("region").value = ""; $("domaine").value = ""; $("q").value = ""; memo.sources = []; memo.suivis = []; state.favSeul = false;
+  $("region").value = ""; $("domaine").value = ""; $("secteur").value = ""; $("q").value = ""; memo.sources = []; memo.suivis = []; state.favSeul = false;
   memoFiltres(); render();
 });
 

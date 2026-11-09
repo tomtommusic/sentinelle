@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Retour en région</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+:root {
+  --bg: #0b1016; --surface: #141c26; --ink: #eef2f6; --muted: #9aa8b8; --line: #263241; --accent: #f7931e; --chip: #1f2a37;
+  --warn-bg: rgba(247, 147, 30, .14);
+  --display: "Sora", "Avenir Next", system-ui, sans-serif; --body: "Manrope", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: rgba(11, 16, 22, .94); border-bottom: 1px solid var(--line);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+nav .in { max-width: 980px; margin: 0 auto; display: flex; align-items: center; gap: 8px 28px; padding-block: 12px; flex-wrap: wrap; }
+.marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.marque svg { width: 30px; height: 34px; color: var(--accent); }
+.marque span { font: 700 18px var(--display); letter-spacing: .28em; }
+.nliens { display: flex; gap: 2px 22px; flex-wrap: wrap; }
+.nliens a { white-space: nowrap; }
+.nliens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
+.nliens a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 20px 60px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 18px; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1 var(--display); letter-spacing: -0.02em; margin: 0; }
+h1 span { display: block; font: 500 12px/1.4 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+h2 { font: 700 20px var(--display); margin: 0 0 10px; }
+a { color: var(--accent); }
+p { margin: 0; max-width: 75ch; }
+.carte { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; }
+.grille { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
+@media (max-width: 700px) { .grille { grid-template-columns: 1fr; } }
+label.f { display: grid; gap: 4px; font: 500 12px var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
+input[type=text], select, textarea { font: 15px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 9px 10px; width: 100%; box-sizing: border-box; min-width: 0; }
+input[type=checkbox] { accent-color: var(--accent); width: 17px; height: 17px; margin: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font: 500 12px var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 6px; }
+.cases { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.cases label { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; cursor: pointer; }
+.ajout { display: flex; gap: 8px; margin-top: 4px; }
+.ajout input { flex: 1; }
+button.btn { font: 600 14px var(--body); color: var(--ink); background: var(--chip); border: 1px solid var(--line); border-radius: 6px; padding: 8px 14px; cursor: pointer; white-space: nowrap; }
+button.btn.plein { background: var(--accent); color: #1a0f02; border-color: var(--accent); }
+.liste { display: grid; gap: 0; }
+.ligne { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 14px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+.ligne:first-child { border-top: 0; }
+.ligne b { font-weight: 700; }
+.ligne small { display: block; color: var(--muted); font-size: 13px; }
+.ligne .liens { display: flex; gap: 8px; flex-wrap: wrap; }
+.ligne .liens a { font: 700 13px var(--body); padding: 4px 12px; border-radius: 99px; border: 1px solid var(--accent); text-decoration: none; }
+.ligne .liens a:hover { background: rgba(247,147,30,.12); }
+@media (max-width: 560px) { .ligne { grid-template-columns: 1fr; } }
+.avis { background: var(--warn-bg); border-radius: 10px; padding: 12px 16px; font-size: 14px; }
+.avis b { color: var(--accent); }
+ul.conseils { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 75ch; }
+textarea#message { min-height: 220px; font-size: 14px; line-height: 1.5; }
+.etat { font-size: 13px; color: var(--muted); min-height: 1em; }
+.vide { color: var(--muted); padding: 8px 0; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="in">
+    <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg viewBox="0 0 30 34" aria-hidden="true"><path d="M15 1 2 6v9c0 8.5 5.6 15 13 18 7.4-3 13-9.5 13-18V6L15 1Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><circle cx="15" cy="13.5" r="5" fill="currentColor"/><path d="M8.5 26c1.5-4.2 3.8-6.2 6.5-6.2s5 2 6.5 6.2" fill="currentColor"/></svg><span>SENTINELLE</span></a>
+    <div class="nliens"><a href="./">Offres</a><a href="./?mode=teletravail">Télétravail</a><a href="prospects.html">Prospects</a><a href="signaux.html">Signaux</a><a href="retour.html" aria-current="page">Retour en région</a></div>
+  </div>
+</nav>
+<div class="wrap">
+  <header>
+    <h1>Retour en région<span>Des candidats qui ont étudié en région et travaillent aujourd'hui dans les grands centres</span></h1>
+  </header>
+
+  <p>Beaucoup de professionnels qui ont fait leurs études à Sherbrooke, Trois-Rivières, Rimouski ou Rouyn-Noranda travaillent maintenant à Montréal ou à Québec et aimeraient revenir. Ils répondent souvent mieux qu'un candidat déjà en poste dans la région, et c'est un argument fort pour l'employeur. Cette page prépare les recherches ; rien n'est enregistré dans Sentinelle.</p>
+
+  <section class="carte" aria-labelledby="t1">
+    <h2 id="t1">1. Le poste à combler</h2>
+    <div class="grille">
+      <label class="f" for="poste">Poste (en français)
+        <input type="text" id="poste" placeholder="Ex. : contrôleur financier, directeur d'usine…" autocomplete="off">
+      </label>
+      <label class="f" for="region">Région de l'emploi
+        <select id="region"></select>
+      </label>
+    </div>
+    <div class="grille">
+      <label class="f" for="posteEn">Titre en anglais (facultatif, élargit la recherche)
+        <input type="text" id="posteEn" placeholder="Ex. : financial controller" autocomplete="off">
+      </label>
+      <label class="f" for="ville">Ville de l'emploi (pour le message)
+        <input type="text" id="ville" placeholder="Ex. : Drummondville" autocomplete="off">
+      </label>
+    </div>
+  </section>
+
+  <section class="carte" aria-labelledby="t2">
+    <h2 id="t2">2. Où chercher les candidats</h2>
+    <fieldset>
+      <legend>Ils travaillent maintenant à</legend>
+      <div class="cases" id="destinations"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Ils ont étudié à (établissements de la région choisie)</legend>
+      <div class="cases" id="ecoles"></div>
+      <div class="ajout">
+        <input type="text" id="ecoleAjout" placeholder="Ajouter un établissement ou une ville d'origine" aria-label="Ajouter un établissement">
+        <button class="btn" id="btnAjout" type="button">Ajouter</button>
+      </div>
+    </fieldset>
+  </section>
+
+  <section class="carte" aria-labelledby="t3">
+    <h2 id="t3">3. Les recherches</h2>
+    <p class="etat" id="resume"></p>
+    <div class="liste" id="liens"></div>
+    <div class="avis"><b>Google</b> trouve les profils LinkedIn publics sans toucher à la limite de recherches LinkedIn de Frédérique. <b>LinkedIn</b> cherche directement dans ses résultats de personnes et compte dans ses recherches du mois. Dans Recruiter Lite, le plus précis reste les filtres « Écoles » et « Lieu » : la page indique quoi y mettre.</div>
+    <p class="etat" id="recruiter"></p>
+  </section>
+
+  <section class="carte" aria-labelledby="t4">
+    <h2 id="t4">4. Le premier message</h2>
+    <p>Un modèle à adapter. Il mise sur ce qui fait revenir les gens : la famille, la qualité de vie, le prix des maisons et un poste à responsabilités près de chez eux.</p>
+    <textarea id="message" aria-label="Modèle de message"></textarea>
+    <div><button class="btn plein" id="copier" type="button">Copier le message</button> <span class="etat" id="copie"></span></div>
+  </section>
+
+  <section class="carte" aria-labelledby="t5">
+    <h2 id="t5">Conseils</h2>
+    <ul class="conseils">
+      <li>Le cégep est souvent le meilleur indice : on fait son cégep près de chez ses parents. Une université régionale attire aussi des étudiants d'ailleurs.</li>
+      <li>Viser les gens de 5 à 15 ans d'expérience : c'est souvent le moment des enfants et de l'envie de se rapprocher de la famille.</li>
+      <li>Pour l'employeur, c'est un argument de vente : « Je vous présente quelqu'un qui veut vivre ici, donc qui va rester. »</li>
+      <li>Ne pas compiler ces profils dans un fichier : les consulter, contacter les bons, et garder seulement ses propres notes de suivi.</li>
+    </ul>
+  </section>
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const EN = [[/contr[ôo]leur financier/, "contrôleur financier", "financial controller"], [/contr[ôo]leur (de )?co[uû]ts?/, "contrôleur de coûts", "cost controller"],
+  [/contr[ôo]leur/, "contrôleur", "controller"], [/concepteur m[ée]canique|ing[ée]nieur concepteur/, "concepteur mécanique", "mechanical designer"],
+  [/m[ée]canique du b[âa]timent|cvac/, "mécanique du bâtiment", "HVAC engineer"], [/ing[ée]nieur.{0,12}fiabilit/, "ingénieur fiabilité", "reliability engineer"], [/ing[ée]nieur.{0,15}m[ée]canique/, "ingénieur mécanique", "mechanical engineer"],
+  [/ing[ée]nieur.{0,10}[ée]lectri/, "ingénieur électrique", "electrical engineer"], [/ing[ée]nieur.{0,5}industriel/, "ingénieur industriel", "industrial engineer"],
+  [/ing[ée]nieur.{0,10}proc[ée]d[ée]s/, "ingénieur procédés", "process engineer"], [/ing[ée]nieur.{0,5}qualit[ée]/, "ingénieur qualité", "quality engineer"],
+  [/ing[ée]nieur.{0,10}automatisation/, "ingénieur automatisation", "automation engineer"], [/ing[ée]nieur.{0,10}production/, "ingénieur production", "manufacturing engineer"],
+  [/ing[ée]nieur (de |en )?projets?/, "ingénieur de projets", "project engineer"], [/directeur.{0,30}(ressources humaines|\brh\b|capital humain)/, "directeur ressources humaines", "HR director"],
+  [/conseill.{0,12}(ressources humaines|\brh\b)/, "conseiller ressources humaines", "HR advisor"], [/partenaire d.affaires/, "partenaire d'affaires RH", "HR business partner"],
+  [/acquisition de talents?/, "acquisition de talents", "talent acquisition"], [/directeur d.usine|directeur.{0,6}usine/, "directeur d'usine", "plant manager"],
+  [/directeur de (la )?production/, "directeur de production", "production manager"], [/directeur.{0,5}op[ée]rations/, "directeur des opérations", "operations director"],
+  [/directeur.{0,5}achats|approvisionnement/, "directeur approvisionnement", "procurement manager"], [/directeur.{0,5}financ/, "directeur financier", "finance director"],
+  [/analyste financier/, "analyste financier", "financial analyst"], [/chef comptable/, "chef comptable", "accounting manager"], [/comptable/, "comptable", "accountant"],
+  [/charg[ée] de projets?/, "chargé de projets", "project manager"], [/estimat/, "estimateur", "estimator"], [/dessinat/, "dessinateur", "drafter"],
+  [/vice-pr[ée]sident/, "vice-président", "vice president"], [/maintenance/, "maintenance", "maintenance manager"],
+  [/\bsst\b|sant[ée].{0,4}s[ée]curit|pr[ée]vention/, "santé et sécurité", "health and safety"], [/am[ée]lioration continue/, "amélioration continue", "continuous improvement"],
+  [/qualit[ée]/, "qualité", "quality"], [/directeur (de |des )?ti\b|technologies de l/, "directeur TI", "IT director"]];
+function titreNet(t) {
+  let x = String(t || "").replace(/\(.*?\)/g, " ").split(/\s[-–|:]\s|\/|,/)[0];
+  x = x.replace(/[·.](e|ne|trice|rice|euse|ère|ere|eure)s?\b/gi, "").replace(/\b(h\/f|senior|sénior|junior|temporaire|hybride|principal|principale)\b/gi, " ");
+  return x.replace(/\s+/g, " ").trim();
+}
+
+// Établissements par région : cégeps et universités. Le cégep est le meilleur indice de la région d'origine.
+const ECOLES = {
+  "Estrie": ["Université de Sherbrooke", "Bishop's University", "Cégep de Sherbrooke", "Champlain College Lennoxville"],
+  "Centre-du-Québec": ["Cégep de Drummondville", "Cégep de Victoriaville", "UQTR Drummondville"],
+  "Mauricie": ["Université du Québec à Trois-Rivières", "Cégep de Trois-Rivières", "Collège Shawinigan"],
+  "Lanaudière": ["Cégep régional de Lanaudière", "Cégep de Joliette", "Cégep de Terrebonne"],
+  "Montérégie": ["Cégep de Granby", "Cégep de Saint-Hyacinthe", "Cégep Saint-Jean-sur-Richelieu", "Cégep de Sorel-Tracy", "Collège de Valleyfield"],
+  "Chaudière-Appalaches": ["Cégep Beauce-Appalaches", "Cégep de Lévis", "Cégep de Thetford", "UQAR Lévis"],
+  "Laurentides": ["Cégep de Saint-Jérôme", "Collège Lionel-Groulx", "Cégep de Mont-Laurier"],
+  "Capitale-Nationale": ["Université Laval", "Cégep Garneau", "Cégep de Sainte-Foy", "Cégep Limoilou"],
+  "Abitibi-Témiscamingue": ["Université du Québec en Abitibi-Témiscamingue", "UQAT", "Cégep de l'Abitibi-Témiscamingue"],
+  "Nord-du-Québec": ["Centre d'études collégiales à Chibougamau", "Chibougamau", "UQAT"],
+  "Côte-Nord": ["Cégep de Sept-Îles", "Cégep de Baie-Comeau", "Sept-Îles", "Baie-Comeau"],
+  "Saguenay–Lac-Saint-Jean": ["Université du Québec à Chicoutimi", "UQAC", "Cégep de Chicoutimi", "Cégep de Jonquière", "Collège d'Alma", "Cégep de Saint-Félicien"],
+  "Bas-Saint-Laurent": ["Université du Québec à Rimouski", "UQAR", "Cégep de Rimouski", "Cégep de Rivière-du-Loup", "Cégep de Matane", "Cégep de La Pocatière"],
+  "Montréal": [], "Laval": []
+};
+const VILLE_REG = { "Estrie": "Sherbrooke", "Centre-du-Québec": "Drummondville", "Mauricie": "Trois-Rivières", "Lanaudière": "Joliette", "Montérégie": "Saint-Hyacinthe",
+  "Chaudière-Appalaches": "Saint-Georges", "Laurentides": "Saint-Jérôme", "Capitale-Nationale": "Québec", "Abitibi-Témiscamingue": "Rouyn-Noranda", "Nord-du-Québec": "Chibougamau",
+  "Côte-Nord": "Sept-Îles", "Saguenay–Lac-Saint-Jean": "Saguenay", "Bas-Saint-Laurent": "Rimouski", "Montréal": "Montréal", "Laval": "Laval" };
+const DESTS = ["Montréal", "Laval", "Longueuil", "Québec", "Gatineau", "Ottawa", "Toronto", "Calgary"];
+const CLE = "sentinelle-retour";
+let pref = {};
+try { pref = JSON.parse(localStorage.getItem(CLE) || "{}") || {}; } catch {}
+const sauver = () => { try { localStorage.setItem(CLE, JSON.stringify({ dest: coches("destinations"), extra: extrasR })); } catch {} };
+const coches = (id) => [...document.querySelectorAll(`#${id} input:checked`)].map(i => i.value);
+let extrasR = pref.extra && typeof pref.extra === "object" && !Array.isArray(pref.extra) ? pref.extra : {};
+const ext = () => (extrasR[$("region").value] = extrasR[$("region").value] || []);
+
+const qp = new URLSearchParams(location.search);
+$("region").innerHTML = Object.keys(ECOLES).map(r => `<option>${esc(r)}</option>`).join("");
+$("region").value = ECOLES[qp.get("region")] ? qp.get("region") : "Estrie";
+$("poste").value = titreNet(qp.get("titre") || "");
+$("ville").value = (qp.get("ville") || "").replace(/, QC$/, "") || VILLE_REG[$("region").value];
+const enAuto = () => { const t = $("poste").value.toLowerCase(), m = EN.find(([r]) => r.test(t)); return m ? m[2] : ""; };
+$("posteEn").value = enAuto();
+
+function dessinerDest() {
+  const choix = Array.isArray(pref.dest) && pref.dest.length ? pref.dest : ["Montréal", "Laval", "Québec"];
+  const reg = $("region").value;
+  $("destinations").innerHTML = DESTS.filter(d => !(reg === "Capitale-Nationale" && d === "Québec") && !((reg === "Montréal" || reg === "Laval") && (d === "Montréal" || d === "Laval")))
+    .map(d => `<label><input type="checkbox" value="${esc(d)}" ${choix.includes(d) ? "checked" : ""}> ${esc(d)}</label>`).join("");
+}
+function dessinerEcoles() {
+  const l = [...ECOLES[$("region").value], ...ext()];
+  $("ecoles").innerHTML = l.length ? l.map(e => `<label><input type="checkbox" value="${esc(e)}" checked> ${esc(e)}</label>`).join("")
+    : `<span class="vide">Choisis une région hors de Montréal, ou ajoute un établissement.</span>`;
+}
+function liens() {
+  const fr = $("poste").value.trim(), en = $("posteEn").value.trim(), dest = coches("destinations"), ecoles = coches("ecoles");
+  if (!fr) { $("liens").innerHTML = `<p class="vide">Indique d'abord le poste.</p>`; $("resume").textContent = ""; $("recruiter").textContent = ""; message(); return; }
+  const poste = en ? `("${fr}" OR "${en}")` : `"${fr}"`;
+  const lieux = dest.map(d => `"${d}"`).join(" OR ");
+  $("resume").textContent = ecoles.length ? `${ecoles.length} établissement${ecoles.length > 1 ? "s" : ""} · ${dest.length ? dest.join(", ") : "toutes les villes"}` : "";
+  $("liens").innerHTML = ecoles.map(e => {
+    const g = "https://www.google.com/search?q=" + encodeURIComponent(`site:linkedin.com/in ${poste} "${e}"` + (lieux ? ` (${lieux})` : ""));
+    const li = "https://www.linkedin.com/search/results/people/?keywords=" + encodeURIComponent(`${en ? `(${fr} OR ${en})` : fr} "${e}"`);
+    return `<div class="ligne"><div><b>${esc(e)}</b><small>${esc(fr)}${en ? " / " + esc(en) : ""}${dest.length ? " · travaille à " + esc(dest.join(", ")) : ""}</small></div>
+      <div class="liens"><a href="${esc(g)}" target="_blank" rel="noopener" data-id="${esc(e)}">Google</a><a href="${esc(li)}" target="_blank" rel="noopener" data-id="${esc(e)}">LinkedIn</a></div></div>`;
+  }).join("") || `<p class="vide">Coche au moins un établissement.</p>`;
+  $("recruiter").textContent = ecoles.length ? `Dans Recruiter Lite : titre « ${fr}${en ? " » ou « " + en : ""} », écoles « ${ecoles.slice(0, 4).join(" », « ")} », lieu « ${dest.join(" », « ") || "Montréal"} ».` : "";
+  message();
+}
+function message() {
+  const fr0 = $("poste").value.trim(), fr = fr0 ? fr0.charAt(0).toLowerCase() + fr0.slice(1) : "[poste]", ville = $("ville").value.trim() || "[ville]", reg = $("region").value;
+  const ecole = coches("ecoles")[0] || "[établissement]";
+  $("message").value = `Bonjour [Prénom],
+
+Je vois que vous avez étudié à ${ecole} et que vous travaillez maintenant à [ville actuelle]. Je me permets de vous écrire parce que j'accompagne une entreprise de ${ville}, en ${reg}, qui cherche un ou une ${fr}.
+
+C'est un poste à responsabilités, dans une organisation en croissance, avec la qualité de vie de la région : moins de trafic, des maisons plus abordables et souvent la famille plus proche.
+
+Est-ce que ce serait le bon moment pour en discuter quelques minutes, en toute confidentialité ?
+
+Au plaisir,
+Frédérique`;
+}
+$("region").addEventListener("change", () => { dessinerDest(); dessinerEcoles(); $("ville").value = VILLE_REG[$("region").value]; liens(); });
+$("poste").addEventListener("input", () => { $("posteEn").value = enAuto() || $("posteEn").value; liens(); });
+["posteEn", "ville"].forEach(id => $(id).addEventListener("input", liens));
+document.addEventListener("change", (ev) => { if (ev.target.closest("#destinations, #ecoles")) { sauver(); liens(); } });
+$("btnAjout").addEventListener("click", () => { const v = $("ecoleAjout").value.trim(); if (v && !ext().includes(v)) { ext().push(v); sauver(); } $("ecoleAjout").value = ""; dessinerEcoles(); liens(); });
+$("ecoleAjout").addEventListener("keydown", (ev) => { if (ev.key === "Enter") { ev.preventDefault(); $("btnAjout").click(); } });
+$("copier").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText($("message").value); $("copie").textContent = "Copié."; }
+  catch { $("message").select(); $("copie").textContent = "Sélectionné : fais Ctrl+C."; }
+});
+dessinerDest(); dessinerEcoles(); liens();
+// Journal d'activité : gardé seulement dans ce navigateur (clé sentinelle-journal), jamais envoyé ailleurs.
+(function () {
+  const CLE = "sentinelle-journal", MAX = 4000, PAGE = (location.pathname.split("/").pop() || "index.html").replace(".html", "") || "index";
+  const ecrire = (e, d) => {
+    try {
+      const j = JSON.parse(localStorage.getItem(CLE) || "[]");
+      j.push({ t: new Date().toISOString(), p: PAGE, e, ...(d || {}) });
+      localStorage.setItem(CLE, JSON.stringify(j.slice(-MAX)));
+    } catch {}
+  };
+  window.journal = ecrire;
+  ecrire("visite", { q: location.search.slice(0, 80) || undefined });
+  document.addEventListener("visibilitychange", () => ecrire(document.hidden ? "quitte" : "revient"));
+  const desc = (el) => {
+    const carte = el.closest("article, .fiche, .sig-carte");
+    const idc = carte && (carte.querySelector("[data-id]") || {}).dataset ? (carte.querySelector("[data-id]") || {}).dataset.id : undefined;
+    const h = carte && carte.querySelector("h3");
+    return { id: el.dataset && el.dataset.id || idc, quoi: (el.innerText || el.getAttribute("aria-label") || el.title || "").trim().slice(0, 50),
+      fiche: h ? h.innerText.split("\n")[0].trim().slice(0, 70) : undefined, vers: el.href ? new URL(el.href, location.href).hostname + new URL(el.href, location.href).pathname.slice(0, 30) : undefined };
+  };
+  document.addEventListener("click", (ev) => {
+    const el = ev.target.closest("a, button, summary, .cat");
+    if (el) ecrire("clic", desc(el));
+  }, true);
+  document.addEventListener("change", (ev) => {
+    const t = ev.target; if (!t || !t.id && !t.className) return;
+    if (t.tagName === "TEXTAREA") { ecrire("note", { id: t.dataset.id, longueur: t.value.length }); return; }
+    ecrire("choix", { champ: t.id || t.name || String(t.className).slice(0, 30), valeur: t.type === "checkbox" ? (t.checked ? "coché:" : "décoché:") + t.value : String(t.value).slice(0, 60), id: t.dataset && t.dataset.id });
+  }, true);
+  let att; document.addEventListener("input", (ev) => {
+    const t = ev.target; if (!t || t.type !== "search") return;
+    clearTimeout(att); att = setTimeout(() => { if (t.value.trim()) ecrire("recherche", { champ: t.id, valeur: t.value.trim().slice(0, 60) }); }, 1200);
+  }, true);
+})();
+</script>
+</body>
+</html>

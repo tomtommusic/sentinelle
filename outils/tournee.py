@@ -115,6 +115,11 @@ def sauver(d):
     regs = sorted({o["region"] for o in d["offres"]})
     d["tournee"] = {"date": now.isoformat(), "regions": ", ".join(regs) + " · offres des 60 derniers jours",
                     "sources": sorted({s["nom"] for o in d["offres"] for s in o["sources"]})}
+    try:  # secteur d'activité de chaque offre (d'après les prospects ou deviné)
+        from secteurs import offres_secteurs
+        offres_secteurs(d["offres"], json.load(open(os.path.join(RACINE, "data", "prospects.json"), encoding="utf-8")))
+    except Exception as e:
+        print("secteurs non calculés :", e)
     json.dump(d, open(F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 

@@ -90,7 +90,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-0026a3711eba308f",
@@ -131,7 +132,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4488855579",
@@ -149,7 +151,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4487684809",
@@ -185,7 +188,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4463395247",
@@ -204,7 +208,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4487612976",
@@ -240,7 +245,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4488727268",
@@ -258,7 +264,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Technologies"
   },
   {
    "id": "li-4487351980",
@@ -276,7 +283,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4455952707",
@@ -295,7 +303,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Énergie"
   },
   {
    "id": "li-4486985982",
@@ -351,7 +360,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4446138229",
@@ -369,7 +379,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4488438191",
@@ -387,7 +398,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4486264071",
@@ -423,7 +435,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4454058661",
@@ -441,7 +454,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4485040385",
@@ -459,7 +473,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-b843d0c2fa5edc0d",
@@ -478,7 +493,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-24d75bfd4c3aa25b",
@@ -592,7 +608,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-24c909a93d3a0201",
@@ -611,7 +628,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-99674cfaee981134",
@@ -687,7 +705,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-583e9b0658c20ca5",
@@ -706,7 +725,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-9cfcab48d2e1da5a",
@@ -725,7 +745,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-ca524eac89864b65",
@@ -801,7 +822,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-744de461606fb074",
@@ -820,7 +842,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-c7b8b2b5a0d731dc",
@@ -839,7 +862,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-b1f8c1bbb46072bf",
@@ -877,7 +901,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-f5e8889cfe0ed16b",
@@ -915,7 +940,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-b14b66a65d07c4ad",
@@ -971,7 +997,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4486987681",
@@ -990,7 +1017,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4485852057",
@@ -1009,7 +1037,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4485857721",
@@ -1046,7 +1075,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4486940439",
@@ -1064,7 +1094,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-e965cd94a9637ebc",
@@ -1086,7 +1117,8 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-527218a3d23a0a2f",
@@ -1108,7 +1140,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-95245eafb7d05624",
@@ -1130,7 +1163,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4384624408",
@@ -1166,7 +1200,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Énergie"
   },
   {
    "id": "li-4487763724",
@@ -1204,7 +1239,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4486749915",
@@ -1222,7 +1258,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4485018959",
@@ -1240,7 +1277,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4487751926",
@@ -1277,7 +1315,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4487753461",
@@ -1313,7 +1352,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4486570426",
@@ -1350,7 +1390,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4487554983",
@@ -1404,7 +1445,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4487528751",
@@ -1441,7 +1483,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4468930432",
@@ -1460,7 +1503,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4486516452",
@@ -1479,7 +1523,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4487506742",
@@ -1497,7 +1542,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4468922609",
@@ -1516,7 +1562,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4487504102",
@@ -1590,7 +1637,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4487026258",
@@ -1608,7 +1656,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4380825707",
@@ -1645,7 +1694,8 @@
    ],
    "premiereVue": "2026-11-09",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4487270948",
@@ -1663,7 +1713,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4486076923",
@@ -1722,7 +1773,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4486889342",
@@ -1795,7 +1847,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4486333541",
@@ -1831,7 +1884,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4486054923",
@@ -1904,7 +1958,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4479211223",
@@ -1962,7 +2017,8 @@
     }
    ],
    "premiereVue": "2026-11-01",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4475137328",
@@ -1980,7 +2036,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4487086032",
@@ -2016,7 +2073,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Environnement"
   },
   {
    "id": "li-4486089953",
@@ -2052,7 +2110,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Énergie"
   },
   {
    "id": "li-4486078380",
@@ -2106,7 +2165,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4485004003",
@@ -2125,7 +2185,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Environnement"
   },
   {
    "id": "li-4486827525",
@@ -2143,7 +2204,8 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Technologies"
   },
   {
    "id": "li-4485744748",
@@ -2198,7 +2260,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Environnement"
   },
   {
    "id": "li-4485761658",
@@ -2271,7 +2334,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Environnement"
   },
   {
    "id": "li-4485749857",
@@ -2289,7 +2353,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4485780527",
@@ -2395,7 +2460,8 @@
    "autresRegions": [
     "Centre-du-Québec",
     "Mauricie"
-   ]
+   ],
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4486153615",
@@ -2558,7 +2624,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4486072319",
@@ -2576,7 +2643,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-d906aa3e56520335",
@@ -2614,7 +2682,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-b7575a0b8c71cbb0",
@@ -2652,7 +2721,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-c8a453c01ca1ef8c",
@@ -2671,7 +2741,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Énergie"
   },
   {
    "id": "jb-3a13b5588f9e112d",
@@ -2728,7 +2799,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-f315308018c42c93",
@@ -2747,7 +2819,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-f5a4d36bd111137b",
@@ -2785,7 +2858,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-d8f533051001aa5b",
@@ -2804,7 +2878,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-b1bb0098a92023fe",
@@ -2823,7 +2898,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-e1a27b8cfbd1cd8f",
@@ -2842,7 +2918,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-0fecf1ed02e2f20d",
@@ -2880,7 +2957,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-5aa4428c6005d73d",
@@ -2937,7 +3015,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-71e3fedfd2f514df",
@@ -2975,7 +3054,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-e3dab28a23e43767",
@@ -2994,7 +3074,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-47cc4d2131eeb8c2",
@@ -3051,7 +3132,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4486146674",
@@ -3069,7 +3151,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4485718890",
@@ -3088,7 +3171,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4485744030",
@@ -3124,7 +3208,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-6c96365a5dece190",
@@ -3152,7 +3237,8 @@
    ],
    "autresRegions": [
     "Mauricie"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4457502923",
@@ -3170,7 +3256,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4458033493",
@@ -3189,7 +3276,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4423523426",
@@ -3245,7 +3333,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-2f1dfb8b49237658",
@@ -3321,7 +3410,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "jb-dc9f52fb2893f2a5",
@@ -3340,7 +3430,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "jb-a5e00d8fade11500",
@@ -3378,7 +3469,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Énergie"
   },
   {
    "id": "jb-63305f23d9d4a888",
@@ -3435,7 +3527,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-b46566332b4bf252",
@@ -3454,7 +3547,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "jb-43410d0200cf97f1",
@@ -3473,7 +3567,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-88c61281e478cc04",
@@ -3511,7 +3606,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-95eeae85d8b2d95f",
@@ -3530,7 +3626,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-ce9116f4ffa358a5",
@@ -3587,7 +3684,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-db0d9384e6df0b13",
@@ -3644,7 +3742,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-6e7b51c3ffbcdd1d",
@@ -3663,7 +3762,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-fd97e30e28124dea",
@@ -3682,7 +3782,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-ded7dfed5c45270d",
@@ -3701,7 +3802,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-8cdc1800399a6b24",
@@ -3720,7 +3822,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-7e337bc45a8ed78c",
@@ -3780,7 +3883,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-fa94b163cc28091a",
@@ -3799,7 +3903,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-f9919bd9e18a1afc",
@@ -3818,7 +3923,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-0d32e8e3aa3d84e1",
@@ -3856,7 +3962,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-0b3f9cd4ec3f152d",
@@ -3875,7 +3982,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-ab8af889d1674eed",
@@ -3894,7 +4002,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-acdb453356f96ac4",
@@ -3951,7 +4060,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-49c392831e994631",
@@ -3989,7 +4099,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-a3bcd31fd6063179",
@@ -4008,7 +4119,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-2833806f48fb00a5",
@@ -4027,7 +4139,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-05b1021f568f00d2",
@@ -4065,7 +4178,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "jb-01ebbbae377a24e3",
@@ -4084,7 +4198,8 @@
    ],
    "premiereVue": "2026-11-04",
    "vuLe": "2026-11-04",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4440919021",
@@ -4120,7 +4235,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4485160723",
@@ -4138,7 +4254,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4458022589",
@@ -4156,7 +4273,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4476847921",
@@ -4174,7 +4292,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-d9416f37b9b3a2ba",
@@ -4196,7 +4315,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-9336df843e29680f",
@@ -4218,7 +4338,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4459627723",
@@ -4274,7 +4395,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4485655980",
@@ -4292,7 +4414,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4484898773",
@@ -4310,7 +4433,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4485141412",
@@ -4384,7 +4508,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4484110685",
@@ -4438,7 +4563,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4485370810",
@@ -4456,7 +4582,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4476230619",
@@ -4474,7 +4601,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4485392805",
@@ -4510,7 +4638,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4485218583",
@@ -4547,7 +4676,8 @@
     }
    ],
    "premiereVue": "2026-11-05",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4467133455",
@@ -4603,7 +4733,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4484592034",
@@ -4622,7 +4753,8 @@
    ],
    "premiereVue": "2026-11-05",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-dfdcab6bb33112d0",
@@ -4644,7 +4776,8 @@
     }
    ],
    "premiereVue": "2026-11-01",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Technologies"
   },
   {
    "id": "jb-7ba11e8c57033adc",
@@ -4666,7 +4799,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4484574136",
@@ -4684,7 +4818,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4485218713",
@@ -4720,7 +4855,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4484477626",
@@ -4738,7 +4874,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4484977534",
@@ -4792,7 +4929,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483063026",
@@ -4864,7 +5002,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4484994549",
@@ -4887,7 +5026,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-11-05",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4438023500",
@@ -4905,7 +5045,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4440902384",
@@ -4923,7 +5064,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4484967665",
@@ -4960,7 +5102,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-bc964af95b0f1ee0",
@@ -5055,7 +5198,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-46fcf28a7bc07f5d",
@@ -5245,7 +5389,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-10233982dffd85cb",
@@ -5321,7 +5466,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-fbcc99df678e2e81",
@@ -5359,7 +5505,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-298a79d8882f3f36",
@@ -5378,7 +5525,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-89b796b969ee044e",
@@ -5397,7 +5545,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-44a9481b94b1f5d1",
@@ -5454,7 +5603,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "jb-b0fbc9929e5892af",
@@ -5473,7 +5623,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-dccb5a6ef9267c20",
@@ -5492,7 +5643,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-968b3ee6b1983dd4",
@@ -5549,7 +5701,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-e834f60825a3e27f",
@@ -5568,7 +5721,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-19cbf10e840ec748",
@@ -5663,7 +5817,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-ca7486f7bf1b78d5",
@@ -5682,7 +5837,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-485481c44880e086",
@@ -5701,7 +5857,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-637b581488489433",
@@ -5739,7 +5896,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-67262aeae5a5f0d7",
@@ -5758,7 +5916,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-3655f6c050fc002e",
@@ -5777,7 +5936,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-40c8e839b42e7817",
@@ -5796,7 +5956,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-9cef79e66a442fe2",
@@ -5834,7 +5995,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-25aa0114b655e793",
@@ -5853,7 +6015,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-c8afc60aef952f69",
@@ -5910,7 +6073,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-536573d7333d4bbd",
@@ -5929,7 +6093,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-fb85464356df6e87",
@@ -5948,7 +6113,8 @@
    ],
    "premiereVue": "2026-11-01",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-4320aca36dc6b41e",
@@ -6094,7 +6260,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4484126759",
@@ -6166,7 +6333,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4484111420",
@@ -6184,7 +6352,8 @@
     }
    ],
    "premiereVue": "2026-11-04",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-94497fc7dedd4c52",
@@ -6206,7 +6375,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4483829319",
@@ -6242,7 +6412,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4448577806",
@@ -6332,7 +6503,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4457487698",
@@ -6350,7 +6522,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4442126636",
@@ -6368,7 +6541,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4482247596",
@@ -6386,7 +6560,8 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4483691729",
@@ -6440,7 +6615,8 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4484211849",
@@ -6458,7 +6634,8 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4484225196",
@@ -6500,7 +6677,8 @@
    ],
    "autresRegions": [
     "Centre-du-Québec"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4484221726",
@@ -6518,7 +6696,8 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4484229019",
@@ -6572,7 +6751,8 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4484213384",
@@ -6626,7 +6806,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483831223",
@@ -6672,7 +6853,8 @@
    ],
    "autresRegions": [
     "Chaudière-Appalaches"
-   ]
+   ],
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4475825299",
@@ -6690,7 +6872,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483211070",
@@ -6762,7 +6945,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-88e5a2a4d602960d",
@@ -6785,7 +6969,8 @@
    ],
    "premiereVue": "2026-10-25",
    "vuLe": "2026-10-29",
-   "modalite": "Télétravail"
+   "modalite": "Télétravail",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4403464815",
@@ -6803,7 +6988,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4483645692",
@@ -6839,7 +7025,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4453487675",
@@ -6875,7 +7062,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4482210296",
@@ -6930,7 +7118,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4483800006",
@@ -6966,7 +7155,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4483779360",
@@ -6984,7 +7174,8 @@
     }
    ],
    "premiereVue": "2026-10-29",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483651058",
@@ -7124,7 +7315,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17648331",
@@ -7168,7 +7360,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4472964074",
@@ -7240,7 +7433,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4483265111",
@@ -7276,7 +7470,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4439387262",
@@ -7294,7 +7489,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483559155",
@@ -7312,7 +7508,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4471503454",
@@ -7330,7 +7527,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483554397",
@@ -7348,7 +7546,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483552762",
@@ -7366,7 +7565,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4430492252",
@@ -7384,7 +7584,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17646924",
@@ -7402,7 +7603,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-16606071",
@@ -7420,7 +7622,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17647260",
@@ -7438,7 +7641,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-15215827",
@@ -7474,7 +7678,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4400127313",
@@ -7492,7 +7697,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4478757068",
@@ -7510,7 +7716,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4483599985",
@@ -7564,7 +7771,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4483252276",
@@ -7582,7 +7790,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Environnement"
   },
   {
    "id": "li-4483574358",
@@ -7600,7 +7809,8 @@
     }
    ],
    "premiereVue": "2026-10-27",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-411aa8af2277253a",
@@ -7619,7 +7829,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Technologies"
   },
   {
    "id": "jb-2e08519a8ee383a7",
@@ -7676,7 +7887,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Technologies"
   },
   {
    "id": "jb-cc18bd76d03ba861",
@@ -7695,7 +7907,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "jb-1648939fdcefdabb",
@@ -7714,7 +7927,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-967e6ace6b40ad23",
@@ -7733,7 +7947,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-abbaf717a254bca3",
@@ -7752,7 +7967,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-73d03e3a536e5fd0",
@@ -7790,7 +8006,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-fcf5b874b9b06a99",
@@ -7809,7 +8026,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-c2a45e717404fcd9",
@@ -7828,7 +8046,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-ac9729717ce8e93f",
@@ -7847,7 +8066,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-f0253a66b9cbbc68",
@@ -7866,7 +8086,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-d6747655d2ca768e",
@@ -7942,7 +8163,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-ce2fe13f9575afbc",
@@ -7961,7 +8183,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-4977c4cc4d5a08f2",
@@ -7980,7 +8203,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-ec359cbe43787c28",
@@ -8018,7 +8242,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-adfdca99c2c6815f",
@@ -8037,7 +8262,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-b49a910f53f7309e",
@@ -8113,7 +8339,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-888db47f25d9104e",
@@ -8189,7 +8416,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-fe51ab1fad4794cb",
@@ -8208,7 +8436,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-d6c35ded28ad7db7",
@@ -8227,7 +8456,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-aee4c6c221b9d89f",
@@ -8265,7 +8495,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-15586f0e6f9e2e22",
@@ -8284,7 +8515,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Technologies"
   },
   {
    "id": "jb-4b0528b4e90a08fb",
@@ -8303,7 +8535,8 @@
    ],
    "premiereVue": "2026-10-29",
    "vuLe": "2026-10-29",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4444194365",
@@ -8321,7 +8554,8 @@
     }
    ],
    "premiereVue": "2026-10-26",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4482910190",
@@ -8339,7 +8573,8 @@
     }
    ],
    "premiereVue": "2026-10-26",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4483397746",
@@ -8357,7 +8592,8 @@
     }
    ],
    "premiereVue": "2026-10-26",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4466434024",
@@ -8393,7 +8629,8 @@
     }
    ],
    "premiereVue": "2026-10-26",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-17477343",
@@ -8411,7 +8648,8 @@
     }
    ],
    "premiereVue": "2026-10-26",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-8fa6853fecb07980",
@@ -8467,7 +8705,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4428089271",
@@ -8485,7 +8724,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4429718673",
@@ -8521,7 +8761,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4464247039",
@@ -8539,7 +8780,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4428423857",
@@ -8563,7 +8805,8 @@
    ],
    "autresRegions": [
     "Mauricie"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4363721417",
@@ -8581,7 +8824,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4483306977",
@@ -8599,7 +8843,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4483336564",
@@ -8635,7 +8880,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4475032799",
@@ -8653,7 +8899,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4408121248",
@@ -8689,7 +8936,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4483167910",
@@ -8725,7 +8973,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4473813824",
@@ -8743,7 +8992,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4475374497",
@@ -8761,7 +9011,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4465897405",
@@ -8779,7 +9030,8 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-466b03d20370be8e",
@@ -8798,7 +9050,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "jb-83ac97b6e7f268f2",
@@ -8817,7 +9070,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-aaa5b09b1fa1f7d7",
@@ -8836,7 +9090,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-fe6706a8f4d4c3da",
@@ -8874,7 +9129,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "jb-e3fbecb172e46e78",
@@ -9064,7 +9320,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "jb-7489030d8e98f301",
@@ -9102,7 +9359,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-fe976796b3fe72d4",
@@ -9121,7 +9379,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-29cce27a617487d3",
@@ -9159,7 +9418,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-96edb5c552206d39",
@@ -9295,7 +9555,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4446590167",
@@ -9317,7 +9578,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4483134851",
@@ -9339,7 +9601,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4465871552",
@@ -9361,7 +9624,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4481929039",
@@ -9441,7 +9705,8 @@
    ],
    "autresRegions": [
     "Estrie"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4481929642",
@@ -9459,7 +9724,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Énergie"
   },
   {
    "id": "li-4472984128",
@@ -9531,7 +9797,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4483150164",
@@ -9585,7 +9852,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4482809287",
@@ -9621,7 +9889,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4480690398",
@@ -9639,7 +9908,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4482796140",
@@ -9657,7 +9927,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4481002288",
@@ -9675,7 +9946,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4481950436",
@@ -9693,7 +9965,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4483153638",
@@ -9729,7 +10002,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482882766",
@@ -9747,7 +10021,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Technologies"
   },
   {
    "id": "li-4483114374",
@@ -9765,7 +10040,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-14565795",
@@ -9819,7 +10095,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4465366073",
@@ -9837,7 +10114,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4474509329",
@@ -9909,7 +10187,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4481692228",
@@ -9927,7 +10206,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Énergie"
   },
   {
    "id": "li-4481904321",
@@ -9971,7 +10251,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4482707516",
@@ -9993,7 +10274,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-17639271",
@@ -10033,7 +10315,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4445168658",
@@ -10087,7 +10370,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4481376420",
@@ -10123,7 +10407,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482702180",
@@ -10195,7 +10480,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482711346",
@@ -10231,7 +10517,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4482703838",
@@ -10267,7 +10554,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482167851",
@@ -10285,7 +10573,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4464131861",
@@ -10303,7 +10592,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4482197087",
@@ -10321,7 +10611,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4480068036",
@@ -10357,7 +10648,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4475257994",
@@ -10375,7 +10667,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482435050",
@@ -10411,7 +10704,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-17549445",
@@ -10447,7 +10741,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-17637192",
@@ -10465,7 +10760,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-16928287",
@@ -10483,7 +10779,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-17639649",
@@ -10501,7 +10798,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17638692",
@@ -10537,7 +10835,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17639778",
@@ -10555,7 +10854,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482746584",
@@ -10573,7 +10873,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4472360668",
@@ -10591,7 +10892,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4446349714",
@@ -10609,7 +10911,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4482747090",
@@ -10645,7 +10948,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4417784311",
@@ -10663,7 +10967,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4473960932",
@@ -10681,7 +10986,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4457521776",
@@ -10707,7 +11013,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482185628",
@@ -10729,7 +11036,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4482129308",
@@ -10751,7 +11059,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4480273803",
@@ -10795,7 +11104,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-11-01"
+   "vuLe": "2026-11-01",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4482175769",
@@ -10831,7 +11141,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4482154109",
@@ -10903,7 +11214,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4481144432",
@@ -10939,7 +11251,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4482162859",
@@ -10957,7 +11270,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4481167015",
@@ -10975,7 +11289,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4482025868",
@@ -11029,7 +11344,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-17545584",
@@ -11047,7 +11363,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-17633685",
@@ -11065,7 +11382,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4462479775",
@@ -11119,7 +11437,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4482132603",
@@ -11143,7 +11462,8 @@
    ],
    "autresRegions": [
     "Montérégie"
-   ]
+   ],
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4464638967",
@@ -11179,7 +11499,8 @@
     }
    ],
    "premiereVue": "2026-10-22",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4481149995",
@@ -11237,7 +11558,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4467240681",
@@ -11259,7 +11581,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4480547259",
@@ -11303,7 +11626,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4467229767",
@@ -11325,7 +11649,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4480579044",
@@ -11477,7 +11802,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4477730184",
@@ -11549,7 +11875,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4481902843",
@@ -11567,7 +11894,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4473501380",
@@ -11591,7 +11919,8 @@
    ],
    "autresRegions": [
     "Estrie"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4449069489",
@@ -11627,7 +11956,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4467398487",
@@ -11645,7 +11975,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4480983101",
@@ -11663,7 +11994,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4479627242",
@@ -11681,7 +12013,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4479123215",
@@ -11735,7 +12068,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4481766264",
@@ -11771,7 +12105,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4464392279",
@@ -11789,7 +12124,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4455432021",
@@ -11807,7 +12143,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4470331364",
@@ -11825,7 +12162,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4479398715",
@@ -11861,7 +12199,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4461906300",
@@ -11885,7 +12224,8 @@
    ],
    "autresRegions": [
     "Centre-du-Québec"
-   ]
+   ],
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4415106528",
@@ -11903,7 +12243,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4478679466",
@@ -11921,7 +12262,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4478472038",
@@ -11939,7 +12281,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4469949494",
@@ -11960,7 +12303,8 @@
    "vuLe": "2026-11-09",
    "autresLieux": [
     "Saint-Bruno-de-Montarville, QC"
-   ]
+   ],
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4413335753",
@@ -11978,7 +12322,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4416927629",
@@ -11996,7 +12341,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4461221517",
@@ -12050,7 +12396,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4478869534",
@@ -12068,7 +12415,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4477000737",
@@ -12086,7 +12434,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4443189936",
@@ -12104,7 +12453,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4481594063",
@@ -12122,7 +12472,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4433134432",
@@ -12140,7 +12491,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4433129685",
@@ -12158,7 +12510,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4479364796",
@@ -12176,7 +12529,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4461217197",
@@ -12194,7 +12548,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4478473920",
@@ -12230,7 +12585,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4462873488",
@@ -12248,7 +12604,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4480172215",
@@ -12266,7 +12623,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4443543340",
@@ -12284,7 +12642,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4478449462",
@@ -12302,7 +12661,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4426689469",
@@ -12338,7 +12698,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4427614731",
@@ -12356,7 +12717,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4479631250",
@@ -12374,7 +12736,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4470975074",
@@ -12392,7 +12755,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4480180334",
@@ -12410,7 +12774,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4478909215",
@@ -12446,7 +12811,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4436631841",
@@ -12464,7 +12830,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4478936003",
@@ -12482,7 +12849,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4480168513",
@@ -12500,7 +12868,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4480378092",
@@ -12554,7 +12923,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4480272126",
@@ -12572,7 +12942,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4462486305",
@@ -12590,7 +12961,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4480595271",
@@ -12608,7 +12980,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4405147260",
@@ -12626,7 +12999,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4481249906",
@@ -12644,7 +13018,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4460782964",
@@ -12770,7 +13145,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4462055960",
@@ -12788,7 +13164,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4431679871",
@@ -12824,7 +13201,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Technologies"
   },
   {
    "id": "li-4470989351",
@@ -12842,7 +13220,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4452616947",
@@ -12956,7 +13335,8 @@
    ],
    "autresRegions": [
     "Capitale-Nationale"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4474471236",
@@ -12992,7 +13372,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4480272383",
@@ -13010,7 +13391,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4480731699",
@@ -13028,7 +13410,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "li-4479150443",
@@ -13046,7 +13429,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4481271787",
@@ -13064,7 +13448,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4450825807",
@@ -13082,7 +13467,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4480491491",
@@ -13100,7 +13486,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4481761350",
@@ -13178,7 +13565,8 @@
    ],
    "autresRegions": [
     "Chaudière-Appalaches"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4478495573",
@@ -13330,7 +13718,8 @@
     }
    ],
    "premiereVue": "2026-10-19",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4456312894",
@@ -13352,7 +13741,8 @@
     }
    ],
    "premiereVue": "2026-10-19",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17371209",
@@ -13375,7 +13765,8 @@
    ],
    "premiereVue": "2026-10-19",
    "vuLe": "2026-11-09",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4429982436",
@@ -13401,7 +13792,8 @@
     }
    ],
    "premiereVue": "2026-10-16",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17621100",
@@ -13423,7 +13815,8 @@
     }
    ],
    "premiereVue": "2026-10-16",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17529420",
@@ -13447,7 +13840,8 @@
    ],
    "autresRegions": [
     "Centre-du-Québec"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-17592666",
@@ -13465,7 +13859,8 @@
     }
    ],
    "premiereVue": "2026-10-16",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-10956276",
@@ -13483,7 +13878,8 @@
     }
    ],
    "premiereVue": "2026-10-15",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-16665399",
@@ -13501,7 +13897,8 @@
     }
    ],
    "premiereVue": "2026-10-15",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-16128352",
@@ -13519,7 +13916,8 @@
     }
    ],
    "premiereVue": "2026-10-15",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-16128349",
@@ -13537,7 +13935,8 @@
     }
    ],
    "premiereVue": "2026-10-15",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-16504218",
@@ -13555,7 +13954,8 @@
     }
    ],
    "premiereVue": "2026-10-15",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-025d71c24b77b1c7",
@@ -13574,7 +13974,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Technologies"
   },
   {
    "id": "jb-318b11c494b3f300",
@@ -13593,7 +13994,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-c00f5415aa2d4029",
@@ -13650,7 +14052,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-23f560f2c3d6aaeb",
@@ -13669,7 +14072,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-597ad146326da554",
@@ -13707,7 +14111,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-531d80476bc3adc0",
@@ -13726,7 +14131,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-d7e99f972c9f8bf8",
@@ -13753,7 +14159,8 @@
    "autresRegions": [
     "Lanaudière",
     "Laurentides"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-4dbea740df6fa1e6",
@@ -13772,7 +14179,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-59e5d0298814239d",
@@ -13905,7 +14313,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-82918b01445be50c",
@@ -13924,7 +14333,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-4f0ff013f7262041",
@@ -13962,7 +14372,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-76460517e342b29f",
@@ -13981,7 +14392,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-0d201a5a94ef07e6",
@@ -14019,7 +14431,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "jb-f6b3b84579d4fdcb",
@@ -14057,7 +14470,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-e116133923db6dd4",
@@ -14076,7 +14490,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-f41a62e38a7ef515",
@@ -14095,7 +14510,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-2f560fd0822c851c",
@@ -14114,7 +14530,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-89079b201a8ee215",
@@ -14190,7 +14607,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-dcbe3b9200c138ba",
@@ -14209,7 +14627,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-6f0ca2b797768aa0",
@@ -14361,7 +14780,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-b91fe9d1ef688639",
@@ -14380,7 +14800,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "jb-e567e733257b660b",
@@ -14399,7 +14820,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-c6647a528d00f44e",
@@ -14516,7 +14938,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-371ca32776049627",
@@ -14535,7 +14958,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-962ef1d514fda48f",
@@ -14554,7 +14978,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-815573d071334b7d",
@@ -14573,7 +14998,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-97cd5efe9fd21c71",
@@ -14592,7 +15018,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-6f6330098c9e0757",
@@ -14611,7 +15038,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-0b2b12a8a9dda38e",
@@ -14630,7 +15058,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-ce227a31e52bd393",
@@ -14649,7 +15078,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-962cfee51884f947",
@@ -14687,7 +15117,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-c612a1179baae6ef",
@@ -14725,7 +15156,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Énergie"
   },
   {
    "id": "jb-fb83a905026ac467",
@@ -14782,7 +15214,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-51af5f4bfafe0044",
@@ -14801,7 +15234,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-0b2cb607ec51afed",
@@ -14839,7 +15273,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-41a4ceb7b5259a87",
@@ -14915,7 +15350,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-70726adb9a527a87",
@@ -14953,7 +15389,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-8ad2a859f8fcf57a",
@@ -14991,7 +15428,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-d4861b59bddd1a15",
@@ -15010,7 +15448,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Énergie"
   },
   {
    "id": "jb-7fdcdb656b1409fa",
@@ -15067,7 +15506,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-7153bd2dcdb7be55",
@@ -15143,7 +15583,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-d6094ccf700bd762",
@@ -15184,7 +15625,8 @@
    "dateApprox": "Plus de 7 jours",
    "autresLieux": [
     "Chambly, QC"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-5c1ead024999e9a2",
@@ -15222,7 +15664,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-942b0b1d87aea881",
@@ -15241,7 +15684,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-6c736d79620a343e",
@@ -15279,7 +15723,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-7303ac3c0ad9919c",
@@ -15298,7 +15743,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-ed9a9ddbbe60a96c",
@@ -15336,7 +15782,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-10894e6cbf77c2fd",
@@ -15374,7 +15821,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "jb-eba08eb6bf761bf1",
@@ -15450,7 +15898,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-a74271d395266c85",
@@ -15469,7 +15918,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-39eda5b8f4335fd0",
@@ -15507,7 +15957,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-20f9d69dc4cd233a",
@@ -15526,7 +15977,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-6126a2fc5273ea50",
@@ -15545,7 +15997,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-028e632a7fad6352",
@@ -15659,7 +16112,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-ef45393b87de28b1",
@@ -15697,7 +16151,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-9cf38ad72ab82b2c",
@@ -15735,7 +16190,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-84b5873890b8ae29",
@@ -15754,7 +16210,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-c4aafd3f0ace544c",
@@ -15792,7 +16249,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-94cd0919b786d00a",
@@ -15811,7 +16269,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-a4da62429ac58548",
@@ -15849,7 +16308,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-0a69b33ca371a20c",
@@ -15906,7 +16366,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-9d16f8076722780c",
@@ -15925,7 +16386,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-11-01",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-4e12eb5b4b45b647",
@@ -15982,7 +16444,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-232dbe7d9abec7fc",
@@ -16001,7 +16464,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-ee13c49fca09ef4a",
@@ -16020,7 +16484,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-489c8074572954ba",
@@ -16039,7 +16504,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-9565208a790609da",
@@ -16058,7 +16524,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-4c9365135ec81a97",
@@ -16077,7 +16544,8 @@
    ],
    "premiereVue": "2026-10-28",
    "vuLe": "2026-10-28",
-   "dateApprox": "Plus de 7 jours"
+   "dateApprox": "Plus de 7 jours",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-0adfe6b185240f3f",
@@ -16118,7 +16586,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4460377069",
@@ -16140,7 +16609,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4468239199",
@@ -16162,7 +16632,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4477997935",
@@ -16184,7 +16655,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4441613281",
@@ -16206,7 +16678,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-41e6a282f2684222",
@@ -16250,7 +16723,8 @@
     }
    ],
    "premiereVue": "2026-10-24",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-17510100",
@@ -16325,7 +16799,8 @@
    "vuLe": "2026-10-28",
    "autresLieux": [
     "Saint-Georges, QC"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4477836981",
@@ -16353,7 +16828,8 @@
    ],
    "autresRegions": [
     "Chaudière-Appalaches"
-   ]
+   ],
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-17592645",
@@ -16375,7 +16851,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4477424880",
@@ -16393,7 +16870,8 @@
     }
    ],
    "premiereVue": "2026-10-23",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4416959696",
@@ -16411,7 +16889,8 @@
     }
    ],
    "premiereVue": "2026-10-21",
-   "vuLe": "2026-11-09"
+   "vuLe": "2026-11-09",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4477485234",
@@ -16447,7 +16926,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4476450064",
@@ -16483,7 +16963,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4450715545",
@@ -16501,7 +16982,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4475239934",
@@ -16555,7 +17037,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4475700778",
@@ -16573,7 +17056,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4476471117",
@@ -16591,7 +17075,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Énergie"
   },
   {
    "id": "li-4403404642",
@@ -16609,7 +17094,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4477439638",
@@ -16627,7 +17113,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4457174219",
@@ -16645,7 +17132,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4466207141",
@@ -16670,7 +17158,8 @@
    "autresRegions": [
     "Montréal"
    ],
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4477863841",
@@ -16688,7 +17177,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4478117123",
@@ -16706,7 +17196,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4477192572",
@@ -16742,7 +17233,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4440569702",
@@ -16760,7 +17252,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4476477611",
@@ -16778,7 +17271,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4478137947",
@@ -16796,7 +17290,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4424137788",
@@ -16814,7 +17309,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4459313698",
@@ -16868,7 +17364,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4477865827",
@@ -16886,7 +17383,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4479063323",
@@ -16922,7 +17420,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Technologies"
   },
   {
    "id": "li-4467794343",
@@ -16940,7 +17439,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4476788653",
@@ -16958,7 +17458,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4460125914",
@@ -16982,7 +17483,8 @@
    ],
    "autresRegions": [
     "Capitale-Nationale"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4465859783",
@@ -17018,7 +17520,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4469169401",
@@ -17072,7 +17575,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4476884124",
@@ -17090,7 +17594,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4476221856",
@@ -17108,7 +17613,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4475992263",
@@ -17126,7 +17632,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4476871845",
@@ -17144,7 +17651,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4356046622",
@@ -17180,7 +17688,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4477261473",
@@ -17198,7 +17707,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4424155157",
@@ -17216,7 +17726,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4458940599",
@@ -17234,7 +17745,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "li-4477819616",
@@ -17252,7 +17764,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-16883802",
@@ -17270,7 +17783,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-2628857",
@@ -17306,7 +17820,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Énergie"
   },
   {
    "id": "jb-17096999",
@@ -17324,7 +17839,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-17594268",
@@ -17342,7 +17858,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "jb-17594643",
@@ -17378,7 +17895,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-17511990",
@@ -17450,7 +17968,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4476476942",
@@ -17468,7 +17987,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4431104137",
@@ -17486,7 +18006,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4457626696",
@@ -17510,7 +18031,8 @@
    ],
    "autresRegions": [
     "Capitale-Nationale"
-   ]
+   ],
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4459880918",
@@ -17535,7 +18057,8 @@
    "autresRegions": [
     "Capitale-Nationale"
    ],
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4440818523",
@@ -17578,7 +18101,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-29"
+   "vuLe": "2026-10-29",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4474419423",
@@ -17596,7 +18120,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "li-4476377730",
@@ -17632,7 +18157,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4449769478",
@@ -17650,7 +18176,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4477601002",
@@ -17686,7 +18213,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4425931281",
@@ -17704,7 +18232,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4479022521",
@@ -17848,7 +18377,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4476824761",
@@ -17866,7 +18396,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4477196112",
@@ -17902,7 +18433,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4476866233",
@@ -17938,7 +18470,8 @@
     }
    ],
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-ea81ad358042c0ac",
@@ -17957,7 +18490,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Technologies"
   },
   {
    "id": "jb-f603f8fdb625e0a7",
@@ -17976,7 +18510,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-f9285ee0c886d9a0",
@@ -17995,7 +18530,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "jb-072610aba318a3fc",
@@ -18033,7 +18569,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-fb82643cbc367ca8",
@@ -18052,7 +18589,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Technologies"
   },
   {
    "id": "jb-1a9e697cdce75ea7",
@@ -18071,7 +18609,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-773b3c4671edc7e4",
@@ -18090,7 +18629,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-be4f54fc5e1749a8",
@@ -18169,7 +18709,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "jb-e3407900771aa24a",
@@ -18226,7 +18767,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-4eddada7393f5590",
@@ -18245,7 +18787,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-19f0499889972efc",
@@ -18283,7 +18826,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-1ac109f5e0c22ace",
@@ -18302,7 +18846,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-cce86dbb18840e62",
@@ -18340,7 +18885,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-d1412014d9f76cbe",
@@ -18378,7 +18924,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-781e191e8d536c66",
@@ -18397,7 +18944,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-8e3c057ced60b713",
@@ -18416,7 +18964,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-9c03f392f9cba72b",
@@ -18511,7 +19060,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-f8b64538a9139214",
@@ -18568,7 +19118,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-bf26b7b1c0f3571a",
@@ -18606,7 +19157,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-6611f1cc7e45d724",
@@ -18644,7 +19196,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-f174632f58fa6b08",
@@ -18663,7 +19216,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-69c130d93910d21f",
@@ -18682,7 +19236,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-236d3882ba92d5fd",
@@ -18720,7 +19275,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-6f731edb36ab2888",
@@ -18777,7 +19333,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-f62d9d3b66b42cc9",
@@ -18815,7 +19372,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-cce4fda241c89834",
@@ -18872,7 +19430,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-22b7a0dc194ef102",
@@ -18891,7 +19450,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-d9ac2d6244802c4e",
@@ -18910,7 +19470,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-cbba2f0131b9744f",
@@ -18929,7 +19490,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-06361787d0dbd83e",
@@ -18948,7 +19510,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "jb-9cd4c4c8c4a252d3",
@@ -18967,7 +19530,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-6c18b28b9a0013c1",
@@ -19062,7 +19626,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-ad31302afaa4c2af",
@@ -19081,7 +19646,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-7d39399b1518e93d",
@@ -19100,7 +19666,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-e321ba9b7c8d4b50",
@@ -19119,7 +19686,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-229e7dd99947bc44",
@@ -19271,7 +19839,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-176791cf5e532025",
@@ -19423,7 +19992,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-4583ffa18e5414a6",
@@ -19594,7 +20164,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-d27b14cc43ad524f",
@@ -19613,7 +20184,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-22eaa4cdfcafb01a",
@@ -19651,7 +20223,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-860cf5fe72a09001",
@@ -19670,7 +20243,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-2bd327f759b64e2a",
@@ -19689,7 +20263,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "jb-3ba5d2ea62402c51",
@@ -19708,7 +20283,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "jb-aa26e271153148b3",
@@ -19746,7 +20322,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-644e1d97fed0ccd1",
@@ -19765,7 +20342,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-8616c6158082954b",
@@ -19784,7 +20362,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-1e3b5523a2e7a518",
@@ -19803,7 +20382,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-ee0be8915ec4b39b",
@@ -19841,7 +20421,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-971560e080b2c33c",
@@ -19879,7 +20460,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-245c845bddae0ef6",
@@ -19955,7 +20537,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "jb-f53e61f2eedd9c9c",
@@ -20031,7 +20614,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Environnement"
   },
   {
    "id": "jb-97816bf1b6df0500",
@@ -20088,7 +20672,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-139ec75f34e6d0b9",
@@ -20164,7 +20749,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-8d58dc6b41eaf33f",
@@ -20240,7 +20826,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-7dac29050c9dab2c",
@@ -20259,7 +20846,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-7efc265bd52900e6",
@@ -20278,7 +20866,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Services financiers et professionnels"
   },
   {
    "id": "jb-a194b9aa340a727f",
@@ -20316,7 +20905,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-c9c537b0056697bc",
@@ -20335,7 +20925,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Pâtes, papiers et forêt"
   },
   {
    "id": "jb-fefe2f61f464963d",
@@ -20354,7 +20945,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-63564ac3e77d13d1",
@@ -20373,7 +20965,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-e6db32126e83dc3e",
@@ -20392,7 +20985,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-d5082667f40a381b",
@@ -20411,7 +21005,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Énergie"
   },
   {
    "id": "jb-bd829ae121a81b3c",
@@ -20449,7 +21044,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-cd9e7cb107d060ce",
@@ -20487,7 +21083,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-7b7122de3dba1f6d",
@@ -20563,7 +21160,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-b0250e07155627b2",
@@ -20677,7 +21275,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-35c9d42877144b87",
@@ -20696,7 +21295,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-424d9e49ebbd986d",
@@ -20772,7 +21372,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Énergie"
   },
   {
    "id": "jb-9a7bb721c59a2508",
@@ -20924,7 +21525,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-d88f6c07650a8941",
@@ -20943,7 +21545,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-14",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-3a9314c8c090d990",
@@ -20984,7 +21587,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4472310039",
@@ -21002,7 +21606,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Aérospatiale"
   },
   {
    "id": "li-4473368240",
@@ -21038,7 +21643,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-11-04"
+   "vuLe": "2026-11-04",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4434881205",
@@ -21056,7 +21662,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4463860766",
@@ -21074,7 +21681,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4476315741",
@@ -21092,7 +21700,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4476344489",
@@ -21164,7 +21773,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4474989986",
@@ -21182,7 +21792,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4472324297",
@@ -21200,7 +21811,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4473579874",
@@ -21218,7 +21830,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4473347302",
@@ -21254,7 +21867,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4472330421",
@@ -21272,7 +21886,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4473368998",
@@ -21290,7 +21905,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Technologies"
   },
   {
    "id": "li-4476196942",
@@ -21308,7 +21924,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-17407398",
@@ -21326,7 +21943,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17588016",
@@ -21344,7 +21962,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17589156",
@@ -21363,7 +21982,8 @@
    ],
    "premiereVue": "2026-10-07",
    "vuLe": "2026-10-28",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-17578290",
@@ -21417,7 +22037,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17586177",
@@ -21435,7 +22056,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4474977949",
@@ -21453,7 +22075,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4476335932",
@@ -21525,7 +22148,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4475009982",
@@ -21561,7 +22185,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Énergie"
   },
   {
    "id": "li-4467276702",
@@ -21579,7 +22204,8 @@
     }
    ],
    "premiereVue": "2026-10-07",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4472814985",
@@ -21637,7 +22263,8 @@
     }
    ],
    "premiereVue": "2026-09-30",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17149537",
@@ -21655,7 +22282,8 @@
     }
    ],
    "premiereVue": "2026-09-30",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "jb-17567286",
@@ -21674,7 +22302,8 @@
    ],
    "premiereVue": "2026-09-30",
    "vuLe": "2026-10-28",
-   "modalite": "Hybride"
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-17334977",
@@ -21692,7 +22321,8 @@
     }
    ],
    "premiereVue": "2026-09-30",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "jb-17568045",
@@ -21710,7 +22340,8 @@
     }
    ],
    "premiereVue": "2026-09-30",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4469746350",
@@ -21746,7 +22377,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Défense et naval"
   },
   {
    "id": "li-4450795996",
@@ -21764,7 +22396,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4467098426",
@@ -21782,7 +22415,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Santé et pharma"
   },
   {
    "id": "li-4461343435",
@@ -21800,7 +22434,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4461976256",
@@ -21818,7 +22453,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4471535135",
@@ -21854,7 +22490,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4471153348",
@@ -21926,7 +22563,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4473548312",
@@ -21986,7 +22624,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Agroalimentaire"
   },
   {
    "id": "li-4471919862",
@@ -22095,7 +22734,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4471974585",
@@ -22131,7 +22771,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4466833297",
@@ -22149,7 +22790,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Public et parapublic"
   },
   {
    "id": "li-4470517306",
@@ -22185,7 +22827,8 @@
     }
    ],
    "premiereVue": "2026-09-28",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "li-4474776022",
@@ -22207,7 +22850,8 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-11-05"
+   "vuLe": "2026-11-05",
+   "secteur": "Manufacturier"
   },
   {
    "id": "li-4481697065",

@@ -35,7 +35,8 @@ nav .in { max-width: 980px; margin: 0 auto; display: flex; align-items: center; 
 .marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 .marque svg { width: 30px; height: 34px; color: var(--accent); }
 .marque span { font: 700 18px var(--display); letter-spacing: .28em; }
-.nliens { display: flex; gap: 22px; }
+.nliens { display: flex; flex-wrap: wrap; gap: 2px 22px; }
+.nliens a { white-space: nowrap; }
 .nliens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
 .nliens a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
 .filtres { top: calc(env(safe-area-inset-top, 0px) + 60px) !important; }
@@ -110,7 +111,7 @@ button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--su
 <nav>
   <div class="in">
     <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg viewBox="0 0 30 34" aria-hidden="true"><path d="M15 1 2 6v9c0 8.5 5.6 15 13 18 7.4-3 13-9.5 13-18V6L15 1Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><circle cx="15" cy="13.5" r="5" fill="currentColor"/><path d="M8.5 26c1.5-4.2 3.8-6.2 6.5-6.2s5 2 6.5 6.2" fill="currentColor"/></svg><span>SENTINELLE</span></a>
-    <div class="nliens"><a href="./">Offres</a><a href="./?mode=teletravail">Télétravail</a><a href="prospects.html" aria-current="page">Prospects</a><a href="signaux.html">Signaux</a></div>
+    <div class="nliens"><a href="./">Offres</a><a href="./?mode=teletravail">Télétravail</a><a href="prospects.html" aria-current="page">Prospects</a><a href="signaux.html">Signaux</a><a href="retour.html">Retour en région</a></div>
   </div>
 </nav>
 <div class="wrap">
@@ -184,6 +185,7 @@ button.btn { font: 600 13px var(--body); color: var(--ink); background: var(--su
         <option value="oui">Avec offres en cours</option>
         <option value="tri">Toutes, plus d'offres d'abord</option>
         <option value="nouv">Découvertes par les tournées</option>
+        <option value="eimt">Ont dû recruter à l'étranger (EIMT)</option>
       </select>
     </label>
     <label class="f" for="suiviF">Mon suivi
@@ -251,12 +253,13 @@ function filtrer() {
     if (st.seulSurv && !estSurv(c.id)) return false;
     if ($("offresF").value === "oui" && !st.nbOffres[c.id]) return false;
     if ($("offresF").value === "nouv" && !c.decouvert) return false;
+    if ($("offresF").value === "eimt" && !c.eimt) return false;
     if (r && c.region !== r) return false;
     if (s && premier(c.secteur) !== s) return false;
     if (t === "?" ? c.taille : (t && c.taille !== t)) return false;
     const mon = (st.suivi[c.id] || {}).statut || "";
     if (sv === "aucun" ? mon : (sv && mon !== sv)) return false;
-    if (q && ![c.nom, c.ville, c.secteur, c.region].join(" ").toLowerCase().includes(q)) return false;
+    if (q && ![c.nom, c.ville, c.secteur, c.region, c.eimt ? "EIMT étranger " + c.eimt.professions.join(" ") : ""].join(" ").toLowerCase().includes(q)) return false;
     return true;
   });
 }
@@ -287,7 +290,7 @@ function fiche(c) {
   return `<article class="fiche">
     <div style="display:grid;gap:4px;min-width:0">
       <h3>${esc(c.nom)} ${pub ? "" : `<span class="score ${c.score >= 6 ? "fort" : ""}">${c.score > 0 ? "+" : ""}${c.score} pts</span>`} ${st.nbOffres[c.id] ? `<a class="nboff" href="./" title="Voir les offres dans Sentinelle">${st.nbOffres[c.id]} offre${st.nbOffres[c.id] > 1 ? "s" : ""} en cours</a>` : `<span class="nboff zero">0 offre en cours</span>`}</h3>
-      <div class="meta">${c.decouvert ? `<span class="nboff" style="border-style:dashed">Découvert par les tournées</span>` : ""}<span>${esc(c.ville)}</span><span>${esc(c.region)}</span><span>${esc(c.secteur)}</span></div>
+      <div class="meta">${c.decouvert ? `<span class="nboff" style="border-style:dashed">Découvert par les tournées</span>` : ""}<span>${esc(c.ville)}</span><span>${esc(c.region)}</span><span>${esc(c.secteur)}</span>${c.eimt ? `<span class="nboff" title="${esc("EIMT " + c.eimt.periode + " : " + c.eimt.professions.join(", "))}">A recruté à l'étranger · ${esc(c.eimt.postes)} poste${c.eimt.postes > 1 ? "s" : ""}</span>` : ""}</div>
       <div class="meta"><span>Taille : <b>${c.taille ? esc(c.taille) + " employés" : "à confirmer"}</b></span><span>${esc(c.type)}</span></div>
       <details><summary>Pourquoi ce classement</summary><ul>${c.raisons.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>
       <div class="liens">

@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-10-27",
+ "miseAJour": "2026-11-09",
  "recherche": {
   "periode": "60 derniers jours (affichage par défaut : 7 à 60 jours)",
   "villesPivots": [
@@ -23,7 +23,16 @@
    "Saint-Augustin-de-Desmaures",
    "Montréal",
    "Saint-Laurent",
-   "Laval"
+   "Laval",
+   "Rouyn-Noranda",
+   "Val-d'Or",
+   "Chibougamau",
+   "Sept-Îles",
+   "Baie-Comeau",
+   "Saguenay",
+   "Alma",
+   "Rimouski",
+   "Rivière-du-Loup"
   ],
   "rayonKm": 80,
   "postes": [
@@ -330,9 +339,73 @@
    {
     "terme": "Directeur de comptes industriels",
     "domaine": "Ventes et développement des affaires"
+   },
+   {
+    "terme": "Chargé de projets éoliens",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Ingénieur en postes électriques / lignes de transport",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Directeur de projets en énergie",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Ingénieur minier",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Géologue",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Métallurgiste",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Surintendant de mine",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Directeur des opérations minières",
+    "domaine": "Opérations et production"
+   },
+   {
+    "terme": "Gestionnaire de programmes (défense)",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Ingénieur naval / architecte naval",
+    "domaine": "Ingénierie et production"
+   },
+   {
+    "terme": "Directeur qualité (aérospatiale et défense, AS9100)",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Directeur assurance qualité alimentaire",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Chargé de projets en environnement / traitement des eaux",
+    "domaine": "Gestion de projets"
+   },
+   {
+    "terme": "Conseiller en développement durable / ESG",
+    "domaine": "Direction"
+   },
+   {
+    "terme": "Spécialiste des affaires réglementaires (pharma)",
+    "domaine": "Qualité, maintenance et SST"
+   },
+   {
+    "terme": "Directeur général (municipalité, MRC, coopérative, OBNL)",
+    "domaine": "Direction"
    }
   ],
-  "territoire": "Sud du Québec : Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec (Capitale-Nationale), Montréal et Laval.",
+  "territoire": "Sud du Québec : Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec (Capitale-Nationale), Montréal et Laval. Régions ressources (depuis novembre 2026) : Abitibi-Témiscamingue, Nord-du-Québec, Côte-Nord, Saguenay–Lac-Saint-Jean et Bas-Saint-Laurent.",
   "groupesDeRecherche": [
    {
     "domaine": "Génie mécanique",

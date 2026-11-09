@@ -17,7 +17,8 @@ Ce document décrit la tournée automatique du matin (lundi au vendredi). Elle s
   - vice-président et direction générale;
   - gérant et chargé de projet.
 - **Période :** offres des 60 derniers jours. Celles de 7 à 60 jours sont les plus utiles.
-- **Territoire :** Estrie, Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec (Capitale-Nationale), Montréal et Laval. La liste des villes par région est dans `outils/commun.py`.
+- **Secteurs suivis de près (depuis le 9 novembre 2026) :** énergie (Hydro-Québec, éolien, lignes de transport), défense et construction navale (Davie et ses fournisseurs), mines et métallurgie, agroalimentaire, environnement, santé et pharma, et direction générale d'organisations (municipalités, MRC, coopératives, OBNL). Chaque offre et chaque prospect reçoit un secteur (`outils/secteurs.py`, appelé par `tournee.py` et `decouvrir.py`), qui alimente le filtre « Secteur d'activité ».
+- **Territoire :** Estrie, Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec (Capitale-Nationale), Montréal et Laval. **Depuis le 9 novembre 2026, aussi :** Abitibi-Témiscamingue, Nord-du-Québec, Côte-Nord, Saguenay–Lac-Saint-Jean et Bas-Saint-Laurent. La liste des villes par région est dans `outils/commun.py` (`REG`, `REGIONS_SUD`, `REGIONS_RESSOURCES`).
 - **Exclusions :**
   - les agences de recrutement, qui sont des concurrentes : la liste est dans `commun.py` (`AGENCES`), à compléter au besoin;
   - les offres « Confidentiel ».
@@ -31,6 +32,12 @@ Deux requêtes, pour chaque ville pivot avec son rayon :
 - **Opérations, qualité, maintenance, SST** (`QO`) : `"directeur d'usine" OR "directeur de production" OR surintendant OR "directeur de maintenance" OR "planificateur de maintenance" OR fiabilité OR "directeur qualité" OR "ingénieur qualité" OR "coordonnateur qualité" OR "amélioration continue" OR automatisation OR automates OR "santé et sécurité" OR SST OR salubrité OR HACCP`
 - **Achats, ventes, TI, finance et RH spécialisés** (`QA`) : `"directeur des achats" OR approvisionnement OR logistique OR "directeur des ventes" OR "développement des affaires" OR "directeur TI" OR ERP OR trésorier OR fiscaliste OR "relations de travail" OR "acquisition de talents" OR rémunération OR "directeur administratif" OR "directeur général adjoint" OR "coût de revient" OR "FP&A" OR "chef comptable" OR "contrôleur corporatif" OR "directeur de la paie" OR "partenaire d'affaires"`
 - **Spécialités techniques** (`QT`) : `"concepteur mécanique" OR dessinateur OR CVAC OR réfrigération OR "centre de données" OR "ingénieur méthodes" OR "agent méthodes" OR robotique OR photonique OR "conception de produits" OR emballage OR estimateur OR "directeur de projets" OR "ingénieur électrique" OR "infrastructures municipales" OR "chargé de projets"`
+
+- **Secteurs** (`QS`) : `éolien OR "énergie renouvelable" OR "postes électriques" OR "lignes de transport" OR défense OR naval OR "construction navale" OR minier OR "ingénieur minier" OR géologue OR métallurgiste OR aluminerie OR "transformation alimentaire" OR "qualité alimentaire" OR "traitement des eaux" OR "environnement" OR pharmaceutique OR "affaires réglementaires" OR "directeur général"`
+
+**Régions ressources (lundi et jeudi) :** QG et QS, une page chacune, pour Rouyn-Noranda (50), Val-d'Or (40), Chibougamau (80), Sept-Îles (40), Baie-Comeau (40), Saguenay (40), Alma (40), Rimouski (50) et Rivière-du-Loup (50). Avec `fromage=7` le lundi et `fromage=3` le jeudi. Garder les pauses de 10 à 15 secondes entre les pages.
+
+**QS dans le sud :** une page par jour, en alternance entre Sherbrooke, Trois-Rivières, Québec, Lévis, Montréal et Saint-Jean-sur-Richelieu.
 
 QO, QA et QT : une page chacune, chaque jour, pour Sherbrooke (60), Drummondville (50), Trois-Rivières (50), Joliette (40), Saint-Hyacinthe (40), Saint-Jean-sur-Richelieu (30), Montréal (15), Saint-Jérôme (35), Québec (35) et Saint-Georges (50). Ne garder que les postes de professionnels, de spécialistes et de cadres : pas de techniciens, d'opérateurs, de journaliers, de gens de métier (soudeur, mécanicien, électricien) ni de représentants de commerce de détail.
 
@@ -67,9 +74,9 @@ Le compte LinkedIn utilisé est personnel. Il ne faut **jamais dépasser 12 page
 | Mardi | Trois-Rivières, Shawinigan, Joliette, Saint-Hyacinthe |
 | Mercredi | Saint-Jean-sur-Richelieu, Longueuil, Laval |
 | Jeudi | Québec, Lévis |
-| Vendredi | Montréal |
+| Vendredi | Montréal (6 pages) et régions ressources (6 pages) : Rouyn-Noranda et Sept-Îles les semaines paires, Saguenay et Rimouski les semaines impaires |
 
-**Termes**, sous la forme « terme à Ville » (rayon de 80 km automatique) : `ingénieur mécanique`, `ingénieur de projets`, `contrôleur financier`, `directeur ressources humaines`, `vice-président`. Il faut ajuster pour rester sous 12 pages.
+**Termes**, sous la forme « terme à Ville » (rayon de 80 km automatique) : `ingénieur`, `directeur`, `contrôleur financier`, `ressources humaines`, `chargé de projets`. Pour les régions ressources : `ingénieur`, `directeur`, `surintendant`. Il faut ajuster pour rester sous 12 pages.
 
 Saint-Georges et Saint-Jérôme sont mal reconnues par LinkedIn : on les fait seulement par Indeed.
 
@@ -89,7 +96,7 @@ On lit ensuite les tranches `slice(0,8)`, `slice(8,16)` et `slice(16,25)`.
 
 **Garder la mention du mode de travail.** LinkedIn ajoute au lieu « (Hybride) », « (À distance) » ou « (Sur site) ». Il faut la laisser dans la colonne ville du fichier brut (ex. `Sherbrooke (Hybride)`) : `tournee.py` la retire du lieu et l'enregistre dans le champ `modalite`, qui alimente l'onglet Télétravail.
 
-**Télétravail (le vendredi, en plus de Montréal) :** ajouter `&f_WT=2` (à distance) ou `&f_WT=3` (hybride) à 2 ou 3 recherches, dans la limite des 12 pages.
+**Télétravail :** le filtre `f_WT` n'est plus pris en compte par la nouvelle page de recherche de LinkedIn (vérifié le 5 novembre 2026). La mention « (Hybride) » ou « (À distance) » sur chaque carte suffit : elle est captée par toutes les recherches.
 
 ## 4. Jobillico (facultatif, si le temps le permet)
 
@@ -201,3 +208,16 @@ Arrêter Indeed pour la journée sans tenter de contourner la vérification. Pas
 - espacer les pages;
 - après la première tournée complète, utiliser `&fromage=3` (offres des 3 derniers jours) pour les recherches quotidiennes;
 - refaire une tournée complète sans `fromage` seulement le lundi.
+
+
+## 12. Employeurs qui recrutent à l'étranger (EIMT, chaque trimestre)
+
+Le fédéral publie chaque trimestre la liste des employeurs ayant obtenu une EIMT positive : [page des données](https://ouvert.canada.ca/data/fr/dataset/90fed587-1364-4f33-a9ee-208181dc0b97). Les fichiers sont classés du plus vieux au plus récent : les derniers sont à la dernière page de la liste des ressources. Le site n'est pas joignable depuis l'espace de travail de Claude : demander à Tom de joindre le fichier français (`tfwp_AAAAqN_pos_fr.xlsx`).
+
+Traitement (fait le 9 novembre 2026 avec avril à juin 2026) : garder le Québec, retirer le volet agricole, garder les gestionnaires (CNP 0xxxx), finance, RH et achats (111xx, 112xx, 12xxx), ingénieurs (213xx, 214xx), technologues (22xxx sauf TI) et superviseurs de production (92xxx). Retirer les agences, les compagnies à numéro, le public et les très grandes entreprises. Les prospects reçoivent le champ `eimt` (période, nombre de postes, professions) et la mention « A obtenu une EIMT… » dans `raisons`.
+
+Limite : presque aucun poste de cadre ne passe par l'EIMT, et le poste visé est généralement déjà comblé. C'est un indice de pénurie de profils techniques, utile pour la prospection, pas une liste de mandats.
+
+## 13. Page Retour en région
+
+`retour.html` prépare des recherches Google et LinkedIn de gens qui ont étudié en région (cégeps et universités par région, liste `ECOLES` dans la page) et travaillent dans les grands centres. Rien n'est stocké sauf les choix de la page dans le navigateur (`sentinelle-retour`). Chaque offre hors Montréal et Laval a un lien « Retour en région » dans « Trouver des candidats ».
