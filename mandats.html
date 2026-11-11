@@ -128,6 +128,10 @@ const STATUTS = ["À valider", "À contacter", "Contacté", "Intéressé", "Pré
 let M = [];
 try { M = JSON.parse(localStorage.getItem(CLE) || "[]"); if (!Array.isArray(M)) M = []; } catch { M = []; }
 const enregistrer = () => { try { localStorage.setItem(CLE, JSON.stringify(M)); $("etat").textContent = ""; } catch { $("etat").textContent = "Impossible d'enregistrer dans ce navigateur."; } };
+const relire = () => { try { const x = JSON.parse(localStorage.getItem(CLE) || "[]"); if (Array.isArray(x)) M = x; } catch {} };
+// Another open tab (or an import) changed the mandates: reload them here so a stale copy never overwrites them.
+window.addEventListener("storage", (e) => { if (e.key === CLE) { relire(); dessiner(); } });
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { relire(); dessiner(); } });
 const gx = (q) => "https://www.google.com/search?q=" + encodeURIComponent(q);
 const lx = (q) => "https://www.linkedin.com/search/results/people/?keywords=" + encodeURIComponent(q);
 
