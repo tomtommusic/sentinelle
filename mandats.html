@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Mandats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+:root {
+  --bg: #0b1016; --surface: #141c26; --ink: #eef2f6; --muted: #9aa8b8; --line: #263241; --accent: #f7931e; --chip: #1f2a37;
+  --warn-bg: rgba(247, 147, 30, .14);
+  --display: "Sora", "Avenir Next", system-ui, sans-serif; --body: "Manrope", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: rgba(11, 16, 22, .94); border-bottom: 1px solid var(--line);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+nav .in { max-width: 980px; margin: 0 auto; display: flex; align-items: center; gap: 8px 28px; padding-block: 12px; flex-wrap: wrap; }
+.marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.marque svg { width: 30px; height: 34px; color: var(--accent); }
+.marque span { font: 700 18px var(--display); letter-spacing: .28em; }
+.nliens { display: flex; gap: 2px 22px; flex-wrap: wrap; }
+.nliens a { white-space: nowrap; }
+.nliens a { color: var(--muted); text-decoration: none; font-weight: 600; padding-block: 6px; border-bottom: 2px solid transparent; }
+.nliens a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 20px 60px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 18px; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1 var(--display); letter-spacing: -0.02em; margin: 0; }
+h1 span { display: block; font: 500 12px/1.4 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+h2 { font: 700 20px var(--display); margin: 0 0 10px; }
+a { color: var(--accent); }
+p { margin: 0; max-width: 75ch; }
+.carte { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; }
+.grille { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
+@media (max-width: 700px) { .grille { grid-template-columns: 1fr; } }
+label.f { display: grid; gap: 4px; font: 500 12px var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 0; }
+input[type=text], select, textarea { font: 15px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 9px 10px; width: 100%; box-sizing: border-box; min-width: 0; }
+input[type=checkbox] { accent-color: var(--accent); width: 17px; height: 17px; margin: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; }
+legend { font: 500 12px var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 6px; }
+.cases { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.cases label { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; cursor: pointer; }
+.ajout { display: flex; gap: 8px; margin-top: 4px; }
+.ajout input { flex: 1; }
+button.btn { font: 600 14px var(--body); color: var(--ink); background: var(--chip); border: 1px solid var(--line); border-radius: 6px; padding: 8px 14px; cursor: pointer; white-space: nowrap; }
+button.btn.plein { background: var(--accent); color: #1a0f02; border-color: var(--accent); }
+.liste { display: grid; gap: 0; }
+.ligne { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 14px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+.ligne:first-child { border-top: 0; }
+.ligne b { font-weight: 700; }
+.ligne small { display: block; color: var(--muted); font-size: 13px; }
+.ligne .liens { display: flex; gap: 8px; flex-wrap: wrap; }
+.ligne .liens a { font: 700 13px var(--body); padding: 4px 12px; border-radius: 99px; border: 1px solid var(--accent); text-decoration: none; }
+.ligne .liens a:hover { background: rgba(247,147,30,.12); }
+@media (max-width: 560px) { .ligne { grid-template-columns: 1fr; } }
+.avis { background: var(--warn-bg); border-radius: 10px; padding: 12px 16px; font-size: 14px; }
+.avis b { color: var(--accent); }
+ul.conseils { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 75ch; }
+textarea#message { min-height: 220px; font-size: 14px; line-height: 1.5; }
+.etat { font-size: 13px; color: var(--muted); min-height: 1em; }
+.vide { color: var(--muted); padding: 8px 0; }
+
+label.btn { font: 600 14px var(--body); border-radius: 6px; padding: 8px 14px; background: var(--accent); color: #1a0f02; border: 1px solid var(--accent); }
+td select { min-width: 140px; }
+.barre { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.mandat { display: grid; gap: 14px; }
+.mandat h2 { margin: 0; }
+.sous { color: var(--muted); font-size: 14px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips a, .chips span { font: 600 13px var(--body); padding: 4px 10px; border-radius: 99px; background: var(--chip); border: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.chips a:hover { border-color: var(--accent); }
+details.bloc { border-top: 1px solid var(--line); padding-top: 10px; }
+details.bloc > summary { cursor: pointer; font: 700 15px var(--body); list-style-position: outside; }
+details.bloc[open] > summary { margin-bottom: 10px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; font: 600 12px var(--body); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 6px 8px; border-bottom: 1px solid var(--line); }
+td { padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+td select, td input { font-size: 13px; padding: 5px 6px; }
+td .pt { color: var(--muted); font-size: 13px; display: block; }
+.tbl { overflow-x: auto; }
+@media (max-width: 700px) {
+  table, thead, tbody, tr, td { display: block; } thead { display: none; }
+  tr { border-bottom: 1px solid var(--line); padding: 8px 0; } td { border: 0; padding: 3px 0; }
+}
+button.lien { background: none; border: 0; color: var(--muted); cursor: pointer; font: 13px var(--body); text-decoration: underline; padding: 0; }
+.formc { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) auto; gap: 8px; align-items: end; }
+@media (max-width: 800px) { .formc { grid-template-columns: 1fr 1fr; } }
+.vide-g { text-align: center; padding: 30px 16px; color: var(--muted); display: grid; gap: 12px; justify-items: center; }
+ul.crit { margin: 0; padding-left: 20px; display: grid; gap: 4px; max-width: 80ch; font-size: 14px; }
+.pastille { font: 700 12px var(--body); padding: 2px 9px; border-radius: 99px; background: var(--warn-bg); color: var(--accent); }
+</style>
+</head>
+<body>
+<nav>
+  <div class="in">
+    <a class="marque" href="./" aria-label="Sentinelle, accueil"><svg viewBox="0 0 30 34" aria-hidden="true"><path d="M15 1 2 6v9c0 8.5 5.6 15 13 18 7.4-3 13-9.5 13-18V6L15 1Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><circle cx="15" cy="13.5" r="5" fill="currentColor"/><path d="M8.5 26c1.5-4.2 3.8-6.2 6.5-6.2s5 2 6.5 6.2" fill="currentColor"/></svg><span>SENTINELLE</span></a>
+    <div class="nliens"><a href="./">Offres</a><a href="./?mode=teletravail">Télétravail</a><a href="prospects.html">Prospects</a><a href="signaux.html">Signaux</a><a href="retour.html">Retour en région</a><a href="mandats.html" aria-current="page">Mandats</a></div>
+  </div>
+</nav>
+<div class="wrap">
+  <header>
+    <h1>Mandats<span>Recherche de candidats par mandat · gardé dans ce navigateur seulement</span></h1>
+  </header>
+  <div class="avis"><b>Confidentiel :</b> les mandats et les candidats de cette page ne sont jamais envoyés sur Internet. Ils restent dans ce navigateur, sur cet ordinateur. Pour les garder ailleurs, utiliser « Sauvegarder » puis « Importer » sur l'autre appareil. À la fin d'un mandat, « Fermer le mandat » efface ses candidats (Loi 25).</div>
+  <div class="barre">
+    <label class="btn plein" for="fichier" style="display:inline-flex;align-items:center;cursor:pointer">Importer un fichier de mandats</label>
+    <input type="file" id="fichier" accept=".json,application/json" hidden>
+    <button class="btn" id="sauver" type="button">Sauvegarder (fichier)</button>
+    <span class="etat" id="etat"></span>
+  </div>
+  <div id="liste"></div>
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const sur = (u) => /^https:\/\/([a-z0-9-]+\.)*(linkedin\.com|google\.com)\//i.test(u || "") ? u : "";
+const CLE = "sentinelle-mandats";
+const STATUTS = ["À valider", "À contacter", "Contacté", "Intéressé", "Présenté au client", "Pas intéressé", "Ne convient pas"];
+let M = [];
+try { M = JSON.parse(localStorage.getItem(CLE) || "[]"); if (!Array.isArray(M)) M = []; } catch { M = []; }
+const enregistrer = () => { try { localStorage.setItem(CLE, JSON.stringify(M)); $("etat").textContent = ""; } catch { $("etat").textContent = "Impossible d'enregistrer dans ce navigateur."; } };
+const gx = (q) => "https://www.google.com/search?q=" + encodeURIComponent(q);
+const lx = (q) => "https://www.linkedin.com/search/results/people/?keywords=" + encodeURIComponent(q);
+
+function dessiner() {
+  if (!M.length) {
+    $("liste").innerHTML = `<div class="carte vide-g"><b>Aucun mandat pour l'instant.</b><span>Importe le fichier de mandats préparé par Claude (bouton orange ci-dessus).</span></div>`;
+    return;
+  }
+  $("liste").innerHTML = M.map((m, i) => {
+    const c = m.candidats || [];
+    const nb = (s) => c.filter(x => x.statut === s).length;
+    return `<section class="carte mandat" data-i="${i}">
+      <div><h2>${esc(m.titre)}</h2><div class="sous">${esc([m.client, m.lieu, m.salaire].filter(Boolean).join(" · "))}</div></div>
+      <div class="chips"><span>${c.length} candidat${c.length > 1 ? "s" : ""}</span>${STATUTS.filter(nb).map(s => `<span>${esc(s)} : ${nb(s)}</span>`).join("")}</div>
+      ${m.criteres && m.criteres.length ? `<details class="bloc"><summary>Ce qu'on cherche</summary><ul class="crit">${m.criteres.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}
+      <details class="bloc" open><summary>Candidats</summary>
+        ${c.length ? `<div class="tbl"><table><thead><tr><th>Nom</th><th>Poste et entreprise</th><th>Pourquoi</th><th>Statut</th><th>Note</th><th></th></tr></thead><tbody>
+        ${c.map((x, j) => `<tr>
+          <td>${sur(x.lien) ? `<a href="${esc(x.lien)}" target="_blank" rel="noopener">${esc(x.nom)}</a>` : esc(x.nom)}</td>
+          <td>${esc(x.poste || "")}<span class="pt">${esc(x.entreprise || "")}${x.ville ? " · " + esc(x.ville) : ""}</span></td>
+          <td><span class="pt">${esc(x.pourquoi || "")}</span></td>
+          <td><select data-j="${j}" class="js-st" aria-label="Statut de ${esc(x.nom)}">${STATUTS.map(s => `<option ${s === x.statut ? "selected" : ""}>${esc(s)}</option>`).join("")}</select></td>
+          <td><input type="text" data-j="${j}" class="js-note" value="${esc(x.note || "")}" aria-label="Note sur ${esc(x.nom)}"></td>
+          <td><button class="lien js-rm" data-j="${j}" type="button">Retirer</button></td></tr>`).join("")}
+        </tbody></table></div>` : `<p class="vide">Aucun candidat. Utilise les recherches plus bas, puis ajoute ceux qui conviennent.</p>`}
+        <form class="formc js-ajout">
+          <label class="f">Nom<input type="text" name="nom" required></label>
+          <label class="f">Poste actuel<input type="text" name="poste"></label>
+          <label class="f">Entreprise<input type="text" name="entreprise"></label>
+          <label class="f">Lien du profil<input type="text" name="lien" placeholder="https://www.linkedin.com/in/…"></label>
+          <button class="btn" type="submit">Ajouter</button>
+        </form>
+      </details>
+      ${m.recherches && m.recherches.length ? `<details class="bloc"><summary>Recherches prêtes</summary><div class="liste">${m.recherches.map(r => `<div class="ligne"><div><b>${esc(r.nom)}</b><small>${esc(r.q)}</small></div><div class="liens"><a href="${esc(gx("site:linkedin.com/in " + r.q))}" target="_blank" rel="noopener">Google</a><a href="${esc(lx(r.q))}" target="_blank" rel="noopener">LinkedIn</a></div></div>`).join("")}</div>
+        ${m.recruiter ? `<p class="etat" style="margin-top:8px">Recruiter Lite : ${esc(m.recruiter)}</p>` : ""}</details>` : ""}
+      ${m.viviers && m.viviers.length ? `<details class="bloc"><summary>Employeurs où chercher</summary><p class="sous" style="margin-bottom:8px">${esc(m.viviersNote || "Un clic cherche les profils de cet employeur sur Google.")}</p><div class="chips">${m.viviers.map(v => `<a href="${esc(gx(`site:linkedin.com/in "${v}" ${m.viviersQ || ""}`))}" target="_blank" rel="noopener">${esc(v)}</a>`).join("")}</div></details>` : ""}
+      <div class="barre"><button class="lien js-fermer" type="button">Fermer le mandat (efface ses candidats)</button></div>
+    </section>`;
+  }).join("");
+}
+document.addEventListener("change", (ev) => {
+  const s = ev.target.closest(".mandat"); if (!s) return; const m = M[+s.dataset.i];
+  if (ev.target.classList.contains("js-st")) { m.candidats[+ev.target.dataset.j].statut = ev.target.value; enregistrer(); dessiner(); }
+  if (ev.target.classList.contains("js-note")) { m.candidats[+ev.target.dataset.j].note = ev.target.value; enregistrer(); }
+});
+document.addEventListener("click", (ev) => {
+  const s = ev.target.closest(".mandat"); if (!s) return; const i = +s.dataset.i;
+  if (ev.target.classList.contains("js-rm")) { M[i].candidats.splice(+ev.target.dataset.j, 1); enregistrer(); dessiner(); }
+  if (ev.target.classList.contains("js-fermer") && confirm(`Fermer « ${M[i].titre} » et effacer ses candidats de ce navigateur ?`)) { M.splice(i, 1); enregistrer(); dessiner(); }
+});
+document.addEventListener("submit", (ev) => {
+  const f = ev.target.closest(".js-ajout"); if (!f) return; ev.preventDefault();
+  const m = M[+f.closest(".mandat").dataset.i], d = Object.fromEntries(new FormData(f));
+  (m.candidats = m.candidats || []).push({ nom: d.nom.trim(), poste: d.poste.trim(), entreprise: d.entreprise.trim(), lien: d.lien.trim(), statut: "À valider", note: "" });
+  enregistrer(); dessiner();
+});
+$("fichier").addEventListener("change", async () => {
+  const f = $("fichier").files[0]; if (!f) return;
+  try {
+    const d = JSON.parse(await f.text()); const nouv = Array.isArray(d) ? d : d.mandats;
+    if (!Array.isArray(nouv)) throw 0;
+    let a = 0, u = 0;
+    for (const m of nouv) {
+      if (!m || !m.id || !m.titre) continue;
+      const ex = M.find(x => x.id === m.id);
+      if (ex) { const noms = new Set((ex.candidats || []).map(c => c.nom)); for (const c of m.candidats || []) if (!noms.has(c.nom)) (ex.candidats = ex.candidats || []).push(c);
+        Object.assign(ex, { ...m, candidats: ex.candidats }); u++; }
+      else { M.push(m); a++; }
+    }
+    enregistrer(); dessiner(); $("etat").textContent = `${a} mandat(s) ajouté(s), ${u} mis à jour.`;
+  } catch { $("etat").textContent = "Ce fichier n'est pas un fichier de mandats valide."; }
+  $("fichier").value = "";
+});
+$("sauver").addEventListener("click", () => {
+  const b = new Blob([JSON.stringify({ mandats: M }, null, 1)], { type: "application/json" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "mandats-" + new Date().toISOString().slice(0, 10) + ".json"; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+});
+dessiner();
+// Journal d'activité : gardé seulement dans ce navigateur (clé sentinelle-journal), jamais envoyé ailleurs.
+(function () {
+  const CLE = "sentinelle-journal", MAX = 4000, PAGE = (location.pathname.split("/").pop() || "index.html").replace(".html", "") || "index";
+  const ecrire = (e, d) => {
+    try {
+      const j = JSON.parse(localStorage.getItem(CLE) || "[]");
+      j.push({ t: new Date().toISOString(), p: PAGE, e, ...(d || {}) });
+      localStorage.setItem(CLE, JSON.stringify(j.slice(-MAX)));
+    } catch {}
+  };
+  window.journal = ecrire;
+  ecrire("visite", { q: location.search.slice(0, 80) || undefined });
+  document.addEventListener("visibilitychange", () => ecrire(document.hidden ? "quitte" : "revient"));
+  const desc = (el) => {
+    const carte = el.closest("article, .fiche, .sig-carte");
+    const idc = carte && (carte.querySelector("[data-id]") || {}).dataset ? (carte.querySelector("[data-id]") || {}).dataset.id : undefined;
+    const h = carte && carte.querySelector("h3");
+    return { id: el.dataset && el.dataset.id || idc, quoi: (el.innerText || el.getAttribute("aria-label") || el.title || "").trim().slice(0, 50),
+      fiche: h ? h.innerText.split("\n")[0].trim().slice(0, 70) : undefined, vers: el.href ? new URL(el.href, location.href).hostname + new URL(el.href, location.href).pathname.slice(0, 30) : undefined };
+  };
+  document.addEventListener("click", (ev) => {
+    const el = ev.target.closest("a, button, summary, .cat");
+    if (el) ecrire("clic", desc(el));
+  }, true);
+  document.addEventListener("change", (ev) => {
+    const t = ev.target; if (!t || !t.id && !t.className) return;
+    if (t.tagName === "TEXTAREA") { ecrire("note", { id: t.dataset.id, longueur: t.value.length }); return; }
+    ecrire("choix", { champ: t.id || t.name || String(t.className).slice(0, 30), valeur: t.type === "checkbox" ? (t.checked ? "coché:" : "décoché:") + t.value : String(t.value).slice(0, 60), id: t.dataset && t.dataset.id });
+  }, true);
+  let att; document.addEventListener("input", (ev) => {
+    const t = ev.target; if (!t || t.type !== "search") return;
+    clearTimeout(att); att = setTimeout(() => { if (t.value.trim()) ecrire("recherche", { champ: t.id, valeur: t.value.trim().slice(0, 60) }); }, 1200);
+  }, true);
+})();
+</script>
+</body>
+</html>
