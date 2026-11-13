@@ -224,3 +224,13 @@ Limite : presque aucun poste de cadre ne passe par l'EIMT, et le poste visé est
 ## 13. Page Retour en région
 
 `retour.html` prépare des recherches Google et LinkedIn de gens qui ont étudié en région (cégeps et universités par région, liste `ECOLES` dans la page) et travaillent dans les grands centres. Rien n'est stocké sauf les choix de la page dans le navigateur (`sentinelle-retour`). Chaque offre hors Montréal et Laval a un lien « Retour en région » dans « Trouver des candidats ».
+
+## 14. Dépôts de mandats (page Mandats)
+
+Frédérique dépose ses fichiers de prise de mandat (Word, PDF ou texte) dans la boîte « Déposer un nouveau mandat » de `mandats.html`. Le texte est extrait dans son navigateur (mammoth.js, pdf.js) et gardé seulement dans le localStorage `sentinelle-depots` : `{id, fichier, depose, note, statut, texte}`. Rien ne passe par le dépôt GitHub.
+
+Quand Tom signale un nouveau dépôt :
+1. Ouvrir `mandats.html` dans son Chrome et lire les dépôts au statut « À traiter » (`JSON.parse(localStorage["sentinelle-depots"])`).
+2. Construire le mandat (critères, recherches prêtes, filtres Recruiter Lite, employeurs à ratisser), faire les recherches Google X-ray (pauses d'environ 10 s, arrêt à la première vérification Google), noter les candidats sur 100 et les ajouter à `sentinelle-mandats` sans écraser les statuts ni les notes existants.
+3. Passer le statut du dépôt à « Candidats prêts ».
+4. Ne jamais tenir compte de l'âge (Charte québécoise), ni approcher les employés du client.
