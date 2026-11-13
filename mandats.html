@@ -97,6 +97,11 @@ ul.crit { margin: 0; padding-left: 20px; display: grid; gap: 4px; max-width: 80c
   .sc { display:inline-block; min-width:30px; text-align:center; font-weight:700; border-radius:6px; padding:2px 6px; background:#eee; color:#444 }
   .sc.hi { background:#d9f2e3; color:#145a32 } .sc.mid { background:#fdf0d5; color:#7a4b00 }
   .nv { display:block; font-size:11px; color:#b45309; margin-top:3px }
+.depot { border: 2px dashed var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 10px; }
+.depot.survol { border-color: var(--accent); background: var(--warn-bg); }
+.depot textarea { font: 14px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 8px; min-height: 2.6em; resize: vertical; }
+.dep-l { display: grid; gap: 6px; } .dep-l .ligne2 { display: flex; gap: 8px 14px; flex-wrap: wrap; align-items: center; font-size: 14px; }
+.dep-l .ligne2 b { font-weight: 600; } .dep-l .ligne2 .pt { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -111,6 +116,19 @@ ul.crit { margin: 0; padding-left: 20px; display: grid; gap: 4px; max-width: 80c
     <h1>Mandats<span>Recherche de candidats par mandat · gardé dans ce navigateur seulement</span></h1>
   </header>
   <div class="avis"><b>Confidentiel :</b> les mandats et les candidats de cette page ne sont jamais envoyés sur Internet. Ils restent dans ce navigateur, sur cet ordinateur. Pour les garder ailleurs, utiliser « Sauvegarder » puis « Importer » sur l'autre appareil. À la fin d'un mandat, « Fermer le mandat » efface ses candidats (Loi 25).</div>
+  <section class="carte" aria-labelledby="t-depot">
+    <div><h2 id="t-depot">Déposer un nouveau mandat</h2><div class="sous">Glisse ici le fichier de prise de mandat (Word ou PDF). Le texte est lu dans ce navigateur et y reste : rien n'est envoyé sur Internet. Claude le lira ici, puis ajoutera le mandat et ses candidats.</div></div>
+    <div class="depot" id="depot">
+      <div class="barre">
+        <label class="btn" for="fdepot" style="display:inline-flex;align-items:center;cursor:pointer">Choisir un fichier</label>
+        <input type="file" id="fdepot" accept=".docx,.pdf,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain" multiple hidden>
+        <span class="etat">ou glisser-déposer ici</span>
+      </div>
+      <label class="f">Note pour Claude (facultatif)<textarea id="dnote" placeholder="Ex. : priorité, Rive-Nord seulement, l'affichage est le 2e fichier…"></textarea></label>
+      <span class="etat" id="detat"></span>
+    </div>
+    <div class="dep-l" id="dliste"></div>
+  </section>
   <div class="barre">
     <label class="btn plein" for="fichier" style="display:inline-flex;align-items:center;cursor:pointer">Importer un fichier de mandats</label>
     <input type="file" id="fichier" accept=".json,application/json" hidden>
@@ -211,6 +229,52 @@ $("sauver").addEventListener("click", () => {
   const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "mandats-" + new Date().toISOString().slice(0, 10) + ".json"; a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
 });
+// Mandate drop box: the file's text is extracted in this browser and kept only here (sentinelle-depots); Claude reads it from this page.
+const CLED = "sentinelle-depots";
+let D = []; try { D = JSON.parse(localStorage.getItem(CLED) || "[]"); if (!Array.isArray(D)) D = []; } catch { D = []; }
+const sauverD = () => { try { localStorage.setItem(CLED, JSON.stringify(D)); return true; } catch { $("detat").textContent = "Espace plein dans ce navigateur : retire des dépôts traités."; return false; } };
+const charger = (src) => new Promise((ok, ko) => { if (document.querySelector(`script[src="${src}"]`)) return ok(); const e = document.createElement("script"); e.src = src; e.onload = ok; e.onerror = ko; document.head.appendChild(e); });
+async function texteDe(f) {
+  const n = f.name.toLowerCase();
+  if (n.endsWith(".txt")) return await f.text();
+  if (n.endsWith(".docx")) {
+    await charger("https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js");
+    return (await window.mammoth.extractRawText({ arrayBuffer: await f.arrayBuffer() })).value;
+  }
+  if (n.endsWith(".pdf")) {
+    await charger("https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js");
+    const lib = window.pdfjsLib; lib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    const doc = await lib.getDocument({ data: await f.arrayBuffer() }).promise; let t = "";
+    for (let i = 1; i <= doc.numPages; i++) { const c = await (await doc.getPage(i)).getTextContent(); t += c.items.map(x => x.str + (x.hasEOL ? "\n" : " ")).join("") + "\n\n"; }
+    return t;
+  }
+  throw new Error("format");
+}
+async function deposer(files) {
+  const note = $("dnote").value.trim(); let ok = 0, ko = [];
+  for (const f of files) {
+    try {
+      const t = (await texteDe(f)).replace(/\n{3,}/g, "\n\n").trim();
+      if (!t) throw new Error("vide");
+      D.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), fichier: f.name, depose: new Date().toISOString(), note, statut: "À traiter", texte: t.slice(0, 60000) });
+      ok++;
+    } catch (e) { ko.push(f.name); }
+  }
+  if (ok && sauverD()) $("dnote").value = "";
+  $("detat").textContent = (ok ? `${ok} fichier(s) déposé(s). Dis à Tom de prévenir Claude.` : "") + (ko.length ? ` Fichier(s) non lu(s) : ${ko.join(", ")} (Word .docx, PDF ou texte seulement ; un PDF numérisé en image ne se lit pas).` : "");
+  dessinerD();
+}
+function dessinerD() {
+  $("dliste").innerHTML = D.map((d, k) => `<div class="ligne2"><span class="pastille">${esc(d.statut)}</span><b>${esc(d.fichier)}</b><span class="pt">déposé le ${esc(d.depose.slice(0, 10))}${d.note ? " · " + esc(d.note) : ""}</span><button class="lien js-drm" data-k="${k}" type="button">Retirer</button></div>`).join("");
+}
+$("fdepot").addEventListener("change", async () => { const f = [...$("fdepot").files]; $("fdepot").value = ""; if (f.length) await deposer(f); });
+const zone = $("depot");
+zone.addEventListener("dragover", (e) => { e.preventDefault(); zone.classList.add("survol"); });
+zone.addEventListener("dragleave", () => zone.classList.remove("survol"));
+zone.addEventListener("drop", async (e) => { e.preventDefault(); zone.classList.remove("survol"); const f = [...e.dataTransfer.files]; if (f.length) await deposer(f); });
+$("dliste").addEventListener("click", (e) => { const b = e.target.closest(".js-drm"); if (!b) return; const d = D[+b.dataset.k]; if (confirm(`Retirer « ${d.fichier} » des dépôts ? Son texte sera effacé de ce navigateur.`)) { D.splice(+b.dataset.k, 1); sauverD(); dessinerD(); } });
+window.addEventListener("storage", (e) => { if (e.key === CLED) { try { D = JSON.parse(e.newValue || "[]"); } catch {} dessinerD(); } });
+dessinerD();
 dessiner();
 // Journal d'activité : gardé seulement dans ce navigateur (clé sentinelle-journal), jamais envoyé ailleurs.
 (function () {
