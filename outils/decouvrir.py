@@ -25,12 +25,13 @@ GRANDS = {"barilla", "dynamite", "fadoq", "kraft", "metso", "glencore", "mines",
 MULTI = {"ghd", "continental", "albany", "beaulieu", "camso", "michelin", "siemens", "rolls", "airbus", "amazon", "artelia", "edf", "kiewit", "dra", "bnp", "future", "sysco", "maple", "pratt", "wsp", "ametek", "fives", "volvo", "kerry", "prevost", "realtruck", "kinaxis", "sofina", "newly", "cyient", "sogeclair", "halo", "migso", "malvern", "flying", "air", "andritz", "celanese", "systra", "nordex", "mckesson", "multi", "transdev", "ge", "samsic", "deloitte", "pwc", "pepsico", "stantec", "steris", "atkinsrealis", "sika", "amrize", "trane", "harris", "wipro", "carrier", "vinci", "alcoa", "arcelormittal", "bridgestone", "cpkc", "general", "home", "honeywell", "kpmg", "sysco", "tetra", "hatch", "hcltech", "cyient", "teledyne",
          "lactalis", "gordon", "eurovia", "expleo", "bunge", "essity", "rheinmetall", "valmet", "owens", "colliers", "graymont", "nova", "mda", "arjo", "chart",
          "bel", "broan", "bridor", "nortek", "litostroj", "artelia", "intersand", "vins"}
+EXCLUS = {"mines"}  # retirés à la main (Agnico Eagle)
 AGENCES = {"mesar", "larouche", "artemis", "cristalrh", "robert", "recrutement", "odgers", "aleanza", "confidential"}
 
 aujourd = datetime.date.today().isoformat()
 ajout = []
 for k, L in par.items():
-    if k in connus or k in AGENCES: continue
+    if k in connus or k in AGENCES or k in EXCLUS: continue
     nom = L[0]["entreprise"]
     villes = sorted({o["lieu"].replace(", QC", "") for o in L})
     n = len(L)
