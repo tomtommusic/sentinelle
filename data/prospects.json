@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-17",
+ "miseAJour": "2026-11-18",
  "territoire": "Estrie (Cantons-de-l'Est), Centre-du-Québec, Mauricie, Lanaudière, Montérégie, Chaudière-Appalaches, Laurentides, Québec, Montréal, Laval, et depuis novembre 2026 : Abitibi-Témiscamingue, Nord-du-Québec, Côte-Nord, Saguenay–Lac-Saint-Jean et Bas-Saint-Laurent",
  "entreprises": [
   {
@@ -8459,7 +8459,7 @@
    "nom": "Bain Dépôt",
    "region": "Laurentides",
    "ville": "Blainville",
-   "secteur": "À préciser",
+   "secteur": "Transport et logistique",
    "decouvert": "2026-10-28",
    "taille": "1000+",
    "type": "Privé",
@@ -8469,7 +8469,8 @@
     "Très grande organisation : équipe d'acquisition de talents interne",
     "Recrute des profils spécialisés (Finance et comptabilité)",
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-10-28"
-   ]
+   ],
+   "secteurAuto": true
   },
   {
    "id": "neopharm-labs",
@@ -19592,6 +19593,233 @@
     "Recrute en ce moment : 1 offre en cours dans Sentinelle (Finance et comptabilité), découverte le 2026-11-17"
    ],
    "secteurAuto": true
+  },
+  {
+   "id": "chrysos-corporation",
+   "nom": "Chrysos Corporation",
+   "region": "Abitibi-Témiscamingue",
+   "ville": "Val-d'Or",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-11-18"
+   ]
+  },
+  {
+   "id": "wesdome-gold-mines",
+   "nom": "Wesdome Gold Mines",
+   "region": "Abitibi-Témiscamingue",
+   "ville": "Val-d'Or",
+   "secteur": "Mines et métallurgie",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Finance et comptabilité, Ingénierie et production)",
+    "Recrute en ce moment : 2 offres en cours dans Sentinelle (Finance et comptabilité, Ingénierie et production), découverte le 2026-11-18"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "aaa-canada",
+   "nom": "AAA Canada",
+   "region": "Laurentides",
+   "ville": "Mirabel",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Approvisionnement et logistique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Approvisionnement et logistique), découverte le 2026-11-18"
+   ]
+  },
+  {
+   "id": "ferndale-safety",
+   "nom": "Ferndale Safety",
+   "region": "Laurentides",
+   "ville": "Mirabel",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-11-18"
+   ]
+  },
+  {
+   "id": "restaurant-normandin",
+   "nom": "Restaurant Normandin",
+   "region": "Capitale-Nationale",
+   "ville": "Québec",
+   "secteur": "Agroalimentaire",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Opérations et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Opérations et production), découverte le 2026-11-18"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "le-groupe-desfor",
+   "nom": "Le Groupe Desfor",
+   "region": "Capitale-Nationale",
+   "ville": "Québec",
+   "secteur": "Transport et logistique",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Approvisionnement et logistique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Approvisionnement et logistique), découverte le 2026-11-18"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "quebec-peinture",
+   "nom": "Québec Peinture",
+   "region": "Chaudière-Appalaches",
+   "ville": "Lévis",
+   "secteur": "Manufacturier",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-11-18"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "allen-entrepreneur-general",
+   "nom": "Allen entrepreneur général",
+   "region": "Chaudière-Appalaches",
+   "ville": "Saint-Henri",
+   "secteur": "Construction et génie-conseil",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-11-18"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "signature-paquet-construction",
+   "nom": "Signature Paquet Construction",
+   "region": "Capitale-Nationale",
+   "ville": "Québec",
+   "secteur": "Construction et génie-conseil",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Gestion de projets)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Gestion de projets), découverte le 2026-11-18"
+   ],
+   "secteurAuto": true
+  },
+  {
+   "id": "s-huot",
+   "nom": "S. Huot",
+   "region": "Capitale-Nationale",
+   "ville": "Québec",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Génie mécanique)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Génie mécanique), découverte le 2026-11-18"
+   ]
+  },
+  {
+   "id": "fresnillo-canada",
+   "nom": "Fresnillo Canada",
+   "region": "Abitibi-Témiscamingue",
+   "ville": "Val-d'Or",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-11-18"
+   ]
+  },
+  {
+   "id": "bpdl",
+   "nom": "BPDL",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "ville": "Alma",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-11-18"
+   ]
+  },
+  {
+   "id": "sandvik",
+   "nom": "Sandvik",
+   "region": "Abitibi-Témiscamingue",
+   "ville": "Val-d'Or",
+   "secteur": "À préciser",
+   "decouvert": "2026-11-18",
+   "taille": "",
+   "type": "Privé",
+   "score": 4,
+   "categorie": "Probable",
+   "raisons": [
+    "Taille à confirmer (probablement une PME)",
+    "Recrute des profils spécialisés (Ingénierie et production)",
+    "Recrute en ce moment : 1 offre en cours dans Sentinelle (Ingénierie et production), découverte le 2026-11-18"
+   ]
   }
  ]
 }

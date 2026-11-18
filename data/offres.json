@@ -1,6 +1,6 @@
 {
  "tournee": {
-  "date": "2026-11-17T11:46:00-04:00",
+  "date": "2026-11-18T13:29:00-04:00",
   "regions": "Abitibi-Témiscamingue, Bas-Saint-Laurent, Capitale-Nationale, Centre-du-Québec, Chaudière-Appalaches, Côte-Nord, Estrie, Lanaudière, Laurentides, Laval, Mauricie, Montréal, Montérégie, Saguenay–Lac-Saint-Jean · offres des 60 derniers jours",
   "sources": [
    "Indeed",
@@ -73,6 +73,119 @@
   }
  },
  "offres": [
+  {
+   "id": "li-4477637101",
+   "titre": "Maintenance Specialist",
+   "entreprise": "Chrysos Corporation",
+   "lieu": "Val-d'Or, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-18T05:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4477637101/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4477637101/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18"
+  },
+  {
+   "id": "li-4491796046",
+   "titre": "Coordonnateur(trice) de mise en service - Électricité et instrumentation",
+   "entreprise": "Mines Agnico Eagle Limitée",
+   "lieu": "Rouyn-Noranda, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-17T22:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4491796046/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4491796046/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "li-4491776292",
+   "titre": "Ingénieur minier - forage et sautage",
+   "entreprise": "Mines Agnico Eagle Limitée",
+   "lieu": "Malartic, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-17T20:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4491776292/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4491776292/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "li-4491770661",
+   "titre": "Ingénieur.e, Études NERC et réseaux électriques",
+   "entreprise": "BBA Consultants",
+   "lieu": "Sept-Îles, QC",
+   "region": "Côte-Nord",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-17T20:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4491770661/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4491770661/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "li-4490960367",
+   "titre": "Géologue d'exploration (temporaire 24 mois)",
+   "entreprise": "Mines Agnico Eagle Limitée",
+   "lieu": "Malartic, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-17T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4490960367/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4490960367/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "li-4483678137",
+   "titre": "Directrice des finances",
+   "entreprise": "Wesdome Gold Mines",
+   "lieu": "Val-d'Or, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-17T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483678137/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483678137/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Mines et métallurgie"
+  },
   {
    "id": "li-4491164815",
    "titre": "Project Control Manager",
@@ -415,6 +528,324 @@
    "vuLe": "2026-11-17"
   },
   {
+   "id": "jb-5b85f7e45b13c261",
+   "titre": "Planificateur, logistique d'entrepôt",
+   "entreprise": "Bain Magique",
+   "lieu": "Saint-Eustache, QC",
+   "region": "Laurentides",
+   "domaine": "Approvisionnement et logistique",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=5b85f7e45b13c261",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=5b85f7e45b13c261"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Transport et logistique"
+  },
+  {
+   "id": "jb-2677d7b1e42a2613",
+   "titre": "Spécialiste approvisionnement et chaîne d'approvisionnement",
+   "entreprise": "AAA Canada",
+   "lieu": "Mirabel, QC",
+   "region": "Laurentides",
+   "domaine": "Approvisionnement et logistique",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=2677d7b1e42a2613",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=2677d7b1e42a2613"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-8042a4a6223aa2eb",
+   "titre": "Concepteur(trice) mécanique",
+   "entreprise": "Ferndale Safety",
+   "lieu": "Mirabel, QC",
+   "region": "Laurentides",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=8042a4a6223aa2eb",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=8042a4a6223aa2eb"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-3d463ec0f4a893af",
+   "titre": "Superviseur de production",
+   "entreprise": "Lovo",
+   "lieu": "Saint-Lambert-de-Lauzon, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=3d463ec0f4a893af",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3d463ec0f4a893af"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Agroalimentaire"
+  },
+  {
+   "id": "jb-05777054f3700528",
+   "titre": "Directeur(trice) de production - Alimentaire",
+   "entreprise": "Restaurant Normandin",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Opérations et production",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=05777054f3700528",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=05777054f3700528"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Agroalimentaire"
+  },
+  {
+   "id": "jb-3983e1830baabaab",
+   "titre": "Coordonnateur de l'approvisionnement et de la qualité",
+   "entreprise": "Laboratoire Primatech",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Qualité, maintenance et SST",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=3983e1830baabaab",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3983e1830baabaab"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Santé et pharma"
+  },
+  {
+   "id": "jb-5316693c29c1efc8",
+   "titre": "Responsable logistique - Équipement et transport",
+   "entreprise": "Le Groupe Desfor",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Approvisionnement et logistique",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=5316693c29c1efc8",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=5316693c29c1efc8"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Transport et logistique"
+  },
+  {
+   "id": "jb-62618f3b52ec6ce2",
+   "titre": "Estimateur(trice) en construction - Peinture et finition",
+   "entreprise": "Québec Peinture",
+   "lieu": "Lévis, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=62618f3b52ec6ce2",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=62618f3b52ec6ce2"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Manufacturier"
+  },
+  {
+   "id": "jb-2adddc304155c9e3",
+   "titre": "Directeur de projet",
+   "entreprise": "Allen entrepreneur général",
+   "lieu": "Saint-Henri, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=2adddc304155c9e3",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=2adddc304155c9e3"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "modalite": "Hybride",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "jb-0a154b05be1a87e9",
+   "titre": "Estimateur / Estimatrice en rénovation résidentielle",
+   "entreprise": "Signature Paquet Construction",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=0a154b05be1a87e9",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0a154b05be1a87e9"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "modalite": "Hybride",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "jb-732a604267e6d3e4",
+   "titre": "Concepteur(trice) mécanique",
+   "entreprise": "S. Huot",
+   "lieu": "Québec, QC",
+   "region": "Capitale-Nationale",
+   "domaine": "Génie mécanique",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=732a604267e6d3e4",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=732a604267e6d3e4"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-91c0a8bf4734ffe4",
+   "titre": "Conseiller en ressources humaines",
+   "entreprise": "Structures RBR",
+   "lieu": "Saints-Anges, QC",
+   "region": "Chaudière-Appalaches",
+   "domaine": "Ressources humaines",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=91c0a8bf4734ffe4",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=91c0a8bf4734ffe4"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "modalite": "Hybride",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Manufacturier"
+  },
+  {
+   "id": "jb-3a975e9c3ac12d65",
+   "titre": "Contrôleur(se) financier(ère)",
+   "entreprise": "Excavations G.A.L.",
+   "lieu": "Lac-Brome, QC",
+   "region": "Montérégie",
+   "domaine": "Finance et comptabilité",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=3a975e9c3ac12d65",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=3a975e9c3ac12d65"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "jb-54bd812e29b4f7ba",
+   "titre": "Ingénieur électrique / Electrical Engineer",
+   "entreprise": "Fresnillo Canada",
+   "lieu": "Val-d'Or, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=54bd812e29b4f7ba",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=54bd812e29b4f7ba"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "jb-c42d6b8c665b63c2",
+   "titre": "Coordonnateur·trice / Planificateur·trice en ressources terrain et logistique",
+   "entreprise": "WSP",
+   "lieu": "Baie-Comeau, QC",
+   "region": "Côte-Nord",
+   "domaine": "Approvisionnement et logistique",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=c42d6b8c665b63c2",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=c42d6b8c665b63c2"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "jb-0ccb8a9701d13e3a",
+   "titre": "Ingénieur en structure",
+   "entreprise": "BPDL",
+   "lieu": "Alma, QC",
+   "region": "Saguenay–Lac-Saint-Jean",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-15T13:29:00-04:00",
+   "urlOffre": "https://ca.indeed.com/viewjob?jk=0ccb8a9701d13e3a",
+   "sources": [
+    {
+     "nom": "Indeed",
+     "url": "https://ca.indeed.com/viewjob?jk=0ccb8a9701d13e3a"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "dateApprox": "Moins de 7 jours"
+  },
+  {
    "id": "li-4410775710",
    "titre": "Ingénieur électrique - Systèmes et fiabilité",
    "entreprise": "Kruger",
@@ -490,6 +921,63 @@
    "premiereVue": "2026-11-17",
    "vuLe": "2026-11-17",
    "secteur": "Construction et génie-conseil"
+  },
+  {
+   "id": "li-4491013352",
+   "titre": "Planificateur construction - Mine",
+   "entreprise": "Mines Agnico Eagle Limitée",
+   "lieu": "Malartic, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-14T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4491013352/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4491013352/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "li-4483670354",
+   "titre": "Surintendant approvisionnement",
+   "entreprise": "Wesdome Gold Mines",
+   "lieu": "Val-d'Or, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-14T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483670354/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483670354/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Mines et métallurgie"
+  },
+  {
+   "id": "li-4483152974",
+   "titre": "Gestionnaire de projets – génie électrique",
+   "entreprise": "Aluminerie Alouette",
+   "lieu": "Sept-Îles, QC",
+   "region": "Côte-Nord",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-14T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4483152974/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4483152974/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Mines et métallurgie"
   },
   {
    "id": "li-4489836364",
@@ -1211,7 +1699,7 @@
     }
    ],
    "premiereVue": "2026-11-17",
-   "vuLe": "2026-11-17",
+   "vuLe": "2026-11-18",
    "dateApprox": "Moins de 7 jours"
   },
   {
@@ -1232,7 +1720,8 @@
    "premiereVue": "2026-11-17",
    "vuLe": "2026-11-17",
    "modalite": "Télétravail",
-   "dateApprox": "Moins de 7 jours"
+   "dateApprox": "Moins de 7 jours",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-85e90c96186966b9",
@@ -1590,6 +2079,26 @@
    "premiereVue": "2026-11-17",
    "vuLe": "2026-11-17",
    "dateApprox": "Moins de 7 jours"
+  },
+  {
+   "id": "li-4490739271",
+   "titre": "Ingénieure ou ingénieur électrique - électricité industrielle",
+   "entreprise": "CIMA+",
+   "lieu": "Sept-Îles, QC",
+   "region": "Côte-Nord",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-13T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4490739271/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4490739271/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "modalite": "Hybride",
+   "secteur": "Construction et génie-conseil"
   },
   {
    "id": "jb-ecde25088b24d586",
@@ -2626,6 +3135,43 @@
    "secteur": "Construction et génie-conseil"
   },
   {
+   "id": "li-4469765407",
+   "titre": "Planificateur(trice) d'atelier",
+   "entreprise": "Sandvik",
+   "lieu": "Val-d'Or, QC",
+   "region": "Abitibi-Témiscamingue",
+   "domaine": "Ingénierie et production",
+   "publieLe": "2026-11-11T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4469765407/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4469765407/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18"
+  },
+  {
+   "id": "li-4462109562",
+   "titre": "Gérant·e de projets - Civil et infrastructure",
+   "entreprise": "Pomerleau",
+   "lieu": "Sept-Îles, QC",
+   "region": "Côte-Nord",
+   "domaine": "Gestion de projets",
+   "publieLe": "2026-11-11T13:29:00-04:00",
+   "urlOffre": "https://www.linkedin.com/jobs/view/4462109562/",
+   "sources": [
+    {
+     "nom": "LinkedIn",
+     "url": "https://www.linkedin.com/jobs/view/4462109562/"
+    }
+   ],
+   "premiereVue": "2026-11-18",
+   "vuLe": "2026-11-18",
+   "secteur": "Construction et génie-conseil"
+  },
+  {
    "id": "jb-371ca32776049627",
    "titre": "Ingénieur, Performance opérationnelle",
    "entreprise": "Lovo",
@@ -2869,9 +3415,15 @@
     }
    ],
    "premiereVue": "2026-11-13",
-   "vuLe": "2026-11-13",
+   "vuLe": "2026-11-18",
    "modalite": "Hybride",
-   "secteur": "Construction et génie-conseil"
+   "secteur": "Construction et génie-conseil",
+   "autresLieux": [
+    "Sept-Îles, QC"
+   ],
+   "autresRegions": [
+    "Côte-Nord"
+   ]
   },
   {
    "id": "li-4488623580",
@@ -4290,7 +4842,7 @@
     }
    ],
    "premiereVue": "2026-11-13",
-   "vuLe": "2026-11-13",
+   "vuLe": "2026-11-18",
    "dateApprox": "Plus de 7 jours"
   },
   {
@@ -5057,7 +5609,7 @@
     }
    ],
    "premiereVue": "2026-11-13",
-   "vuLe": "2026-11-13",
+   "vuLe": "2026-11-18",
    "dateApprox": "Plus de 7 jours"
   },
   {
@@ -5096,7 +5648,7 @@
     }
    ],
    "premiereVue": "2026-11-13",
-   "vuLe": "2026-11-13",
+   "vuLe": "2026-11-18",
    "dateApprox": "Plus de 7 jours",
    "secteur": "Construction et génie-conseil"
   },
@@ -5156,7 +5708,7 @@
     }
    ],
    "premiereVue": "2026-11-13",
-   "vuLe": "2026-11-13",
+   "vuLe": "2026-11-18",
    "dateApprox": "Plus de 7 jours",
    "secteur": "Agroalimentaire"
   },
@@ -5196,7 +5748,7 @@
     }
    ],
    "premiereVue": "2026-11-13",
-   "vuLe": "2026-11-13",
+   "vuLe": "2026-11-18",
    "dateApprox": "Plus de 7 jours",
    "secteur": "Mines et métallurgie"
   },
@@ -6784,7 +7336,7 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-13",
+   "vuLe": "2026-11-18",
    "dateApprox": "Plus de 7 jours"
   },
   {
@@ -8080,7 +8632,7 @@
     }
    ],
    "premiereVue": "2026-11-09",
-   "vuLe": "2026-11-09",
+   "vuLe": "2026-11-18",
    "secteur": "Mines et métallurgie"
   },
   {
@@ -15211,11 +15763,13 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-11-17",
+   "vuLe": "2026-11-18",
    "autresLieux": [
-    "Trois-Rivières, QC"
+    "Trois-Rivières, QC",
+    "Sept-Îles, QC"
    ],
    "autresRegions": [
+    "Côte-Nord",
     "Mauricie"
    ],
    "secteur": "Construction et génie-conseil",
@@ -15619,7 +16173,8 @@
    ],
    "dateApprox": "Plus de 7 jours",
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-10-28"
+   "vuLe": "2026-10-28",
+   "secteur": "Transport et logistique"
   },
   {
    "id": "jb-d21c01ff18f5cde5",
@@ -16112,11 +16667,13 @@
     }
    ],
    "premiereVue": "2026-10-25",
-   "vuLe": "2026-11-17",
+   "vuLe": "2026-11-18",
    "autresLieux": [
-    "Sherbrooke, QC"
+    "Sherbrooke, QC",
+    "Sept-Îles, QC"
    ],
    "autresRegions": [
+    "Côte-Nord",
     "Estrie"
    ],
    "secteur": "Construction et génie-conseil",
@@ -22684,9 +23241,10 @@
     }
    ],
    "premiereVue": "2026-10-28",
-   "vuLe": "2026-10-28",
+   "vuLe": "2026-11-18",
    "dateApprox": "Plus de 7 jours",
-   "secteur": "Manufacturier"
+   "secteur": "Manufacturier",
+   "modalite": "Hybride"
   },
   {
    "id": "jb-a4da62429ac58548",

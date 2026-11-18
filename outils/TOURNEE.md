@@ -79,6 +79,8 @@ Le compte LinkedIn utilisé est personnel. Il ne faut **jamais dépasser 12 page
 | Jeudi | Québec, Lévis |
 | Vendredi | Montréal (6 pages) et régions ressources (6 pages) : Rouyn-Noranda et Sept-Îles les semaines paires, Saguenay et Rimouski les semaines impaires |
 
+**Secteur minier :** Indeed n'a presque pas d'offres minières (2 en Abitibi, toutes dates confondues, le 18 novembre). Les minières affichent surtout sur LinkedIn. Le vendredi, une des pages des régions ressources est « minier à Rouyn-Noranda », « minier à Val-d'Or » ou « minier à Sept-Îles » (avec `f_TPR=r1209600`, 14 jours).
+
 **Termes**, sous la forme « terme à Ville » (rayon de 80 km automatique) : `ingénieur`, `directeur`, `contrôleur financier`, `ressources humaines`, `chargé de projets`. Pour les régions ressources : `ingénieur`, `directeur`, `surintendant`. Il faut ajuster pour rester sous 12 pages.
 
 Saint-Georges et Saint-Jérôme sont mal reconnues par LinkedIn : on les fait seulement par Indeed.
